@@ -1,0 +1,663 @@
+IF
+	AttackedBy([GOODCUTOFF], Default)
+      !See(LastAttackerOf(Myself))
+      Global("BW05_NotInSight","LOCALS",0)
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_NotInSight","LOCALS",1)
+            Enemy()
+END
+
+IF
+      See(LastAttackerOf(Myself))
+      Global("BW05_NotInSight","LOCALS",1)
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_NotInSight","LOCALS",0)
+END
+
+IF
+      !See(LastAttackerOf(Myself))
+      Global("BW05_NotInSight","LOCALS",1)
+THEN
+	RESPONSE #100
+            AttackReEvaluate(LastAttackerOf(Myself),30)
+END
+
+IF
+	!Global("BW05_HertukOutside","GLOBAL",0)
+      GlobalLT("BW05_HertukOutside","GLOBAL",5)
+      HPLT(Myself,120)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself, CLERIC_CURE_CRITICAL_WOUNDS)
+            ApplySpell(Myself, CLERIC_CURE_CRITICAL_WOUNDS)
+            ApplySpell(Myself, CLERIC_CURE_CRITICAL_WOUNDS)
+            ApplySpell(Myself, CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",8)
+      Global("BW05_GrachusPCTalk","GLOBAL",0)
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GrachusPCTalk","GLOBAL",1)
+            StartDialogueNoSet([PC.0.0])
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraTalkedToTergius","GLOBAL",0)
+      See("BW05TERG") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraTalkedToTergius","GLOBAL",1)
+            StartDialogueNoSet([PC.0.0])
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraTalkedToTergius","GLOBAL",2)
+      See("BW05TERG") 
+      See([PC.0.0])
+	
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraTalkedToTergius","GLOBAL",3)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS1",[406.2347],3)
+            CreateCreature("BW05GRS1",[406.2416],3)
+            CreateCreature("BW05GRS1",[406.2456],3)
+            CreateCreature("BW05GRS1",[406.2501],4)
+            CreateCreature("BW05GRS2",[136.2466],7)
+            CreateCreature("BW05GRS2",[213.2490],7)
+            CreateCreature("BW05GRS2",[294.2483],7)
+            CreateCreature("BW05GRS2",[334.2411],7)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraSeesTali","GLOBAL",0)
+      See("BW05TALI") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraSeesTali","GLOBAL",1)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            CreateCreature("BW05GRS2",[-1.-1],3)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraSeesDwarves","GLOBAL",0)
+      See("BW05DW01") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraSeesDwarves","GLOBAL",1)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            CreateCreature("BW05GRS2",[-1.-1],3)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraSeesDwarves","GLOBAL",0)
+      See("BW05DW02") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraSeesDwarves","GLOBAL",1)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            CreateCreature("BW05GRS2",[-1.-1],3)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraSeesDwarves","GLOBAL",0)
+      See("BW05DW03") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraSeesDwarves","GLOBAL",1)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            CreateCreature("BW05GRS2",[-1.-1],3)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraSeesDwarves","GLOBAL",0)
+      See("BW05DW04") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraSeesDwarves","GLOBAL",1)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            CreateCreature("BW05GRS2",[-1.-1],3)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GraSeesDwarves","GLOBAL",0)
+      See("BW05DW05") 
+      See([PC.0.0])
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_GraSeesDwarves","GLOBAL",1)
+            DisplayString(Myself, @20006)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            CreateCreature("BW05GRS2",[-1.-1],3)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+	Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+      See([NEUTRAL.0.0])
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+      See([NEUTRAL.0.0])
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+      See([NEUTRAL.0.0])
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+	!Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+      See([NEUTRAL.0.0])
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+      See([NEUTRAL.0.0])
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      HPGT(Myself, 157) 
+      See([PC.0.0])
+      See(LastSeenBy(Myself))
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      Global("BW05_GrachusHit","GLOBAL",0)
+      HPLT(Myself, 128)
+THEN
+	RESPONSE #100
+      	SetGlobal("BW05_GrachusHit","GLOBAL",1)
+            DisplayString(Myself, @20007)
+            ApplySpell(Myself, CLERIC_CURE_CRITICAL_WOUNDS)
+            StartDialogueNoSet([PC.0.0])
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      AttackedBy([GOODCUTOFF.0.0], Default)
+      Allegiance(Myself, NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Allegiance(Myself, ENEMY)
+      See([PC.0.0])
+      Global("BW05_GrachusGreyTatoo","GLOBAL",0)
+      HaveSpell(WIZARD_CHAOS)
+THEN             
+	RESPONSE #100
+            SetInterrupt(FALSE)
+            SetGlobal("BW05_GrachusGreyTatoo","GLOBAL",1)
+            DisplayString(Myself,@20008)
+            ReallyForceSpell(Myself, WIZARD_IMPROVED_INVISIBILITY)
+            ReallyForceSpell(Myself, WIZARD_MIRROR_IMAGE)
+            Spell(LastSeenBy(Myself), WIZARD_CHAOS)
+            SetInterrupt(TRUE)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(Player1)
+      !StateCheck(Player1,STATE_INVISIBLE)
+      !StateCheck(Player1, STATE_HELPLESS)
+      Allegiance(Myself, ENEMY)    
+      Global("BW05_PCGrachusMS1","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_PCGrachusMS1","GLOBAL",1)
+	      DisplayString(Myself,@20009)
+            ApplySpell(Player1,CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(Player2)
+      !StateCheck(Player2,STATE_INVISIBLE)
+      !StateCheck(Player2, STATE_HELPLESS)
+      Allegiance(Myself, ENEMY)
+      Global("BW05_PCGrachusMS2","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_PCGrachusMS2","GLOBAL",1)
+	      DisplayString(Myself,@20009)
+            ApplySpell(Player2,CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(Player3)
+      !StateCheck(Player3,STATE_INVISIBLE)
+      !StateCheck(Player3, STATE_HELPLESS)
+      Allegiance(Myself, ENEMY)
+      Global("BW05_PCGrachusMS3","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_PCGrachusMS3","GLOBAL",1)
+	      DisplayString(Myself,@20009)
+            ApplySpell(Player3,CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(Player4)
+      !StateCheck(Player4,STATE_INVISIBLE)
+      !StateCheck(Player4, STATE_HELPLESS)
+      Allegiance(Myself, ENEMY)
+      Global("BW05_PCGrachusMS4","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_PCGrachusMS4","GLOBAL",1)
+	      DisplayString(Myself,@20009)
+            ApplySpell(Player4,CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(Player5)
+      !StateCheck(Player5,STATE_INVISIBLE)
+      !StateCheck(Player5, STATE_HELPLESS)
+      Allegiance(Myself, ENEMY)
+      Global("BW05_PCGrachusMS5","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_PCGrachusMS5","GLOBAL",1)
+	      DisplayString(Myself,@20009)
+            ApplySpell(Player5,CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(Player6)
+      !StateCheck(Player6,STATE_INVISIBLE)
+      !StateCheck(Player6, STATE_HELPLESS)
+      Allegiance(Myself, ENEMY)
+      Global("BW05_PCGrachusMS6","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_PCGrachusMS6","GLOBAL",1)
+	      DisplayString(Myself,@20009)
+            ApplySpell(Player6,CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      HPLT(Myself,120)
+      Global("BW05_GrachusContingency","GLOBAL",0)
+      Global("BW05_GrachusLowHP","GLOBAL",0)
+      !Dead("BW05GRAC")
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_GrachusContingency","GLOBAL",1)
+            SetGlobal("BW05_GrachusLowHP","GLOBAL",1)
+            DisplayString(Myself,@20010)
+            ReallyForceSpell(Myself, WIZARD_IMPROVED_INVISIBILITY)
+            ReallyForceSpell(Myself, WIZARD_MIRROR_IMAGE)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            DisplayString(Myself, @20006)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      HPLT(Myself,120)
+      !StateCheck(Myself,STATE_INVISIBLE)
+      Global("BW05_GrachusContingency","GLOBAL",1)
+      Global("BW05_GrachusLowHP","GLOBAL",1)
+      !Dead("BW05GRAC")
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_GrachusContingency","GLOBAL",2)
+            DisplayString(Myself,@20010)
+            ReallyForceSpell(Myself, WIZARD_IMPROVED_INVISIBILITY)
+            ReallyForceSpell(Myself, WIZARD_MIRROR_IMAGE)
+            CreateCreature("BW05GRS2",[-1.-1],4)
+            CreateCreature("BW05GRS2",[-1.-1],1)
+            CreateCreature("BW05GRS2",[-1.-1],2)
+            DisplayString(Myself, @20006)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      HPLT(Myself,128)
+      StateCheck(Myself,STATE_INVISIBLE)
+      HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+      Global("BW05_GrachusLowHP","GLOBAL",1)
+THEN
+	RESPONSE #100
+            Spell(Myself, CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GrachusContingency","GLOBAL",2)
+      !StateCheck(Myself, STATE_MIRRORIMAGE)
+      HPLT(Myself,90)
+      GlobalLT("BW05_GrachusBlueTatoos","GLOBAL",3)
+THEN
+	RESPONSE #100
+            DisplayString(Myself,@20007)
+            ApplySpell(Myself, WIZARD_MIRROR_IMAGE)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GrachusContingency","GLOBAL",2)
+      StateCheck(Myself, STATE_MIRRORIMAGE)
+      HPLT(Myself,90)
+      GlobalLT("BW05_GrachusBlueTatoos","GLOBAL",3)
+THEN
+	RESPONSE #100
+             IncrementGlobal("BW05_GrachusBlueTatoos","GLOBAL",1)
+             ApplySpell(Myself, CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GrachusBlueTatoos","GLOBAL",3)
+      Global("BW05_GrachusLastW","GLOBAL",0)
+THEN
+	RESPONSE #100
+             SetGlobal("BW05_GrachusLastW","GLOBAL",1)
+             StartDialogueNoSet([PC.0.0])
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+      HaveSpell(WIZARD_CHAOS)
+THEN
+	RESPONSE #100
+            DisplayString(Myself,@20009)
+            ReallyForceSpell(LastSeenBy(Myself),CLERIC_DISPEL_MAGIC)
+            Spell(LastSeenBy(Myself),WIZARD_CHAOS)
+            Continue()
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+      !General(LastSeenBy(Myself), UNDEAD)
+      !General(LastSeenBy(Myself), MONSTER)
+      !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+      HaveSpell(WIZARD_DIRE_CHARM)
+THEN
+	RESPONSE #100
+            Spell(LastSeenBy(Myself),WIZARD_DIRE_CHARM)
+            Continue()
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+      HaveSpell(WIZARD_INVISIBLE_STALKER)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_INVISIBLE_STALKER)
+            Continue()
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+      HaveSpell(CLERIC_FLAME_STRIKE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+            Continue()
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+      HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+            Continue()
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Allegiance(Myself, ENEMY)
+      See(Protagonist)
+      !StateCheck(Protagonist, STATE_CHARMED)
+      HaveSpell(WIZARD_DOMINATION)
+THEN
+	RESPONSE #100
+	      DisplayString(Myself,@20011)
+            ApplySpell(Protagonist,CLERIC_DISPEL_MAGIC)      
+            Spell(Protagonist, WIZARD_DOMINATION)
+            Continue()
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_GrachusContingency","GLOBAL",2)
+      Global("BW05_GrachusBlueTatoos","GLOBAL",3)
+      HPLT(Myself, 90)
+      !Dead("BW05GRAC")
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_GrachusContingency","GLOBAL",3)
+            DisplayString(Myself,@20012)
+            ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+            ApplySpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+            ApplySpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+      Global("BW05_GrachusLowHP","GLOBAL",1)
+      Global("BW05_GrachusContingency","GLOBAL",1)
+      HPGT(Myself, 89)
+THEN
+	RESPONSE #100
+	      AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+      GlobalGT("BW05_GrachusBlueTatoos","GLOBAL",0)
+      HPGT(Myself, 89)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      !HaveSpell(WIZARD_CHAOS)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(CLERIC_FLAME_STRIKE)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !HaveSpell(WIZARD_DOMINATION)
+      See(Protagonist)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      !HaveSpell(WIZARD_CHAOS)
+       !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(CLERIC_FLAME_STRIKE)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !See(Protagonist)
+      See(NearestEnemyOf(Myself))
+      HPGT(Myself, 89)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      !HaveSpell(WIZARD_CHAOS)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(CLERIC_FLAME_STRIKE)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !HaveSpell(WIZARD_DOMINATION)
+      See(Protagonist)
+      See(NearestEnemyOf(Myself))
+      Global("BW05_GrachusContingency","GLOBAL",3)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      !HaveSpell(WIZARD_CHAOS)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(CLERIC_FLAME_STRIKE)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !See(Protagonist)
+      See(NearestEnemyOf(Myself))
+      Global("BW05_GrachusContingency","GLOBAL",3)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	!See([PC.0.0])
+      See([NEUTRAL.0.0])
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	!See([PC.0.0])
+      See([NEUTRAL.0.0])
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	!See([PC.0.0])
+      See([NEUTRAL.0.0])
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END

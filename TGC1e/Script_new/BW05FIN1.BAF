@@ -1,0 +1,11 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05TEVE")
+            FadeFromColor([20.0],0)
+            Wait(4)
+            MoveViewPoint([979.667],VERY_FAST)
+            Wait(4)
+            StartDialogueNoSet(Protagonist)
+END

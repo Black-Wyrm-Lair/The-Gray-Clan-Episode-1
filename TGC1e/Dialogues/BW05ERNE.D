@@ -1,0 +1,16 @@
+BEGIN ~BW05ERNE~
+
+IF ~RandomNum(3,1)~ THEN BEGIN 0
+  SAY @138
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(3,2)~ THEN BEGIN 1
+  SAY @139
+  IF ~~ THEN EXIT
+END
+
+IF ~True()~ THEN BEGIN 2
+  SAY @140
+  IF ~~ THEN EXIT
+END

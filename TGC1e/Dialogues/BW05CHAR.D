@@ -1,0 +1,103 @@
+BEGIN ~BW05CHAR~
+
+IF ~!Global("BW05_SaveCharles","GLOBAL",3)
+!Global("BW05_SaveCharles","GLOBAL",4)
+!Global("BW05_SaveCharles","GLOBAL",5)~ THEN BEGIN 0
+  SAY @191
+  IF ~~ THEN REPLY @169 GOTO 1
+  IF ~!Dead("BW05FELI")
+Global("BW05_SaveCharles","GLOBAL",2)~ THEN REPLY @192 GOTO 2
+  IF ~~ THEN REPLY @193 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @194
+  IF ~!Dead("BW05FELI")
+Global("BW05_SaveCharles","GLOBAL",2)~ THEN REPLY @195 GOTO 2
+  IF ~Dead("BW05FELI")~ THEN REPLY @196 GOTO 5
+  IF ~~ THEN REPLY @197 GOTO 6
+  IF ~GlobalLT("BW05_SaveCharles","GLOBAL",2)~ THEN REPLY @198 GOTO 7
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @199
+  IF ~~ THEN REPLY @200 GOTO 4
+  IF ~~ THEN REPLY @201 GOTO 4
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @188
+  IF ~~ THEN DO ~SetGlobal("BW05_CharlesRun","GLOBAL",1)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @202
+  IF ~~ THEN DO ~SetGlobal("BW05_SaveCharles","GLOBAL",3)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @43
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @203
+  IF ~~ THEN DO ~Kill(Myself)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @204
+  IF ~~ THEN DO ~SetGlobal("BW05_SaveCharles","GLOBAL",4)
+EscapeArea()
+~ EXIT
+END
+
+IF ~Global("BW05_SaveCharles","GLOBAL",4)~ THEN BEGIN 8
+  SAY @205
+  IF ~~ THEN SOLVED_JOURNAL @206 EXTERN ~BW05FELI~ 23
+END
+
+IF ~Global("BW05_SaveCharles","GLOBAL",3)~ THEN BEGIN 9
+  SAY @207
+  IF ~~ THEN DO ~AddexperienceParty(850)
+EraseJournalEntry(272)
+~ SOLVED_JOURNAL @208 EXTERN ~BW05FELI~ 19
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @209
+  IF ~~ THEN EXTERN ~BW05FELI~ 20
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @210
+  IF ~~ THEN REPLY @211 DO ~GiveItem("AMUL11",LastTalkedToBy(Myself))
+~ GOTO 12
+  IF ~~ THEN REPLY @212 DO ~GiveItem("AMUL11",LastTalkedToBy(Myself))
+~ GOTO 12
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @213
+  IF ~~ THEN REPLY @214 DO ~SetGlobal("BW05_SaveCharles","GLOBAL",5)
+~ EXTERN ~BW05FELI~ 21
+  IF ~~ THEN REPLY @215 DO ~SetGlobal("BW05_SaveCharles","GLOBAL",5)
+~ EXTERN ~BW05FELI~ 22
+END
+
+IF ~Global("BW05_SaveCharles","GLOBAL",5)~ THEN BEGIN 13
+  SAY @216
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @217
+  IF ~~ THEN REPLY @218 GOTO 12
+  IF ~~ THEN REPLY @219 GOTO 12
+END

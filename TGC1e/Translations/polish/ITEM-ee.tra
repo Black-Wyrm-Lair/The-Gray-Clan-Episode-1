@@ -1,0 +1,227 @@
+@30003 = ~Krasnoludzki topór bojowy +2~
+@30004 = ~Najpowszechniej u¿ywany rodzaj topora bojowego sk³ada siê ze styliska o d³ugoœci metra do pó³tora z osadzonym szerokim, pó³okr¹g³ym ostrzem, czêsto zaopatrzonym równie¿ w szpice, skierowane do ty³u i ku górze. Topór bojowy nazywany jest równie¿ toporem szerokim. Ta broñ zosta³a wykuta przez krasnoludzkiego kowala, tote¿ jest bardzo wysokiej jakoœci.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 10
+
+Waga: 4~
+@30007 = ~Maczuga arcydruida +2~
+@30008 = ~Tê magicznie ulepszon¹ maczugê dzier¿y³ niegdyœ potê¿ny druid. Ka¿da trafiona istota musi wykonaæ udany rzut obronny przeciw czarów, albo zostanie opl¹tana na okres jednej rundy.
+
+PARAMETRY:
+
+Specjalne:
+– Wywo³uje opl¹tanie, dopóki cel nie wykona udanego rzutu obronnego przeciw czarom
+
+Obra¿enia: 1k6 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 4
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a 5
+
+Waga: 3~
+@30009 = ~Maczuga dêbu +1~
+@30010 = ~Wiêkszoœæ maczug to po prostu kawa³ki twardego drewna, od strony uchwytu wê¿sze, zaœ po przeciwnej szersze. Ta prosta broñ by³a u¿ywana od czasów, gdy cz³owiek zacz¹³ stosowaæ narzêdzia. Czujesz ¿e ta maczuga jest ciê¿ka, ale kiedy uderzasz ni¹, czujesz wielk¹ lekkoœæ.
+
+PARAMETRY:
+
+Obra¿enia: 1k6 +1
+TraK0: +1
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 2
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a 4
+
+Waga: 2~
+@30013 = ~Kolczuga +2~
+@30014 = ~Kolczuga jest wykonana z zaczepionych o siebie pierœcieni. Jest zawsze noszona na tkaninê b¹dŸ miêkk¹ skórê, by zapobiec otarciom i os³abiæ si³ê ciosów. Dodatkowa ochrona taj zbroi zosta³a uzyskana dziêki magii.
+
+PARAMETRY:
+
+Klasa Pancerza: 3 (1 przeciw broniom siecznym, 5 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 7
+
+Waga: 10~
+@30015 = ~Czerwony kryszta³~
+@30016 = ~Z tego kryszta³u daje siê wyczuæ silnie emanuj¹c¹ magiê. S³u¿y on do przyzywania Kryszta³owego Stra¿nika. Jak d³ugo bêdziesz trzyma³ kryszta³, tak d³ugo przywo³ana istota bêdzie s³ucha³a twych rozkazów.
+
+Waga: 0~
+@30017 = ~Krasnoludzki he³m~
+@30018 = ~Ten ciê¿ki he³m zosta³ wykonany z ¿elaza i z³ota. Nale¿y do rodziny Pogromców Balorów i jakaœ potê¿na magia powstrzymuje ka¿dego innego, kto próbuje go za³o¿yæ. Jednak¿e, z powodu swego wygl¹du i z³ota, jakie ten he³m posiada mo¿e byæ sprzedany za niez³¹ cenê.
+
+PARAMETRY:
+
+Specjalne:
+– Chroni przed trafieniami krytycznymi
+
+Waga: 8~
+@30023 = ~Inkwizytorska halabarda~
+@30024 = ~Tak jak inne halabardy broñ ta ma toporowaty trzonek, zatkniêty na drzewcu o maksymalnej d³ugoœci 6 stóp. Ostrze zosta³o obdarzone magiczn¹ moc¹, która czyni broñ skuteczniejsz¹ w bitwie, a tak¿e jest w stanie rozproszyæ magiczne ochrony przeciwnika. Jak d³ugo broñ ta jest dzier¿ona, tak d³ugo jej posiadacz staje siê niewra¿liwy na jakiekolwiek uroki. W³aœciwoœci te s¹ szczególnie cenione przez Inkwizytorów.
+
+PARAMETRY:
+
+Specjalne:
+– Odpornoœæ na uroki
+– Rozprasza magiê przy trafieniu
+
+Obra¿enia: 1k10 +1 
+TraK0: +1
+Typ obra¿eñ: sieczne lub k³ute, wybiera siê lepsz¹ opcjê
+OpóŸnienie: 8
+Rodzaj bieg³oœci: halabarda
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 13
+
+Waga: 14~
+@30025 = ~BW05_SPEC_ITM~
+@30026 = ~Kolczuga Jusama +4~
+@30027 = ~Jest to potê¿ny pancerz, ale nie jesteœ w stanie go nosiæ. Kiedy tylko go zak³adasz, robi siê on niebezpiecznie gor¹cy, a do tego zaczyna pora¿aæ ciê pr¹dem.
+
+Klasa Pancerza: 1 (-2 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 7
+
+Waga: 5~
+@30030 = ~M³ot bojowy Jusama +3~
+@30031 = ~Ten m³ot jest tak ciê¿ki, ¿e nie jesteœ w stanie nim walczyæ. Samo noszenie go sprawia ci wielk¹ trudnoœæ.
+
+PARAMETRY:
+
+Specjalne:
+– Si³a: +6
+
+Obra¿enia: 1k6 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 2
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 8
+
+Waga: 4~
+@30032 = ~To jest magiczny, stosunkowo ciê¿ki klucz.~
+@30033 = ~Mosiê¿ny klucz~
+@30034 = ~Z³oty klucz~
+@30035 = ~Ma³y ¿elazny klucz~
+@30036 = ~Ma³y mosiê¿ny klucz~
+@30037 = ~¯elazny klucz~
+@30038 = ~Miedziany klucz~
+@30041 = ~Os³ona burzy +3~
+@30042 = ~Ta zbroja zosta³a stworzona w KuŸni Zamku Legencase i zosta³a magicznie wzmocniona przez potê¿nego czarodzieja. Oprócz nadruku mówi¹cego, sk¹d pochodzi ten pancerz, da siê dostrzec ma³¹ literê M.
+
+PARAMETRY:
+
+Specjalne:
+– Odpornoœæ na elektrycznoœæ: +35%
+
+Klasa Pancerza: 0 (-4 przeciw broniom siecznym, -3 przeciw broniom k³utym i pociskom)
+
+Wymagania:
+– Si³a: 14
+
+Waga: 25~//%~
+@30045 = ~Szata Akademii Legencase~
+@30046 = ~Zgodnie z tym, co jest wyszyte na kieszeniach tej szaty, zosta³a ona wykonana w miejscu zwanym Akademi¹ Legencase. Nie masz pojêcia, gdzie to mo¿e byæ.
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: +2 przeciw œmierci
+– Rzuty obronne: +2 przeciw czarom
+
+Waga: 4~
+@30047 = ~Zwój b³otnego golema~
+@30048 = ~Ten zwój wyjaœnia, co nale¿y zrobiæ, aby zmusiæ b³otnego golema do oddania pilnowanych przez niego przedmiotów. Szeœæ kluczy musi byæ w³o¿onych w nastêpuj¹cej kolejnoœci:
+Ma³y mosiê¿ny klucz
+Miedziany klucz
+Mosiê¿ny klucz
+Ma³y ¿elazny klucz
+¯elazny klucz
+Z³oty klucz
+
+PARAMETRY:
+
+Waga: 0~
+@30051 = ~Podarunek burzy +3~
+@30052 = ~Ten miecz zosta³ podarowany wspania³emu wojownikowi, który zwa³ siê Ignatius Chrom, broni³ Cormyru przez 333 lata (mia³ d³ug¹ brodê gdy umar³). Legendy mówi¹ ¿e gdy by³a ogromna burza, Chrom znik³. Po 11 dniach wspania³y bohater pojawi³ siê ponownie, dzier¿¹c potê¿n¹ broñ. Wtedy mia³ 111 lat. Gdy Crom zgin¹³, miecz zagin¹³. Nie masz pojêcia dlaczego trafi³ w rêce Tevena....
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +3, +1k4 obra¿eñ od elektrycznoœci
+TraK0: +3
+Typ obra¿eñ: sieczne
+OpóŸnienie: 5
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 4~
+@30053 = ~Zwój~
+@30054 = ~Poemat Mrocznego Cienia
+
+B¹dŸ dzielny! Œmierci siê nie obawiaj,
+ a na
+Ewentualne cierpienia mê¿nie serce wystawiaj.
+Rzadko ktoœ ¿ycie odzyskuje,
+ po za
+Ekspresyjnym wygnaniem - ale kto próbuje?
+GroŸna energia boska z Twoich r¹k runie,
+Ospale przyniesie strach, ludziom w ca³ym Faerunie.
+Silny i potê¿ny,
+ ni mniej, ni wiêcej,
+Tak¿e chwalebny i wspania³y,
+ œmieræ przyniesie prêdzej.
+
+Gospodarz tego œwiata, na œmieræ niewra¿liwy,
+Odziedziczy³ moc, po ojcu, o b³yskotliwy.
+Szukaj tego co zgotuje ci przeznaczenie,
+Pod¹¿aj za g³osem naszych mentorów.
+Odpuœæ sobie Mrocznego Cienia zdradzenie,
+ i nie zapominaj Migocz¹cych Barw kolorów.
+Drapie¿ny jak smok, b¹dŸ wieki ca³e,
+A œmieræ ciê nie dosiêgnie... bêcwale!
+
+PARAMETRY:
+
+Waga: 0~
+@30057 = ~Urok burzy +1~
+@30058 = ~Urok burzy zosta³ wykuty przez krasnoludzkiego kowala, dlatego te¿ jest to m³ot bardzo wysokiej jakoœci. Kiedy broñ zosta³a ukoñczona, nasta³a wielka burza. Krasnolud wszed³ na szczyt góry i oczekiwa³ uderzenia pioruna. Zosta³ trafiony i umar³, ale m³ot zamiast siê roztopiæ otrzyma³ magiczne w³aœciwoœci.
+
+PARAMETRY:
+
+Obra¿enia: 1k4 +2, +1k2 obra¿eñ od elektrycznoœci
+TraK0: +1
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 3
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 9
+
+Waga: 6~

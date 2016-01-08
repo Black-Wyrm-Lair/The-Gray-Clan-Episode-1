@@ -1,0 +1,100 @@
+BEGIN ~BW05ROBE~
+
+IF ~GlobalGT("BW05_MetRobert","GLOBAL",-1)
+GlobalLT("BW05_MetRobert","GLOBAL",2)~ THEN BEGIN 0
+  SAY @296
+  IF ~~ THEN REPLY @297 GOTO 7
+  IF ~~ THEN REPLY @298 DO ~SetGlobal("BW05_MetRobert","GLOBAL",1)
+~ GOTO 1
+  IF ~~ THEN REPLY @299 DO ~SetGlobal("BW05_MetRobert","GLOBAL",1)
+~ GOTO 8
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @300
+  IF ~Global("BW05_LucySaved","GLOBAL",0)~ THEN REPLY @301 GOTO 2
+  IF ~Global("BW05_LucySaved","GLOBAL",1)
+!Dead("BW05BARP")~ THEN REPLY @302 GOTO 3
+  IF ~Global("BW05_LucySaved","GLOBAL",2)~ THEN REPLY @303 GOTO 4
+  IF ~!Global("BW05_LucySaved","GLOBAL",2)
+!Global("BW05_LucySaved","GLOBAL",-1)
+Dead("BW05BARP")~ THEN REPLY @304 GOTO 4
+  IF ~Dead("BW05LUCY")~ THEN REPLY @305 GOTO 5
+  IF ~Global("BW05_LucySaved","GLOBAL",-1)
+!Dead("BW05LUCY")~ THEN REPLY @306 GOTO 6
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @307
+  IF ~~ THEN DO ~SetGlobal("BW05_MetRobert","GLOBAL",2)
+~ UNSOLVED_JOURNAL @308 EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @309
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @310
+  IF ~~ THEN DO ~SetGlobal("BW05_MetRobert","GLOBAL",3)
+EraseJournalEntry(@308)
+GivePartyGold(200)
+ReputationInc(1)
+~ SOLVED_JOURNAL @311 EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @312
+  IF ~~ THEN DO ~EscapeArea()
+EraseJournalEntry(@308)
+~ SOLVED_JOURNAL @313 EXIT
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @314
+  IF ~~ THEN DO ~EscapeArea()
+EraseJournalEntry(@308)
+~ SOLVED_JOURNAL @315 EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @316
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @317
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("BW05_MetRobert","GLOBAL",3)~ THEN BEGIN 9
+  SAY @318
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("BW05_LucySaved","GLOBAL",0)
+Global("BW05_MetRobert","GLOBAL",2)~ THEN BEGIN 10
+  SAY @319
+  IF ~~ THEN EXIT
+END
+
+IF ~!Global("BW05_LucySaved","GLOBAL",0)~ THEN BEGIN 11
+  SAY @320
+  IF ~Global("BW05_LucySaved","GLOBAL",1)
+!Dead("BW05BARP")~ THEN REPLY @302 GOTO 3
+  IF ~Global("BW05_LucySaved","GLOBAL",2)~ THEN REPLY @303 GOTO 4
+  IF ~!Global("BW05_LucySaved","GLOBAL",2)
+!Global("BW05_LucySaved","GLOBAL",-1)
+Dead("BW05BARP")~ THEN REPLY @304 GOTO 4
+  IF ~Dead("BW05LUCY")~ THEN REPLY @305 GOTO 5
+  IF ~Global("BW05_LucySaved","GLOBAL",-1)
+!Dead("BW05LUCY")~ THEN REPLY @306 GOTO 6
+  IF ~~ THEN REPLY @321 GOTO 12
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @322
+  IF ~~ THEN EXIT
+END

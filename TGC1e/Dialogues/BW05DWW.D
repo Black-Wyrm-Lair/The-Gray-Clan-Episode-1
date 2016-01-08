@@ -1,0 +1,18 @@
+BEGIN ~BW05DWW~
+
+IF ~RandomNum(3,1)~ THEN BEGIN 0
+  SAY @391
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(3,2)
+!Dead("BW05DW01")
+!Dead("BW05DW02")~ THEN BEGIN 1
+  SAY @392
+  IF ~~ THEN EXIT
+END
+
+IF ~True()~ THEN BEGIN 2
+  SAY @393
+  IF ~~ THEN EXIT
+END

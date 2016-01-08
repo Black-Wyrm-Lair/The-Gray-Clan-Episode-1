@@ -1,0 +1,211 @@
+BEGIN ~BW05TERG~
+
+IF ~Global("BW05_TGC1","GLOBAL",7)
+Global("BW05_TalkedToTergius","GLOBAL",0)
+!See([ENEMY.0.0])~ THEN BEGIN 0
+  SAY @429
+  IF ~~ THEN REPLY @169 DO ~SetGlobal("BW05_TalkedToTergius","GLOBAL",1)
+~ GOTO 1
+  IF ~~ THEN REPLY @430 DO ~SetGlobal("BW05_TalkedToTergius","GLOBAL",1)
+~ GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @431
+  IF ~~ THEN REPLY @432 GOTO 2
+  IF ~~ THEN REPLY @433 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @434
+  IF ~~ THEN REPLY @435 GOTO 3
+  IF ~~ THEN REPLY @436 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @437
+  IF ~~ THEN REPLY @438 DO ~SetGlobal("TGCEpisodeOneLevel","GLOBAL",7)
+~ GOTO 4
+  IF ~~ THEN REPLY @439 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @440
+  IF ~~ THEN REPLY @441 GOTO 6
+  IF ~~ THEN REPLY @442 GOTO 7
+  IF ~~ THEN REPLY @443 GOTO 8
+  IF ~~ THEN REPLY @444 GOTO 9
+  IF ~~ THEN REPLY @445 GOTO 10
+  IF ~~ THEN REPLY @237 EXIT
+  IF ~GlobalGT("BW05_SeenXeph","GLOBAL",0)~ THEN REPLY @446 GOTO 16
+END
+
+IF ~GlobalLT("BW05_TGC1","GLOBAL",10)
+GlobalGT("BW05_TGC1","GLOBAL",6)
+Global("BW05_TalkedToTergius","GLOBAL",1)
+!See([ENEMY.0.0])~ THEN BEGIN 5
+  SAY @447
+  IF ~~ THEN REPLY @441 GOTO 6
+  IF ~~ THEN REPLY @442 GOTO 7
+  IF ~~ THEN REPLY @443 GOTO 8
+  IF ~~ THEN REPLY @444 GOTO 9
+  IF ~~ THEN REPLY @445 GOTO 10
+  IF ~~ THEN REPLY @237 EXIT
+  IF ~HPPercentLT(LastTalkedToBy(Myself),50)
+CheckStatGT(LastTalkedToBy(Myself),50,RESISTMAGIC)~ THEN REPLY @448 GOTO 14
+  IF ~HPPercentLT(LastTalkedToBy(Myself),50)
+CheckStatLT(LastTalkedToBy(Myself),51,RESISTMAGIC)~ THEN REPLY @448 DO ~ForceSpell(LastTalkedToBy(Myself),CLERIC_CURE_CRITICAL_WOUNDS)
+~ EXIT
+  IF ~GlobalGT("BW05_SeenXeph","GLOBAL",0)~ THEN REPLY @446 GOTO 16
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @449
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @450
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @451
+  IF ~~ THEN UNSOLVED_JOURNAL @452 GOTO 5
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @453
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @454
+  IF ~~ THEN GOTO 5
+END
+
+IF ~See([ENEMY.0.0])~ THEN BEGIN 11
+  SAY @455
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @456
+  IF ~~ THEN DO ~SetGlobal("BW05_TGC1","GLOBAL",8)
+ActionOverride(Player1,LeaveAreaLUA("BW0501","",[1175.3600],12))
+ActionOverride(Player2,LeaveAreaLUA("BW0501","",[1230.3640],12))
+ActionOverride(Player3,LeaveAreaLUA("BW0501","",[1120.3600],12))
+ActionOverride(Player4,LeaveAreaLUA("BW0501","",[1230.3600],12))
+ActionOverride(Player5,LeaveAreaLUA("BW0501","",[1120.3650],12))
+ActionOverride(Player6,LeaveAreaLUA("BW0501","",[1150.3550],12))
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @457
+  IF ~~ THEN DO ~SetGlobal("BW05_GraTalkedToTergius","GLOBAL",2)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @458
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("BW05_TGC1","GLOBAL",8)
+Global("BW05_TalkedToTergius","GLOBAL",0)
+!See([ENEMY.0.0])~ THEN BEGIN 15
+  SAY @459
+  IF ~~ THEN REPLY @169 DO ~SetGlobal("BW05_TalkedToTergius","GLOBAL",1)
+~ GOTO 1
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @460
+  IF ~~ THEN REPLY @461 GOTO 17
+  IF ~~ THEN REPLY @462 GOTO 18
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @463
+  IF ~~ THEN REPLY @464 GOTO 19
+  IF ~~ THEN REPLY @465 GOTO 20
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @466
+  IF ~~ THEN REPLY @464 GOTO 19
+  IF ~~ THEN REPLY @465 GOTO 20
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @467
+  IF ~~ THEN DO ~SetGlobal("BW05_SeenXeph","GLOBAL",3)
+EraseJournalEntry(@20003)
+~ SOLVED_JOURNAL @468 EXIT
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @469
+  IF ~~ THEN DO ~SetGlobal("BW05_SeenXeph","GLOBAL",3)
+EraseJournalEntry(@20003)
+~ SOLVED_JOURNAL @468 EXIT
+END
+
+IF ~Global("BW05_TGC1","GLOBAL",10)
+Global("BW05_TalkedToTergius","GLOBAL",1)
+!See([ENEMY.0.0])~ THEN BEGIN 21
+  SAY @470
+  IF ~~ THEN REPLY @471 GOTO 23
+  IF ~PartyHasItem("BW05VERS")~ THEN REPLY @472 GOTO 22
+END
+
+IF ~~ THEN BEGIN 22
+  SAY @473
+  IF ~~ THEN DO ~EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 23
+  SAY @474
+  IF ~~ THEN DO ~EscapeArea()
+~ EXIT
+END
+
+IF ~Global("BW05_TGC1","GLOBAL",16)
+Global("BW05_TalkedToTergius","GLOBAL",0)~ THEN BEGIN 24
+  SAY @475
+  IF ~~ THEN EXTERN ~BW05JUSM~ 27
+END
+
+IF ~Global("BW05_TGC1","GLOBAL",16)
+!Global("BW05_TalkedToTergius","GLOBAL",0)~ THEN BEGIN 25
+  SAY @476
+  IF ~~ THEN EXTERN ~BW05JUSM~ 27
+END
+
+IF ~~ THEN BEGIN 26
+  SAY @477
+  IF ~~ THEN EXTERN ~BW05JUSM~ 28
+END
+
+IF ~~ THEN BEGIN 27
+  SAY @478
+  IF ~~ THEN DO ~SetGlobal("BW05_TGC1","GLOBAL",17)
+SetGlobal("BW05_TGC1_FAIInvaded","GLOBAL",0)
+EraseJournalEntry(@20016)
+EraseJournalEntry(@452)
+EraseJournalEntry(@540)
+EraseJournalEntry(@548)
+EraseJournalEntry(@557)
+EraseJournalEntry(@599)
+AddexperienceParty(17000)
+ReputationInc(1)
+ActionOverride("BW05JUSM",EscapeArea())
+ActionOverride("BW05TALI",EscapeArea())
+ActionOverride("BW05HERT",EscapeArea())
+ActionOverride("BW05RUD2",EscapeArea())
+ActionOverride("BW05JER2",EscapeArea())
+EscapeArea()
+~ SOLVED_JOURNAL @479 EXIT
+END

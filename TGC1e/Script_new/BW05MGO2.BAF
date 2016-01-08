@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05MGOL")
+            Wait(4)
+            ForceSpellRES("BW05SP00",Myself)
+            Wait(5)
+            ActionOverride("BW05LIND", StartDialogueNoSet(Protagonist))
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05LIND")
+            Wait(1)
+            ForceSpell(Myself, WIZARD_GLOBE_OF_INVULNERABILITY)
+END

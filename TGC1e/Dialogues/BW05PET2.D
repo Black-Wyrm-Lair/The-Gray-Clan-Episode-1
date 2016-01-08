@@ -1,0 +1,20 @@
+BEGIN ~BW05PET2~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @169
+  IF ~~ THEN REPLY @170 GOTO 1
+  IF ~~ THEN REPLY @171 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @172
+  IF ~~ THEN DO ~AddexperienceParty(400)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @173
+  IF ~~ THEN DO ~EscapeArea()
+~ EXIT
+END

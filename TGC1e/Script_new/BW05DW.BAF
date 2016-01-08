@@ -1,0 +1,108 @@
+IF
+  OR(6) 
+   Range(Player1,80)
+   Range(Player2,80)
+   Range(Player3,80)
+   Range(Player4,80)
+   Range(Player5,80)
+   Range(Player6,80)
+  See([ENEMY.0.0]) 
+  Global("BW05_SeePC","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_SeePC","LOCALS",1)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT) 
+  Global("BW05_SeePC","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_SeePC","LOCALS",1)
+END
+
+     
+IF
+	AttackedBy([GOODCUTOFF.0.0], Default)
+      Allegiance(Myself, NEUTRAL)
+      Global("BW05_NasrodinEnemy","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_NasrodinMEnemy","LOCALS",1)
+            SetGlobal("BW05_NasrodinEnemy","GLOBAL",1)
+            Enemy()
+END
+
+IF
+	Allegiance(Myself, NEUTRAL)
+      Global("BW05_NasrodinEnemy","GLOBAL",1)
+      Global("BW05_NasrodinMEnemy","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_NasrodinMEnemy","LOCALS",1)
+            Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+	      EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY.0.0])
+	!Allegiance(Myself, ENEMY)
+	Range(LastSeenBy(Myself),5)
+      Global("BW05_SeePC","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_NasrodinCP","LOCALS",1)
+            EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],Default)
+	!Allegiance(LastAttackerOf(Myself), PC)
+      !Race(LastAttackerOf(Myself),DWARF) 
+      Range(LastAttackerOf(Myself),5)
+THEN
+	RESPONSE #100
+	     EquipMostDamagingMelee()
+           Attack(LastAttackerOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+	      EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY.0.0])
+	!Allegiance(Myself, ENEMY)
+	!Range(LastSeenBy(Myself),5)
+      Global("BW05_SeePC","LOCALS",1)
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_NasrodinCP","LOCALS",1) 	
+            EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],Default)
+	!Allegiance(LastAttackerOf(Myself), PC)
+      !Race(LastAttackerOf(Myself),DWARF) 
+      !Range(LastAttackerOf(Myself),5)
+THEN
+	RESPONSE #100
+	      EquipRanged()
+		Attack(LastAttackerOf(Myself))
+END

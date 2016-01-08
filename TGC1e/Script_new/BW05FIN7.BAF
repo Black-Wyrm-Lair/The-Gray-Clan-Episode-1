@@ -1,0 +1,9 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+	      CutSceneID("BW05TERG")
+            FadeFromColor([20.0],0)
+            Wait(6)
+            StartDialogueNoSet(Protagonist)
+END

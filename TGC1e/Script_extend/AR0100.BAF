@@ -1,0 +1,21 @@
+IF
+	Global("BW05_TGC1","GLOBAL",3)
+	Global("BW05_DyingMan","GLOBAL",0)
+THEN
+	RESPONSE #100
+    	      SetGlobal("BW05_DyingMan","GLOBAL",1)	
+        	CreateCreature("BW05INJM",[2850.1277],2) 
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",7)
+	Global("BW05_FFSecuredArea","GLOBAL",0)
+THEN
+	RESPONSE #100
+     		SetGlobal("BW05_FFSecuredArea","GLOBAL",1)
+		CreateCreature("BW05FFWR",[2695.1327],0) 
+		CreateCreature("BW05FFWR",[2759.1411],0) 
+		CreateCreature("BW05FFWR",[2494.1225],5) 
+		CreateCreature("BW05FFWR",[2888.1335],2) 
+		CreateCreature("BW05FFWR",[2695.1227],3) 
+END

@@ -1,0 +1,13 @@
+IF
+    GLOBAL("BW05_FFnESummoned","GLOBAL",0)
+THEN
+    RESPONSE #100
+	    SetGlobal("BW05_FFnESummoned","GLOBAL",1)
+ 	    CreateCreature("BW05FFA1",[3418.1645],6)
+ 	    CreateCreature("BW05FFA1",[3444.1392],0)
+  	    CreateCreature("BW05FFA3",[3737.1468],0)
+	    CreateCreature("BW05FFGE",[3328.1435],2)
+END
+
+
+  

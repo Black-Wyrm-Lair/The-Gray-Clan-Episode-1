@@ -1,0 +1,12 @@
+IF
+	Global("BW05_TGC1","GLOBAL",8)
+	Global("BW05_SummonedCreatures","BW0503",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SummonedCreatures","BW0503",1)
+		CreateCreature("BW05REUF",[779.683],0)
+		CreateCreature("BW05BA02",[415.527],0)
+            CreateCreature("BW05BA02",[470.495],0)
+            CreateCreature("BW05BACH",[977.378],13)
+            CreateCreature("BW05CHAR",[791.210],0)
+END

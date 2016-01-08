@@ -1,0 +1,6 @@
+BEGIN ~BW05SSE2~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @19
+  IF ~~ THEN EXIT
+END

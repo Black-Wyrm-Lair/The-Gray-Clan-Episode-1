@@ -1,0 +1,6 @@
+BEGIN ~BW05RUDI~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @496
+  IF ~~ THEN EXIT
+END

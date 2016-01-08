@@ -1,0 +1,37 @@
+IF
+	!Global("BW05_HertukOutside","GLOBAL",5)
+      AttackedBy([GOODCUTOFF.0.0],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Allegiance(Myself, NEUTRAL)
+	Allegiance("BW05GRAC", ENEMY)
+THEN
+	RESPONSE #100
+            Enemy()
+END
+
+IF
+	!Global("BW05_HertukOutside","GLOBAL",5)
+      Allegiance(Myself, ENEMY)
+	Allegiance("BW05GRAC", NEUTRAL)
+      Global("BW05_AttackedWindH","GLOBAL",0)
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_AttackedWindH","GLOBAL",1)
+            Enemy()
+END
+
+IF
+	!Global("BW05_HertukOutside","GLOBAL",5)
+      Allegiance(Myself, NEUTRAL)
+	Allegiance("BW05GRAC", NEUTRAL)
+      Global("BW05_AttackedWindH","GLOBAL",1)
+THEN
+	RESPONSE #100
+            Enemy()
+END

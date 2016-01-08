@@ -1,0 +1,45 @@
+BEGIN ~BW05MARY~
+
+IF ~!Global("BW05_SaveMary","GLOBAL",4)
+!Global("BW05_SaveMary","GLOBAL",5)~ THEN BEGIN 0
+  SAY @174
+  IF ~Global("BW05_SaveMary","GLOBAL",1)~ THEN REPLY @175 GOTO 2
+  IF ~~ THEN REPLY @176 GOTO 1
+  IF ~Global("BW05_SaveMary","GLOBAL",0)~ THEN REPLY @177 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @178
+  IF ~~ THEN DO ~Kill(Myself)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @179
+  IF ~~ THEN DO ~SetGlobal("BW05_SaveMary","GLOBAL",2)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @180
+  IF ~~ THEN DO ~SetGlobal("BW05_SaveMary","GLOBAL",3)
+EscapeArea()
+~ EXIT
+END
+
+IF ~Global("BW05_SaveMary","GLOBAL",5)~ THEN BEGIN 4
+  SAY @181
+  IF ~~ THEN EXTERN ~BW05DAMI~ 14
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @182
+  IF ~~ THEN REPLY @183 EXTERN ~BW05DAMI~ 17
+  IF ~~ THEN REPLY @184 EXTERN ~BW05DAMI~ 17
+END
+
+IF ~Global("BW05_SaveMary","GLOBAL",4)~ THEN BEGIN 6
+  SAY @181
+  IF ~~ THEN EXTERN ~BW05DAMI~ 20
+END

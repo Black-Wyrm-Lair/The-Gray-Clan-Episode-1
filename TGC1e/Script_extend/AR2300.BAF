@@ -1,0 +1,24 @@
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      !Global("BW05_TGC1","GLOBAL",17)
+THEN
+	RESPONSE #100
+            SetMasterArea("BW0501")
+            ActionOverride(Player1,LeaveAreaLUA("BW0501","",[1175.3600],12))
+		ActionOverride(Player2,LeaveAreaLUA("BW0501","",[1230.3640],12))
+		ActionOverride(Player3,LeaveAreaLUA("BW0501","",[1120.3600],12))
+		ActionOverride(Player4,LeaveAreaLUA("BW0501","",[1230.3600],12))
+		ActionOverride(Player5,LeaveAreaLUA("BW0501","",[1120.3650],12))
+		ActionOverride(Player6,LeaveAreaLUA("BW0501","",[1150.3550],12))
+END
+
+
+IF
+	Global("BW05_MikeSummoned","GLOBAL",0)
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",0)
+      Global("BW05_TGC1","GLOBAL",17)
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_MikeSummoned","GLOBAL",1)
+            CreateCreature("BW05MIKE",[1120.3600],0)
+END

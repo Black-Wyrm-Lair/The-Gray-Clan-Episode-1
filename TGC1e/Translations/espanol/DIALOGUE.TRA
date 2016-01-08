@@ -1,0 +1,653 @@
+@1   = ~La vida ha vuelto a la normalidad en el Mesón del Brazo Amigo, y toda charla sobre la invasión ha cesado. Los rumores dicen que no fue el Puño Llameante, sino alguien llamado <CHARNAME> quien expulsó a los invasores.~
+@2   = ~¡Saludos! Soy Jeremias, un humilde mercader. Colaboro con la organización del general Jedyan suministrando todo tipo de equipo mágico, tanto armas como otros objetos.~
+@3   = ~Siento decirlo, pero parecéis un demonio... en serio...~
+@4   = ~¡Preparaos para morir, asquerosa abominación!~
+@5   = ~Volveré más tarde...creo que será lo mejor...~
+@6   = ~¡¿Eh?! ¿Un demonio? Ah, ¡Claro! disculpadme, me había olvidado por completo. Soy el hermano mayor de Rudi, también conocido como "El metafísico". Es un gran científico, y me ha enseñado los secretos de la metamorfosis - Cómo cambiar de forma, o polimorfarse, gracias a la magia. Me encanta. Pero habéis venido a comprar algo, así que dejadme volver a mi forma humana habitual, sólo será un segundo...~
+@7   = ~¿Por qué me miráis así? ¿Tan horrible soy? ¡Puedo ser viejo, pero no soy tan horrendo!~
+@8   = ~¿En qué puedo ayudaros? ¿Deseáis ver mis mercancías mágicas?~
+@9   = ~¡Ya está!..... Whoops, todavía no. Un segundo, y todo irá bien...~
+@10  = ~Casi, casi.~
+@11  = ~¡Al fin! Disculpadme por las molestias. ¿Así que queréis echar un vistazo a mi colección de objetos mágicos?~
+@12  = ~Veamos esos objetos de los que habláis.~
+@13  = ~No, gracias.~
+@14  = ~Si necesitáis algo más, me podréis encontrar aquí mismo. Me quedaré por un tiempo.~
+@15  = ~¿Qué puedo hacer por vos?~
+@16  = ~Volveré más tarde.~
+@17  = ~Habéis sido una maestra excelente, milady. No os defraudaremos.~
+@18  = ~Lo haré lo mejor posible, milady.~
+@19  = ~El gólem dice: 'Estoy fuera de servicio'~
+@20  = ~¡¿Grachus está muerto?! ¡Jajajaja! ¡Habría sido un placer ver la cara de Xephistagoras cuando se enteró de que su amado discípulo estaba criando malvas! Me pregunto qué le dirá a Lord Desider mañana, cuando los progresos del clan sean discutidos en el castillo de Legencase... ~
+@21  = ~¿Dónde está Legencase? ¿Quién es Lord Desider? ¡Hablad!~
+@22  = ~¡Preparaos para morir!~
+@23  = ~Como podéis ver, milady, Teven ha demostrado ser incapaz de continuar con su trabajo. Serán necesarios nuevos líderes.~
+@24  = ~Quizá tengáis razón, aventurero. Parecéis ser suficientemente poderoso y experimentado...~ ~Quizá tengáis razón, aventurera. Parecéis ser suficientemente poderosa y experimentada...~
+@25  = ~Sería un honor ocupar el puesto de Teven, milady.~
+@26  = ~Soy la mejor elección. Sin duda.~
+@27  = ~¡Al cuerno con Xephistagoras! ¡No volváis a mencionar su nombre! No obstante, Teven, os ofreceré una última oportunidad... ¡Y más vale que no me falléis!~
+@28  = ~Esta batalla no debería ser más que  un juego para vos, Octavia. Tampoco vos tenéis nada que temer, Petrarca. En serio, ¡Agradeced esta oportunidad para aprender algo nuevo! Si algo fuera mal, estoy seguro de que Octavia acudirá en vuestra ayuda. Chicas, incluso aunque Legencase esté a kilómetros de aquí, nunca olvidéis que fuisteis entrenadas en la Academia: el poder corre por vuestras venas.~
+@29  = ~Necio.~
+@30  = ~Debo irme. ¡Buena suerte, chicas!~
+@31  = ~¡¡¡Oh, santos dioses!!! ¡¡¡Dervanto!!! Sois el mayor de los... el más grande de los...~
+@32  = ~¡IDIOTAS!~
+@33  = ~¡Estos no son los que esperábamos, idiota! ¡¡¡Son <CHARNAME> y su banda de aventureros!!! ¡Y sólo tengo seis guardaespaldas y un mago idiota aquí!~
+@34  = ~¡Esperad, Dervanto! ¡No me dejéis aquí! ¡Dervanto! ¿Dónde está mi piedra de guarda? ¡Dervanto! ¡DERVANTO!~
+@35  = ~¡Guardias de Élite! ¡A las armas!~
+@36  = ~¡¿Adónde creéis que váis?! ¡Os ordeno que regreséis aquí inmediatamente! ¡Ésas escaleras son sólo una ilusión mágica, idiotas cobardes! ¡¡¡Váis hacia una muerte segura, cretinos!!!~
+@37  = ~Es una sorpresa encontraros aquí, Teven, ya que yo mismo os maté en Larswood... Pero mataros fue tan fácil como quitarle un caramelo a un niño, y estoy seguro de que aún no sois rival para mí, bandido.~ ~Es una sorpresa encontraros aquí, Teven, ya que yo misma os maté en Larswood... Pero mataros fue tan fácil como quitarle un caramelo a un niño, y estoy segura de que aún no sois rival para mí, bandido.~
+@38  = ~Qué divertido. Estamos probablemente en uno de los aposentos más seguros y lujosos de la élite del Clan Gris, y os encontráis sólo, sin guardaespaldas. Sin *nadie* que pueda salvaros.~
+@39  = ~¿Teven? ¡Dichosos los ojos! ¡Qué alegría encontraros de nuevo!~
+@40  = ~Gartuffe está muerto; al igual que Grachus. También Reufasio mordió el polvo. Linda la Hechicera también estará allí para daros la bienvenida, cuando lleguéis. Porque *vos* sois el siguiente.~
+@41  = ~¡Lady Adalbert! Gracias a Beshaba que estáis aquí, milady. Grachus ha muerto, ¡Y por culpa del idiota de Dervanto, <CHARNAME> ha conseguido entrar aquí!~
+@42  = ~Aguardad un momento, milady. ¡No podéis relevarme de mi puesto, Lady Monica Adalbert! tomé posesión de él en Legencase, y poseo el apoyo de Lord Falcondrake. Y no os olvidéis de Xephistagoras.~
+@43  = ~Yo... ¡Yo no soy quien estáis buscando, <CHARNAME>! Yo soy simplemente... sólo un...~
+@44  = ~¡No tenéis ninguna posibilidad contra mí, <CHARNAME>!~
+@45  = ~El gólem dice: 'Insertad la piedra de guarda.'~
+@46  = ~*Dejáis en paz a la criatura*~
+@47  = ~*Insertáis la piedra de guarda*~
+@48  = ~*Insertáis la piedra de guarda, pero ésta es rechazada. Las hechiceras probablemente crearon un escudo secundario alrededor del área. Sólo ellas son capaces de disiparlo, y es evidente que no lo harán por propia voluntad. Tendréis que acabar con ambas.*~
+@49  = ~*Insertáis la piedra de guarda*~
+@50  = ~¡Saludos! Espero que el camino no os haya resultado demasiado duro. Mi señor ya os espera en el interior. No debéis preocuparos, nadie que no esté autorizado va a importunar vuestro encuentro. He escudado mágicamente la habitación. Si son tan amables de pasar...~
+@51  = ~Un momento...~
+@52  = ~Pero yo...~
+@53  = ~Estoy impaciente por encontrarme con vuestro señor.~
+@54  = ~Tan sólo soy su mayordomo. Podréis discutir lo que deseéis con el señor.~
+@55  = ~¿En serio? Pensaba que mi señor se había reunido con vos durante el encuentro anterior. Pero quizá me equivoque, tan sólo soy el mayordomo después de todo.~
+@56  = ~¿Abjuradores? ¿Magos?~
+@57  = ~Sé que llegan más tarde de lo que esperábais, mi señor. Pero no ha sido culpa mía, he estado esperando en la entrada de la taberna todo el día...~
+@58  = ~Creo que aquí no se me necesita. Buena suerte, milord.~
+@59  = ~*El golem os observa con los ojos vacíos. No tenéis ni idea de si todo su cuerpo está hecho de lo mismo, pero está claro que el gólem está enteramente cubierto de moho verde. Los bandidos aparentemente intentaron destruirlo, pero la gruesa capa de moho se exiende tan rápidamente, que cura todo el daño físico en segundos. Después de un examen más minucioso, os dáis cuenta de que hay seis cerraduras en el pecho del gólem.* ~
+@60  = ~*Insertáis la llave de oro*~
+@61  = ~*Insertáis la llave de cobre*~
+@62  = ~*Insertáis la llave de hierro*~
+@63  = ~*Insertáis la pequeña llave de hierro*~
+@64  = ~*Insertáis la llave de latón*~
+@65  = ~*Insertáis la pequeña llave de latón*~
+@66  = ~*Examináis las cerraduras*~
+@67  = ~*Dejáis el gólem*~
+@68  = ~Orden incorrecto de llaves. No ser el Maestro. Vos morir.~
+@69  = ~*Insertáis la llave seleccionada*~
+@70  = ~Todas las cerraduras tienen diferentes tamaños. Basándoos en lo que los bandidos estaban haciendo cuando llegásteis, parece que necesitáis las seis llaves para que el golem os identifique como su maestro.~
+@71  = ~El gólem no dice nada. La llave desaparece por la cerradura, y escucháis el sonido de unos engranajes.~
+@72  = ~*Esperáis la reacción del gólem*~
+@73  = ~Las llaves se retiran de las cerraduras. Entonces el gólem dice: "Orden incorrecto de llaves. No ser el Maestro. Vos morir."~
+@74  = ~*Insertáis la llave de oro*~
+@75  = ~*Insertáis la última llave*~
+@76  = ~Después de unos segundos, el gólem dice: 'No insertar llave de diamante en cerradura secreta de mi cabeza. Vos ordenar que yo deshacerme si eso ocurrir.~
+@77  = ~Activando el Gólem Mohoso
+
+Puse las llaves en el orden correcto en el Gólem mohoso. Sin embargo, mencionó también una llave de diamante, y como no se insertó en la cerradura secreta de su cabeza, el gólem mohoso se ha deshecho. Afortunadamente, los objetos que guardaba en su interior no han sido destruidos. No sabía que también existía una llave de diamante, y tampoco noté que había una cerradura secreta en su cabeza. Los bandidos probablemente tampoco eran conscientes de esta protección. Parece que el maestro del gólem ideó esta protección para prevenir que fuera controlado incluso aunque el usuario no autorizado poseyera las seis llaves de metal.~
+@78  = ~¿Tenéis... tenéis llave? ¿Ninguna llave? Vladimir mataros... para ver si llave... vos llave... si tenéis... tenéis alguna llave...~
+@79  = ~Vladimir ha insertado todas las llaves... las seis llaves... ~
+@80  = ~Vladimir lo siente... Vladimir no quería insertar llaves...orden equivocado de llaves...~
+@81  = ~Sí... si señora...~
+@82  = ~Vladimir llaves... encontrará llaves... ~
+@83  = ~Activando el Gólem Mohoso
+
+Cuando llegamos al Mesón del Brazo Amigo, unos bandidos, dirigidos por una Hechicera, se reunieron alrededor de un gólem mohoso. La criatura tenía seis cerraduras en el pecho. Los hombres del Clan tenían todas las llaves, pero un bandido estúpido las usó sin el permiso de la Hechicera, y obviamente, las puso en orden incorrecto; luego el gólem le lanzó una bola de fuego. La explosión repartió las llaves por toda la zona. La hechicera se enfureció y ordenó a los bandidos que buscaran las llaves perdidas inmediatamente. Si pudiera conseguir todas las llaves antes que ellos, quizá sea capaz de descubrir cómo ponerlas en el orden correcto y así poder usar el Gólem para mi propio beneficio. Hay muchos bandidos en la zona, así que seguramente la mayoría de las llaves, si no todas, ya habrán sido encontradas. Tendré que quitárselas de sus frías manos, una vez estén muertos.~
+@84  = ~Estaba escondido en las sombras, de manera que nadie me ha descubierto. He presenciado la muerte de Mary. Fue horrible.~
+@85  = ~Soy Lord Damien Jesacco. ¿Sois amigo, o enemigo?~
+@86  = ~Estoy aquí para investigar y destruir al Clan Gris.~
+@87  = ~Enemigo. ¡Rezad a vuestros dioses, porque váis a morir!~
+@88  = ~¡Soy miembro del Clan Gris!~
+@89  = ~¡Por la gloria de Amn!~
+@90  = ~Os creo. Estos son mis amigos, John y Ernest, y han viajado conmigo desde Amn en busca de mi preciosa esposa, Mary, que ha sido secuestrada por el Clan Gris.~
+@91  = ~¿Creéis que aún está viva? Siento decirlo, pero si no han pedido ningun rescate, probablemente vuestra mujer ya esté muerta.~
+@92  = ~¿Qué os hace pensar que hayan traído a vuestra mujer aquí?~
+@93  = ~No me interesa vuestro problema. Hasta otra.~
+@94  = ~He venido a por mi esposa, rufianes. Tendréis acero en vez de rescate. ¡A las armas, compañeros! ¡Por la gloria de Amn!~
+@95  = ~Me equivocaba al pensar que érais un aventurero de verdad; uno que ayuda sin dudar cuando una mujer está en peligro. ¡Venid, compañeros, encontraremos a Mary sin la ayuda de estos rufianes!~ ~Me equivocaba al pensar que érais una aventurera de verdad; una que ayuda sin dudar cuando una mujer está en peligro. ¡Venid, compañeros, encontraremos a Mary sin la ayuda de estos rufianes!~
+@96  = ~Mary fue secuestrada hace una semana. Poco después me llegó una demanda de rescate: Diez mil piezas de oro, pero eso no es todo: también pedían que les revelara la ruta de la próxima caravana militar Amniana que transportase armas. Si no cumplía con sus demandas, matarían a mi mujer. ¡Nunca confiéis en un criminal! El intercambio iba a producirse en una pequña aldea Amniana esta noche, pero afortunadamente un mago amigo mío, experto en magia de adivinación, me ayudó a descubrir el paradero de mi mujer. Me dijo que los bandidos se la habían llevado al Mesón del Brazo Amigo, a kilómetros de donde habíamos acordado encontrarnos. Así que aquí estoy, aunque los idiotas de ahí dentro aún no lo saben.~
+@97  = ~Entonces, ¿Queréis atacar la fortaleza con la ayuda de sólo dos personas?~
+@98  = ~¿Y cómo pensáis entrar en el Mesón? No es que podáis ser muy sigilosos precisamente, con esas armaduras pesadas que lleváis. Pero supongo que no pensaréis en atacar directamente...~
+@99  = ~Si me pagáis 10000 piezas de oro, rescataré a vuestra mujer.~
+@100 = ~Sé cómo entrar. ¿Cuánto oro vale la vida de vuestra mujer?~
+@101 = ~¡Cómo osáis...! *Hmph* De acuerdo, aventureros. Estoy dispuesto a pagaros 2000 piezas de oro si volvéis con ella.~
+@102 = ~No temáis, salvaré a vuestra mujer.~
+@103 = ~No moveré ni un músculo sin tener al menos la mitad de esa suma a buen recaudo en mi bolsa.~
+@104 = ~Cerdo insolente. No necesito vuestra ayuda.~ ~Zorra insolente. No necesito vuestra ayuda.~
+@105 = ~He cambiado de opinión. Iré y salvaré a vuestra mujer, pero cuando haya terminado, querré mis 2000 piezas de oro.~
+@106 = ~Adiós.~
+@107 = ~Desafortunadamente su número es demasiado para encargarnos nosotros solos. Además, son adversarios temibles, y tienen Ogros entre sus filas, en efecto. Hmmm, parecéis conocer bien esta zona, ¿Os importaría ayudar a este viejo Amniano a recuperar a su esposa, aventureros?~
+@108 = ~Conozco bien esta zona. Salvaré a vuestra mujer si puedo.~
+@109 = ~¡Lo haremos a vuestra manera entonces, cerdo insolente! Coged el dinero. Esperaremos aquí; si en algún momento os véis forzado a retiraros en la batalla, podemos ayudaros si dirigís al enemigo hacia aquí... Ah, no sé si esto es relevante, han ocurrido muchas cosas raras últimamente, pero justo antes de vuestra llegada, esta llave cayó del cielo. No sé qué puede haberlo causado, pero aún tengo juicio suficiente como para saber que las llaves no caen del cielo, algo o alguien debe haberla tirado o lo que sea. ¿Quizá abra la cerradura de la puerta del mesón? Quién sabe. De todos modos, cogedla. ¡Ahora id! Salvad a mi mujer, por favor.~ ~¡Lo haremos a vuestra manera entonces, zorra insolente! Coged el dinero. Esperaremos aquí; si en algún momento os véis forzado a retiraros en la batalla, podemos ayudaros si dirigís al enemigo hacia aquí... Ah, no sé si esto es relevante, han ocurrido muchas cosas raras últimamente, pero justo antes de vuestra llegada, esta llave cayó del cielo. No sé *qué* puede haberlo causado, pero aún tengo juicio suficiente como para saber que las llaves no caen del cielo, algo o alguien debe haberla tirado o lo que sea. ¿Quizá abra la cerradura de la puerta del mesón? Quién sabe. De todos modos, cogedla. ¡Ahora id! Salvad a mi mujer, por favor.~
+@110 = ~Rescatar a la esposa de Damien
+
+Me he encontrado con Damien, un rico mercader de Amn. El Clan Gris ha secuestrado a su mujer, Mary. Damien también es guerrero, pero no conoce la zona, así que he prometido que salvaría a su mujer por el precio justo. Hemos acordado 2000 piezas de oro. Me ha pagado la mitad de la suma por adelantado.~
+@111 = ~Aquí tenéis 300 piezas de oro. Otra cosa: justo antes de vuestra llegada, esta llave cayó del cielo. Aún tengo juicio suficiente como para saber que las llaves no caen del cielo por casualidad, algo o alguien debe haberla tirado. ¿Quizá abra la cerradura de la puerta del mesón? Quién sabe. Pero no tenemos tiempo para descubrirlo. De todos modos, cogedla. ¡Ahora id! Salvad a mi mujer, por favor.~
+@112 = ~Rescatar a la esposa de Damien
+
+Me he encontrado con Damien, un rico mercader de Amn. El Clan Gris ha secuestrado a su mujer, Mary. Damien también es guerrero, pero no conoce la zona, así que he prometido que salvaría a su mujer por el precio justo. Hemos acordado 2000 piezas de oro. Me ha pagado 300 piezas de oro por adelantado.~
+@113 = ~Hace un rato, esta llave cayó del cielo y la recogí. No tengo ni idea de porqué. Quizá abra alguna puerta del mesón... ¡Ahora id y salvad a mi mujer. Y no me falléis.~
+@114 = ~Rescatar a la esposa de Damien
+
+Me he encontrado con Damien, un rico mercader de Amn. El Clan Gris ha secuestrado a su mujer, Mary. Damien también es guerrero, pero no conoce la zona, así que he prometido que salvaría a su mujer por el precio justo. Está dispuesto a recompensarme con 2000 piezas de oro.~
+@115 = ~Por favor, hacedlo. Esperaremos aquí; si en algún momento os véis forzado a retiraros en la batalla, podemos ayudaros si dirigís al enemigo hacia aquí... Ah, no sé si esto es relevante, han ocurrido muchas cosas raras últimamente, pero justo antes de vuestra llegada, esta llave cayó del cielo. No sé *qué* puede haberlo causado, pero aún tengo juicio suficiente como para saber que las llaves no caen del cielo, algo o alguien debe haberla tirado o lo que sea. ¿Quizá abra la cerradura de la puerta del mesón? Quién sabe. De todos modos, cogedla. ¡Ahora id! Salvad a mi mujer, por favor.~
+@116 = ~Rescatar a la esposa de Damien
+
+Me he encontrado a Damien, un rico mercader de Amn. El Clan Gris ha secuestrado a su mujer, Mary. Damien también es guerrero, pero no conoce la zona, así que he prometido que salvaría a su mujer.~
+@117 = ~¡Se acercan enemigos! ¡Defendeos!~
+@118 = ~Os agradezco todo lo que habéis hecho, aventureros. Soy Lord Damien Jesacco, mercader Amniano, y habéis salvado la vida de mi esposa.~
+@119 = ~Ahora que estamos todos juntos, celebrando el rescate de vuestra querida esposa y todo eso, he pensado que ha llegado la hora de divertirse un rato. Así que si cada uno de vosotros hiciera el favor de poner todos sus objetos de valor en mi mochila, les estaría sumamente agradecido. Vuestras armas son fantásticas, señor. Y vuestra mujer seguro que posee joyas de gran valor...~
+@120 = ~¡Milady! os dije que era peligroso salir afuera. Sin embargo, estoy más que contento de ver que escapasteis sin sufrir daño alguno. Pero hay algo que me intriga; ¿Cómo habéis logrado atravesar el escudo mágico que rodeaba el Mesón?~
+@121 = ~Así que sois nobles. Fuera de mi vista.~
+@122 = ~¡Canallas! ¡Corre, Mary! Vamos, compañeros, ¡Por la gloria de Amn!~
+@123 = ~No John, no vamos a matar a nadie. Mary no ha resultado herida, nos vamos a casa.~
+@124 = ~Rescatar a la esposa de Damien
+
+Conseguí salvar a Mary, la mujer del mercader Damien. Aunque no la habría salvado si hubiera sabido que eran nobles. No soporto la actitud de esos nobles que se creen superiores a los demás.~
+@125 = ~Lo siento mucho, pero no podemos hablar por más tiempo. Tenemos prisa, debo regresar lo antes posible a una reunón de mercaderes muy importante en Athkatla...~
+@126 = ~Mis mejores deseos, milady. Buena suerte, Lord Jesacco.~
+@127 = ~Creo que habéis olvidado mi recompensa...~
+@128 = ~No iréis a ninguna parte a menos que me recompenséis con lo acordado.~
+@129 = ~Si queréis provocar una pelea, os habéis topado con la persona equivocada. Muy buenas.~
+@130 = ~Le volvéis ligeramente la espalda a Damien mientras le véis en el suelo temblando y llorando con pena y rabia. De pronto, se gira hacia vos, y enloquecido por la furia, empeza a hablar con una voz profunda, aunque al principio no podéis distinguir las palabras. Poco a poco, sus susurros se convierten en un grito: ¡Vos... vos... habéis matado a mi mujer! ¡Maldito asesino hijo de perra! ¡Os arrancaré el corazón de vuestro sucio pecho, bastardo! ¡MORID!~ ~Le volvéis ligeramente la espalda a Damien mientras le véis en el suelo temblando y llorando con pena y rabia. De pronto, se gira hacia vos, y enloquecido por la furia, empeza a hablar con una voz profunda, aunque al principio no podéis distinguir las palabras. Poco a poco, sus susurros se convierten en un grito: ¡Vos... vos... habéis matado a mi mujer! ¡Maldita asesina hija de perra! ¡Os arrancaré el corazón de vuestro sucio pecho, zorra! ¡MORID!~
+@131 = ~Os estoy muy agradecido, y en deuda, aventurero. Habéis salvado a mi amada esposa, una hazaña que jamás olvidaré.~ ~Os estoy muy agradecido, y en deuda, aventurera. Habéis salvado a mi amada esposa, una hazaña que jamás olvidaré.~
+@132 = ~Antes de irme, me gustaría expresaros mi gratitud con esta pequeña suma. Por favor, aceptadla. ¡Buena suerte, aventureros!~
+@133 = ~Rescatar a la esposa de Damien
+
+Mary, la esposa del mercader Amniano Damien, ha sido rescatada. He recibido una buena cantidad de oro por mi noble gesta.~
+@134 = ~¡La recompensa, por supuesto! Aquí está. Hasta otra, aventureros.~
+@135 = ~Encontrad a mi esposa, por favor.~
+@136 = ~Antes de irme, me gustaría expresaros mi gratitud con esta pequeña suma. Por favor, aceptadla. Ah, encontré tambien una llave. No creo que pueda usarla para nada, quizá vos podáis. ¡Buena suerte!~
+@137 = ~Rescatar a la esposa de Damien
+
+Mary, la esposa del mercader Amniano Damien, ha sido rescatada. Además de una buena cantidad de oro, el noble me ha dado también una llave mágica.~
+@138 = ~Soy uno de los mejores arqueros de todo Amn. Aunque sin la ayuda de Damien, aún sería un matón callejero. Es un amigo de verdad.~
+@139 = ~Damien es un hombre muy influyente. Y además un buen amigo.~
+@140 = ~¡Damien tiene amigos incluso entre los Magos Encapuchados!~
+@141 = ~Damien no es sólo un rico mercader. Es muy influyente entre los círculos del ejército.~
+@142 = ~Espero que Damien encuentre a su esposa. Viva.~
+@143 = ~Amn es el paraíso de los comerciantes.~
+@144 = ~¡¿Cómo osáis hablar a Lord Jesacco en ese tono?! ¡Sabandija insolente, pagaréis por esto!~
+@145 = ~¡Los gigantes están demasiado cerca de la puerta, Capitán! Debemos impedirles la entrada. ¡A las armas, compañeros! ¡¡¡Por el rey de Tethyr!!!~
+@146 = ~¡Corre Bentley, corre! ¡Yo les detendré!~
+@147 = ~¡¿Osáis irrumpir de esta forma en mi hogar, rufián tatuado?! ¡Yo sirvo al Puño Llameante, así que soltad el arma antes de que acabe con vos, bergante!~
+@148 = ~Seguramente mis anteriores superiores les han enviado. Sus esfuerzos son en vano, os lo aseguro.~
+@149 = ~¡Al diablo con Sarevok y su oferta! Ahora perdeos, estúpido. Si vuelvo a veros algún día, alimentaré a mis Ogros con vuestras entrañas.~
+@150 = ~¡¿Intrusos en *este* piso?! ¡Pero qué coño está pasando, Linda! ¡Os ordené que nadie debía importunarnos! ¡¿Y dónde está esa sabandija de Reufasio?!~
+@151 = ~Enseñémosles una buena lección.~
+@152 = ~No tengo ni idea de cómo han entrado. Lo siento de verdad, milord... ~
+@153 = ~¡Al fin he encontrado el pergamino! Describe el orden en que deben ser insertadas las llaves en esa máquina verde.~
+@154 = ~¡¿Has insertado las llaves mientras yo no estaba?! ¡Idiota! ¡Desgraciado! ¡Deben ser insertadas en el orden correcto, alcornoque! ¡Estúpido!~
+@155 = ~*Suspiro* Hagamos un intento con vuestro orden. Pero estoy segura de que es incorrecto, pero al menos soltará las llaves, y podemos insertarlas de nuevo en el orden correcto, tal y como lo pone en mi pergamino.~
+@156 = ~Golem, soy tu maestro. ¡Dame los objetos que guardas!~
+@157 = ~¡Maldita sea! ¡La bola de fuego ha dispersado las llaves por todas partes! ¡Dile a tus hombres que busquen por toda la maldita zona! ¡Idiotas!~
+@158 = ~¡Rezad vuestras plegarias, Raufezzo!~
+@159 = ~¡Muere!~
+@160 = ~Calmaos. No soy Reufasio. Estábais petrificado, pero os he liberado.~
+@161 = ~¡Por Beregost!~
+@162 = ~¿Eh? Ah, lo siento. Oh, ¡No sois ese maldito mago! ¡¿Dónde está?!~
+@163 = ~¡¿¡Estáis loco!?! ¡Incluso un farfullero paralizado podría mataros ahora, ¿Y seguís queriendo enfrentaros a Reufasio?!~
+@164 = ~¡Calmaos, calmaos! No querréis que ese mago os mate, ¿Verdad?~
+@165 = ~¿Estáis loco? ¡Incluso un farfullero paralizado podría mataros ahora, ¿Y queréis luchar? Reufasio ha muerto, además, así que no tenéis que preocuparos más por él.~
+@166 = ~He matado a Reufasio. De todos modos, no estáis en condición de luchar.~
+@167 = ~Tenéis razón. Me quedaré en este piso. Por fortuna aún tengo suficientes fuerzas para acabar con algunos de estos sucios bandidos.~
+@168 = ~Me siento mejor. Mantendré seguro este nivel.~
+@169 = ~¿Quién sois?~
+@170 = ~¡Rápido, escondeos en alguna parte, niño! Es muy peligroso ir por ahí.~
+@171 = ~¡Silencio, niño! ¡Fuera de mi vista!~
+@172 = ~¡De acuerdo, de acuerdo, me esconderé!~
+@173 = ~¡Escoria sin modales!~
+@174 = ~¿Qué ha ocurrido? Me duele mucho la cabeza.~
+@175 = ~Os convirtieron en piedra. Damien os espera afuera, pero es muy peligroso salir de momento. Escondeos en alguna parte, acabaremos pronto con los bandidos.~
+@176 = ~¡Menudas joyas que lleváis! Creo que deberíais dármelas; no es nada personal, pero tendré que mataros si no lo hacéis.~
+@177 = ~Os convirtieron en piedra, pero os he liberado. Desgraciadamente, no podéis marcharos del mesón todavía. Escondeos en alguna parte hasta que terminemos con los bandidos.~
+@178 = ~¡Noooo!~
+@179 = ~¡¿Él está aquí?! ¡Gracias a Lathander! ¡De acuerdo, de acuerdo, me esconderé debajo de una cama, con suerte esos villanos no me encontrarán ahí!~
+@180 = ~Eso seria lo mejor, estoy de acuerdo. Gracias por liberarme. Si alguna vez vuelvo a casa, le diré a mi marido Damien lo que habéis hecho por mí. Estoy segura de que os recompensará con creces.~
+@181 = ~¡Me alegro de veros de nuevo, aventurero!~ ~¡Me alegro de veros de nuevo, aventurera!~
+@182 = ~Encontré una poción. Tenía un olor agradable, y yo tenía mucha sed. Cuando me la bebí, ¡Me volví invisible! Lo encontré sorprendente al principio, pero entonces me acostumbré, y empecé a explorar el edificio. Vi que una mujer joven, presumiblemente una maga, se estaba preparando para teletransportar a un grupo de bandidos al exterior. Me uní a ellos con cuidado, y entonces me encontré en la entrada de la fortaleza...~
+@183 = ~Habéis arriesgado vuestra vida. Sois una mujer valiente, milady.~
+@184 = ~Beber pociones desconocidas, incluso aunque desprendan buen olor, es arriesgado. Podríais haber bebido veneno, milady.~
+@185 = ~¡Ahora que había terminado de quitarme la armadura! ¡Maldita sea!~
+@186 = ~Por favor, ¡No me hagáis daño!~
+@187 = ~¡Habéis matado a William!~
+@188 = ~¡Aaargh!~
+@189 = ~William era un buen chico.~
+@190 = ~¡William!~
+@191 = ~Por favor, ¡No me hagáis daño! ¡No he matado a nadie! ¡Sólo quiero irme a casa!~
+@192 = ~Vuestra hermana Felicia nos ha enviado. Dice que Ignas, un soldado de Amn, puede escoltaros a los dos hasta Athkatla. Podéis comenzar una nueva vida allí.~
+@193 = ~Vais a morir, criminal.~
+@194 = ~Soy Charles. ¡No he cometido ningún crimen, lo juro! Tengo una hermana, Felicia. Ella es muy amable.~
+@195 = ~Lo sé, fue ella la que nos envió a buscaros. Dice que Ignas, un soldado de Amn, puede escoltaros a los dos hasta Athkatla. Podéis comenzar una nueva vida allí.~
+@196 = ~*Era* amable. Desgraciadamente tuve que matarla, porque me vio cuando maté a unos guardias, y no quise dejar testigos.~
+@197 = ~Qué lástima que su hermano sea un criminal. Ahora os arrestaré, os sacaré del Mesón y esperaré hasta que venga el Puño Llameante.~
+@198 = ~*suspiro* Sois libre de iros. Largo.~
+@199 = ~¡Felicia! ¡Sabía que estaba aquí! ¡La vi en la distancia, pero creí que estaba soñando! ¿Ir a Amn? ¡Maravilloso! ¿Dónde está ahora?~
+@200 = ~Está en el templo. ¡Un momento! Antes de iros, contadme todo lo que sepáis sobre el Clan.~
+@201 = ~Bajo la protección del Capitán Ignas, en el templo. Estoy aquí para investigar las actividades del Clan Gris. ¿Qué sabéis de ellos?~
+@202 = ~¡Os lo diré todo en el Templo! Os veo luego, ¡Y buena suerte con vuestra misión!~
+@203 = ~¡Lo siento Felicia, no tengo elección! *Saca una daga y se la clava en el pecho*~
+@204 = ~¡Gracias! ¡No revelaré nada sobre vuestra organización, lo prometo!~
+@205 = ~¡Hola de nuevo, aventureros! Ella es mi hermana, Felicia.~
+@206 = ~Encontrar a Charles, el hermano de Felicia
+
+Charles, el bandido al que permití escapar, era el hermano de Felicia, una de los supervivientes del templo. Ha abandonado el Clan. El capitán Ignas will les escoltará hasta Amn, si sobreviven a la invasión de los bandidos, claro.~
+@207 = ~¡Hola de nuevo, aventureros! ¡Gracias por pasarme el mensaje de mi hermana! ¡No estaríamos aquí si no fuera por vuestra ayuda! Tengo...~
+@208 = ~Encontrar a Charles, el hermano de Felicia
+
+Charles se las ha arreglado para volver con su hermana, Felicia. El Capitán Ignas les escoltará hasta Amn, si sobreviven a la invasión de los bandidos, claro.~
+@209 = ~...tengo que admitir que soy un criminal después de todo.~
+@210 = ~No, no he matado a nadie, Felicia. ¡Ya te lo he dicho! Pero... bueno... una vez, en una taberna en la Puerta de Baldur, una mujer noble muy gorda se dejó el bolso en una mesa. ¡Lo dejó allí, lo juro! No había nadie alrededor, así que le eché un vistazo. Encontré algunas joyas. Esta es para vos, aventurero. Ahí va. Vendedla o haced lo que queráis con ella.~
+@211 = ~Gracias, Charles. También prometísteis hablarme del Clan Gris...~
+@212 = ~¿Un collar de perlas? ¿Esa es la pobre compensación que recibo por haberos permitido vivir?. No importa. Aunque, decidme lo que sepáis del Clan Gris.~
+@213 = ~Yo era un miembro de baja categoría. Nunca dijeron nada importante en mi presencia. Aunque escuché una vez una conversación que trataba básicamente de tácticas de combate, y sobre cómo organizar una fuerza compuesta de humanos y semiogros. Al final, sin embargo, mencionaron que el Zhentarim rechazó su oferta... Es todo lo que sé... si recuerdo algo más, os lo haré saber...~
+@214 = ~Mejor que nada. Volveré más tarde.~
+@215 = ~¡Idiota! Sois un inútil. ~
+@216 = ~Lo siento, no recuerdo nada útil...~
+@217 = ~No señor, no miento. No maté a nadie. Nunca. Lo juro.~
+@218 = ~Así que no habéis usado vuestra espada. Con suerte vuestros oídos habrán estado más activos. ¿Qué habéis oído sobre el Clan? Seguro que hablaron un montón, como hacen los bandidos cuando empinan el codo.~
+@219 = ~Escuchad niño, necesito más información sobre el Clan. ¿Qué habéis oído cuando pertenecíais a él?~
+@220 = ~Hola, aventureros. Nos habéis salvado la vida matando a ese ogro chalado. Nuestra táctica se basaba en concentrar todos los ataques contra él, ¡Pero era invulnerable!~
+@221 = ~Estamos en grave peligro, aventureros. Temo que no podamos resistir más, y que los atacantes tomen también el templo. Ni siquiera perdonarán la vida a estos campesinos. Son demasiados, pero los ogros son aún peores. ¡Especialmente ese ogro mago! Intentamos concentrar todos los ataques contra él, ¡Pero es invulnerable!~
+@222 = ~Ahora no, Felicia. Por favor.~
+@223 = ~Está bien, Felicia. Aventurero, ¿Tenéis alguna noticia? ¿Podemos esperar alguna ayuda del Puño Llameante?~ ~Está bien, Felicia. Aventurera, ¿Tenéis alguna noticia? ¿Podemos esperar alguna ayuda del Puño Llameante?~
+@224 = ~Algunos Miembros de su unidad secret... errrrr unidad de *seguridad* ya están aquí, pero desgraciadamente hay muchos bandidos, y entrar en el mesón es muy difícil. Con un poco de suerte, sus unidades regulares llegarán pronto.~
+@225 = ~No lo sé. ¡Pero no les necesitamos! Juntos seremos lo suficientemente fuertes como para resistir a los bandidos.~
+@226 = ~¡¿El Puño Llameante?! Son una banda de inútiles. Por suerte soy lo bastante poderoso como para liquidar a todos los enemigos.~ ~¡¿El Puño Llameante?! Son una banda de inútiles. Por suerte soy lo bastante poderosa como para liquidar a todos los enemigos.~
+@227 = ~Eso espero. Si necesitáis más información sobre el ataque, puedo seros útil. Ya que estuve aquí cuando empezó el asedio, puedo contaros lo que sé, sólo tenéis que preguntar.~
+@228 = ~Gracias, pero creo que puedo conseguir toda la información a mi manera.~
+@229 = ~Os estaría muy agradecido.~ ~Os estaría muy agradecida.~
+@230 = ~¿Qué información podría conseguir de vos? No tenéis papel en los grandes acontecimientos, así que mantened la boca cerrada.~
+@231 = ~Como deseéis. Estaré aquí, si cambiáis de opinión.~
+@232 = ~Me batiría con vos si la situación no fuera tan delicada. Tened en mente que aún soy Capitán de los guardias; soy yo el responsable de todos los civiles y soldados que hay aquí. ¡No intentéis obstaculizar mi trabajo!~
+@233 = ~¿Tenéis alguna pregunta, aventurero?~ ~¿Tenéis alguna pregunta, aventurera?~
+@234 = ~Dónde está la gente... ¿Consiguieron escapar? ¿Dónde están Bentley y Gellana Sombraespejo?~
+@235 = ~Puedo acabar fácilmente con los bandidos desentrenados, no son mejores que matones callejeros. Sin embargo, sus cabecillas y magos son enemigos mucho peores. ¿Qué sabéis de ellos?~
+@236 = ~A diferencia de los guardias que recuerdo desde mi última visita al Mesón del Brazo Amigo, que llevaban harapos de cuero y parecían desentrenados, vuestros hombres están bien equipados y no temen a la muerte en batalla. ¿Habéis entrenado a vuestros guardias tan bien, en tan poco tiempo?~
+@237 = ~No tengo más preguntas por el momento.~
+@238 = ~Hola de nuevo, aventurero.~ ~Hola de nuevo, aventurera.~
+@239 = ~Me estaba preguntando algunas cosas...~
+@240 = ~Buenos días.~
+@241 = ~Un explorador gravemente herido trajo noticias de un ataque de los bandidos. Murió en mis brazos. Conseguí evacuar a la mayoría de los plebeyos, incluidos Bentley y Gellana. Bentley quería quedarse, pero no quise arriesgar su vida. Los bandidos llegaron antes de lo que esperábamos, así que tuvimos que proteger a la gente que escapaba. Mandé a mis mejores soldados para que escoltaran a Bentley. Ninguno de ellos volvió, pero Felicia está segura de que Bentley consiguió escapar.~
+@242 = ~Espero que no sean los últimos.~
+@243 = ~No podemos ver mucho desde el templo, pero estoy seguro de que sus cabecillas están en el interior del mesón, probablemente en el piso de arriba. Aparte del Ogro Mago, mis hombres informaron de otros dos lanzadores de conjuros. A uno de ellos se le conoce como Reufazzo o Reufazeo. Según los comentarios que he oído, se dice que puede transformar a la gente en piedra.~
+@244 = ~Jeje, sí, claro, encontré algunos cofres con material. Pero ya estaríamos muertos si los guardias *originales* del mesón del Brazo Amigo fueran ahora nuestros defensores. Eran tan cobardes que huyeron tan pronto como escucharon lo de la muerte del explorador. Ni yo ni mis hombres somos gente del lugar. Soy el hermanastro del lugarteniente Campoescudo de Athkatla. Mis soldados son un grupo de luchadores de distintos lugares de la costa de la Espada. Nos dirigíamos hacia la Puerta de Baldur, pero paramos para descansar en el Mesón del Brazo Amigo. Íbamos hacia la casa de Entar Escudo de Plata, ya que un adivinador chalado le dijo al duque que moriría a manos de un asesino. Entar decidió crear un grupo de guardaespaldas de élite, elegidos entre los mejores guerreros de la Costa de la Espada. Y aquí estamos.~
+@245 = ~Lo siento Felicia, pero el aventurero se está enfrentando al Clan, y por ello es nuestro aliado. No puedo hacer nada por el destino de vuestro hermano.~ ~Lo siento Felicia, pero la aventurera se está enfrentando al Clan, y por ello es nuestra aliada. No puedo hacer nada por el destino de vuestro hermano.~
+@246 = ~Lo haré, lo haré. ¡Pero si alguna vez me entero de que mentís, os lanzaré de cabeza a las alcantarillas de Athkatla, niño!~
+@247 = ~¡Un momento, Felicia! ¡No podéis salir! ¡Es muy peligroso!~
+@248 = ~Encontrar a Charles, el hermano de Felicia
+
+Charles, el hermano de Felicia, está muerto. Cuando ella se enteró, salió corriendo del templo. El Capitán Ignas la siguió, para salvarla de las flechas de los bandidos. Considerando lo peligrosa que es la zona, no creo que vuelvan.~
+@249 = ~Ignas ha encontrado algunos cofres en la bodega. Habían muchas cotas de malla, espadas y dagas en su interior.~
+@250 = ~¡Aventureros! ¡Qué bien que estéis aquí! Mi hermano...~
+@251 = ~¡Ja! Dejásteis hablar a Robert, ¿Verdad? ¡Porque es rico e influyente! Vale, vale, ya me callo.~
+@252 = ~No pude correr más rápido, iba rezagada detrás del grupo escoltado por los guardias. De pronto los bandidos aparecieron de la nada, como si las sombras se materializasen ante nosotros. Estaba temblando de miedo *se estremece*. Gracias a Helm pude esconderme entre unos árboles, o me hubieran matado igual que a los demás. Pude verlo todo desde mi escondite, y vi cómo Bentley y un grupo de plebeyos desaparecían en el bosque. Entonces Ignas, que estaba rastreando la zona, me encontró. Una de las carreteras no estaba controlada por los bandidos, así que huimos hacia aquí.~
+@253 = ~Mi hermano Charles se unió a los bandidos. Pero no es un chico tan malo, en realidad, y quiere dejar el Clan. Quería pediros un favor.~
+@254 = ~¿Y qué podría hacer yo?~
+@255 = ~Si vuestro hermano es un bandido, y queréis que le proteja de la ley, ni lo soñéis.~
+@256 = ~Cerrad el pico, mujerzuela.~
+@257 = ~Está muerto. Lo siento.~
+@258 = ~¿El favor de enterrarle? ¡Está criando malvas! Consiguió exactamente lo que merecía.~
+@259 = ~¿Charles? Me acuerdo de ése imbécil. Le ataqué, pero escapó. Le buscaré y le mataré.~
+@260 = ~Vuestro corazón es de piedra.~
+@261 = ~Charles dejó nuestra familia después de la muerte de nuestro padre. Se hizo miembro del Clan, pero cuando le ví por última vez, me dijo que no había matado a nadie, y que lo dejaría tan pronto como pudiera. El Capitán Ignas me prometió que si sobrevivíamos a la invasión, y si mi hermano no había cometido ningún crimen, nos llevaría a Amn. Pero yo no me iré sin mi hermano.~
+@262 = ~Si no ha cometido ningún crimen, debería probarlo ante un tribunal primero.~
+@263 = ~¿Entonces, qué puedo hacer?~
+@264 = ~Ni lo soñéis. No ayudo a los criminales. Va en contra de la ley.~
+@265 = ~El Puño Llameante suele ejecutar a los bandidos inmediatamente después de ser arrestados. Incluso si le dejaran declarar en un tribunal, seguramente le sentenciarían a muerte por conspiración y participación en actos criminales. Charles no tiene futuro aquí, es por eso que debe ir a Amn.~
+@266 = ~Ya veo. ¿Qué puedo hacer por vuestro hermano, entonces?~
+@267 = ~Charles tendrá lo que se merece. Dejad de importunarme con vuestros balbuceos.~
+@268 = ~Él está aquí en el Mesón. Lo sé, porque le he visto. Estaba lejos, pero sabía que era él. Si le encontráis, decidle que ahora puede dejar el Clan, y que no debe temer al Puño Llameante, porque el Capitán Ignas nos escoltará hasta Athkatla.~
+@269 = ~Haré lo que pueda. Quizá pueda revelarnos información de interés sobre el Clan.~
+@270 = ~¡Ni lo soñéis!~
+@271 = ~¡Gracias! ¡Os daréis cuenta de que es un chico majo, lo prometo!~
+@272 = ~Encontrar a Charles, el hermano de Felicia
+
+Felicia, una joven del Mesón del Brazo Amigo, me ha pedido que encuentre a su hermano. Charles es miembro del Clan Gris, pero quiere abandonar la organización.~
+@273 = ~Por favor, dejad que termine la historia de mi hermano...~
+@274 = ~¡¿No ha quedado suficientemente claro?! No voy a ayudaros. Vuestro hermano es un criminal, y tendrá lo que se merece.~
+@275 = ~He cambiado de opinión. Habladme de vuestro hermano.~
+@276 = ~No tenéis corazón.~
+@277 = ~¿Habéis encontrado a Charles? ¿Tenéis noticias de él?~
+@278 = ~No, no le he encontrado todavía. Continuaré buscándole.~
+@279 = ~No, pero ya me he cansado de esto. no creo que malgaste más mi tiempo buscando a vuestro hermano.~
+@280 = ~Está criando malvas. Tuvo su merecido.~
+@281 = ~Ataqué a ese necio, pero escapó. Le buscaré y le mataré.~
+@282 = ~¡Lo habéis prometido! ¡Por favor, no seáis tan cruel!~
+@283 = ~¡Pobre Charles! ¡Espero que esto acabe pronto!~
+@284 = ~¡Noooo! ¡Charles! ¡No me podéis hacer esto!~
+@285 = ~¡Ignas, Ignas, el aventurero es malvado!~ ~¡Ignas, Ignas, la aventurera es malvada!~
+@286 = ~¡Maldito seas! ¡Malditos seáis todos!~ ~¡Maldita seas! ¡Malditos seáis todos!~
+@287 = ~¿Habéis cambiado de opinión? ¡Si encontráis a Charles, os daréis cuenta de que no es un criminal!~
+@288 = ~¡Gracias! ¡Siempre os estaremos agradecidos por lo que habéis hecho por mi hermano!~
+@289 = ~¡Charles! Dijísteis que...~
+@290 = ~¡Buena suerte!~
+@291 = ~Por favor, perdonad a Charles por no revelaros nada importante. Sus posibilidades eran muy limitadas mientras fue miembro del Clan.~
+@292 = ~...¡Y ahí está mi hermano Charles! El Capitán Ignas nos llevará con él a Amn, si logramos salir de aquí...~
+@293 = ~El Capitán Ignas nos llevará a Charles y a mí con él, a Amn. Eso si logramos salir de aquí, claro...~
+@294 = ~¡Me habéis mentido! ¡Ignas, Ignas, el aventurero es malvado!~ ~¡Me habéis mentido! ¡Ignas, Ignas, la aventurera es malvada!~
+@295 = ~Espero que Charles esté bien, y que deje el Clan tan pronto como pueda.~
+@296 = ~¡Aventurero! ¡Veo que venís de fuera! ¿Habéis visto a mi sobrina...?~ ~¡Aventurera! ¡Veo que venís de fuera! ¿Habéis visto a mi sobrina...?~
+@297 = ~Callaos, viejo estúpido. ¿Queréis que os rebane el pescuezo?~
+@298 = ~¿Qué apariencia tiene?~
+@299 = ~No tengo tiempo para esto, lo siento.~
+@300 = ~Lucy es una joven preciosa. Tiene el pelo largo y rubio, y lleva un vestido verde...~
+@301 = ~Desgraciadamente no he visto a nadie con esa apariencia. Sin embargo, voy a inspeccionar todas las casas así como el edificio del Mesón, y encontraré a vuestra sobrina si puedo.~
+@302 = ~Lucy lleva un collar dorado, ¿Verdad? Un bandido intentó violarla, pero lo impedimos. Todavía no he matado al bandido.~
+@303 = ~Lucy lleva un collar dorado, ¿Verdad? Se encuentra bien, está en la casa de al lado de la puerta del Mesón. Le dije que se escondiera allí, podréis ir cuando la amenaza de los bandidos haya terminado.~
+@304 = ~Lleva un collar dorado, ¿verdad? Un bandido ha intentado violarla, pero le matamos. Lucy está bien, está en la casa de al lado de la puerta del Mesón.~
+@305 = ~La chica está muerta. Era una mujerzuela muy molesta y acabé con ella.~
+@306 = ~Le dije que se callara, y de pronto salió de la casa... vaya mujerzuela estúpida.~
+@307 = ~¡Por favor encontrad a Lucy, aventurero! ¡Os entregaré una pequeña recompensa, pero encontradla!~ ~¡Por favor encontrad a Lucy, aventurera! ¡Os entregaré una pequeña recompensa, pero encontradla!~
+@308 = ~Encontrar a Lucy, la sobrina de Robert
+
+Robert, un viejo mercader, me ha pedido que encuentre a su sobrina, Lucy. La chica lleva un vestido verde, y tiene el pelo rubio y largo.~
+@309 = ~¡La habéis dejado sola con ese rufián! ¿Qué tipo de aventurero sois? ¡Debéis volver inmediatamente!~ ~¡La habéis dejado sola con ese rufián! ¿Qué tipo de aventurera sois? ¡Debéis volver inmediatamente!~
+@310 = ~¡Gracias a Ilmater que se encuentra bien! ¡Gracias! ¡Bendito sea vuestro nombre!~
+@311 = ~Encontrar a Lucy, la sobrina de Robert
+
+Lucy, la sobrina de Robert, ha sido rescatada. El mercader nos estuvo muy agradecido, y nos dio 200 piezas de oro como recompensa.~
+@312 = ~¡Eso es imposible! ¡No puedo creerlo! ¡Lucy! ¡Lucy, ¡¿Dónde estás?!~
+@313 = ~Encontrar a Lucy, la sobrina de Robert
+
+Lucy, la sobrina del mercader Robert, está muerta. Robert no pudo creerlo, y abandonó el templo. Probablemente los bandidos le hayan matado ya.~
+@314 = ~¡Sois un completo idiota! Debo encontrar a Lucy antes de que otro bandido la capture!~
+@315 = ~Encontrar a Lucy, la sobrina de Robert
+
+Le dije a la sobrina de Robert que era una mujerzuela estúpida, y que la entregaría a otro bandido si no se callaba de una vez. La chica salió corriendo de la casa. Robert la está buscando, pero estoy seguro que ninguno de los dos volverá con vida debido a la crueldad de los bandidos.~
+@316 = ~¡¿Qué habéis dicho?! ¡¿QUÉ habéis dicho?! ¡Puedo ser viejo, pero sé cómo tratar con gente de vuestra calaña!~
+@317 = ~Por favor... os lo ruego...~
+@318 = ~¡Bendito sea vuestro nombre!~
+@319 = ~¡Por favor, encontrad a Lucy!~
+@320 = ~¿Dónde está Lucy? ¿La habéis encontrado?~
+@321 = ~Todavía no la he encontrado.~
+@322 = ~¡Por favor, seguid buscando! Es una chica lista, ¡Probablemente haya conseguido esconderse en algún sitio!~
+@323 = ~Valioso botín, debo decir. Aquí está. Una clava, un bastón, una daga y esta bonita armadura. Y cuatro pociones. También he encontrado esta llave en el suelo antes de entrar en esta casa. Ahora dadme la recompensa. 5000 piezas de oro, tal como acordamos ayer.~
+@324 = ~¿Cómo ha ido? ¿Habéis tenido suerte?~
+@325 = ~¡La recompensa, claro! Casi se me olvida, lo siento. Calabaza, dale lo que se merece.~
+@326 = ~¡Eh, Calabaza! Parece que tenemos visitantes inesperados...~
+@327 = ~¡Por favor no me hagáis daño! ¡Socorro, forasteros, socorro!~
+@328 = ~¡Me va a hacer daño! ¡Socorro!~
+@329 = ~¡Gracias por salvarme! ¡Bendito seáis! ¿Habéis encontrado a mi tío Robert por casualidad? ¡Espero que se encuentre bien!~
+@330 = ~¡Callaos! Vuestro tio probablemente esté muerto, y yo *no* os he salvado. Habría matado al bandido de todas formas, y si no permanecéis en silencio, os entregaré a otro bandido, mujerzuela.~
+@331 = ~No le he visto, pero con un poco de suerte habrá conseguido escapar o esconderse en alguna parte. Quedaos aquí y escondeos, es peligroso salir afuera. Esperemos que el Puño Llameante llegue pronto, y los bandidos serán expulsados.~
+@332 = ~Robert está en el templo, los guardias le protegen. Fueron atacados por un grupo de bandidos, quienes intentaron entrar en el templo, pero acabamos con ellos. Es peligroso salir afuera, es mejor que os quedéis aquí. Le diré a Robert que estáis aquí, y vendrá a buscaros una vez que el Mesón sea liberado.~
+@333 = ~He matado a vuestro tío, mujerzuela. Su presencia era tan... molesta. Aunque tenia un bonito anillo de plata.~
+@334 = ~¡Bendito seáis!~
+@335 = ~De acuerdo, me quedaré aquí. Si veis a Robert, por favor, decidle que estoy aquí.~
+@336 = ~Así que está bien, gracias a Ilmater. Esperaré aquí. Buena suerte, ¡Y tened cuidado!~
+@337 = ~¡Me equivocaba! ¡Sois peor que esos bandidos!~
+@338 = ~¡Noooo! ¡Era mí único familiar vivo! ¡Sois peor que ésos bandidos! ¡Aaargh!~
+@339 = ~¡Acércate, cariño! ¡Te va a encantar!~
+@340 = ~¡Vos! ¿Qué creéis que estáis haciendo, EH?~
+@341 = ~*Buuurp* Ese pollo estaba delicioso. ¡Odio luchar con el estómago lleno, maldito seáis!~
+@342 = ~¿Cómo c... habéis logrado atravesar el escudo?~
+@343 = ~Bienhallados, aventureros. ¡Bienvenidos a mi confortable morada!~
+@344 = ~Debéis de ser Hertuk. Jedyan os ha mencionado, sois miembro de su unidad. Por cierto, dudo que este lugar sea vuestra morada.~
+@345 = ~¿Pero qué...? ¡Pensaba que había entrado en el Mesón del Brazo Amigo!~
+@346 = ~¿Cómo habéis llegado aquí? ¿Y qué es este lugar?~
+@347 = ~Estaba bromeando cuando dije que era confortable. Habéis llegado aquí del mismo modo que yo: hemos intentado entrar en el primer piso del Mesón del Brazo Amigo. Debe estar protegido por magia poderosa, ya que a cualquier criatura que intente entrar en el Mesón se le teletransporta a esta cueva maldita. No miréis *esa* puerta, tan sólo es una ilusión. Lo he intentado, y no lleva a ninguna parte.~
+@348 = ~¿Entonces cómo vamos a salir de aquí? ¿Y qué es esa criatura roja de ahí?~
+@349 = ~Qué mala suerte. ¿Quién es ésa mujer vestida de rojo de ahí?~
+@350 = ~Un Sirviente de Cristal. Una criatura invocada mágicamente. Tergius me habló de esto hace tiempo. No recuerdo mucho, pero está claro que consideran a cualquier criatura como su señor, pero sólo si esa criatura posee un cierto cristal. Pero yo no tengo ningún cristal... Por desgracia, aunque sea tentador, seria malo para nosotros matarla: estas criaturas están rodeadas de poderosas energías, y su ausencia causaría un paro en el equilibrio mágico del lugar en el que nos encontramos. La trampa mágica se colapsaría, y la magia salvaje liberada nos destruiría.~
+@351 = ~Genial, entonces. Nos pudriremos aquí por toda la eternidad.~
+@352 = ~¿Estáis seguro de que no hay salida?~
+@353 = ~¡Tergius!~
+@354 = ~¡Creo que sé dónde está el cristal! ¿Habéis oído que hay un ogro mago en el templo?~
+@355 = ~Es muy probable que tenga el cristal que necesitamos. Mataré al ogro.~
+@356 = ~Acabaré con el mago. Además, probablemente tenga mucho oro y objetos valiosos.~
+@357 = ~Ya he matado al Ogro mago, y no encontré ningún cristal.~
+@358 = ~Sois un idiota. Ya he matado al mago, y no había ningun cristal entre sus pertenencias.~
+@359 = ~Miraré por ahí, fuera de las murallas, en la parte sudeste de la zona. ¡Buena suerte!~
+@360 = ~Intentad buscarlo dentro de las murallas. Yo buscaré fuera, en la parte sureste de la zona. ¡Buena suerte!~
+@361 = ~¡Tenéis el cristal! ¡Ahora podréis entrar en el Mesón! Yo me quedaré aquí: los refuerzos de los bandidos pueden llegar en cualquier momento, y pueden llegar desde aquí. ¡Buena suerte!~
+@362 = ~Lo lamento, pero no puedo ayudaros a buscar el cristal. Los refuerzos del Clan pueden llegar en cualquier momento, y alguien tendrá que informar a Tergius si vienen por esta dirección.~
+@363 = ~Sois un enemigo de la unidad de Jedyan. ¡Rezad vuestras oraciones!~
+@364 = ~¿Qué deseáis?~
+@365 = ~Cierra el pico.~
+@366 = ~Quiero salir de este lugar. Teletranspórtanos a la entrada del Mesón.~
+@367 = ~Quiero entrar en el Mesón. Teletranspórtanos al primer piso.~
+@368 = ~Como desees.~
+@369 = ~Vos no sois mi señor. No tenéis el cristal.~
+@370 = ~¡Defendeos!~
+@371 = ~No hay tiempo para charlas, amigo.~
+@372 = ~Bienvenido, campesino.~ [BW05GR00]
+@373 = ~¡Vos sois el tipo tatuado al que vimos en el ataque de los bandidos cerca de la Sala de las Maravillas!~
+@374 = ~Todo aquél que me ha llamado campesino hasta el momento está muerto. Ahora váis a uniros a ellos.~ ~Todo aquél que me ha llamado campesina hasta el momento está muerto. Ahora váis a uniros a ellos.~
+@375 = ~Hola, viejo amigo.~ [BW05GR12]
+@376 = ~Miserables campesinos.~ [BW05GR13]
+@377 = ~Matadles a todos.~ [BW05GR10]
+@378 = ~*suspiro* Tengo mejores cosas que hacer que jugar con un puñado de idiotas como vosotros.~ [BW05GR11]
+@379 = ~Los intrépidos aventureros. Ya nos conocemos, ¿Verdad?~ [BW05GR14]
+@380 = ~Este será nuestro último encuentro, estúpido.~
+@381 = ~Así que vos sois el líder del Clan Gris...~
+@382 = ~¡Un momento! Me gustaría presentaros a mis acompañantes.~ [BW05GR15]
+@383 = ~¡Que empiece la diversión!~ [BW05GR16]
+@384 = ~En el nombre de la Orden del Muy Radiante Corazón, y por la voluntad de Torm, os sentencio a todos a muerte. ¡No váis a ensuciar nunca más este reino con vuestra corrupta nigromancia y vuestros planes criminales! ¡La ejecución tendrá lugar aquí y ahora!~
+@385 = ~Saludos.~
+@386 = ~Silencio, hombres. Vuestros cuerpos no son necesarios en este momento. Podéis observar cómo la oscuridad consume la carne y el alma de estos caballeros.~
+@387 = ~(Son caballeros, idiota. No tenemos ninguna posibilidad contra ellos. Les atraeremos hacia la puerta.)~
+@388 = ~¡El más grande de los Señores del Terror, por favor, perdonadme! ¡Os lo ruego! ¡Esta vez no fallaré!~
+@389 = ~Qué armadura tan bonita... ¡Que empiece la diversión, hermano!~
+@390 = ~¡Puedo liquidar a estos caballeros! ¡Sufrirán horriblemente antes de morir, lo prometo! Dadme una oportunidad, mi Señor!~
+@391 = ~Vuestra charla me irrita.~
+@392 = ~Fundor Balorslayer y su hijo Frar son nuestros líderes. Si tenéis algo que decir, hablad con ellos.~
+@393 = ~¿Qué estáis mirando?~
+@394 = ~Hablad con mi padre, Fundor.~
+@395 = ~¿Estáis interesado en una recompensa, aventurero?~ ~¿Estáis interesada en una recompensa, aventurera?~
+@396 = ~No, no lo estoy.~
+@397 = ~¿De cuanto oro estamos hablando?~
+@398 = ~¿Qué queréis que haga? ¿Y quien sois vos?~
+@399 = ~¡Venid Frar, venid, compañeros enanos! Encontraremos el Yelmo por nuestra cuenta. ~
+@400 = ~Ofrezco 800 piezas de oro por el Yelmo Dorado, la reliquia de nuestra familia, que esos condenados bandidos nos robaron. 800 piezas de oro, ni más ni menos.~
+@401 = ~¿Qué tal 1000 piezas de oro?~
+@402 = ~Acepto vuestra oferta. Volveré con vuestra reliquia.~
+@403 = ~Por esa cantidad, no me molestaría siquiera en matar a un estúpido enano como vos.~
+@404 = ~Mirad este objeto. ¿Os es familiar? Lo tendréis si me pagáis 5000 piezas de oro. Ni más, ni menos. ¡Jajaja! ¡Ni más, ni menos!~
+@405 = ~Ya he encontrado el Yelmo que buscábais. Aquí está.~
+@406 = ~Ya he encontrado la reliquia de vuestra familia. Pido 1000 piezas de oro por ella.~
+@407 = ~Soy Fundor Balorslayer. Él es mi hijo, Frar. Esos malditos bandidos robaron una reliquia de nuestra familia, un Yelmo Dorado. Estamos aquí para recuperarlo. Sin embargo, no conocemos esta zona de la Costa de la Espada, por eso queremos contrataros para que nos ayudéis a recuperar el Yelmo.~
+@408 = ~Os ayudaré a cambio de 9000 piezas de oro.~
+@409 = ~¿Cuánto oro podéis ofrecer?~
+@410 = ~No me importa vuestra reliquia. No obstante, sí que me importan vuestras brillantes armaduras y armas. Será un placer mataros de todas formas.~
+@411 = ~¡A las armas, compañeros! ¡Enseñémosles cómo luchan los Balorslayer!~
+@412 = ~Dejad que lo piense un momento...~
+@413 = ~Hmm. Tendréis 1000 piezas de oro y no más, si recuperáis el Yelmo Dorado. ¡Vamos! ¡Encontrad el Yelmo antes de que se lo lleven a cualquier otra parte!~
+@414 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+Me he encontrado con Fundor Balorslayer y su hijo, quienes vinieron al Mesón del Brazo Amigo para recuperar una reliquia de su familia que fue robada por los bandidos. Me ha ofrecido una bonita suma si recupero la reliquia, un yelmo dorado.~
+@415 = ~Muy bien. Esperaremos aquí. ~
+@416 = ~¡En efecto, es nuestro yelmo! Pero yo sólo he ofrecido 800, ¿Y osáis subir el precio? De todos modos, seria blasfemia manchar nuestra reliquia con vuestra sangre. 1000 piezas de oro, aquí tenéis.~
+@417 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+Me he encontrado con Fundor Balorslayer y su hijo, quienes vinieron al Mesón del Brazo Amigo para recuperar una reliquia de su familia que fue robada por los bandidos. Encontré la reliquia, un yelmo dorado, y se la di al enano por 1000 piezas de oro.~
+@418 = ~¡Nuestra reliquia! ¡Está intacta! Os estoy muy agradecido, aventureros. 800 piezas de oro, aquí están. Tomad también este martillo de guerra. Venid, compañeros, nos vamos a casa.~
+@419 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+Me he encontrado con Fundor Balorslayer y su hijo, quienes vinieron al Mesón del Brazo Amigo para recuperar una reliquia de su familia que fue robada por los bandidos. Encontré la reliquia, un yelmo dorado, y se la di al enano. Estuvo muy agradecido, y nos ha recompensado con 800 piezas de oro y un martillo de guerra mágico.~
+@420 = ~¡No tenéis el yelmo! ¡Devolvedlo si lo tenéis!~
+@421 = ~¡Tenéis nuestra reliquia! ¡Y está intacta!  Les hubiera dado una buena lección a esos bandidos si hubiera sufrido algun daño, lo juro. Aventureros, aquí tenéis vuestro oro. 800 piezas de oro, tal y como acordamos. Tomad también este martillo de guerra. Venid, compañeros, nos vamos a casa.~
+@422 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+La reliquia de la familia Balorslayer ha sido devuelta a sus propietarios originales. Fundor mantuvo su palabra, y me pagó 800 piezas de oro. También me ha regalado un martillo de guerra mágico.~
+@423 = ~¡Tenéis nuestra reliquia! ¡Y está intacta!  Les hubiera dado una buena lección a esos bandidos si hubiera sufrido algun daño, lo juro. Aventureros, aquí tenéis vuestro oro. 1000 piezas de oro, tal y como acordamos. Venid, compañeros, nos vamos a casa.~
+@424 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+La reliquia de la familia Balorslayer ha sido devuelta a sus propietarios originales. Fundor mantuvo su palabra, y me pagó 1000 piezas de oro por recuperar su yelmo dorado.~
+@425 = ~¡Nuestra reliquia! ¡Está intacta! Os estoy muy agradecido, aventureros. 800 piezas de oro, aquí están. Venid, compañeros, nos vamos a casa.~
+@426 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+Me he encontrado con Fundor Balorslayer y su hijo, quienes vinieron al Mesón del Brazo Amigo para recuperar una reliquia de su familia que fue robada por los bandidos. Encontré la reliquia, un yelmo dorado, y se la di al enano. Estuvo muy agradecido, y nos ha recompensado con 800 piezas de oro. Era un idiota, porque no se dio cuenta de que le habíamos robado un martillo de guerra de su mochila.~
+@427 = ~¡Tenéis nuestra reliquia! ¡Y está intacta!  Les hubiera dado una buena lección a esos bandidos si hubiera sufrido algun daño, lo juro. Aventureros, aquí tenéis vuestro oro. 800 piezas de oro, tal y como acordamos. Venid, compañeros, nos vamos a casa.~
+@428 = ~Encontrar el Yelmo de Fundor Balorslayer
+
+La reliquia de la familia Balorslayer ha sido devuelta a sus propietarios originales. Fundor mantuvo su palabra, y me pagó 800 piezas de oro. El enano era un idiota, porque no se dio cuenta de que le habíamos robado un martillo de guerra de su mochila.~
+@429 = ~Saludos, hijo. Así que habéis llegado. Jusam me dijo que habíais sido enviados aquí. Espero que hayáis tenido un viaje agradable.~ ~Saludos, hija. Así que habéis llegado. Jusam me dijo que habíais sido enviados aquí. Espero que hayáis tenido un viaje agradable.~
+@430 = ~No confío en vos, viejo. Hablad.~
+@431 = ~Soy Tergius, sabio y científico. Guío a Lord Jusam en los caminos de la sabiduría.~
+@432 = ~¿Por qué debería confiar en vos? Os encuentro solo en una zona repleta de bandidos, y estáis totalmente calmado y satisfecho, como si estuviérais aquí para respirar aire fresco. Tengo serias razones para pensar que sois o un bufón o un conspirador del Clan.~
+@433 = ~Sigo sin confiar en vos. Ahora moriréis.~
+@434 = ~Deberíais reconsiderarlo. Las decisiones precipitadas pueden traer peligro e incluso muerte sobre vos.~
+@435 = ~¡Dejad de llamarme 'hijo', viejo! ¿Tenéis algo que pueda probar vuestra identidad? Pienso en... ¡esperad! ¿Qué podéis decirme del tiempo? ¡Hablad!~ ~¡Dejad de llamarme 'hija', viejo! ¿Tenéis algo que pueda probar vuestra identidad? Pienso en... ¡esperad! ¿Qué podéis decirme del tiempo? ¡Hablad!~
+@436 = ~Vale, no voy a mataros, de momento. Pero tenéis que identificaros de alguna forma.~
+@437 = ~Me alegra ver que hacéis alarde de sabiduría. Aún así, tenéis mucho que aprender... La tormenta se acerca, pero la luz vendrá.~
+@438 = ~Veo que conocéis la contraseña. Espero que seáis la persona que pretendéis ser. ¿Por qué habéis venido aquí? ¿Cómo podéis haber llegado tan rápido?~
+@439 = ~Conocéis la contraseña. Sigo sin confiar del todo en vos, pero quizá eso cambie pronto. Decidme cómo habéis llegado hasta aquí.~
+@440 = ~Como sabéis, Lord Jusam se marchó inmediatamente cuando supo que el Mesón del Brazo Amigo había sido invadido por los bandidos. He venido para ayudaros. Mi viaje ha sido corto, en efecto, ya que he utilizado mi magia para venir aquí; aunque soy incapaz de teletransportar ejércitos, he podido traer a Talibehius y a Hertuk conmigo. Si tenéis la mínima pregunta sobre el Clan, preguntad ahora. Y claro, vos escogéis si confiáis en mí o no.~
+@441 = ~Habladme del Clan Gris.~
+@442 = ~¿Pensáis que existe un vínculo entre los jefes del Trono de Hierro y los bandidos del Clan?~
+@443 = ~¿Dónde consiguen los bandidos sus armas y provisiones?~
+@444 = ~¿Quién es el jefe del Clan?~
+@445 = ~¿Quién era ése Gartuffe?~
+@446 = ~¿Quién es el 'Más grande de los Señores del Terror'?~
+@447 = ~¿Alguna pregunta?~
+@448 = ~Estoy herido. ¿Podéis curarme?~ ~Estoy herida. ¿Podéis curarme?~
+@449 = ~De acuerdo con la teoría actual, cuando el campamento de los Bandidos fue destruido, y los bandidos desorganizados fueron capturados o ejecutados por el Puño Llameante, una parte de ellos huyó y formó un nuevo grupo. El emplazamiento de su base todavía nos es desconocido. Poseen oro y objetos de gran calidad. Los bosques son el mejor lugar para esconderse, y saben cómo domesticar lobos y usarlos como animales de guerra. Están por todas partes en la Puerta de Baldur, igual que en otras ciudades, poniendo en peligro la seguridad pública, infiltrándose en el Puño Llameante, incluso sobornando a sus miembros si es necesario. Son adversarios muy serios, en efecto.~
+@450 = ~Estoy seguro de que no hay vínculo entre ambos grupos. El Clan quiere poseer el control de todo y de todos, y no piensa compartirlo con otras organizaciones. De hecho, puede ser que tomar el control del Trono de hierro sea uno de los planes más importantes del Clan Gris.~
+@451 = ~Supongo que obtienen el oro, las armas y su equipo del Zhentarim. En caso contrario, el Clan nunca habría podido conocer tal crecimiento. Eso sí, no tengo ninguna prueba que demuestre mi parecer.~
+@452 = ~Investigando las actividades del Clan Gris
+
+Según un mago llamado Tergius, los bandidos del Clan Gris se aprovisionan gracias al Zhentarim.~
+@453 = ~Es vergonzoso, pero no puedo responder a esta pregunta, porque no conozco la respuesta. *suspiro*~
+@454 = ~Gartuffe, al que habéis visto morir, es el hermano mayor de Tazok, el jefe semiogro que sirve al Trono de Hierro. Gartuffe ha escogido un camino distinto al de su hermano, y ha llegado a una alta posición gracias a su malicia, a su fuerza, y a su crueldad. Me alegra saber que está muerto.~
+@455 = ~No podemos hablar ahora mismo, hay criatuas hostiles cerca.~
+@456 = ~¡No tenemos mucho tiempo! Puedo teletransportaros fuera de aquí, pero mi poder no es capaz de penetrar el escudo mágico, así que no puedo llevaros al inerior del Mesón. Tendréis que encontrar el cristal vos mismo y volver aquí. El sirviente de Cristal seguirá vuestras órdenes, y podréis pedirle que os lleve al interior del Mesón. No iré con vos, debo volver a mi posición original y destruir cualquier refuerzo que llegue para el Clan.~
+@457 = ~¡Érais uno de los mejores, pero no estábais satisfecho! ¡Moriréis hoy, traidor!~
+@458 = ~Veo que estáis protegido contra la magia, por eso mi conjuro no funcionará. Volved una vez que os hayáis quitado las protecciones.~
+@459 = ~Hertuk y vos habéis tenido suerte. Si no me hubiera dado cuenta de que estábais atrapados aquí, ya estaríais muertos.~
+@460 = ~¿Por qué preguntáis eso? ¿Dónde lo habéis oído? ¡Hablad, hijo!~ ~¿Por qué preguntáis eso? ¿Dónde lo habéis oído? ¡Hablad, hija!~
+@461 = ~He visto a tres caballeros de la Orden del Muy Radiante Corazón. Encontraron a dos bandidos, quienes decidieron atraer a los paladines hacia la puerta. Probablemente esperaban que los Gólems guardianes de la puerta acabarían con ellos. Pero después de unos pasos, un hombre vestido de negro, aparentemente un nigromante, apareció de entre los arbustos. La cara de los bandidos reflejaba un miedo mortal, uno de ellos se dirigió al mago como 'El mayor de los Señores del Terror'. Los caballeros parecían nerviosos, su líder sentenció a muerte al mago, y le atacaron. Entonces ocurrió algo horrible: Con sólo decir tres o cuatro palabras mágicas, ¡El nigromante les convirtió en esqueletos!~
+@462 = ~Vi a unos paladines amnianos, que perseguían a unos bandidos. Entonces un hombre vestido de negro apareció, los bandidos se asustaron, y uno de ellos se dirigió al mago como  'El mayor de los Señores del Terror'. Al final, el mago transformó a los paladines en muertos viventes y desapareció.~
+@463 = ~Si esto tiene alguna relación con el Clan, tenemos problemas y de los gordos. Y no ha sido un accidente. La presencia de caballeros de la Orden indica que algo malvado se esconde por ahí... algo peor que los bandidos. El hecho de que haya aparecido el mago es aún más terrible, si cabe. Tan sólo sé de alguien que sea capaz de liberar ese tipo de magia negra con tan pocas palabras: Xephistagoras.~
+@464 = ~¿Quién es Xephistagoras? ¿Qué relación puede tener con el Clan?~
+@465 = ~Me pregunto dónde se encuentra. Con o sin Magia Negra, creo que seremos capaces de liquidar al nigromante. Tan sólo necesito saber más de sus poderes y debilidades. Aparte de esto, ¿Tenéis alguna suposición sobre su papel en el Clan?~
+@466 = ~Si esto tiene alguna relación con el Clan, tenemos problemas y de los gordos. Y no ha sido un accidente. La presencia de caballeros de la Orden indica que algo malvado se esconde por ahí... algo peor que los bandidos. El hecho de que haya aparecido el mago es aún más terrible, si cabe. Tan sólo sé de alguien que sea capaz de liberar ese tipo de magia negra con tan pocas palabras: Xephistagoras.~
+@467 = ~He oído historias muy oscuras sobre el pasado del mago. Hace mucho tiempo, estos relatos existieron en forma escrita, pero eran tan horribles que las páginas de aquéllos libros no pudieron soportar el peso del texto, y se deshicieron hasta convertire en polvo. No, no es el mejor momento ni el mejor lugar para hablar del Mayor de los Señores del Terror, hijo. Tampoco puedo responder a vuestra segunda pregunta. Es vergonzoso que un mago como yo no pueda detectar las conexiones reales entre el Clan. Pensaba que era un buen adivino, pero el poder del mal parece ser mayor de lo que jamás hubiera imaginado.~
+@468 = ~Historias Oscuras
+
+Tergius no tiene ni idea de los detalles de la posible relación entre Xephistagoras y el Clan Gris. Excepto que el nigromante ha sido muy malvado, no quiso decirnos nada sobre el pasado ni sobre la naturaleza de Xephistagoras.~
+@469 = ~¿Suposiciones sobre su papel en el Clan? Desearía que vuestra pregunta fuera más correcta, ya que más bien parece que estemos hablando del papel *del Clan* en *sus* planes, hijo. Y no, no tengo ninguna suposición. He oído relatos escalofriantes sobre el pasado del mago. Hace mucho tiempo, estos relatos existieron en forma escrita, pero eran tan horribles que las páginas de aquéllos libros no pudieron soportar el peso del texto, y se deshicieron hasta convertirse en polvo. No, no es el mejor momento ni el mejor lugar para hablar del Mayor de los Señores del Terror, hijo.~ ~¿Suposiciones sobre su papel en el Clan? Desearía que vuestra pregunta fuera más correcta, ya que más bien parece que estemos hablando del papel *del Clan* en *sus* planes, hija. Y no, no tengo ninguna suposición. He oído relatos escalofriantes sobre el pasado del mago. Hace mucho tiempo, estos relatos existieron en forma escrita, pero eran tan horribles que las páginas de aquéllos libros no pudieron soportar el peso del texto, y se deshicieron hasta convertirse en polvo. No, no es el mejor momento ni el mejor lugar para hablar del Mayor de los Señores del Terror, hija.~
+@470 = ~Jedyan y sus hombres han llegado, y los bandidos serán expulsados en poco tiempo. Un pequeño ejército de bandidos ha atacado a Jusam y su grupo, así que todavía no han llegado. Hertuk y Talibehius se han marchado para ayudarles, nosotros también nos iremos en cuestión de minutos.~
+@471 = ~He conseguido entrar en el Mesón y he matado a los líderes de las fuerzas invasoras.~
+@472 = ~Los líderes de los bandidos ya están muertos, pero he encontrado este pergamino en el equipo de uno de sus cabecillas. ¿Antes de iros, podríais echarle una ojeada?~
+@473 = ~Dejadme ver... es un mensaje cifrado, en realidad....... ¡Sí! ¡Mirad las primeras letras de cada frase! Estoy seguro de que seréis capaz de interpretarlo vos mismo. Si necesitáis equipo mágico antes de iros, hablad con Jeremias. Buena suerte, hijo. Tengo el presentimiento de que nos encontraremos pronto. Muy pronto.~ ~Dejadme ver... es un mensaje cifrado, en realidad....... ¡Sí! ¡Mirad las primeras letras de cada frase! Estoy seguro de que seréis capaz de interpretarlo vos misma. Si necesitáis equipo mágico antes de iros, hablad con Jeremias. Buena suerte, hija. Tengo el presentimiento de que nos encontraremos pronto. Muy pronto.~
+@474 = ~Hicísteis un buen trabajo, pero todavía no habéis terminado. Siento la presencia de otro líder del Clan, podría estar en Beregost o en algún lugar de los alrededores. Lo lamento, hijo. No podemos hablar por más tiempo, porque temo que si no me voy para ayudar a Jusam inmediatamente, será demasiado tarde. Si necesitáis equipo mágico, hablad con Jeremias... Buena suerte, hijo. Tengo el presentimiento de que nos encontraremos pronto. Muy pronto.~ ~Hicísteis un buen trabajo, pero todavía no habéis terminado. Siento la presencia de otro líder del Clan, podría estar en Beregost o en algún lugar de los alrededores. Lo lamento, hija. No podemos hablar por más tiempo, porque temo que si no me voy para ayudar a Jusam inmediatamente, será demasiado tarde. Si necesitáis equipo mágico, hablad con Jeremias... Buena suerte, hija. Tengo el presentimiento de que nos encontraremos pronto. Muy pronto.~
+@475 = ~¡Saludos, hijo! Soy Tergius, amigo y mentor de Jusam. Nos alegramos de veros de nuevo. Estábamos preocupados, porque uno de nuestros espías informó de que habíais desaparecido en el campo de teletransporte de Dervanto, un mago traicionero del Clan Gris. ¿Adónde íbais? ¿Qué ha ocurrido, hijo?~ ~¡Saludos, hija! Soy Tergius, amigo y mentor de Jusam. Nos alegramos de veros de nuevo. Estábamos preocupados, porque uno de nuestros espías informó de que habíais desaparecido en el campo de teletransporte de Dervanto, un mago traicionero del Clan Gris. ¿Adónde íbais? ¿Qué ha ocurrido, hija?~
+@476 = ~¡Habéis vuelto! ¡Saludos, hijo! Estábamos preocupados, porque uno de nuestros espías informó de que habíais desaparecido en el campo de teletransporte de Dervanto, un mago traicionero del Clan Gris. Contadme qué ha ocurrido, hijo.~ ~¡Habéis vuelto! ¡Saludos, hija! Estábamos preocupados, porque uno de nuestros espías informó de que habíais desaparecido en el campo de teletransporte de Dervanto, un mago traicionero del Clan Gris. Contadme qué ha ocurrido, hija.~
+@477 = ~Justo lo que me temía. Nos equivocábamos al pensar que el Clan se había formado de los restos de las fuerzas de  bandidos de Tazok y la Garra Negra. También nos equivocábamos relacionándolos con el Zhentarim: no parece haber conexión alguna entre ambos grupos. Las raíces del Clan se pueden encontrar lejos de aquí. Y son mucho más poderosos de lo que imaginábamos. Hmm, Legencase... Legencase... no me suena ese nombre. Intentaré encontrarlo de alguna forma, pero mi poder de adivinación no ha podido rivalizar con sus protecciones mágicas últimamente. Es como si hubiera realmente una academia de magos en ese lugar...~
+@478 = ~Pensábamos que nos encontrábamos bajo la luz del día, y el *sol* brillaba. No nos dimos cuenta de que, en realidad estábamos bajo la débil luz de los candiles, rodeados por la oscuridad. Por la oscuridad que aún nos ciega, y que aún intenta consumirnos.~
+@479 = ~Investigando las actividades del Clan Gris
+
+Debido a la gran cantidad de muertos y al golpe que hemos asestado a sus cabecillas, la organización local del Clan Gris se colapsará enseguida. Sin embargo, el Clan es mucho mayor de lo que imaginábamos. Está controlado desde un lugar llamado Legencase. Ni siquiera Tergius sabe dónde podría encontrarse Legencase. Estamos llenos de preguntas sin respuesta, y tengo el presentimiento de que mi papel en la historia del Clan no ha llegado a su fin todavía. Pero es cierto que un episodio de esta historia se ha cerrado hoy.~
+@480 = ~¡Eh, amigo! ¿Os gusta la cerveza? Me encanta la cerveza.~ ~¡Eh, amiga! ¿Os gusta la cerveza? Me encanta la cerveza.~
+@481 = ~Sí, me gusta la cerveza.~
+@482 = ~Detesto la cerveza.~
+@483 = ~Pensé que érais Talibehius, pero creo que me he equivocado.~
+@484 = ~¡Me alegro de oír eso, amigo! ¡Deberíamos hacer un concurso de bebida un día! Je je je...~ ~¡Me alegro de oír eso, amiga! ¡Deberíamos hacer un concurso de bebida un día! Je je je...~
+@485 = ~Sois un tipo raro, en efecto. Pensaba que los guerreros del Puño Llameante se comportaban como paladines y tenían al menos un minimo de etiqueta. Y vos no os habéis identificado todavía, cosa que puede provocar serios problemas.~
+@486 = ~Oh, ¡Qué lástima! Pero no importa, beberemos otra cosa entonces.~
+@487 = ~Soy Talibehius, en efecto. Gran y famoso guerrero del gran y famoso Puño Llameante, bla bla bla... tranquilo, no hay motivo para crisparse. ¡Disfrutad de vuestra estancia!~ ~Soy Talibehius, en efecto. Gran y famoso guerrero del gran y famoso Puño Llameante, bla bla bla... tranquila, no hay motivo para crisparse. ¡Disfrutad de vuestra estancia!~
+@488 = ~Je, je, oficialmente soy un miembro de los Llameantes, pero sigo mis propias reglas. Me necesitan porque les faltan tipos fuertes y... duros como yo. Ya que estoy, la tormenta se acerca pero la luz vendrá.~
+@489 = ~Creo que sois un estafador.~
+@490 = ~Me ha encantado la charla. Hasta luego, Talibehius.~
+@491 = ~*Buuurp.*~
+@492 = ~Nos vemos luego, amigo.~
+@493 = ~Normalmente os mataría por decir eso, pero hoy haré una excepción.~
+@494 = ~¿Qué ocurre?~
+@495 = ~*cof* Ellos... *cof* ¡Están en la casa! *cof* *cof*~
+@496 = ~¡Dejadme en paz! Estoy probando cómo resisto el daño físico en mi actual forma.~
+@497 = ~Hmm, parece que tenemos visita. Eh vos, ¡¿Sabéis que es de muy mala educación introducirse en la casa de un honrado ciudadano?! ¡Gartuffe! ¡¡Liquidemos a estos idiotas!!~
+@498 = ~Aaah... ayudaaadme... me dueleee...~
+@499 = ~Tomad, bebed esta poción de curación.~
+@500 = ~Aguantad, iré a buscar una poción de curación para vos.~
+@501 = ~Aaah...~
+@502 = ~Aaaah... Me siento mucho mejor ahora. ¡Bendito seáis, aventurero!~
+@503 = ~¿Tenéis información importante acerca del Clan?~
+@504 = ~No necesito bendiciones... ¿Qué habéis escuchado en sus conversaciones?~
+@505 = ~Hablaron de iniciar una invasión a un mesón fortificado. *cof* El semiogro de piel negra también mencionó que le gustan los gnomos vivos para cenar... *ugh* Basándome en lo que he escuchado, parece que no trabajan para el Trono de Hierro. No recuerdo nada más que sea relevante.~
+@506 = ~Gracias por vuestra ayuda, estoy seguro de que nos ayudará a encontrar y destruir a su organización.~
+@507 = ~¡Esa información no nos sirve de nada! ¿No mencionaron algún nombre o algún lugar? ¡Intentad esforzaros un poco más en recordar!~
+@508 = ~Lamento no poder ser de más ayuda.~
+@509 = ~Por favor...~
+@510 = ~¡Benditos seáis, aventureros!~
+@511 = ~La tormenta se acerca, pero la luz vendrá.~
+@512 = ~Un mensaje de Talibehius: el Clan ha capturado a una de nuestras espías. Debemos liberarla rápidamente, quién sabe lo que le harán si no intervenimos. De acuerdo con las informaciones que hemos recibido, los bandidos irrumpieron en una casa en el distrito Noroeste, cerca de la mansión de Entar Escudo de Plata.~
+@513 = ~¡Buena suerte, Lord Jusam!~
+@514 = ~Lo lamento amigo, pero no tengo tiempo para charlas.~
+@515 = ~He  hablado con el General Jedyan, y...~
+@516 = ~Siento molestaros.~
+@517 = ~No pasa nada.~
+@518 = ~El cielo está despejado hoy, ¿No creéis?~
+@519 = ~El cielo es azul. El tiempo cambia con rapidez.~
+@520 = ~La luz se acerca, pero la tormenta vendrá.~
+@521 = ~El sol brilla.~
+@522 = ~La tormenta se acerca, pero la luz vendrá.~
+@523 = ~No tengo ni idea de lo que me estáis diciendo.~
+@524 = ~¡Un nuevo recluta! Bienvenido a nuestra comunidad secreta. El General Jedyan es nuestro jefe, y el más leal servidor del Duque Eltan. No hay tiempo que perder, así que dejadme relataros la situación.~ ~¡Una nueva recluta! Bienvenida a nuestra comunidad secreta. El General Jedyan es nuestro jefe, y el más leal servidor del Duque Eltan. No hay tiempo que perder, así que dejadme relataros la situación.~
+@525 = ~Estoy contento de unirme a vosotros.~ ~Estoy contenta de unirme a vosotros.~
+@526 = ~Lo siento, pero no me interesa.~
+@527 = ~Ya que sabéis demasiado sobre nuestra comunidad, me temo que tendremos que mataros si reveláis cualquier información sobre nuestra organización. ahora os permitiré marcharos, pero recordad que deberéis mantener la boca cerrada sobre ello.~
+@528 = ~He cambiado de opinión, me gustaria unirme a vosotros. Os lo ruego, informadme de la misión.~
+@530 = ~¡Queréis batiros! Queréis batiros, ¿Verdad?~
+@531 = ~Tranquilo, no diré nada a nadie. Adiós.~
+@532 = ~Parece que el problema es peor de lo que imaginábamos en un principio. Una vez que el Puño Llameante destruyó las últimas posiciones de los bandidos, creíamos que la amenaza había terminado. Desgraciadamente, un grupo de bandidos se ha escapado y ha formado un Clan. Se hacen llamar "El Clan Gris". Son peligrosos y tienen muchos recursos a su disposición. Ignoramos quién les apoya y les aprovisiona de armas de gran calidad, oro y provisiones. También ignoramos si existe un vínculo entre el Clan y el grupo que está detrás de los problemas de la Costa de la Espada.~
+@533 = ~Estoy preparado para todo. ¿Qué podemos hacer?~ ~Estoy preparada para todo. ¿Qué podemos hacer?~
+@534 = ~Ya que habéis demostrado vuestras aptitudes contra los bandidos, querría...~
+@535 = ~Pero qué...¡¡¡A las armas!!~
+@536 = ~¡Están por todas partes! Debo contactar...~
+@537 = ~¡Alto! ¿Qué opináis del cielo?~
+@538 = ~¿Alguna noticia?~
+@539 = ~Entonces debemos partir de inmediato. Separémonos y busquemos por las distintas casas del distrito. De esta forma les localizaremos más rápido. ¡Vamos!~
+@540 = ~Investigando las actividades del Clan Gris
+
+Después de ser atacados por un grupo de bandidos, un explorador del Puño Llameante ha venido y nos ha informado que uno de los espías del Puño Llameante ha sido capturado por el Clan. Debemos empezar la búsqueda en las casas cercanas a la de Entar Escudo de Plata.~
+@541 = ~Veo que habéis combatido bien, y habéis salvado a nuestra espía... parece que está herida y necesita vuestra ayuda.~
+@542 = ~Llegáis justo a tiempo, Jusam. Intentaré ocuparme de la chica, parece que está gravemente herida, en efecto.~
+@543 = ~¡Me habéis enviado a una muerte segura! Al igual que a esta pobre espía... intentaré curar sus heridas.~
+@544 = ~¿Habéis descubierto algo importante? ¿Cómo está nuestra espía, puede hablar?~
+@545 = ~Debe reposar por ahora, pero puedo contaros lo que me ha dicho. Es muy probable que el Clan no trabaje para el Trono de Hierro, incluso puede que sean enemigos. También ha dicho que los bandidos planeaban invadir un... mesón. No tengo ni idea de porqué se necesita un ejército para invadir un mesón. Según los bandidos, el lugar está dirigido por unos gnomos.~
+@546 = ~Debe reposar por ahora, pero puedo contaros lo que me ha dicho. Es muy probable que el Clan no trabaje para el Trono de Hierro, incluso puede que sean enemigos. También ha dicho que los bandidos planeaban invadir un mesón fortificado regentado por unos gnomos... ¡Sospecho que se referían al Mesón del Brazo Amigo!~
+@547 = ~Lo siento.~
+@548 = ~Investigando las actividades del Clan Gris
+
+Hemos atacado a uno de los miembros de la unidad secreta del Puño Llameante de Jedyan. Nuestra misión de investigar al Clan Gris se ha ido al garete.~
+@549 = ~¡Lo lamento, pero voy a tener que mataros, canalla!~
+@550 = ~Adiós.~
+@551 = ~Investigando las actividades del Clan Gris
+
+No me interesaba formar parte de la unidad secreta del Puño Llameante y rechacé su oferta. Ahora no habrá manera de contactar con ellos.~
+@552 = ~Una poción de curación o los conjuros de un clérigo servirán perfectamente.~
+@553 = ~Nuestra espía aún estaba viva cuando llegamos, pero ha muerto durante la batalla. Hemos fracasado. Adiós.~
+@554 = ~Investigando las actividades del Clan Gris
+
+Desgraciadamente, la única persona capaz de informarnos sobre el Clan ha muerto. Hemos fallado en nuestro intento de investigar las actividades del Clan Gris.~
+@555 = ~¡A las armas!~
+@556 = ~¡Debe de ser el Mesón del Brazo Amigo! Aunque parece una gran fortaleza, tan sólo tienen unos pocos guardias como defensa, que no servirán de mucho contra un asalto en masa. Los guardias están tan pobremente entrenados que probablemente huyan cuando vean a un simple farfullero desdentado. No puedo ni imaginar la masacre que los bandidos pueden ocasionar allí. Ni siquiera Bentley y Gellana serían capaces de resistir a tantos bandidos. ¡Debéis dirigiros allí de inmediato! Informaré a Tergius y a Hertuk, y prepararé al Puño Llameante para un asalto.~
+@557 = ~Investigando las actividades del Clan Gris
+
+La organización de ésos bandidos "grises" no tiene relación con el trono de Hierro, según parece. Puede que en este mismo momento traten de invadir el Mesón del Brazo Amigo. Si es así,los plebeyos del mesón corren grave peligro.~
+@558 = ~Espero que los bandidos tengan mucho oro... ¡No me gustaría arriesgar mi vida sólo para salvar a unos gnomos estúpidos!~
+@559 = ~Viajaré hacia allí tan pronto como me sea posible, y haré lo que esté en mi mano para salvar a esa gente.~
+@560 = ~¡Marchaos!~
+@561 = ~Os habéis opuesto al grupo de élite del Puño Llameante, y habéis puesto en peligro el éxito de nuestra misión. Lamento que nuestra cooperación tenga que terminar de esta manera tan dolorosa.~
+@562 = ~Algunos bandidos de los que han atacado están seriamente heridos, y pueden estar escondidos en alguna parte, encontradles y matadles.~
+@563 = ~¡Gracias a los dioses que estáis vivo, <CHARNAME>! ¿Dónde estábais? ¿Qué ha ocurrido?~ ~¡Gracias a los dioses que estáis viva, <CHARNAME>! ¿Dónde estábais? ¿Qué ha ocurrido?~
+@564 = ~Parece que el Clan Gris está controlado desde un lugar llamado Legencase. El líder de las fuerzas del Clan en la región era Teven, un antiguo bandido de la Garra Negra. Le he matado, así como a dos sacerdotisas, quienes aparentemente habían llegado de la academia de Legencase. Ya que sus líderes han muerto, y la mayoría de los bandidos han muerto o han sido capturados por el Puño Llameante en el Mesón del Brazo Amigo, estamos seguros de que la organización en esta región se colapsará rápidamente.~
+@565 = ~Parece que el Clan Gris está controlado desde un lugar llamado Legencase. El líder de las fuerzas del Clan en la región era Teven, un antiguo bandido de la Garra Negra. No tuve oportunidad de matarle, ya que después de acabar con las dos sacerdotisas de la academia de Legencase que le acompañaban, huí del lugar con la ayuda de la piedra de guarda que encontré. Aunque Teven vive todavía, los demás líderes de la organización local del Clan están muertos, y ya que la mayoría de los bandidos han muerto o han sido capturados por el Puño Llameante en el Mesón del Brazo Amigo, estamos seguros de que la organización en esta región se colapsará rápidamente...~
+@566 = ~Si las fuerzas locales del Clan han sido controladas desde un lugar tan distante, el Clan Gris debe de ser mucho mayor de lo que imaginábamos. Estamos en grave peligro. El bueno de Jedyan probablemente sabría qué deberíamos hacer ahora. Las traicioneras fuerzas del mal acabaron con su vida, ¡Pero su espíritu noble nos guiará siempre!~
+@567 = ~¿Qué le ha ocurrido al general?~
+@568 = ~Me lo encontré. Pero no era el general, sólo su cadáver animado. La horrible creación de Grachus.~
+@569 = ~Algunos bastardos del Clan irrumpieron en su casa por la noche. Considerando lo poderoso que era nuestro general, los asesinos no eran principiantes. ¡Y atacaron de noche, desde las sombras! No hay soldado que pueda defenderse en esas circunstancias. ¡Pero terminaremos su obra! Desgraciadamente, el Duque Eltan no puede mantener en secreto a nuestra organización por más tiempo, así que con su consentimiento y aprobación, he decidido separarme del Puño Llameante. No podemos esperar más ayuda de las fuerzas regulares, pero con la ayuda desinteresada de estos voluntarios y veteranos, continuaremos nuestras actividades para defender a los inocentes y proteger nuestro hogar.~
+@570 = ~No importa lo poderoso que sea el Clan Gris, necesitarán tiempo para reorganizarse después del golpe que les hemos asestado. Podéis tomaros un respiro, para recuperar vuestras fuerzas.~
+@571 = ~Su cuerpo puede haber sido profanado, pero ningún poder alterará su alma noble... Algún día, su sueño de paz será realidad. Porque terminaremos su obra... Desgraciadamente, el Duque Eltan no puede mantener en secreto a nuestra organización por más tiempo, así que con su consentimiento y aprobación, he decidido separarme del Puño Llameante. No podemos esperar más ayuda de las fuerzas regulares, pero con la ayuda desinteresada de estos voluntarios y veteranos, continuaremos nuestras actividades para defender a los inocentes y proteger nuestro hogar.~
+@572 = ~Sois tan malvado como el Clan Gris. Habéis atacado al grupo de élite del Puño Llameante, y habéis puesto en peligro el éxito de nuestra misión. Lamento que nuestra cooperación tenga que terminar de esta manera tan dolorosa.~
+@573 = ~Investigando las actividades del Clan Gris
+
+Gracias a nuestros esfuerzos, la organización local del Clan Gris se colapsará pronto. También he atacado a los miembros de la unidad secreta del Puño Llameante.~
+@574 = ~Me temo que tenemos muy poco tiempo. Hemos descubierto la verdad demasiado tarde.~
+@575 = ~Estoy de servicio, ciudadano.~ ~Estoy de servicio, ciudadana.~
+@576 = ~Por favor, dejadme en paz, forastero.~ ~Por favor, dejadme en paz, forastera.~
+@590 = ~¡Esperad, os reconozco! Sois el grupo que se enfrentó a la amenaza de los bandidos. Aunque vuestras hazañas tienen un valor inestimable, la paz ha durado poco. Otra amenaza ha surgido, y si no se hace nada, las calles se teñirán con la roja sangre de los inocentes.~
+@591 = ~No tengo tiempo para esto, lo siento.~
+@592 = ~¡Escuchad atentamente! Una nueva amenaza ha surgido, el Clan Gris. De acuerdo con los últimos informes de nuestros espías, son mucho más peligrosos de lo que pensábamos.~
+@593 = ~¿Quién sois vos? ¿Por qué debería confiar en vos?~
+@594 = ~Antes de que hablemos más de ello, por favor, decidme quién sois.~
+@595 = ~Soy Jedyan, un hombre que combate el mal y defiende a los inocentes siempre que puede. Oficialmente, soy general del Puño Llameante, y mi misión principal es el contraespionaje contra la nación vecina de Amn. Aunque no trabajo más que para una persona: el Duque Eltan. Es un hombre en quien podéis confiar.~
+@596 = ~La nueva amenaza, el Clan Gris, pone en peligro a la Puerta de Baldur y a toda la región. Tienen mejor equipamiento que el que tuvo jamás la élite de los Garras Negras, y sus hechiceros usan magia poderosa.~
+@597 = ~¿De dónde han salido? ¿Dónde consiguen sus suministros?~
+@598 = ~Desgraciadamente debo marcharme de inmediato, pero sabed que tengo excelentes guerreros a mi disposición y que podéis confiar en ellos. Si encontráis a Jusam, Hertuk o Talibehius, deberéis identificaros para que sepan que estáis de nuestro lado. Se os preguntará sobre el cielo, y deberéis responder con la frase: "La tormenta se acerca pero la luz vendrá". Jusam debería estar cerca de la Sala de las Maravillas... Os deseo suerte, amigos. La necesitaréis.~
+@599 = ~Investigando las actividades del Clan Gris
+
+Jedyan, un general del Puño Llameante, nos ha dicho que una nueva amenaza está surgiendo, el Clan Gris. Están bien armados y sus magos usan magia poderosa. Desgraciadamente el general tuvo que marcharse inmediatamente, y no pudimos continuar nuestra conversación. No obstante, ha dicho que podemos confiar en sus hombres. Jusam, uno de sus soldados, debería encontrarse cerca de la Sala de las Maravillas. Jedyan también nos dio la contraseña para identificarnos ante sus hombres: "La tormenta se acerca, pero la luz vendrá".~

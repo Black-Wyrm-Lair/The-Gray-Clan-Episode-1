@@ -1,0 +1,20 @@
+IF
+	Global("BW05_TGC1","GLOBAL",11)
+	Global("BW05_SummonedCreatures","BW0506",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SummonedCreatures","BW0506",1)
+            CreateCreature("BW05TEVE",[979.667],6)
+		CreateCreature("BW05SERT",[1000.565],0)
+            CreateCreature("BW05SSER",[236.429],14)
+            CreateCreature("BW05SSE2",[185.448],14)
+            CreateCreature("BW05SSE2",[143.483],14)  
+            CreateCreature("BW05TBG1",[986.447],3)
+            CreateCreature("BW05TBG2",[1031.474],3)
+            CreateCreature("BW05TBG3",[1072.496],3)
+            CreateCreature("BW05TBG4",[1128.541],5)
+            CreateCreature("BW05TBG5",[1111.582],7)
+            CreateCreature("BW05TBG6",[1086.629],7)
+            StartCutSceneMode()
+            StartCutScene("BW05FIN1")
+END

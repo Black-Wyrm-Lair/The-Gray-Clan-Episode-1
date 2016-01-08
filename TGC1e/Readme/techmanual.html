@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Technical Manual - Grey Clan Episode One: In Candlelight</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body class="tmain">
+<p class="tdark1">THE GREY CLAN EPISODE ONE: IN CANDLELIGHT<br />
+  <em>Technical Manual</em> &#8211; BGT-WeiDU/EET/BG:EE Edition, v1.9</p>
+<p id="req" class="tdark0"> Requirements, Levels of Compatibility</p>
+<p>The installation package of this mod is WeiDU-based. (In common parlance: &quot;This 
+  is a WeiDU mod.&quot;)</p>
+<p><strong>Requirements:</strong></p>
+<p>1. A working installation of <a href="http://www.spellholdstudios.net/mods/bgt-weidu/" target="_blank">BGT-WeiDU</a>
+  or Baldur's Gate: Enhanced Edition or Enhanced Edition Trilogy (EET). 
+  You don't have to start a new game <strong>if</strong> <a href="readme.html#inote" target="_blank">certain 
+  conditions</a> are met. <a href="readme.html#inote" target="_blank">Please read 
+  this.</a><br />
+  2. The availability of all, directly or indirectly required original game resources 
+  is assumed.<br />
+  3. The basic functionality of all, directly or indirectly required game resources 
+  is assumed as unmodified.</p>
+<p> Notes to requirements:<br />
+  2. The game installation does not have to be unmodified, but removed or renamed 
+  resources that are normally present in the original game may cause incorrect 
+  mod behaviour and errors. (Example: this edition of the mod does not work with 
+  original Baldur's Gate/TotSC or BG1Tutu/EasyTutu, and may not work with any 
+  total or partial game conversions.)<br />
+  3. The game installation does not have to be unmodified, but the basic functionality 
+  of resources is required. (Example: replaced original travel regions that lead 
+  to different areas than in the original game may cause incorrect mod behaviour 
+  and errors.)</p>
+<p><strong>Compatibility on technical level: </strong></p>
+<p>This mod is compatible with all other standard WeiDU-based mods if 
+  they meet the above requirements.<br />
+  A valid filename prefix is used for all installed resource files of this mod. 
+  The prefix is registered in the Community Filenames Prefix Reservations database.<br />
+  This mod installs new resources. <br />
+  This mod does not overwrite any existing game resources.<br />
+  This mod affects (modifies or extends) existing game resources on data (content) 
+  level.</p>
+<p>When this mod is uninstalled, all changes except TLK entries are safely 
+  removed except where cached and/or saved by the game or player. Note: the remaining 
+  TLK entries are unused, therefore they won't have any practical effect on the 
+  game.</p>
+<p><strong>Compatibility on game level: </strong></p>
+<p>This mod partically affects existing game resources on data (content) level, 
+  and therefore (direct or indirect) object-level interaction is possible in the 
+  game with mods that affect the same resources. See the list of <a href="#resaffc">resources 
+  affected on data level</a> to see which resource attributes are <em>modified</em> 
+  and <em>extended</em> by this mod.</p>
+<p>A valid prefix is used for all variables of this mod. The prefix is registered 
+  in the Community Filenames Prefix Reservations database.</p>
+<p>For more information, please see the <a href="#cpl">levels of coupling</a>.</p>
+<p id="hints" class="tdark0">New resource(s) copied by this mod</p>
+<p>This mod copies new resources of the following type to the Override folder: 
+  ARE, BAM, BCS, CRE, DLG, ITM, SPL, STO, WAV.<br />
+  This mod copies new resources of the following type to the Portraits folder: 
+  BMP.</p>
+<p class="tdark0">Resource(s) overwritten by this mod</p>
+<p>No original game resources are overwritten or deleted by this mod.</p>
+<p id="resaffc" class="tdark0">Resource(s) affected on data level by this mod</p>
+<table width="100%" border="0">
+  <tr> 
+    <td width="18%"><strong>Resource name</strong></td>
+    <td width="21%"><strong>Type of resource</strong></td>
+    <td width="28%"><strong>Affected attribute of resource</strong></td>
+    <td width="33%"><strong>Method</strong></td>
+  </tr>
+  <tr> 
+    <td>action.ids</td>
+    <td>IDS</td>
+    <td>Row</td>
+    <td>Extension: APPEND</td>
+  </tr>
+  <tr> 
+    <td>mastarea.2da</td>
+    <td>2DA</td>
+    <td>Row</td>
+    <td>Extension: APPEND</td>
+  </tr>
+  <tr> 
+    <td>itemexcl.2da</td>
+    <td>2DA</td>
+    <td>Row</td>
+    <td>Extension: APPEND</td>
+  </tr>
+  <tr> 
+    <td>ar7263.are</td>
+    <td>ARE</td>
+    <td>Script res. reference</td>
+    <td>Modification: WRITE_ASCII</td>
+  </tr>
+  <tr> 
+    <td>ar7264.are</td>
+    <td>ARE</td>
+    <td>Script res. reference</td>
+    <td>Modification: WRITE_ASCII</td>
+  </tr>
+  <tr> 
+    <td>ar7200.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>ar7263.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>ar7264.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>ar7300.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>ar7600.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>ar6700.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>ar6800.bcs</td>
+    <td>BCS</td>
+    <td>Block</td>
+    <td>Extension: EXTEND_BOTTOM</td>
+  </tr>
+  <tr> 
+    <td>dialog.tlk</td>
+    <td>TLK</td>
+    <td>TLK entry</td>
+    <td>Extension</td>
+  </tr>
+</table>
+<p class="tdark0">Variable(s) affected by this mod</p>
+<p>This mod does not affect any variables of the original game or of any third-party 
+  mods.</p>
+<p class="tdark0">Interface point(s) of this mod</p>
+<p>The following original game resources provide interface points to the game 
+  for this mod.</p>
+<p>Primary entry points provide the activation of the mod's main thread for the 
+  player in the game.</p>
+<p>Period defines the time period while the changes have actual effects in the 
+  game. When this mod is uninstalled, all changes caused by interface 
+  points, regardless of their period, are safely removed except where cached and/or 
+  saved by the game or player.</p>
+<p><strong>Primary interface point (primary entry):</strong></p>
+<table width="100%" border="0">
+  <tr> 
+    <td width="21%"><strong>Resource name</strong></td>
+    <td width="47%"><strong>Effect in the game</strong></td>
+    <td width="32%"><strong>Period</strong></td>
+  </tr>
+  <tr> 
+    <td>ar7300.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+</table>
+<p><strong>Interface point(s):</strong></p>
+<table width="100%" border="0">
+  <tr> 
+    <td width="21%"><strong>Resource name</strong></td>
+    <td width="47%"><strong>Effect in the game</strong></td>
+    <td width="32%"><strong>Period</strong></td>
+  </tr>
+  <tr> 
+    <td>ar7200.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+  <tr> 
+    <td>ar7263.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+  <tr> 
+    <td>ar7264.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+  <tr> 
+    <td>ar7300.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+  <tr> 
+    <td>ar7600.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+  <tr> 
+    <td>ar6700.bcs</td>
+    <td>Party redirection to a new area copied by this mod</td>
+    <td>Until the plot of this mod ends</td>
+  </tr>
+  <tr> 
+    <td>ar6700.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+  <tr> 
+    <td>ar6800.bcs</td>
+    <td>Actor(s) summoned in corresponding game area</td>
+    <td>Permanent</td>
+  </tr>
+</table>
+<p id="cpl" class="tdark0">Levels of Coupling</p>
+<p><strong>Resource level: </strong>
+<ol>
+  <li> File level: <br />
+    No (original game or third-party mod) files are overwritten or deleted.<br />
+    Original game files are required. <br />
+    No third-party mod files are required or used optionally.</li>
+  <li>Data level: <br />
+    Original game resources are modified.<br />
+    Original game resources are extended.<br />
+    No third-party mod files are modified or extended.</li>
+</ol>
+<p><strong>Game level:</strong></p>
+<ol>
+  <li>Variable level:<br />
+    Values of (original game or third-party mod) variables are not modified.<br />
+    Values of (original game or third-party mod) variables are not read and used. 
+  </li>
+  <li>Object level:<br />
+    No (original game or third party mod) actors or items are checked and used 
+    by the scripts of this mod.<br />
+    Original game area(s) are referenced and used by the script(s) of this mod: 
+    AR6700 is unavailable from a certain point of the plot of this mod until the 
+    end of the plot of this mod. Changes made by the original game or by third-party 
+    mods on AR6700 are not blocked, delayed or affected in any other way.<br />
+    No third-party mod areas are referenced and used by the scripts of this mod.<br />
+    Except what specified above, no other (original game or third party mod) objects 
+    are checked or used by the scripts of this mod. <br />
+    Known interactions: 
+    <ul>
+      <li>Certain (unique or common) actors of this mod may attack any game actors 
+        of class (class.ids) INNOCENT, FLAMING_FIST and FIGHTER. Areas with high 
+        risk: AR7600, AR7200. No other risky areas are known for this risk. </li>
+      <li>Certain (unique or common) actors of this mod may attack any game actors 
+        of EA (ea.ids) ENEMY, except if class (class.ids) is INNOCENT or FLAMING_FIST. 
+        Areas with high risk: AR7600, AR7300, AR7200, AR7263, AR7264. No other 
+        risky areas are known for this risk. </li>
+    </ul>
+    Since this mod affects (modifies or extends) existing game resources on data 
+    level, direct or indirect object-level interaction is possible in the game 
+    with mods that affect the same resources in certain ways.</li>
+  <li>Time and event level:<br />
+    The plot of this mod is controlled by nothing else than the logical order 
+    of events triggered by (player or other in-game) actions. No timers are used.</li>
+</ol>
+<p><strong>Summary: </strong><br />
+  The coupling between the original game and this mod is considered to be: LOOSE.<br />
+  The coupling between the original game and other mods is assumed to be: NEGLIGIBLE. 
+<p class="tdark0">Cohesion</p>
+<p>The cohesion of this mod is: VERY BIG.</p>
+<p class="tdark0">Disclaimer</p>
+<p><font color="#000000">This is an unofficial mod for Baldur's Gate. It is neither 
+  authorized or sponsored by, nor licensed or affiliated with Interplay Productions, 
+  Black Isle Studios or BioWare Corporation. Baldur's Gate, Tales of the Sword 
+  Coast, Baldur's Gate II: Shadows of Amn and Throne of Bhaal are &copy; Bioware 
+  Corp. Neither this mod nor any parts of it may be distributed commercially in 
+  any way. Modifying of any part of this mod is prohibited without the express 
+  permission of the author. Grey Clan Episode I: The Last Breath of the Past and 
+  Grey Clan Episode I: In Candlelight are &copy; 2004-2007 Baronius.</font></p>
+<br />
+</body>
+</html>

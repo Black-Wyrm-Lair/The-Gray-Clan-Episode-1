@@ -1,0 +1,155 @@
+1. Areas within TGC1E/Areas/eet/ directory differences compared to BGT ones:
+
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: are = AR6800 => BG2300 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: are = AR8600 => BG1800 - 0x18
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: are = AR8900 => BG2400 - 0x24
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: are = AR6900 => BG2800 - 0x30
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: are = AR7000 => BG2200 - 0x3c
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: MUSIC = 65 => 134 - 0xdc4
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0501.are: MUSIC = 65 => 134 - 0xdc8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0502.are: are = AR3901 => BG5001 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0503.are: are = AR6801 => BG2301 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0504.are: are = AR6802 => BG2302 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0505.are: are = AR6803 => BG2303 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/BW0506.are: are = AR7229 => BG0129 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/BW0506.are: MUSIC = 29 => 133 - 0x2d0
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0597.are: are = AR6804 => BG2304 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0597.are: MUSIC = 66 => 116 - 0x3a0
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0597.are: MUSIC = 66 => 116 - 0x3a4
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0598.are: are = AR6806 => BG2306 - 0x8
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Areas/bw0599.are: are = AR6805 => BG2305 - 0x8
+
+2. Areas within TGC1E/Areas/bgee/ directory differences compared to EET ones:
+
+Patching EET_modConverter/Input/eet/bw0501.are: are = BG2300 => AR2300 - 0x8
+Patching EET_modConverter/Input/eet/bw0501.are: are = BG1800 => AR1800 - 0x18
+Patching EET_modConverter/Input/eet/bw0501.are: are = BG2400 => AR2400 - 0x24
+Patching EET_modConverter/Input/eet/bw0501.are: are = BG2800 => AR2800 - 0x30
+Patching EET_modConverter/Input/eet/bw0501.are: are = BG2200 => AR2200 - 0x3c
+Patching EET_modConverter/Input/eet/bw0501.are: MUSIC = 134 => 31 - 0xdc4
+Patching EET_modConverter/Input/eet/bw0501.are: MUSIC = 134 => 31 - 0xdc8
+Patching EET_modConverter/Input/eet/bw0501.are: MUSIC = 49 => 22 - 0xdd0
+Patching EET_modConverter/Input/eet/bw0502.are: are = BG5001 => AR5001 - 0x8
+Patching EET_modConverter/Input/eet/bw0502.are: MUSIC = 48 => 21 - 0x264
+Patching EET_modConverter/Input/eet/bw0503.are: are = BG2301 => AR2301 - 0x8
+Patching EET_modConverter/Input/eet/bw0504.are: are = BG2302 => AR2302 - 0x8
+Patching EET_modConverter/Input/eet/bw0505.are: are = BG2303 => AR2303 - 0x8
+Patching EET_modConverter/Input/eet/BW0506.are: are = BG0129 => AR0129 - 0x8
+Patching EET_modConverter/Input/eet/BW0506.are: MUSIC = 133 => 29 - 0x2d0
+Patching EET_modConverter/Input/eet/bw0597.are: are = BG2304 => AR2304 - 0x8
+Patching EET_modConverter/Input/eet/bw0597.are: MUSIC = 116 => 11 - 0x3a0
+Patching EET_modConverter/Input/eet/bw0597.are: MUSIC = 116 => 11 - 0x3a4
+Patching EET_modConverter/Input/eet/bw0598.are: are = BG2306 => AR2306 - 0x8
+Patching EET_modConverter/Input/eet/bw0599.are: are = BG2305 => AR2305 - 0x8
+
+3. cpmvars patching:
+
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7263 => %NWBaldursGate_House2_L1% - are
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7264 => %NWBaldursGate_House2_L2% - are
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7200 => %NWBaldursGate_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7263 => %NWBaldursGate_House2_L1_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7264 => %NWBaldursGate_House2_L2_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7300 => %NBaldursGate_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR7600 => %WBaldursGate_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR6800 => %FriendlyArmInn_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR6700 => %Beregost_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2: AR3300 => %LonelyPeaks_BCS% - bcs
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FINT.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FINT.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FINT.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FINT.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FINT.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FINT.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FITN.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FITN.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FITN.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FITN.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FITN.BAF: AR6700 => %Beregost% - are
+Patching EET_modConverter/Input/tgc1e_bgt/TGC1e/Script_new/BW05FITN.BAF: AR6700 => %Beregost% - are
+Analyzing EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2, no extension, proposed change: AR7263 => %NWBaldursGate_House2_L1% - are //manually changed to %NWBaldursGate_House2_L1_BCS%
+Analyzing EET_modConverter/Input/tgc1e_bgt/Setup-TGC1E.tp2, no extension, proposed change: AR7264 => %NWBaldursGate_House2_L2% - are //manually changed to %NWBaldursGate_House2_L2_BCS%
+
+4. EVLUATE_BUFFER added to COMPILE / EXTEND_TOP / EXTEND_BOTTOM in order to evaluate above mentioned platform dependent variables
+
+5. Platform/engine variables, HANDLE_CHARSETS (needed by EE for languages encoded in ANSI), ADD_JOURNAL
+
+ ACTION_IF GAME_IS ~bgt~ BEGIN
+   OUTER_SPRINT platform ~bgt~
+   OUTER_SPRINT engine ~vanilla~
+   INCLUDE ~TGC1E/lib/g3_bgt_cpmvars.tpa~
+ END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+   OUTER_SPRINT platform ~eet~
+   OUTER_SPRINT engine ~ee~
+   INCLUDE ~TGC1E/lib/eet_cpmvars.tpa~
+ END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN
+   OUTER_SPRINT platform ~bgee~
+   OUTER_SPRINT engine ~ee~
+   INCLUDE ~TGC1E/lib/liam_bgee_vars.tpa~
+ END
+ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+     "deutsch" => "CP1252"
+     "english_revision" => "CP1252"
+	 "english_original" => "CP1252"
+     "french" => "CP1252"
+     "italian" => "CP1252"
+     "polish" => "CP1250"
+     "russian" => "CP1251"
+     "espanol" => "CP1252"
+   END
+   ACTION_DEFINE_ARRAY charsetsConvertArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
+   ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
+   LAF ~HANDLE_CHARSETS~
+     INT_VAR
+     infer_charsets = 0
+     STR_VAR
+     tra_path = "TGC1E/Translations"
+     iconv_path = "TGC1E/Translations/iconv" //available as part of the base system on OS X and GNU/Linux
+     charset_table = charsetsTable
+     convert_array = charsetsConvertArray
+     reload_array = charsetsReloadArray
+   END
+   LOAD_TRA ~TGC1E/Translations/%LANGUAGE%/ITEM-ee.tra~
+   ADD_JOURNAL @77 @83 @110 @112 @114 @116 @124 @133 @137 @206 @208 @248 @272 @308 @313 @315 @414 @417 @419 @422 @424 @426 @428 @452 @468 @479 @540 @548 @551 @554 @557 @573 @599 @20001 @20002 @20003 @20004 @20016 USING ~TGC1E/Translations/%LANGUAGE%/dialogue.tra~ ~TGC1E/Translations/%LANGUAGE%/scriptstr.tra~
+ END
+
+6. portrait size depending on engine: TGC1E/Portraits/ => TGC1E/Portraits/%engine%/
+7. area files depending on platform: TGC1E/Areas/ => TGC1E/Areas/%platform%/
+8. ITEM-ee.tra files with item descriptions that follows EE engine formatting (finished english and polish translations)
+9. Folders inside TGC1E/Translations/ directory lowercased to be compatible with HANDLE_CHARSETS
+10. weidu updated to latest version that supports EE engine
+11. Fixed BW05FGCA.CRE (Big World Fixpack)
+12. Removed backup directory, UNINSTALL ~Setup-TGC.tp2~ ~0~ and UNINSTALL ~Setup-TGC1.tp2~ ~0~. Not really needed in this day and age
+13. Replaced SAY with WRITE_LONG for items that uses strings that exists in both BG:EE and BGT/EET for NAME1 and GENERAL_DESCRIPTION. Thanks to this following strings from ITEM.TRA are no longer needed (deleted in all languages - less work for translators, no mistakes in general descriptions): 30001, 30002, 30005, 30006, 30011, 30012, 30021, 30022, 30028, 30029, 30039, 30040, 30043, 30044, 30049, 30050, 30055, 30056
+14. bw05dwhe.itm, bw05juar.itm, bw05juha.itm patched with effect 319:
+
+ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY table_item_use BEGIN
+     ~bw05dwhe~ => ~BW05DW01~
+     ~bw05dwhe~ => ~BW05JUSM~
+     ~bw05dwhe~ => ~BW05JUSM~
+   END
+   ACTION_PHP_EACH table_item_use AS item => cre BEGIN
+     COPY_EXISTING - ~%cre%.cre~ ~override~
+       READ_LONG NAME1 name
+       READ_ASCII DEATHVAR dv
+     COPY_EXISTING ~%item%.itm~ ~override~
+       WRITE_LONG 0x1e 0
+       WRITE_BYTE 0x29 0
+       WRITE_BYTE 0x2b 0
+       WRITE_BYTE 0x2d 0
+       WRITE_BYTE 0x2f 0
+       LPF ADD_ITEM_EQEFFECT
+         INT_VAR
+         opcode = 319 //Item Usability
+         target = 1
+         timing = 2
+         parameter2 = 11
+         power = 1 //Usable by
+         probability1 = 100
+         special = name
+         STR_VAR
+         resource = EVAL "%dv%"
+       END
+   END
+ END

@@ -1,0 +1,19 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+            CutSceneID("BW05GRAC")
+            SetGlobal("BW05_HertukOutside","GLOBAL",5)
+            Wait(2)
+            MoveViewPoint([3684.2420],FAST)
+            Wait(3)
+            CreateCreature("BW05GRZ1",[3464.2352],0)
+            Wait(3)
+            CreateCreature("BW05GRZ2",[3550.2372],0)
+            Wait(3)
+            CreateCreature("BW05GRZ3",[3666.2405],0)
+            Wait(3)
+            MoveViewPoint([3405.2225],FAST)
+            Wait(4)
+            StartDialogueNoSet(Protagonist)
+END

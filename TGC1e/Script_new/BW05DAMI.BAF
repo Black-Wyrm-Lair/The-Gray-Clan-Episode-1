@@ -1,0 +1,120 @@
+IF
+	NumTimesTalkedTo(0) 
+      See([PC.0.0])
+      !Dead("BW05MARY")
+      !Global("BW05_SaveMary","GLOBAL",4)
+      !Global("BW05_SaveMary","GLOBAL",5)
+THEN
+	RESPONSE #100
+            StartDialogueNoSet([PC.0.0])
+END
+
+IF
+	Allegiance(Myself, NEUTRAL)
+      Global("BW05_DamienEnemy","GLOBAL",0)
+      Global("BW05_DamienCP","LOCALS",1)
+      !See([ENEMY.0.0])
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_DamienCP","LOCALS",0)
+            MoveToPointNoInterrupt([5062.405])	
+            Face(2)
+END
+
+IF
+	Allegiance(Myself, NEUTRAL)
+      Global("BW05_DamienEnemy","GLOBAL",0)
+      Dead("BW05MARY")
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_DamienEnemy","GLOBAL",2)
+            JumpToPoint([4724.369])
+            ActionOverride("BW05JOHN",JumpToPoint([4637.222]))
+            ActionOverride("BW05JOHN",Face(1))
+            ActionOverride("BW05ERNE",JumpToPoint([4704.281]))
+            ActionOverride("BW05ERNE",Face(2))
+            CreateCreature("BW05EROS",[4807.444],4)          
+END
+
+IF
+	Global("BW05_DamienEnemy","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([GOODCUTOFF.0.0],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_DamienEnemy","GLOBAL",1)
+            Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],Default)
+	Range(LastAttackerOf(Myself),5)
+      !Allegiance(LastAttackerOf(Myself), PC)
+      !Allegiance(LastAttackerOf(Myself), ENEMY)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],Default)
+      !Range(LastAttackerOf(Myself),5)
+      !Allegiance(LastAttackerOf(Myself), PC)
+      !Allegiance(LastAttackerOf(Myself), ENEMY)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	See([ENEMY.0.0])
+	Global("BW05_DamienEnemy","GLOBAL",0)
+      !Class(LastSeenBy(Myself),INNOCENT)
+	!Class(LastSeenBy(Myself),FLAMING_FIST)
+	Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_DamienCP","LOCALS",1)
+            EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY.0.0])
+      Global("BW05_DamienEnemy","GLOBAL",0)
+      !Class(LastSeenBy(Myself),INNOCENT)
+	!Class(LastSeenBy(Myself),FLAMING_FIST)
+	!Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_DamienCP","LOCALS",1)
+            EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END

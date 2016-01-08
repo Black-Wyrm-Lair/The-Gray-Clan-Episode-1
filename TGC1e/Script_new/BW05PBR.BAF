@@ -1,0 +1,40 @@
+IF
+	Allegiance(Myself, ENEMY)
+      GlobalGT("BW05_TGC1","Global",9) 
+      Global("BW05_FFEnemy","Global",0)	
+THEN
+	RESPONSE #100
+           SetGlobal("BW05_FFEnemy","Global",1)	
+END
+
+IF
+	Allegiance(Myself, NEUTRAL)
+      Global("BW05_FFEnemy","Global",1)
+THEN
+	RESPONSE #100
+           Enemy()
+END
+
+IF
+	Allegiance(Myself, NEUTRAL)
+      Global("BW05_TGC1","Global",-2)
+THEN
+	RESPONSE #100
+           Enemy()
+END
+
+IF
+	Allegiance(Myself, ENEMY)
+      !Global("BW05_TGC1","Global",-2)
+      GlobalLT("BW05_TGC1","Global",10) 
+THEN
+	RESPONSE #100
+           SetGlobal("BW05_TGC1","Global",-2)	
+           EraseJournalEntry(@20016)
+           EraseJournalEntry(@452)
+           EraseJournalEntry(@540)
+           EraseJournalEntry(@548)
+           EraseJournalEntry(@557)
+           EraseJournalEntry(@599)
+           AddJournalEntry(@20004, QUEST_DONE)
+END

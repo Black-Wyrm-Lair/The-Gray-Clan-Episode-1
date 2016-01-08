@@ -1,0 +1,652 @@
+@1 = ~Es ist wieder Leben in den Gasthof zum Freundlichen Arm zurückgekehrt, und das ganze Gespräch über die Invasion hat aufgehört. Die Gerüchte werden uns glauben lassen, dass es nicht die Flammende Faust war, sondern jemand namens <CHARNAME>, der die Eindringlinge vertrieb! ~ ~Es ist wieder Leben in den Gasthof zum Freundlichen Arm zurückgekehrt, und das ganze Gespräch über die Invasion hat aufgehört. Die Gerüchte werden uns glauben lassen, dass es nicht die Flammende Faust war, sondern jemand namens <CHARNAME>, die die Eindringlinge vertrieb! ~
+@2 = ~Seid gegrüßt! Ich bin Jeremias, nichts außer einem bescheidenen Großhändler. Ich unterstütze die Organisation des Generals Jedyan mit magischen Artikeln und Waffen. ~
+@3 = ~Tut mir Leid, das zu sagen, aber Ihr seht wie ein Dämon aus... wirklich ... ~
+@4 = ~Seid bereit, zu sterben, stinkender Abschaum! ~
+@5 = ~Ich werde später zurückkehren... Ich denke, das wird das beste sein... ~ 
+@6 = ~Huch?! Dämon? Ah, natürlich! Tut mir Leid, ich habe das völlig vergessen. Ich bin der ältere Bruder von Rudi, auch bekannt als "Der Metaphysiker". Er ist ein großer Wissenschaftler, und er hat mich in die Geheimnisse der Metamorphose eingeweiht - wie man Form, oder Vielgestaltigkeit, durch Magie ändert. Ich genieße es sehr. Aber Ihr seid hier her gekommen, um Artikel zu kaufen, also lasst mich die Gestalt wieder in meine menschlichen Form zurück verwandeln, es wird nur ein paar Sekunden dauern... ~
+@7 = ~Warum starrt Ihr mich so an? Sehe ich so schrecklich aus? Ich mag alt sein, aber ich bin nicht so hässlich! ~
+@8 = ~Wie kann ich Euch helfen? Wollt Ihr die magischen Artikel sehen? ~
+@9 = ~Erledigt!..... Hoppla, noch nicht. Nur eine Sekunde, und alles wird gut sein... ~
+@10 = ~Beinahe, fast. ~
+@11 = ~Endlich! Entschuldigung für die Unannehmlichkeit. So, wollt Ihr meine Sammlung von magischen Artikeln ansehen? ~
+@12 = ~Lasst mich Eure Artikel sehen. ~
+@13 = ~Nein Danke. ~
+@14 = ~Wenn Ihr irgendetwas braucht, könnt Ihr mich hier finden. Ich werde hier eine Zeit lang bleiben. ~
+@15 = ~Was kann ich für Euch tun? ~
+@16 = ~Ich werde später zurück kehren. ~
+@17 = ~Ihr wart eine sehr gute Lehrerin, meine Dame. Wir werden Euch nicht enttäuschen. ~
+@18 = ~Ich werde mein Bestes tun, meine Dame. ~
+@19 = ~Der Golem sagt: "Ich bin außer Betrieb". ~
+@20 = ~Grachus ist tot?! Hahahaha! Es wäre ein Vergnügen gewesen, das Gesicht von Xephistagoras zu sehen, als er erfuhr, dass sein geliebter Jünger nicht mehr besteht! Ich frage mich auch, was er dem Lord Desider morgen sagen wird, wenn die Ergebnisse des Grauen Clans im Schloss Legencase besprochen werden... ~
+@21 = ~Wo ist Legencase? Wer ist Lord Desider? Sprecht! ~
+@22 = ~Bereitet Euch darauf vor, zu sterben! ~
+@23 = ~Wie Ihr sehen könnt, meine Dame, ist Teven nicht länger im Stande, seine Aufgabe durchzuführen. Neue Führer sind gefragt. ~
+@24 = ~Ihr mögt recht haben, Abenteurer. Ihr scheint sowohl stark zu sein als auch erfahren genug... ~ ~Ihr mögt recht haben, Abenteurerin. Ihr scheint sowohl stark zu sein als auch erfahren genug... ~
+@25 = ~Es wäre eine Ehre, meine Dame, den Posten von Teven zu besetzen. ~
+@26 = ~Ich bin die beste Wahl. Zweifellos. ~
+@27 = ~Ich kümmere mich nicht über Xephistagoras! Erwähnt seinen Namen nicht mehr! Dennoch, Teven, werde ich Euch eine weitere Chance gewähren... versagt nicht! ~
+@28 = ~Dieser Kampf sollte keine zu große Herausforderung für Euch sein, Octavia. Weder solltet Ihr irgendetwas zu befürchten haben, Petrarca. In der Tat, ergreift diese Gelegenheit, etwas Neues zu lernen! Wenn irgendetwas schief geht, bin ich sicher, dass Octavia Euch zu Hilfe eilen wird. Mädchen, wenn auch Legencase Meilen entfernt ist, vergesst nie, was Euch an der Akademie gelehrt wurde: die Macht fließt in Euren Adern. ~
+@29 = ~Narr. ~
+@30 = ~Ich muss gehen. Viel Glück, Mädchen! ~
+@31 = ~Oh meine Güte!!! Dervanto!!! Ihr seid der größte... der größte... ~
+@32 = ~SCHWACHKOPF! ~
+@33 = ~Das sind nicht die Leute, auf die wir gewartet haben, Idiot! Das ist <CHARNAME>!!! Und ich habe nur sechs Leibwächter und einen schwachsinnigen Zauberer hier! ~
+@34 = ~Warte, Dervanto! Verlass mich hier nicht! Dervanto! Wo ist mein Schlüsselstein? Dervanto! DERVANTO! ~
+@35 = ~Elitewachen! Zu den Waffen! ~
+@36 = ~Wohin geht Ihr?! Ich befehle Euch, sofort zurückzukommen! Diese Stufen sind nur ein magisches Trugbild, feige Idioten! Ihr geht in den sicheren Tod!!! ~
+@37 = ~Es ist eine Überraschung, dass Ihr hier seid, Teven, weil ich Euch in Larswald getötet habe. Aber Euch zu töten war keine Herausforderung, und ich bin sicher, dass Ihr immer noch kein gleichwertiger Gegner für meine Fähigkeiten seid, Räuber. ~
+@38 = ~Wie komisch. Wir sind wahrscheinlich in einer der am meisten gesicherten Luxuswohnungen der Elite des Grauen Clans, und Ihr seid allein ohne Leibwächter. Ohne IRGENDJEMANDEN, der Euch retten könnte. ~
+@39 = ~Teven? Ich traue meinen Augen nicht! Es ist nett, Euch wieder zu treffen! ~
+@40 = ~Gartuffe ist tot; ebenso Grachus. Reufasio biss genauso ins Gras. Linda die Zauberin wird auch dort sein, um Euch zu begrüßen, wenn Ihr ankommt. Weil IHR die nächsten seid. ~
+@41 = ~Lady Adalbert! Beshaba sei Dank, dass Ihr hier seid, meine Dame. Grachus ist tot und dank diesem Idioten Dervanto schaffte es <CHARNAME>, hier hinein zu gelangen! ~
+@42 = ~Wartet eine Minute, meine Dame. Ihr könnt mich nicht von meinem Posten ablösen, Lady Monica Adalbert! Ich wurde in Legencase eingeführt, und genieße die Unterstützung des Lords Falkendrache. Und vergesst auch nicht Xephistagoras. ~
+@43 = ~Ich bin... ich bin nicht die Person, die Ihr sucht, <CHARNAME>! Ich bin nur ein... nur ein... ~
+@44 = ~Ihr habt gegen mich keine Chance, <CHARNAME>! ~
+@45 = ~Der Golem sagt: "Steckt den Schlüsselstein ein". ~
+@46 = ~Lasst das Wesen allein. ~
+@47 = ~Steckt den Schlüsselstein ein. ~
+@48 = ~Ihr steckt den Schlüsselstein ein, aber er wird abgewiesen. Die Zauberinnen schufen wahrscheinlich einen zusätzlichen Schutz um das Gebiet. Nur sie sind fähig, ihn zu entzaubern, aber es besteht kein Zweifel daran, dass sie es aus eigenem Willen nicht tun werden. Ihr werdet sie beide ermorden müssen. ~
+@49 = ~Ihr steckt den Schlüsselstein ein. ~
+@50 = ~Seid gegrüßt! Ich hoffe, dass Ihr eine angenehme Reise hattet. Mein Herr erwartet Euch bereits drinnen. Ich kann Euch versichern, dass es keine Probleme während des Treffens geben wird, weil es ein völlig sicheres Gebiet ist, geschützt durch einen von mir selbst erzeugten magischen Schild. Kein Unbefugter kann hineingelangen. Gehen wir! ~
+@51 = ~Wartet... ~
+@52 = ~Aber ich... ~
+@53 = ~Ich bin begierig, Euren Herrn zu treffen. ~
+@54 = ~Ich bin nur sein Butler. Ihr könnt alles mit dem Herrn besprechen. ~
+@55 = ~Wirklich? Ich dachte, dass mein Meister Euch während der vorherigen Sitzung getroffen hätte. Aber ich irre mich wahrscheinlich, ich bin schließlich nur sein Butler. ~
+@56 = ~Beschwörer? Zauberer? ~
+@57 = ~Ich weiß, dass wir später ankamen, als Ihr erwartet habt, mein Herr. Aber es war nicht mein Fehler, ich wartete den ganzen Tag am Eingang des Gasthofs... ~
+@58 = ~Ihr habt Recht, ich bin hier nicht gefragt. Viel Glück, mein Lord.~
+@59 = ~Der Golem starrt geistesabwesend. Ihr habt keine Ahnung, ob sein ganzer Körper daraus gemacht ist, aber es ist sicher, dass der Golem völlig mit grünem Schimmel bedeckt ist. Die Räuber versuchten anscheinend, ihn zu zerstören, aber der dicke Schimmel wächst so schnell, dass er jeden körperlichen Schaden innerhalb von Sekunden heilt. Bei der weiteren Überprüfung bemerkt Ihr sechs Schlüssellöcher in der Brust des Golem. ~
+@60 = ~Steckt den Goldschlüssel ein~
+@61 = ~Steckt den Kupferschlüssel ein~
+@62 = ~Steckt den Eisenschlüssel ein~
+@63 = ~Steckt den Kleinen Eisenschlüssel ein~
+@64 = ~Steckt den Messingschlüssel ein~
+@65 = ~Steckt den Kleiner Messingschlüssel ein~
+@66 = ~Untersucht die Schlüssellöcher. ~
+@67 = ~Lasst den Golem allein. ~
+@68 = ~Falsche Schlüsselordnung. Ihr seid nicht Meister. Ihr seid tot. ~
+@69 = ~Ihr steckt den ausgewählten Schlüssel ein. ~
+@70 = ~Alle Schlüssellöcher haben verschiedene Größen. Gemäß dem, was die Räuber taten, als Ihr angekommen seid, scheint es, dass Ihr alle sechs Schlüssel haben müsst, damit der Golem Euch als seinen Meister anerkennt. ~
+@71 = ~Der Golem sagt nichts. Der Schlüssel verschwindet im Schlüsselloch, und Ihr hört den Ton von Räderwerken. ~
+@72 = ~Wartet auf die Reaktion des Golem. ~
+@73 = ~Die Schlüssel fallen aus den Schlüssellöchern heraus. Dann sagt der Golem: "Falsche Schlüsselordnung. Ihr seid nicht Meister. Ihr seid tot." ~
+@74 = ~Steckt den Goldschlüssel ein. ~
+@75 = ~Ihr setzt den letzten Schlüssel ein. ~
+@76 = ~Nach ein paar Sekunden sagt der Golem: "Ihr habt nicht den Diamantschlüssel in das geheime Schlüsselloch an meinem Kopf eingesetzt. Ihr habt mir befohlen, dass ich mich zerstören muss, wenn das geschieht. ~
+@77 = ~Aktivierung des Schimmelgolems
+
+Ich steckte die Schlüssel in der richtigen Reihenfolge in den Schimmelgolem ein. Jedoch erwähnte er ebenfalls einen Diamantschlüssel, und nachdem dieser nicht in ein geheimes Schlüsselloch an seinem Kopf eingesetzt wurde, löste sich der Schimmelgolem auf. Glücklicherweise wurden die Gegenstände, die er in seinem Körper schützte, nicht zerstört. Ich wusste nicht, dass ein Diamantschlüssel ebenfalls vorhanden war, und habe das geheime Schlüsselloch auch nicht bemerkt. Die Räuber waren sich wahrscheinlich dieses Schutzes auch nicht bewusst. Es ist sehr wahrscheinlich, dass der echte Meister des Golems diesen Schutz schuf, um zu verhindern, dass der Golem kontrolliert wird, selbst wenn der nicht berechtigte Benutzer alle sechs Metallschlüssel besitzt. ~
+@78 = ~Ihr habt... Ihr habt Schlüssel? Kein Schlüssel? Vladimir tötet Euch... um zu sehen, ob Schlüssel... Euer Schlüssel... wenn Ihr... irgendeinen Schlüssel habt... ~
+@79 = ~Vladimir steckte die Schlüssel ein... alle sechs Schlüssel... ~
+@80 = ~Vladimir bedauert... Vladimir wollte keine Schlüssel einsetzen... falsche Reihenfolge der Schlüssel ... ~
+@81 = ~Ja... ja Herrin... ~
+@82 = ~Vladimirs Schlüssel... werde Schlüssel finden... ~
+@83 = ~Aktivierung des Schimmelgolems
+
+Als wir im Gasthof Zum Freundlichen Arm ankamen, sammelten sich Räuber, angeführt von einer Zauberin, um einen Schimmelgolem. Das Wesen hat sechs Schlüssellöcher in seiner Brust. Die Männer des Clans hatten alle Schlüssel, aber ein dummer Räuber verwendete sie ohne Erlaubnis der Zauberin, weshalb er offensichtlich die Schlüssel in einer falschen Reihenfolge einsteckte; der Golem gab eine Art Feuerball frei. Die Explosion verstreute die Schlüssel über das ganze Gebiet. Die Wut der Zauberin war riesig, als sie den Räubern befahl, sofort mit der Suche nach den verlorenen Schlüsseln zu beginnen. Wenn ich es schaffen würde, alle Schlüssel vor ihnen zu bekommen, könnte ich im Stande sein, die richtige Reihenfolge herauszufinden und den Golem zu meinem eigenen Vorteil zu verwenden. Es gibt viele Räuber in diesem Gebiet, so dass höchstwahrscheinlich die meisten, wenn nicht alle Schlüssel, bereits gefunden wurden. Ich werde die Schlüssel aus ihren kalten, toten Händen ergreifen müssen. ~
+@84 = ~Ich verbarg mich im Schatten, so dass ich von niemandem bemerkt wurde. Ich sah Marys Tod. Das war schrecklich. ~
+@85 = ~Ich bin Lord Damien Jesacco. Seid Ihr Freund oder Feind? ~
+@86 = ~Ich bin hier, um den Grauen Clan zu erkunden und zerstören. ~
+@87 = ~Feind. Bereitet Euch darauf vor, zu sterben! ~
+@88 = ~Ich bin ein Mitglied des Grauen Clans! ~
+@89 = ~Für der Ruhm von Amn! ~
+@90 = ~Ich vertraue Euch. Dies sind meine Freunde, John und Ernest, und sie sind mit mir von Amn auf der Suche nach meiner schönen Frau Mary gereist, die vom Grauen Clan entführt wurde. ~
+@91 = ~Glaubt Ihr, dass sie noch am Leben ist? Es tut mir Leid, das zu sagen, aber wenn sie kein Lösegeld gefordert haben, ist Eure Frau wahrscheinlich bereits tot. ~
+@92 = ~Warum glaubt Ihr, dass sie Eure Frau dorthin mitgenommen haben? ~
+@93 = ~Ich bin nicht an Eurem Problem interessiert. Lebt wohl!. ~
+@94 = ~Ich bin wegen meiner Frau gekommen, Rohling. Ihr werdet Stahl statt des Lösegeldes bekommen. Zu den Waffen, meine Gefährten! Für den Ruhm von Amn! ~
+@95 = ~Es war falsch, anzunehmen, dass Ihr ein echter Abenteurer seid, jemand, der hilft, wenn eine Frau in Gefahr ist. Kommt dann, meine Gefährten, wir werden Mary ohne die Hilfe dieses Rohlings finden! ~ ~Es war falsch, anzunehmen, dass Ihr eine echte Abenteurerin seid, jemand, der hilft, wenn eine Frau in Gefahr ist. Kommt dann, meine Gefährten, wir werden Mary ohne die Hilfe dieses Rohlings finden! ~
+@96 = ~Sie entführten Mary vor einer Woche und forderten dann ein Lösegeld sie. Sie versprachen, sie zurückzugeben, wenn ich zehntausend Goldmünzen bezahle und den Weg der nächsten Militärkarawane von Amn preisgebe, die Waffen transportiert. Wenn ich versagen sollte, ihre Forderung zu erfüllen, würde meine Frau getötet werden. Aber Ihr könnt keinen Verbrechern trauen! Der Austausch sollte diese Nacht in einem kleinen amnischen Dorf stattfinden, aber ich bat jemand anderen, statt meiner zu gehen, weil ein Freund von mir, Zauberer und Meister der Wahrsagungsmagie, mir sagte, dass meine Frau in den Gasthof Zum Freundlichen Arm gebracht wurde, eine Festung in der Nähe der Stadt Baldurs Tor. Deshalb wissen die Dummköpfe da drinnen noch nicht, dass ich hier bin!~
+@97 = ~Wollt Ihr eine Festung mit nur zwei Menschen angreifen, die Euch helfen? ~
+@98 = ~Wie wollt Ihr hineingelangen? Ihr seid keine Diebe, die in aller Heimlichkeit hinein gelangen könnten. Ich nehme auch nicht an, dass Ihr plant, sie direkt anzugreifen... ~
+@99 = ~Wenn Ihr mir 10000 Goldmünzen bezahlt, werde ich Eure Frau retten.~
+@100 = ~Ich weiß, wie man hineingelangt. Wie viel Gold ist Euch das Leben Eurer Frau wert? ~
+@101 = ~Wie könnt Ihr es wagen! Hmmm. Also gut, Abenteurer, ich bin bereit, Euch 2000 Goldmünzen zu bezahlen, wenn Ihr mit ihr zurückkehrt. ~ ~Wie könnt Ihr es wagen! Hmmm. Also gut, Abenteurerin, ich bin bereit, Euch 2000 Goldmünzen zu bezahlen, wenn Ihr mit ihr zurückkehrt. ~
+@102 = ~Fürchtet Euch nicht, ich werde Eure Frau retten. ~
+@103 = ~Ich werde keinen Schritt machen ohne dass die Hälfte der Summe in meinem Rücksack ist. ~
+@104 = ~Unverschämtes Schwein. Ich brauche Eure Hilfe nicht. ~
+@105 = ~Ich habe meine Meinung geändert. Ich werde gehen und Eure Frau finden, aber wenn es getan ist, werde ich meine 2000 Goldmünzen fordern. ~
+@106 = ~Auf wieder sehen. ~
+@107 = ~Unglücklicherweise sind sie zu zahlreich. Und Oger sind tatsächlich schreckliche Feinde. Ihr scheint mit dieser Gegend vertraut zu sein, deshalb bitte ich um Eure Hilfe, Abenteurer.~ ~Unglücklicherweise sind sie zu zahlreich. Und Oger sind tatsächlich schreckliche Feinde. Ihr scheint mit dieser Gegend vertraut zu sein, deshalb bitte ich um Eure Hilfe, Abenteurerin.~
+@108 = ~Ich bin vertraut mit dieser Gegend. Ich werde Eure Frau retten, wenn ich kann. ~
+@109 = ~Das ist für Euch, Ihr unverschämtes Schwein! Nehmt das Geld. Rettet nur Mary. Wir werden hier bleiben, um Euch helfen zu können, wenn Ihr gezwungen werdet, Euch aus einem Kampf zurückzuziehen. Außerdem weiß ich nicht, ob das von Bedeutung ist, so viele seltsame Dinge sind kürzlich geschehen, aber vor nicht allzulanger Zeit fiel diese Art Schlüssel einfach so vom Himmel. Ich habe keine Ahnung, WAS das verursacht hat. Vielleicht schließt er eine Tür innerhalb des Gasthofs auf? Hier bitte. Geht jetzt! Rettet bitte meine Frau. ~
+@110 = ~Rettet Damiens Frau
+
+Ich habe Damien, einen wohlhabenden Großhändler aus Amn getroffen. Der Graue Clan entführte seine Frau Mary. Damien ist ebenfalls ein Krieger, aber er kennt dieses Gebiet nicht gut genug, deshalb versprach ich, seine Frau für den richtigen Preis zu retten. Wir einigten uns auf 2000 Goldmünzen. Er bezahlte die Hälfte der Summe im Voraus. ~
+@111 = ~Hier sind 300 Goldmünzen. Übrigens, vor nicht allzulanger Zeit fiel dieser Schlüssel vom Himmel. Ich habe keine Ahnung, was das verursachte. Vielleicht schließt er eine Tür innerhalb des Gasthofs auf? Ich könnte nicht wirklich sagen, was er tut, und wir haben keine Zeit, die Sache zu untersuchen. Geht jetzt! Rettet bitte meine Frau. ~
+@112 = ~Rettet Damiens Frau
+
+Ich habe Damien, einen wohlhabenden Großhändler aus Amn getroffen. Der Graue Clan entführte seine Frau Mary. Damien ist ebenfalls ein Krieger, aber er kennt dieses Gebiet nicht gut genug, deshalb versprach ich, seine Frau für den richtigen Preis zu retten. Wir einigten uns auf 2000 Goldmünzen. Er zahlte bereits 300 Goldmünzen als Vorschuss. ~
+@113 = ~Vor nicht allzulanger Zeit, fiel dieser Schlüssel einfach vom Himmel. Ich habe keine Ahnung, was das verursachte. Vielleicht schließt er eine Tür innerhalb des Gasthofs auf... Geht jetzt! Und versagt bitte nicht. ~
+@114 = ~Rettet Damiens Frau
+
+Ich habe Damien, einen wohlhabenden Großhändler aus Amn getroffen. Der Graue Clan entführte seine Frau Mary. Damien ist ebenfalls ein Krieger, aber er kennt dieses Gebiet nicht gut genug, deshalb versprach ich, seine Frau für den richtigen Preis zu retten. Er wird 2000 Goldmünzen bezahlen.~
+@115 = ~Bitte tut das. Wir werden hier bleiben, um Euch helfen zu können, wenn Ihr gezwungen werdet, Euch aus einem Kampf zurückzuziehen. Außerdem weiß ich nicht, ob das von Bedeutung ist, so viele seltsame Dinge sind kürzlich geschehen, aber vor nicht allzulanger Zeit fiel diese Art Schlüssel einfach so vom Himmel. Ich habe keine Ahnung, WAS das verursacht hat. Vielleicht schließt er eine Tür innerhalb des Gasthofs auf? Hier bitte. Geht jetzt! Rettet bitte meine Frau. ~
+@116 = ~Rettet Damiens Frau
+
+Ich habe Damien, einen wohlhabenden Großhändler aus Amn getroffen. Der Graue Clan entführte seine Frau Mary. Damien ist ebenfalls ein Krieger, aber er kennt dieses Gebiet nicht gut genug, deshalb versprach ich, seine Frau zu retten. ~
+@117 = ~Feind in der Nähe! Verteidigt Euch! ~
+@118 = ~Ich danke Euch dafür, was Ihr getan habt, Abenteurer. Ich bin Lord Damien Jesacco, ein Großhändler aus Amn, und Ihr habt meine Frau gerettet. ~ ~Ich danke Euch dafür, was Ihr getan habt, Abenteurerin. Ich bin Lord Damien Jesacco, ein Großhändler aus Amn, und Ihr habt meine Frau gerettet. ~
+@119 = ~Nun, nachdem wir hier alle zusammen sind, ist es Zeit für etwas Spaß. Also, wenn jeder bitte alle Wertsachen, die er besitzt, in meinen Rucksack legen würde, würde ich es außerordentlich schätzen. Ihr habt wertvolle Waffen, und Eure Frau hat wirklich nette Schmuckstücke... ~
+@120 = ~Meine Dame! Ich sagte Euch, dass es draußen gefährlich ist. Aber bin ich mehr als glücklich zu sehen, dass Ihr unversehrt geflüchtet seid. Wie habt Ihr es geschafft, die magische Abschirmung zu durchbrechen, die den Gasthof umgibt? ~
+@121 = ~Ihr seid Adelige. Geht mir aus den Augen . ~
+@122 = ~Halunken! Rennt, Mary! Kommt, meine Gefährten, für den Ruhm von Amn! ~
+@123 = ~Nein John, wir werden niemanden töten. Mary ist unverletzt, wir gehen nach Hause. ~
+@124 = ~Rettet Damiens Frau
+
+Mary, die Frau des Großhändlers Damien, wurde gerettet. Ich hätte sie jedoch nicht gerettet, wenn ich gewusst hätte, dass sie Adelige sind. Ich kann das überspannte Verhalten jener selbstgefälligen edlen Leute nicht ertragen. ~
+@125 = ~Es ist schade, aber wir können nicht länger sprechen. Wir sind in Eile, ich muss zu einer Handelskonferenz in Athkatla zurückkommen... ~
+@126 = ~Alles Gute, meine Dame. Viel Glück, Lord Jesacco. ~
+@127 = ~Ich denke, dass Ihr meine Belohnung vergessen habt... ~
+@128 = ~Ihr werdet nirgendwo hingehen, bis ich die Belohnung bekomme, die wir vereinbart hatten. ~
+@129 = ~Wenn Ihr einen Kampf herausfordern wollt, habt Ihr die falsche Person erwischt. Lebt wohl! ~
+@130 = ~*Ihr zieht Euch ein bisschen zurück, als Ihr Damien vor Wut und Verlust zitternd und schreiend seht. Plötzlich richtet er seine Augen auf Euch, leuchtend vor verrücktem Wutrausch. Mit einer hohlen Stimme hört Ihr ihn sprechen, obwohl Ihr zuerst kein Wort vom anderen richtig unterscheiden könnt. Langsam erhebt sich sein Flüstern zu einem Schrei* Ihr... Ihr... Ihr habt meine Frau getötet! Zu den Waffen, meinen Gefährten, wollen wir meine geliebte Mary rächen! ~
+@131 = ~Ich bin höchst dankbar, dass Ihr meine geliebte Frau gerettet habt, Abenteurer.~ ~Ich bin höchst dankbar, dass Ihr meine geliebte Frau gerettet habt, Abenteurerin.~
+@132 = ~Bevor ich gehe, möchte ich meine Dankbarkeit mit dieser kleinen Summe ausdrücken, nehmt sie bitte an. Viel Glück, Abenteurer! ~ ~Bevor ich gehe, möchte ich meine Dankbarkeit mit dieser kleinen Summe ausdrücken, nehmt sie bitte an. Viel Glück, Abenteurerin! ~
+@133 = ~Rettet Damiens Frau
+
+Mary, die Frau des Großhändlers Damiens aus Amn, wurde gerettet. Er gab mir einen netten Betrag aus Gold für meine edle Tat. ~
+@134 = ~Eure Belohnung, natürlich! Hier bitte Lebt wohl!. ~
+@135 = ~Bitte findet meine Frau, Abenteurer. ~
+@136 = ~Bevor ich gehe, möchte ich meine Dankbarkeit mit dieser kleinen Summe ausdrücken, nehmt sie bitte an. Ah, ich habe ebenso einen Schlüssel gefunden. Ich denke nicht, dass ich Gebrauch davon machen kann, vielleicht könnt Ihr ihn brauchen. Viel Glück! ~
+@137 = ~Rettet Damiens Frau
+
+Mary, die Frau des Großhändlers Damiens aus Amn, wurde gerettet. Zusätzlich zu einem netten Betrag aus Gold gab der Edelmann mir auch einen magischen Schlüssel. ~
+@138 = ~Ich bin einer der besten Bogenschützen in ganz Amn. Obwohl ich ohne Damiens Hilfe noch ein Straßenräuber wäre. Er ist ein echter Freund. ~
+@139 = ~Damien ist ein sehr einflussreicher Mann. Und ein guter Freund. ~
+@140 = ~Damien hat ebenso Freunde unter den Verhüllten Magiern! ~
+@141 = ~Damien ist nicht nur ein wohlhabender Großhändler. Er ist beim Militär von Amn ebenfalls sehr einflussreich. ~
+@142 = ~Ich hoffe, dass Damien seine Frau findet. Lebendig. ~
+@143 = ~Amn ist das Paradies für Großhändler. ~
+@144 = ~Ihr wagt es, mit Lord Jesacco in diesem Ton zu sprechen?! Unverschämter Schuft, bereitet Euch darauf vor, zu sterben! ~
+@145 = ~Die Riesen sind zu nahe am Tor, Hauptmann! Wir müssen sie davon abhalten, hineinzugehen. Zu den Waffen, meine Gefährten! Für den König von Tethyr!!! ~
+@146 = ~Rennt Bentley, rennt! Ich werde sie aufhalten! ~
+@147 = ~Ihr wagt es, in mein Haus einzubrechen, tätowierter Rohling?! Ich diene der Flammenden Faust, also lasst Eure Waffe fallen, bevor ich Euch Verbrecher ermorde! ~
+@148 = ~Anscheinend haben meine früheren Vorgesetzten sie geschickt. Jämmerlicher Versuch, zweifellos. ~
+@149 = ~Ich spucke auf Sarevok und auf sein Angebot! Haut jetzt ab, Ihr Idiot. Wenn ich Euch jemals wieder sehe, füttere ich die Oger mit Euren Knochen. ~ ~Ich spucke auf Sarevok und auf sein Angebot! Haut jetzt ab, Ihr Idiotin. Wenn ich Euch jemals wieder sehe, füttere ich die Oger mit Euren Knochen. ~
+@150 = ~Eindringlinge in DIESEM Stockwerk?! Was zum Teufel geht da vor, Linda! Ich sagte Euch, dass keiner uns stören sollte! Und wo ist dieser Schuft Reufasio?! ~
+@151 = ~Lasst uns Ihnen einen Denkzettel verpassen. ~
+@152 = ~Ich habe keine Ahnung, wie sie hereinkamen. Es tut mir wirklich Leid, mein Herr ... ~
+@153 = ~Ich habe die Schriftrolle schließlich gefunden! Sie beschreibt die Reihenfolge, in der die Schlüssel in diese grüne Maschine eingesteckt werden müssen. ~
+@154 = ~Ihr habt die Schlüssel eingesteckt, als ich nicht hier war?! Idiot! Trottel! Sie müssen in der richtigen Reihenfolge eingesteckt werden, Ihr Schwachkopf! Ihr Blödian! ~
+@155 = ~*Seufz* Lasst uns dann einen Versuch mit Eurer Reihenfolge machen. Ich bin sicher, dass es falsch ist, aber zumindest wird er die Schlüssel fallen lassen, und wir können sie wieder in der Reihenfolge einsetzen, die auf meiner Schriftrolle beschrieben ist. ~
+@156 = ~Golem, ich bin Euer Meister. Gebt mir die Artikel, die Ihr beschützt! ~
+@157 = ~Verdammt noch mal! Der verdammte Feuerball verstreute die Schlüssel in alle Richtungen! Sagt Euren Männern, dass sie das ganze verdammte Gebiet nach ihnen absuchen sollen! Idioten! ~
+@158 = ~Bereitet Euch darauf vor, zu sterben, Raufezzo! ~
+@159 = ~Sterbt! ~
+@160 = ~Beruhigt Euch. Ich bin nicht Reufasio. Ihr wart versteinert, aber ich habe es entzaubert. ~
+@161 = ~Für Beregost! ~
+@162 = ~Hä? Ah, tut mir Leid. Oh, Ihr seid nicht dieser verdammte Zauberer! Wo ist er?! ~
+@163 = ~Seid Ihr verrückt!?! Ein gelähmter Gibberling könnte Euch jetzt töten, und dennoch wollt Ihr Reufasio gegenübertreten!? ~
+@164 = ~Beruhigt Euch, beruhigt Euch! Ihr wollt nicht von dem Magier getötet werden, stimmt dass? ~
+@165 = ~Seid Ihr verrückt!?! Ein gelähmter Gibberling könnte Euch jetzt töten, und Ihr wollt kämpfen?! Reufasio ist übrigens tot, also müsst Ihr Euch nicht mehr um ihn sorgen. ~
+@166 = ~Ich habe Reufasio getötet. Auf jeden Fall seid Ihr nicht in der Verfassung, zu kämpfen. ~
+@167 = ~Ihr habt recht. Ich werde in diesem Stockwerk bleiben. Hoffentlich habe ich noch genug Ausdauer, um einige dieser schmutzigen Räuber zu töten. ~
+@168 = ~Ich fühle mich besser. Ich werde dieses Stockwerk sichern. ~
+@169 = ~Wer seid Ihr? ~
+@170 = ~Schnell, versteckt Euch irgendwo, Kind! Es ist gefährlich, irgendwohin zu gehen. ~
+@171 = ~Ruhe, Kind! Geht mir aus den Augen! ~
+@172 = ~Schon gut, schon gut. Ich werde mich verbergen! ~
+@173 = ~Vorlauter Abschaum! ~
+@174 = ~Was ist passiert? Mein Kopf schmerzt so sehr. ~
+@175 = ~Ihr wart zu Stein erstarrt. Damien wartet draußen auf Euch, aber es wäre unsicher, zum gegenwärtigen Zeitpunkt dorthin zu gehen. Versteckt Euch hier irgendwo, die Räuber werden bald vertrieben sein. ~
+@176 = ~Einige nette Schmucksachen habt Ihr hier! Ich denke, dass Ihr sie besser mir gebt; es ist nichts persönliches aber ich muss Euch töten, wenn Ihr es nicht tut. ~
+@177 = ~Ihr wart zu Stein erstarrt, aber ich habe Euch gerettet. Leider könnt Ihr den Gasthof noch nicht verlassen. Versteckt Euch irgendwo, bis die Räuber vertrieben sind. ~
+@178 = ~Neiiiin! ~
+@179 = ~Er ist hier?! Gott sei Dank! Schon gut, schon gut, ich werde mich unter einem Bett verstecken, hoffentlich werden diese Bengel mich dort nicht finden! ~
+@180 = ~Das wäre das beste, einverstanden. Vielen Dank dafür, mich zu befreien. Wenn ich jemals nach Hause komme, lasse ich meinen Mann Damien wissen, was Ihr für mich getan habt. Ich bin sicher, dass er Euch genug belohnen wird. ~
+@181 = ~Gut Euch wieder zu sehen, Abenteurer! ~ ~Gut Euch wieder zu sehen, Abenteurerin! ~
+@182 = ~Ich fand einen Arzneitrank. Er hatte einen angenehmen Geruch, und ich hatte irgendwie Durst. Als ich ihn trank, wurde ich unsichtbar! Ich war zuerst sehr überrascht, aber dann gewöhnte ich mich daran, und fing an, das Gebäude zu erforschen. Ich bemerkte, dass sich eine junge Frau, vermutlich eine Zauberin, vorbereitete, eine Gruppe von Räubern zur Außenseite zu teleportieren. Ich schloss mich ihnen vorsichtig an, und fand mich dann am Eingang der Festung wieder... ~
+@183 = ~Ihr habt Euer Leben riskiert. Ihr seid eine sehr tapfere Frau, meine Dame. ~
+@184 = ~Einen unbekannten Arzneitrank zu trinken, selbst wenn er einen guten Geruch hat, ist gewagt. Ihr könntet ebenso eine Flasche Gift auf diese Weise einnehmen, meine Dame. ~
+@185 = ~Ich habe gerade meine Rüstung abgenommen! Verdammt! ~
+@186 = ~Bitte verletzt mich nicht! ~
+@187 = ~Ihr habt William getötet! ~
+@188 = ~Aaargh! ~
+@189 = ~William war ein guter Junge. ~
+@190 = ~William! ~
+@191 = ~Bitte verletzt mich nicht! Ich habe niemanden getötet! Ich will nur nach Hause gehen! ~
+@192 = ~Eure Schwester Felicia hat uns gesandt. Sie sagt, dass Ignaz, ein Soldat aus Amn, zwei von Euch nach Athkatla begleiten kann. Ihr könnt dort ein neues Leben anfangen. ~
+@193 = ~Bereitet Euch darauf vor, zu sterben, Verbrecher. ~
+@194 = ~Ich bin Charles. Ich beging kein Verbrechen, ich schwöre! Ich habe eine Schwester, Felicia. Sie ist sehr freundlich. ~
+@195 = ~Ich weiß, sie war es, die uns sandte, um Euch zu finden. Sie sagt, dass Ignaz, ein Soldat aus Amn, zwei von Euch nach Athkatla begleiten kann. Ihr könnt dort ein neues Leben anfangen. ~
+@196 = ~Sie WAR nett. Leider musste ich sie töten, weil sie Zeuge war, als ich einige Wächter schlachtete. ~
+@197 = ~Zu schlimm, dass ihr Bruder ein Mörder ist. Jetzt werde ich Euch festnehmen, Euch aus dem Gasthof bringen und warten, bis die Flammende Faust ankommt. ~
+@198 = ~*seufz* Es steht Euch frei zu gehen. Kommt heraus. ~
+@199 = ~Felicia! Ich wusste, dass sie hier war! Ich sah sie in der Ferne, aber ich dachte, dass ich träumte! Unterwegs nach Amn? Wunderbar! Wo ist sie jetzt? ~
+@200 = ~Sie ist im Tempel. Wartet! Bevor Ihr geht, erzählt mir alles, was Ihr über den Clan wisst. ~
+@201 = ~Unter dem Schutz des Hauptmanns Ignaz im Tempel. Ich soll hier den Grauen Clan erkunden. Was wisst Ihr über sie? ~
+@202 = ~Ich werde Euch alles im Tempel erzählen! Bis später, und viel Glück bei Eurer Mission! ~
+@203 = ~Entschuldigt Felicia, ich habe keine Wahl! *zieht einen Dolch und sticht sich selbst* ~
+@204 = ~Danke! Ich werde nichts über Eure Organisation verraten, ich verspreche es! ~
+@205 = ~Hallo wieder, Abenteurer! Sie ist meine Schwester, Felicia. ~ ~Hallo wieder, Abenteurerin! Sie ist meine Schwester, Felicia. ~
+@206 = ~Findet Charles, den Bruder von Felicia
+
+Charles, der Räuber, dem ich erlaubte abzureisen, war der Bruder von Felicia, einer der Überlebenden im Tempel. Er hat den Clan verlassen. Hauptmann Ignaz nimmt sie mit sich nach Amn, wenn sie den überfall der Räuber überleben. ~
+@207 = ~Hallo wieder, Abenteurer! Vielen Dank dafür, die Nachricht meiner Schwester weiterzureichen! Wir wären ohne Eure Hilfe jetzt nicht hier! Ich habe... ~ ~Hallo wieder, Abenteurerin! Vielen Dank dafür, die Nachricht meiner Schwester weiterzureichen! Wir wären ohne Eure Hilfe jetzt nicht hier! Ich habe... ~
+@208 = ~Findet Charles, den Bruder von Felicia
+
+Charles schaffte, zu seiner Schwester Felicia zurückzukehren. Hauptmann Ignaz nimmt sie mit sich nach Amn, wenn sie den überfall der Räuber überleben. ~
+@209 = ~... Ich muss zugeben, dass ich letztendlich ein Verbrecher bin. ~
+@210 = ~Nein, ich tötete niemanden, Felicia. Das habe ich bereits gesagt! Aber... gut... einmal, in einer Taverne in der Stadt Baldurs Tor ließ eine fette Adlige ihre Handtasche auf dem Tisch zurück. Sie ließ sie dort zurück, ich schwöre es! Keiner war ringsherum, also untersuchte ich sie. Ich fand einige Juwelen darin. DIES ist Eure, Abenteurer. Bitteschön. Verkauft sie, tragt sie, tut damit, was immer Ihr wollt. ~ ~Nein, ich tötete niemanden, Felicia. Das habe ich bereits gesagt! Aber... gut... einmal, in einer Taverne in der Stadt Baldurs Tor ließ eine fette Adlige ihre Handtasche auf dem Tisch zurück. Sie ließ sie dort zurück, ich schwöre es! Keiner war ringsherum, also untersuchte ich sie. Ich fand einige Juwelen darin. DIES ist Eure, Abenteurerin. Bitteschön. Verkauft sie, tragt sie, tut damit, was immer Ihr wollt. ~
+@211 = ~Danke, Charles. Ihr habt mir auch versprochen, vom Grauen Clan zu erzählen... ~
+@212 = ~Eine Perlenkette? Es ist eine schlechte Entschädigung für die Anstrengungen, die ich machte, um Euch zu retten. Macht nichts, erzählt mir aber nur einfach alles, was Ihr über den Grauen Clan wisst. ~
+@213 = ~Ich war ein Mitglied von sehr niederem Rang. Sie sagten nie irgendetwas Wichtiges in meiner Gegenwart. Ich belauschte jedoch ein Gespräch, das im Wesentlichen über Kampftaktiken ging, darüber, wie man Halboger und menschliche Truppen organisiert. Am Ende erwähnten sie jedoch, dass der Zhentarim ihr Angebot auf Zusammenarbeit ablehnte... das ist alles, was ich weiß... Wenn ich mich an irgend etwas anderes erinnere, teile ich esEuch mit... ~
+@214 = ~Besser als nichts. Ich werde später zurückkehren. ~
+@215 = ~Idiot! Ihr seid nutzlos. ~
+@216 = ~Tut mir Leid, ich erinnere mich an nichts nützliches... ~
+@217 = ~Nein mein Herr, ich habe nicht gelogen. Ich habe niemanls jemanden getötet. Ich schwöre es. ~
+@218 = ~Also ist Euer Schwert nicht zu viele Male verwendet worden. Hoffentlich waren Eure Ohren etwas reger. Was habt Ihr über den Clan gehört? Sicher müssen sie viel geredet haben, wie Räuber es tun, wenn sie zu tief ins Bierglas geschaut haben. ~
+@219 = ~Hört zu, Kind, ich brauche mehr Informationen über den Clan. Was habt Ihr gehört, während Ihr Mitglied wart? ~
+@220 = ~Hallo, Abenteurer. Ihr habt unsere Leben gerettet, indem Ihr den verrückten Oger getötet habt. Unsere Taktik sollte alle Angriffe auf ihn konzentrieren, aber er war einfach unverwundbar! ~ ~Hallo, Abenteurerin. Ihr habt unsere Leben gerettet, indem Ihr den verrückten Oger getötet habt. Unsere Taktik sollte alle Angriffe auf ihn konzentrieren, aber er war einfach unverwundbar! ~
+@221 = ~Wir sind in großer Gefahr, Abenteurer. Ich befürchte, dass wir nicht im Stande sind, uns länger zu halten, und die Angreifer den Tempel ebenso einnehmen werden. Sie werden nicht einmal diese Bürger verschonen. Es gibt zu viele von ihnen, aber die Ungeheuer sind noch schlechter. Besonders der Zauberer! Unsere Taktik sollte alle Angriffe auf ihn konzentrieren, aber er ist einfach unverwundbar! ~ ~Wir sind in großer Gefahr, Abenteurerin. Ich befürchte, dass wir nicht im Stande sind, uns länger zu halten, und die Angreifer den Tempel ebenso einnehmen werden. Sie werden nicht einmal diese Bürger verschonen. Es gibt zu viele von ihnen, aber die Ungeheuer sind noch schlechter. Besonders der Zauberer! Unsere Taktik sollte alle Angriffe auf ihn konzentrieren, aber er ist einfach unverwundbar! ~
+@222 = ~Nicht jetzt, Felicia. Bitte. ~
+@223 = ~Gute Idee, Felicia. Abenteurer, habt Ihr irgendwelche Nachrichten? Können wir Hilfe von der Flammenden Faust erwarten? ~ ~Gute Idee, Felicia. Abenteurerin, habt Ihr irgendwelche Nachrichten? Können wir Hilfe von der Flammenden Faust erwarten? ~
+@224 = ~Mitglieder ihrer geheimen Einheit... äh "Sicherungsgruppe" sind bereits hier, aber leider es gibt viele Räuber, und in den Gasthof hineinzugehen ist sehr schwierig. Hoffentlich werden ihre regulären Einheiten bald ankommen. ~
+@225 = ~Ich weiß nicht. Aber wir brauchen sie nicht! Zusammen werden wir stark genug sein, um die Räuber zu vertreiben. ~
+@226 = ~Die Flammende Faust?! Sie sind ein Bündel von Idioten. Glücklicherweise bin ich stark genug, um alle Feinde zu töten. ~
+@227 = ~Ich hoffe es. Wenn Ihr mehr Informationen über den Angriff braucht, kann ich für Euch nützlich sein. Nachdem ich hier war, als die Belagerung anfing, kann ich Euch erzählen, was ich weiß, fragt nur. ~
+@228 = ~Danke, aber ich denke, dass ich die ganzen Informationen selbst bekommen kann. ~
+@229 = ~Ich wäre dafür dankbar. ~
+@230 = ~Welche Informationen könnte ich von Euch bekommen? Ihr spielt keine Rolle bei großen Ereignissen, also seid einfach still. ~
+@231 = ~Wie Ihr wünscht. Ich bin hier, wenn Ihr Eure Meinung ändert. ~
+@232 = ~Ich würde Euch herausfordern, wenn die Situation nicht so wäre. Bedenkt, dass ich Hauptmann der Wachen bin; ich bin es, der für alle Bürger und Soldaten hier verantwortlich ist. Versucht nicht, meine Arbeit zu behindern! ~
+@233 = ~Habt Ihr irgendwelche Fragen, Abenteurer? ~ ~Habt Ihr irgendwelche Fragen, Abenteurerin? ~
+@234 = ~Wo sind die Leute... schafften sie es zu flüchten? Wo sind Bentley und Gellana Spiegelschatten? ~
+@235 = ~Ich kann die ungeübten Räuber leicht ermorden, sie sind nicht stärker als Straßenschläger. Ihre Führer und Zauberer sind jedoch viel zähere Feinde. Was wisst Ihr über sie? ~
+@236 = ~Anders als die Wächter, an die ich mich von meinem vorherigen Besuch im Gasthof Zum Freundlichen Arm erinnere, die zerlumpte Lederrüstungen trugen und ungeübt waren, sind Eure Männer gut ausgestattet und furchtlos im Kampf. Habt Ihr diese Wächter so ausgebildet, in so kurzer Zeit? ~
+@237 = ~Ich habe vorläufig nicht mehr Fragen. ~
+@238 = ~Hallo wieder, Abenteurer. ~ ~Hallo wieder, Abenteurerin. ~
+@239 = ~Ich bin über mehrere Dinge erstaunt... ~
+@240 = ~Guten Tag. ~
+@241 = ~Ein ernsthaft verwundeter Waldläufer brachte Nachrichten über den Angriff der Räuber. Er starb in meinen Händen. Ich schaffte es, die meisten Bürgerlichen, einschließlich Bentley und Gellana, zu evakuieren. Bentley wollte bleiben, aber ich wollte nicht sein Leben riskieren. Die Räuber kamen früher an, als wir erwarteten, so mussten wir die flüchtenden Leute schützen. Ich sandte meinen besten Soldaten, um Bentley zu begleiten. Keiner von ihnen kehrte zurück, aber Felicia ist sicher, dass Bentley es schaffte zu flüchten. ~
+@242 = ~Ich hoffe, dass es nicht unser letzter ist. ~
+@243 = ~Wir können nicht allzu viel vom Tempel sehen, aber ich bin sicher, dass ihre Führer innerhalb des Gasthofs sind, wahrscheinlich in dem Dachgeschoss. Abgesehen von dem Ogermagier meldeten meine Männer zwei andere Magier. Einer von ihnen ist als Reufazzo oder Reufazeo bekannt. Gemäß Gerüchten ist er dazu in fähig, Leute versteinern zu lassen. ~
+@244 = ~Hehe, ja, tatsächlich, ich fand einige Kisten. Aber wir wären bereits tot, wenn die "ursprünglichen" Wächter des Gasthofs Zum Freundlichen Arm unsere Verteidiger wären. Sie waren so feig, dass sie aus dem Gebiet flohen, sobald sie die Nachrichten von dem sterbenden Waldläufer hörten. Weder ich noch meine Männer sind Einheimische. Ich bin der Stiefbruder des Leutnants Aegisfield aus Athkatla. Meine gegenwärtigen Soldaten waren eine Gruppe von Kämpfern aus verschiedenen Teilen der Schwertküste, ursprünglich auf dem Weg nach Baldurs Tor, die eine Pause im Gasthof zum Freundlichen Arm machten. Sie gingen nach Baldurs Tor zum Stand von Entar Silvershield, weil ein verrückter Wahrsager dem Herzog gesagt hatte, dass er durch die Hände von Mördern sterben würde. Silvershield entschied sich dann dafür, eine Elitegruppe von Leibwächtern, ausgewählt aus den besten Kämpfern der Schwertküste, zu organisieren. ~
+@245 = ~Es tut mir Leid, Felicia, aber der Abenteurer bekämpft den Clan, und auf diese Weise unseren Verbündeten. Ich kann nicht das Geschick Eures Bruders im Auge behalten. ~ ~Es tut mir Leid, Felicia, aber die Abenteurerin bekämpft den Clan, und auf diese Weise unseren Verbündeten. Ich kann nicht das Geschick Eures Bruders im Auge behalten. ~
+@246 = ~Ich werde es, ich werde es. Aber wenn ich jemals erfahre, dass Ihr schließlich gelogen habt, werfe ich Euch in die Abwasserkanäle von Athkatla, Kind! ~
+@247 = ~Wartet, Felicia! Ihr könnt nicht nach draußen gehen! Das ist äußerst gefährlich! ~
+@248 = ~Findet Charles, den Bruder von Felicia
+
+Charles, der Bruder von Felicia, ist tot. Als das Mädchen das erfuhr, rannte sie aus dem Tempel hinaus. Hauptmann Ignaz folgte ihr, um sie vor den Pfeilen der Räuber zu retten. In Anbetracht dessen, wie gefährlich das Gebiet ist, glaube ich nicht, dass sie zurückkehren werden. ~
+@249 = ~Ignaz hat einige alte Kisten in den Kellern gefunden. Es gab viele Kettenpanzer, Schwerter und Dolche in ihnen. ~
+@250 = ~Abenteurer! Es ist so gut, dass Ihr hier seid! Mein Bruder... ~ ~Abenteurerin! Es ist so gut, dass Ihr hier seid! Mein Bruder... ~
+@251 = ~Ha! Ihr habt Robert für Euch sprechen lassen, stimmt dass?! Weil er wohlhabend und einflussreich ist! Schon gut, schon gut, ich werde das Maul halten. ~
+@252 = ~Ich konnte nicht schnell genug laufen, und blieb hinter der sicher geleiteten Gruppe zurück. Plötzlich erschienen Räuber aus dem Nichts, als ob sich Ihre eigenen Schatten direkt vor uns verkörperlichten. Ich zitterte von Angst *schaudert*. Helm sei Dank fand ich Sicherheit unter den Bäumen, sonst wäre ich wie der Rest jener armen Jungen tot. Ich konnte alles von dem Platz aus sehen, an dem ich mich verbarg, und bemerkte, wie Bently und eine Gruppe von Bürgerlichern in die Finsternis des Waldes verschwanden. Dann fand mich Ignaz, der das Gebiet erkundete. Eine der Straßen wurde von den Räuber nicht kontrolliert, so flohen wir hierher zurück. ~
+@253 = ~Mein Bruder Charles schloss sich den Räubern an. Aber er ist nicht wirklich so ein gemeiner Junge, und will den Clan verlassen. Ich möchte Euch um einen Gefallen bitten. ~
+@254 = ~Was möchtet Ihr, das ich tue?? ~
+@255 = ~Wenn Euer Bruder ein Verbrecher ist und Ihr wollt, dass ich ihn gegen das Gesetz schütze, könnt Ihr es vergessen. ~
+@256 = ~Halt's Maul, Weibsbild. ~
+@257 = ~Er ist tot. Es tut mir Leid. ~
+@258 = ~Den Gefallen, ihn zu begraben? Er hat ins Gras gebissen! Schließlich bekam er genau, was er verdiente. ~
+@259 = ~Charles? Ich erinnere mich an den Dummkopf. Ich griff ihn an, aber er flüchtete. Ich werde ihn finden und töten. ~
+@260 = ~Euer Herz ist aus Stein gemacht. ~
+@261 = ~Charles verließ unsere Familie nach dem Tod unseres Vaters. Er wurde Mitglied des Clans, aber als ich ihn letztes Mal traf, sagte er, dass er nie irgend jemanden getötet hätte, und dass er so bald wie möglich aufhören würde. Hauptmann Ignaz versprach mir, dass, wenn wir diesen überfall überleben und mein Bruder wirklich kein Mörder ist, er ihn mit nach Amn nehmen würde. Ignaz lud mich ebenso ein, aber ich werde nicht ohne meinen Bruder gehen. ~
+@262 = ~Wenn er kein Mörder ist, sollte er sich zuerst vor Gericht reinwaschen. ~
+@263 = ~Also wie kann ich helfen? ~
+@264 = ~Vergesst es. Ich helfe Verbrechern nicht. Das wäre ungesetzlich. ~
+@265 = ~Die Flammende Faust richtet gewöhnlicherweise Räuber sofort hin, nachdem sie festgenommen wurden. Selbst wenn sie ihm erlauben würden, vor Gericht vorgeladen zu werden, würden sie ihn höchstwahrscheinlich wegen Verschwörung und Teilnahme an Verbrechen zum Tode verurteilen. Charles hat hier keine Zukunft, deshalb muss er nach Amn gehen. ~
+@266 = ~Aha. Was kann ich dann für Euren Bruder tun? ~
+@267 = ~Charles wird bekommen, was er verdient. Hört auf, mich damit zu belästigen. ~
+@268 = ~Er ist hier im Gasthof Zum Freundlichen Arm. Ich weiß es, weil ich ihn sah. Er war weit weg, aber ich weiß, dass er es war. Wenn Ihr ihn trefft, sagt ihm , dass er jetzt den Clan verlassen kann, und die Flammende Faust nicht fürchten sollte, weil Hauptmann Ignaz uns mit nach Athkatla nehmen wird. ~
+@269 = ~Ich werde tun, was ich kann. Er könnte auch einige nützliche Informationen über den Clan offenbaren. ~
+@270 = ~Vergesst es! ~
+@271 = ~Danke! Ihr werdet sehen, dass er wirklich ein netter Kerl ist, das verspreche ich! ~
+@272 = ~Findet Charles, den Bruder von Felicia
+
+Felicia, eine junge Frau im Gasthof Zum Freundlichen Arm, bat mich, ihren Bruder zu finden. Charles ist ein Mitglied des Grauen Clans, aber er will die Organisation verlassen. ~
+@273 = ~Bitte lasst mich die Geschichte meines Bruders beenden... ~
+@274 = ~War das nicht deutlich genug?! Ich werde Euch nicht helfen. Euer Bruder ist ein Verbrecher, und er wird bekommen, was er verdient. ~
+@275 = ~Ich habe meine Meinung geändert. Erzählt mir noch einmal von Eurem Bruder. ~
+@276 = ~Ihr habt kein Herz. ~
+@277 = ~Habt Ihr Charles getroffen? Habt Ihr irgendwelche Nachrichten? ~
+@278 = ~Nein, ich habe ihn noch nicht gefunden. Ich werde die Suche fortsetzen. ~
+@279 = ~Nein, aber ich bin dessen bereits müde. Ich glaube nicht, dass ich noch mehr Zeit mit der Suche nach Eurem Bruder verbringen werde. ~
+@280 = ~Er hat ins Gras gebissen. Schließlich bekam er genau das, was er verdient hat. ~
+@281 = ~Ich griff den Dummkopf an, aber er flüchtete. Ich werde ihn finden und töten. ~
+@282 = ~Ihr habt es versprochen! Seid bitte nicht so grausam! ~
+@283 = ~Armer Charles! Ich hoffe, dass das bald enden wird! ~
+@284 = ~Neiiin! Charles! Das könnt Ihr mir nicht antun! ~
+@285 = ~Ignaz, Ignaz, der Abenteurer ist böse! ~ ~Ignaz, Ignaz, die Abenteurerin ist böse! ~
+@286 = ~Verdammt! Verdammt seid Ihr alle! ~
+@287 = ~Habt Ihr Eure Meinung geändert? Wenn Ihr Charles trefft, seht Ihr, dass er kein Verbrecher ist! ~
+@288 = ~Danke Euch! Wir werden immer dafür dankbar sein, was Ihr für meinen Bruder getan habt! ~
+@289 = ~Charles! Ihr habt gesagt dass... ~
+@290 = ~Viel Glück! ~
+@291 = ~Bitte vergebt Charles, dass er keine wertvollen Informationen erzählt. Er hatte nur beschränkte Möglichkeiten, während er Mitglied des Clans war. ~
+@292 = ~... und er ist mein Bruder Charles! Hauptmann Ignaz nimmt uns mit nach Amn, wenn wir jemals hier herauskommen... ~
+@293 = ~Hauptmann Ignaz wird Charles und mich mit nach Amn nehmen. Natürlich nur, wenn wir hier jemals herauskommen... ~
+@294 = ~Ihr habt mich angelogen! Ignaz, Ignaz, der Abenteurer ist  böse! ~ ~Ihr habt mich angelogen! Ignaz, Ignaz, die Abenteurerin ist  böse! ~
+@295 = ~Ich hoffe, dass es Charles gut geht, und er den Clan verlassen wird, sobald er kann. ~
+@296 = ~Abenteurer! Ich sehe, dass Ihr von außerhalb kommt! Habt Ihr meine Nichte gesehen... ~ ~Abenteurerin! Ich sehe, dass Ihr von außerhalb kommt! Habt Ihr meine Nichte gesehen... ~
+@297 = ~Seid still, alter Idiot. Wollt Ihr, dass ich Euch den Hals aufschlitze? ~
+@298 = ~Wie sieht sie aus? ~
+@299 = ~Ich habe dafür keine Zeit, leider. ~
+@300 = ~Lucy ist ein schönes junges Mädchen. Sie hat langes blondes Haar, und trägt ein grünes Kleid ... ~
+@301 = ~Bedauerlicherweise habe ich niemanden gesehen, der wie sie aussieht. Jedoch bin ich dabei, alle Häuser sowie das Gebäude des Gasthofs zu durchsuchen, und ich werde Eure Nichte finden, wenn ich kann. ~
+@302 = ~Lucy hat eine Goldkette, richtig? Ein Räuber hat versucht, sie zu vergewaltigen, aber ich Habe mich eingemischt. Ich habe den Räuber noch nicht getötet. ~
+@303 = ~Lucy hat eine Goldkette richtig? Sie ist wohlauf, sie ist im Haus in der Nähe vom Tor des Gasthofs. Ich sagte ihr, sie solle sich dort verbergen, Ihr könnt sie besuchen, wenn die Bedrohung durch die Räuber zu Ende ist. ~
+@304 = ~Sie hat eine Goldkette, richtig? Ein Räuber hat versucht, sie zu vergewaltigen, aber ich habe ihn getötet. Lucy ist wohlauf, sie ist im Haus in der Nähe vom Tor des Gasthofs. ~
+@305 = ~Das Mädchen ist tot. Sie war ein lästiges kleines Weibsbild. ~
+@306 = ~Ich sagte ihr, sie solle das Maul halten, und sie lief plötzlich aus dem Haus... was für ein dummes kleines Weibsbild. ~
+@307 = ~Bitte findet Lucy, Abenteurer! Ich werde Euch eine nette Summe als Belohnung geben, findet sie nur! ~ ~Bitte findet Lucy, Abenteurerin! Ich werde Euch eine nette Summe als Belohnung geben, findet sie nur! ~
+@308 = ~Findet Lucy, Roberts Nichte
+
+Robert, ein Großhändler, hat mich gebeten, seine Nichte Lucy zu finden. Das Mädchen trägt ein grünes Kleid und hat langes blondes Haar. ~
+@309 = ~Ihr habt sie mit diesem Rohling alleine gelassen! Was für ein Abenteurer seid Ihr?! Ihr müsst sofort dorthin gehen! ~ ~Ihr habt sie mit diesem Rohling alleine gelassen! Was für eine Abenteurerin seid Ihr?! Ihr müsst sofort dorthin gehen! ~
+@310 = ~Gott sei Dank, sie ist wohlauf! Danke! Mag Euer Name gesegnet sein! ~
+@311 = ~Lucy, Roberts Nichte, wurde gerettet. Der Großhändler war sehr dankbar und gab uns auch 200 Goldmünzen als Belohnung. ~
+@312 = ~Das ist unmöglich! Ich glaube Euch nicht! Lucy! Lucy, wo seid Ihr?! ~
+@313 = ~Findet Lucy, Roberts Nichte
+
+Lucy, die Nichte des Großhändlers Roberts, ist tot. Robert glaubte es nicht, und verließ den Tempel. Die Räuber haben ihn wahrscheinlich bereits getötet. ~
+@314 = ~Ihr seid ein völliger Idiot! Ich muss Lucy finden, bevor ein anderer schlechter Rohling sie gefangen nimmt! ~ ~Ihr seid eine völlige Idiotin! Ich muss Lucy finden, bevor ein anderer schlechter Rohling sie gefangen nimmt! ~
+@315 = ~Findet Lucy, Roberts Nichte
+
+Ich sagte Roberts Nichte, dass sie ein dummes Weibsbild war, und dass ich sie einem anderen Räuber geben würde, wenn sie nicht das Maul hält. Das Mädchen lief aus dem Haus. Robert sucht nach ihr, aber ich bin sicher, dass wegen der grausamen Räuber keiner von ihnen lebend zurückkehren wird. ~
+@316 = ~Was habt Ihr sagt?! WAS habt Ihr sagt?! Ich mag alt sein, aber ich weiß, wie man mit Typen wie Euch umgeht! ~
+@317 = ~Bitte... Ich bitte Euch um... ~
+@318 = ~Mag Euer Name gesegnet sein! ~
+@319 = ~Bitte findet Lucy! ~
+@320 = ~Wo ist Lucy? Habt Ihr sie gefunden? ~
+@321 = ~Ich habe sie noch nicht gefunden. ~
+@322 = ~Bitte setzt Eure Suche fort! Sie ist ein kluges Mädchen, sie hat es wahrscheinlich geschafft, sich irgendwo zu verbergen! ~
+@323 = ~Nützliches Zeug, muss ich sagen. Hier bitte. Eine Keule, ein Stab, ein Dolch und diese nette Rüstung. Und vier Arzneitränke. Ich fand auch diesen Schlüssel auf dem Boden, bevor ich dieses Haus betrat. Gebt mir jetzt meine Belohnung. Fünftausend Goldmünzen, wie wir gestern vereinbart haben. ~
+@324 = ~Wie ist das gegangen? Verfluchen die Druiden uns jetzt? ~
+@325 = ~Die Belohnung, natürlich! Ich vergaß das beinahe, entschuldigt. Kürbis, gebt ihm, was er verdient. ~
+@326 = ~Hey Kürbis, es scheint, dass wir einige unerwartete Besucher haben... ~
+@327 = ~Bitte verletzt mich nicht! Hilfe, Fremder, Hilfe! ~ ~Bitte verletzt mich nicht! Hilfe, Fremde, Hilfe! ~
+@328 = ~Er will mich verletzen! Hilfe! ~
+@329 = ~Danke dafür, dass Ihr mich gerettet habt! Seid gesegnet! Habt Ihr meinen Onkel Robert vielleicht gesehen? Ich hoffe, dass es ihm gut geht! ~
+@330 = ~Seid still! Euer Onkel ist wahrscheinlich tot, und ich habe Euch NICHT gerettet. Ich hätte diesen Räuber irgendwie getötet, und wenn Ihr nicht ruhig bleibt, werfe ich Euch einem anderen Räuber vor, Weibsbild. ~
+@331 = ~Ich habe ihn nicht getroffen, aber mit einem bisschen Glück schaffte er es, zu flüchten oder sich irgendwo zu verbergen. Bleibt hier und versteckt Euch irgendwo, es ist draußen zu gefährlich. Hoffentlich werden die Einheiten der Flammenden Faust bald ankommen, um die Räuber zu vertreiben. ~
+@332 = ~Robert ist im Tempel, die Wachen schützen ihn. Sie wurden von einer Gruppe Räuber angegriffen, die versuchten, in den Tempel hereinzugelangen, aber ich habe die Angreifer getötet. Es ist draußen zu gefährlich, also bleibt hier. Ich werde Robert sagen, dass Ihr hier seid, und er wird Euch finden, sobald der Gasthof befreit ist. ~
+@333 = ~Ich habe Euren Onkel getötet, Weibsbild. Seine Anwesenheit war so... störend. Er hatte jedoch einen netten Silberring. ~
+@334 = ~Segenswünsche für Euch! ~
+@335 = ~Also gut, ich werde hier bleiben. Wenn Ihr Robert trefft, sagt ihm bitte, dass ich hier bin. ~
+@336 = ~Also er ist wohlauf, Gott sei Dank. Ich werde hier warten. Viel Glück, und seid vorsichtig! ~
+@337 = ~Ich hatte unrecht! Ihr seid schlimmer als jene Räuber! ~
+@338 = ~Neiiin! Er war mein einziger lebender Verwandter! Ihr seid schlimmer als jene Räuber!! Aaargh! ~
+@339 = ~Kommt näher, mein Schatz! Ihr werdet es genießen! ~
+@340 = ~Ihr dort! Was zum Teufel tut Ihr hier in diesem Augenblick? ~
+@341 = ~*Rülps* Dieses Huhn war groß. Ich hasse es zu kämpfen, wenn ich mich satt gegessen habe, verdammt! ~
+@342 = ~Wie zur Hölle konntet Ihr den Schild umgehen?! ~
+@343 = ~Hallo Abenteurer. Herzlich willkommen in meinem bequemen Schlupfwinkel! ~ ~Hallo Abenteurerin. Herzlich willkommen in meinem bequemen Schlupfwinkel! ~
+@344 = ~Ihr müsst Hertuk sein. Jedyan hat Euch als Mitglied seiner Einheit erwähnt. Ich bezweifle, dass diese Stelle Euer Schlupfwinkel ist, nebenbei bemerkt. ~
+@345 = ~Was zur Hölle... Ich dachte, dass ich den Gasthof Zum Freundlichen Arm betreten habe! ~
+@346 = ~Wie seid Ihr hierher gekommen? Und was ist das für ein Platz? ~
+@347 = ~Ich machte Spaß, als ich sagte, dass das bequem war. Ihr seid auf dieselbe Art hierher gekommen, wie ich: wir haben versucht, das Erdgeschoss des Gasthofes Zum Freundlichen Arms zu betreten. Er muss durch eine starke Magie geschützt sein, weil jedes Wesen, das versucht, den Gasthof zu betreten, in diese verdammten Höhle teleportiert wird. Schaut nicht auf DIESE Tür, das ist nur ein Trugbild. Ich habe sie ausprobiert, und sie führt nirgendwo hin. ~
+@348 = ~Wie zur Hölle kann ich dann herauskommen? Und was ist das rote Wesen DORT? ~
+@349 = ~Zu schlecht. Wer ist diese Frau in rot an der Wand? ~
+@350 = ~Ein Kristalldiener. Irgendein magisch herbeigerufenes Wesen, Tergius erzählte mir vor langer Zeit davon. Ich erinnere mich an nicht ganz, aber es ist sicher, dass sie jedes Wesen als ihren Meister betrachten, aber nur, wenn das Wesen einen bestimmten Kristall hat. Aber ich habe keinen Kristall... Leider, obwohl das verführerisch sein könnte, wäre das für uns verhängnisvoll, sie zu töten: diese Wesen sind von mächtigen Energien umgeben, und das Fehlen ihrer Anwesenheit würde bewirken, dass das magische Gleichgewicht des Bereichs, in dem wir sind, aufhört. Die magische Falle würde zusammenfallen, und die freigesetzte wilde Magie würde uns sofort zerstören. ~
+@351 = ~Dies ist einfach großartig. Also werden wir hier für immer faulen. ~
+@352 = ~Seid Ihr sicher, dass es keinen Weg nach draußen gibt? ~
+@353 = ~Tergius! ~
+@354 = ~Ich glaube, ich weiß, wo der Kristall ist! Habt Ihr gehört, dass ein Ogermagier im Tempel ist? ~
+@355 = ~Es ist sehr wahrscheinlich, dass er den Kristall hat, den wir brauchen. Ich werde den Oger vernichten. ~
+@356 = ~Ich werde den Magier töten. Er hat wahrscheinlich viel Gold und ebenso viele wertvolle Gegenstände. ~
+@357 = ~Ich habe den Ogermagier bereits getötet, aber ich fand keinen Kristall. ~
+@358 = ~Ihr seid ein Dummkopf. Ich habe den Magier getötet, aber er hatte keinen Kristall unter seinen Gegenständen. ~
+@359 = ~Ich werde mich außerhalb der Mauern im südöstlichen Teil des Gebiets umsehen. Viel Glück! ~
+@360 = ~Bemüht Euch noch einmal, innerhalb der Mauern zu suchen. Ich werde mich draußen im südöstlichen Teil des Gebiets umsehen. Viel Glück! ~
+@361 = ~Ihr habt den Kristall! Jetzt könnt Ihr in den Gasthofs hineingehen! Ich muss hier bleiben: Verstärkungen der Räuber können jederzeit ankommen, und sie könnten aus dieser Richtung kommen. Viel Glück! ~
+@362 = ~Tut mir Leid, ich kann Euch nicht helfen, den Kristall zu finden. Die Verstärkungen des Clans könnten jederzeit ankommen, und jemand muss Tergius informieren, wenn sie aus dieser Richtung kommen. ~
+@363 = ~Ihr seid ein Feind von Jedyans Einheit. Bereitet Euch vor zu sterben! ~
+@364 = ~Was wünscht Ihr? ~
+@365 = ~Seid still. ~
+@366 = ~Ich will diesen Platz verlassen. Teleportiert mich zum Eingang des Gasthofs. ~
+@367 = ~Ich will in den Gasthof kommen. Teleportiert mich ins Erdgeschoss. ~
+@368 = ~Wie Ihr wünscht. ~
+@369 = ~Ihr seid nicht mein Meister. Ihr habt den Kristall nicht. ~
+@370 = ~Verteidigt Euch! ~
+@371 = ~Keine Zeit, zu plaudern, mein Freund. ~ ~Keine Zeit, zu plaudern, meine Freundin. ~
+@372 = ~Willkommen, Bauer. ~ [BW05GR00]
+@373 = ~Ihr wart der tätowierte Kerl beim Angriff der Räuber im Saal der Wunder! ~
+@374 = ~Jeder, der mich bis jetzt einen Bauern nannte, ist tot. Bereitet Euch darauf vor, Euch ihnen anzuschließen. ~
+@375 = ~Hallo, mein alter Freund. ~ [BW05GR12] ~Hallo, meine alte Freundin. ~ [BW05GR12]
+@376 = ~Erbärmliche Bauern. ~ [BW05GR13]
+@377 = ~Tötet sie alle. ~ [BW05GR10]
+@378 = ~*seufz* Ich habe bessere Dinge zu tun, als mit einem Pack von Idioten zu spielen. ~ [BW05GR11]
+@379 = ~Ihr süßen Abenteurer. Wir haben uns bereits vorher getroffen, stimmt dass? ~ [BW05GR14]
+@380 = ~Dies wird unser letztes Treffen sein, Dummkopf. ~
+@381 = ~Dann wäret Ihr der Führer des Grauen Clans ... ~
+@382 = ~Wartet! Ich möchte meine Kinder zuerst einweisen. ~ [BW05GR15]
+@383 = ~Lasst den Spaß beginnen! ~ [BW05GR16]
+@384 = ~Im Namen des Ordens des Leuchtenden Herzens, und nach dem Willen von Torm, verurteile ich Euch zum Tode wegen dunkler Geisterbeschwörung und Mord! Die Hinrichtung findet jetzt statt! ~
+@385 = ~Seid gegrüßt. ~
+@386 = ~Ruhe, Männer. Eure Körper sind jetzt nicht erforderlich. Ihr könnt zusehen, wie die Finsternis das Fleisch und die Seele dieser Ritter verzehrt. ~
+@387 = ~(Dies sind Ritter, Ihr Idiot. Wir haben keine Chance gegen sie. Lasst sie uns zum Tor locken.) ~
+@388 = ~Größter der Furchtherren, verschont mich bitte! Ich bitte Euch! Ich werde nicht wieder versagen! ~
+@389 = ~Was für eine nette Rüstung... lasst den Spaß beginnen, Bruder! ~
+@390 = ~Ich kann diese Ritter töten! Sie werden furchtbar leiden vor ihrem Tod, das verspreche ich! Gebt mir eine Chance, mein Herr! ~
+@391 = ~Euer Geplauder ärgert mich. ~
+@392 = ~Fundor Balortöter und sein Sohn Frar sind unsere Führer. Wenn Ihr irgendetwas zu sagen habt, besprecht es mit ihnen. ~
+@393 = ~Worauf starrt Ihr? ~
+@394 = ~Redet mit meinem Vater, Fundor. ~
+@395 = ~Seid Ihr an etwas Gold interessiert, Abenteurer? ~ ~Seid Ihr an etwas Gold interessiert, Abenteurerin? ~
+@396 = ~Nein, bin ich nicht. ~
+@397 = ~über wie viel Gold sprecht Ihr? ~
+@398 = ~Was wollt Ihr, das ich tue? Und wer seid Ihr? ~
+@399 = ~Kommt Frar, kommt meine zwergenhaften Gefährten! Wir werden den Helm selbstständig finden. ~
+@400 = ~Ich biete 800 Goldmünzen für den Goldenen Helm, ein Familienandenken, das diese verdammten Räuber uns gestohlen haben. 800 Goldstücke, nicht mehr und nicht weniger ~
+@401 = ~Wie steht's mit 1000 Goldmünzen? ~
+@402 = ~Ich nehme Euer Angebot an. Ich werde mit Eurem Andenken zurück kommen. ~
+@403 = ~Für so viel Gold würde ich nicht einmal einen dummen Zwerg wie Euch töten. ~
+@404 = ~Schaut auf diesen Gegenstand. Ist er Euch vertraut? Ihr bekommt ihn, wenn Ihr mir fünftausend Goldmünzen bezahlt. Nicht mehr und nicht weniger. Hahaha! Nicht mehr und weniger! ~
+@405 = ~Ich habe bereits den Helm gefunden, den Ihr sucht. Hier bitte. ~
+@406 = ~Ich habe bereits das Andenken Eurer Familie gefunden. Ich bitte um 1000 Goldmünzen dafür. ~
+@407 = ~Ich bin Fundor Balortöter. Das ist mein Sohn, Frar. Diese verdammten Räuber stahlen ein Andenken unserer Familie, einen Goldenen Helm. Wir sind hier, um ihn zurück zu bringen. Jedoch sind wir mit diesem Gebiet der Schwertküste nicht vertraut, das ist der Grund, warum wir Euch anstellen wollen, um unser Andenken wieder zu bekommen. ~
+@408 = ~Ich werde Euch für 9000 Goldmünzen helfen. ~
+@409 = ~Wie viel Gold könnt Ihr bieten? ~
+@410 = ~Ich kümmere mich nicht um Euer Andenken. Allerdings mache ich mich wirklich was aus Eurer glänzenden Rüstung und den Waffen. Es wird ein Vergnügen sein, Euch irgendwie zu töten. ~
+@411 = ~Zu den Waffen, meine Gefährten! Wollen wir ihnen zeigen, wie ein Balortöter in der Schlacht kämpft! ~
+@412 = ~Lasst mich darüber nachdenken... ~
+@413 = ~Hmm. Ihr bekommt 1000 Goldmünzen und nicht mehr, wenn Ihr den Goldenen Helm wieder bekommt. Geht jetzt! Findet den Helm, bevor sie ihn sonst wo hinbringen! ~
+@414 = ~Findet den Helm von Fundor Balortöter
+
+Ich traf Fundor Balortöter und seinen Sohn, der in den Gasthof Zum Freundlichen Arm kam, um ein Andenken ihrer Familie zurück zu bringen, das von den Räubern gestohlen wurde. Er bot mir eine nette Summe an, wenn ich das Andenken, einen goldenen Helm, wieder finde. ~
+@415 = ~Sehr gut. Wir werden hier warten. ~
+@416 = ~Es ist tatsächlich unser Helm! Aber ich bot nur 800 Goldmünzen an, und Ihr wagt es, den Preis zu erhöhen?! Dennoch wäre es Gotteslästerung, unser Andenken mit Eurem Blut zu beschmutzen. Eintausend Gold, hier bitte. ~
+@417 = ~Findet den Helm von Fundor Balortöter
+
+Ich traf Fundor Balortöter und seinen Sohn, der in den Gasthof Zum Freundlichen Arm kam, um ein Andenken ihrer Familie zurück zu bringen, das von den Räubern gestohlen wurde. Ich fand das Andenken, einen goldenen Helm, und gab ihn dem Zwerg für 1000 Goldmünzen. ~
+@418 = ~Unser Andenken! Ohne Schäden! Ich bin Euch dankbar, Abenteurer. Achthundert Gold, hier bitte. Nehmt auch diesen Hammer. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~ ~Unser Andenken! Ohne Schäden! Ich bin Euch dankbar, Abenteurerin. Achthundert Gold, hier bitte. Nehmt auch diesen Hammer. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~
+@419 = ~Findet den Helm von Fundor Balortöter
+
+Ich traf Fundor Balortöter und seinen Sohn, der in den Gasthof Zum Freundlichen Arm kam, um ein Andenken ihrer Familie zurück zu bringen, das von den Räubern gestohlen wurde. Ich fand das Andenken, einen goldenen Helm, und gab ihn dem Zwerg. Er war sehr dankbar und belohnte mich mit 800 Goldmünzen und mit einem magischen Kriegshammer. ~
+@420 = ~Ihr habt den Helm nicht! Kommt zurück, wenn Ihr ihn habt! ~
+@421 = ~Ihr habt unser Andenken! Und er ist in ausgezeichnetem Zustand! Ich hätte diesen Räubern eine Lehre erteilt, wenn er beschädigt wäre, ich schwöre es. Abenteurer, hier ist Euer Gold. Achthundert Goldmünzen, wie wir vereinbart haben. Nehmt auch diesen Hammer. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~ ~Ihr habt unser Andenken! Und er ist in ausgezeichnetem Zustand! Ich hätte diesen Räubern eine Lehre erteilt, wenn er beschädigt wäre, ich schwöre es. Abenteurerin, hier ist Euer Gold. Achthundert Goldmünzen, wie wir vereinbart haben. Nehmt auch diesen Hammer. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~
+@422 = ~Findet den Helm von Fundor Balortöter
+
+Das Andenken der Familie Balortöter wurde seinem ursprünglichen Eigentümer zurückgegeben. Fundor hielt sein Wort, und bezahlte mir 800 Goldmünzen. Er gab mir auch einen magischen Kriegshammer. ~
+@423 = ~Ihr habt unser Andenken! Und er ist in ausgezeichnetem Zustand! Ich hätte diesen Räubern eine Lehre erteilt, wenn er beschädigt wäre, ich schwöre es. Abenteurer, ist hier Euer Gold. Eintausend Goldmünzen, wie wir vereinbart haben. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~ ~Ihr habt unser Andenken! Und er ist in ausgezeichnetem Zustand! Ich hätte diesen Räubern eine Lehre erteilt, wenn er beschädigt wäre, ich schwöre es. Abenteurerin, ist hier Euer Gold. Eintausend Goldmünzen, wie wir vereinbart haben. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~
+@424 = ~Findet den Helm von Fundor Balortöter
+
+Das Andenken der Familie Balortöter wurde seinem ursprünglichen Eigentümer zurückgegeben. Fundor hielt sein Wort und bezahlte mir eintausend Goldmünzen dafür, dass er seinen goldenen Helm wieder bekam. ~
+@425 = ~Unser Andenken! Ohne Schäden! Ich bin Euch dankbar, Abenteurer. Achthundert Goldmünzen, hier bitte. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~ ~Unser Andenken! Ohne Schäden! Ich bin Euch dankbar, Abenteurerin. Achthundert Goldmünzen, hier bitte. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~
+@426 = ~Findet den Helm von Fundor Balortöter
+
+Ich traf Fundor Balortöter und seinen Sohn, der in den Gasthof Zum Freundlichen Arm kam, um ein Andenken ihrer Familie zurückzubringen, das von den Räubern gestohlen wurde. Ich fand das Andenken, einen goldenen Helm, und gab ihn dem Zwerg. Er war sehr dankbar, und belohnte mich mit 800 Goldmünzen. Er war ein Dummkopf, weil er nicht bemerkte, dass ich auch einen Kriegshammer aus seiner Tasche stahl. ~
+@427 = ~Ihr habt unser Andenken! Und es ist in ausgezeichneten Zustand! Ich hätte diesen Räubern eine Lehre erteilt, wenn er beschädigt wäre, ich schwöre es. Abenteurer, hier ist Euer Gold. Achthundert Goldmünzen, wie wir vereinbart haben. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~ ~Ihr habt unser Andenken! Und es ist in ausgezeichneten Zustand! Ich hätte diesen Räubern eine Lehre erteilt, wenn er beschädigt wäre, ich schwöre es. Abenteurerin, hier ist Euer Gold. Achthundert Goldmünzen, wie wir vereinbart haben. Kommt Ihr zwergenhaften Gefährten, wir gehen nach Hause. ~
+@428 = ~Findet den Helm von Fundor Balortöter
+
+Das Andenken der Balortöter Familie wurde seinem ursprünglichen Eigentümer zurückgegeben. Fundor hielt sein Wort und bezahlte mir 800 Goldmünzen. Er war sehr dankbar und belohnte mich mit 800 Goldmünzen. Der Zwerg war ein Dummkopf, weil er nicht bemerkte, dass ich auch einen Kriegshammer aus seiner Tasche stahl. ~
+@429 = ~Seid gegrüßt, mein Kind. Ihr seid also angekommen. Jusam sagte mir, dass Ihr hierher geschickt wurdet. Hoffentlich hattet Ihr eine angenehme Reise. ~
+@430 = ~Ich traue Euch altem Mann nicht. Sprecht. ~
+@431 = ~Ich bin Tergius, Gelehrter und Wissenschaftler. Ich leite Lord Jusam auf den Pfaden der Weisheit. ~
+@432 = ~Warum sollte ich Euch trauen? Ich fand Euch allein in einem Gebiet voller Räuber, doch Ihr seid vollkommen ruhig und erfreut, als wärt Ihr hier, um frische Luft zu schnappen. Ich habe allen Grund zu glauben, dass Ihr ein Narr seid, oder sogar ein Mitverschwörer des Clans. ~
+@433 = ~Ich traue Euch immer noch nicht. Bereitet Euch vor zu sterben. ~
+@434 = ~Ihr solltet das überdenken, mein Kind. Unkluge Entscheidungen könnten Euch in Gefahr oder gar den Tod bringen. ~
+@435 = ~Hört auf, mich ein Kind zu nennen, alter Mann! Könnt Ihr irgendwie Eure Identität belegen? Ich denke... wartet! Erzählt mir vom Wetter und vom Himmel! Sagt schon! ~
+@436 = ~Okay, ich werde Euch vorläufig nicht töten. Aber Ihr müsst Euch irgendwie identifizieren. ~
+@437 = ~Ich bin froh zu sehen, dass Ihr in der Tat Weisheit besitzt, doch habt Ihr noch viel zu lernen... "Sturm zieht auf, doch ein Licht wird erscheinen". ~
+@438 = ~Ich sehe, Ihr kennt das Passwort, hoffentlich seid Ihr wirklich die Person, die Ihr vorgebt zu sein. Also warum seid Ihr hierher gekommen? Wie konntet Ihr so schnell hierher kommen? ~
+@439 = ~Ihr kennt das Kennwort. Ich bin Euch gegenüber noch ein bisschen misstrauisch, aber hoffentlich wird sich das bald ändern. Erzählt mir, wie Ihr hierher gekommen seid. ~
+@440 = ~Wie Ihr wisst, musste Lord Jusam sofort gehen, als er erfuhr, dass der Gasthof zum Freundlichen Arm von den Banditen besetzt wurde. Ich bin hierher gekommen, um Euch zu unterstützen. Meine Reise war in der Tat kurz, weil ich Magie benutzte, um hierher zu kommen; obwohl ich keine Armeen teleportieren kann, konnte ich doch Talibehius und Hertuk mitbringen. Wenn Ihr irgendwelche Fragen über den Clan habt, fragt mich ruhig. Jedoch ist es Eure Entscheidung, ob Ihr mir vertrauen könnt oder nicht. ~
+@441 = ~Erzählt mir vom Grauen Clan. ~
+@442 = ~Glaubt Ihr, dass es eine Beziehung zwischen den Hintermännern des Eisenthrons und Mitgliedern des Clans gibt? ~
+@443 = ~Woher beziehen die Räuber Ihren Nachschub und Ihre Waffen? ~
+@444 = ~Wer ist der Anführer des Clans? ~
+@445 = ~Wer war dieser Gartuffe? ~
+@446 = ~Wer ist der "Größte aller Furchtherren?" ~
+@447 = ~Irgendwelche Fragen? ~
+@448 = ~Ich bin verwundet. Könntet Ihr mich heilen? ~
+@449 = ~Als ihr Lager zerstört und die unorganisierten Räuber von der Flammenden Faust gefangen oder getötet wurden, gelang es nach der gegenwärtigen Theorie einer größeren Gruppe von ihnen zu entkommen und einen Clan zu bilden. Die genaue Lage ihres Stützpunktes ist immer noch unbekannt. Sie haben jetzt Gold in Massen und eine erstklassige Ausrüstung. 
+Die Wälder sind ein guter Platz, um sich zu verbergen, und sie wissen, wie man Wölfe zähmen und als Kriegstiere einsetzen kann. Sie sind jetzt überall in Baldurs Tor und auch in anderen Städten, gefährden die öffentliche Sicherheit, unterwandern die Flammende Faust oder bestechen sie, wenn nötig. Sie sind wirklich sehr ernst zu nehmende Gegner. ~
+@450 = ~Ich bin mir sicher, das es keine Verbindung zwischen diesen beiden Gruppen gibt. Der Clan möchte alles und jeden beherrschen und wird sicherlich nicht für andere Gruppen arbeiten. Eigentlich ist es sehr wahrscheinlich, dass es einer der wichtigsten Pläne des grauen Clans ist, die Führung des Eisenthrons zu übernehmen. ~
+@451 = ~Ich nehme an, dass sie ihre Waffen und sonstigen Nachschub direkt von den Zhentarim bekommen. Andernfalls hätte der Clan gar nicht auf seine jetzige Größe anwachsen können. Wir haben jedoch keine Beweise, die das belegen würden.~
+@452 = ~Erkundet die Truppen des Grauen Clans
+
+Einem Zauberer namens Tergius zufolge bekommt der Graue Clan seinen Nachschub direkt von den Zhentarim. ~
+@453 = ~Es ist eine Schande, aber ich kann diese Frage nicht beantworten, weil ich die Antwort nicht weiß. *seufz* ~
+@454 = ~Gartuffe, den Ihr sterben saht, war der ältere Bruder Tazoks, dem Halboger-Anführer. Gartuffe hatte einen anderen Weg eingeschlagen als sein Bruder; dank seiner Hinterlist, Stärke und Grausamkeit hatte er eine hohe Position im Clan erreicht. Ich war erfreut, die Nachricht von seinem Tod zu hören. ~
+@455 = ~Wir können im Augenblick nicht sprechen, es gibt feindliche Wesen in der Nähe. ~
+@456 = ~Wir haben nicht viel Zeit! Ich kann Euch von hier weg teleportieren, aber meine Macht ist unzureichend, um in den magischen Schutz einzudringen, so dass ich Euch nicht in den Gasthof bringen kann. Ihr müsst den Kristall finden und hier her zurückkehren. Der Diener wird dann Euren Befehlen folgen, und Ihr könnt ihn bitten, Euch in den Gasthofs hinein zu teleportieren. Ich werde nicht mit Euch gehen, ich muss zu meinem ursprünglichen Platz zurückkehren und jegliche ankommenden Verstärkungen des Clans zerstören. ~
+@457 = ~Ihr wart einer des Besten, aber Ihr wart nicht zufrieden! Bereitet Euch vor zu sterben, Verräter! ~
+@458 = ~Ich sehe, dass Ihr gegen Magie geschützt seid, und daher meine Zauber nicht wirken würden. Kommt zurück, sobald dieser Schutz vorbei ist. ~
+@459 = ~Ihr und Hertuk hattet Glück. Wenn ich nicht bemerkt hätte, dass Ihr gefangen wurdet, könntet Ihr bereits jetzt tot sein. ~
+@460 = ~Warum fragt Ihr das? Wo habt Ihr das gehört? Sprecht, Kind! ~
+@461 = ~Ich habe drei Ritter des Ordens des Leuchtenden Herzens gesehen. Sie stießen auf zwei Räuber, die sich dafür entschieden, den Paladin zum Tor zu locken. Sie hofften wahrscheinlich, dass der Wächtergolem sie ermorden würde. Aber nachdem sie einige Schritte gemacht hatten, erschien ein schwarz gekleideter Mann, anscheinend ein Nekromant, aus den Sträuchern. Das Gesicht der Räuber widerspiegelte sterbliche Angst, einer von ihnen bezeichnete den Magier als den "Größten der Furchtherren". Die Ritter sahen aufgeregt aus, ihr Führer verurteilte den Magier zum Tode, und dann griffen sie ihn an. Etwas Schreckliches geschah: der Nekromant verwandelte sie zu Skeletten nur dadurch, dass er drei oder vier einzelne Worte sprach! ~
+@462 = ~Ich sah einige Paladine von Amn, die Räuber jagten. Dann erschien ein schwarz gekleideter Kerl, die Räuber waren furchtbar erschrocken, einer von ihnen nannte den wie ein Magier aussehenden Kerl den "Größten der Furchtherren". Schließlich machte der Magier Untote aus den unglücklichen Rittern und verschwand. ~
+@463 = ~Wenn das in irgendeinen Zusammenhang mit dem Clan steht, sind wir in großen Schwierigkeiten. Und es gibt keine Zufälle. Die Anwesenheit der Ritter des Ordens des Leuchtenden Herzens zeigt an, dass etwas sehr Schlimmes im Gange ist... schlimmer als Räuber. Der Umstand des Auftrittes des Magiers ist noch schrecklicher. Ich weiß von nur einer Person, die im Stande ist, solch dunkle Magie mit wenigen Worten zu bewirken: Xephistagoras. ~
+@464 = ~Wer ist Xephistagoras? Welche Verbindung könnte er mit dem Clan haben? ~
+@465 = ~Ich frage mich, wo er ist. Todesmagie oder nicht, ich denke, dass ich im Stande sein werde, den Nekromant zu töten. Ich muss nur mehr Informationen über seine Stärken und Schwächen kennen. Abgesehen davon, habt Ihr irgendwelche Vermutungen über seine Rolle im Clan? ~
+@466 = ~Wenn das in irgendeinen Zusammenhang mit dem Clan steht, sind wir in großen Schwierigkeiten. Und es gibt keine Zufälle. Die Anwesenheit der Paladine, vermutlich Ritter des Ordens des Leuchtenden Herzens, zeigt an, dass etwas sehr Schlechtes im Gange ist... schlechter ist als Räuber. Der Umstand des Auftrittes des Magiers ist noch schrecklicher. Ich weiß von nur einer Person, die im Stande ist, solch dunkle Magie mit einigen Wörtern zu bewirken: Xephistagoras. ~
+@467 = ~Ich habe sehr finstere Geschichten über die Vergangenheit dieses Magiers gehört. Vor langer Zeit bestanden diese Geschichten in schriftlicher Form, aber sie waren so schrecklich, dass die Seiten dieser Bücher das Gewicht des Textes nicht tragen konnten und  zu Staub zerbröckelten. Nein, es ist weder eine gute Zeit noch ein guter Platz für mich, um von dem "Größten der Furchtherren" zu erzählen, Kind. Ich kann Eure zweite Frage jedoch nicht beantworten. Es ist eine Schande, dass ein Zauberer wie ich selbst die wirklichen Verbindungen des Clans nicht entdecken konnte. Ich dachte, dass ich auch ein guter Wahrsager wäre, aber die Macht des Bösen scheint größer zu sein, als wir jemals geschätzt haben. ~
+@468 = ~Finstere Geschichten
+
+Tergius hat keine Kenntnisse von den Einzelheiten der möglichen Beziehung zwischen Xephistagoras und dem Grauen Clan. Außer dass der Nekromant sehr schlecht war, wollte er nichts über die Vergangenheit und Natur von Xephistagoras erzählen. ~
+@469 = ~Mutmaßungen über seine Rolle im Clan? Ich wünschte, dass Eure Frage richtig wäre, aber es ist wahrscheinlicher, dass wir von der Rolle des CLANS in SEINEN Plänen sprechen, Kind. Und nein, ich habe nicht einmal Mutmaßungen. Ich habe sehr finstere Geschichten über die Vergangenheit dieses Magiers gehört. Vor langer Zeit bestanden diese Geschichten in schriftlicher Form, aber sie waren so schrecklich, dass die Seiten dieser Bücher das Gewicht des Textes nicht tragen konnten, und zu Staub zerbröckelten. Nein, es ist weder eine gute Zeit noch ein guter Platz für mich, um von dem "Größten der Furchtherren" zu erzählen, Kind. ~
+@470 = ~Jedyan und seine Männer sind angekommen, und die Räuber werden im Nu vertrieben sein. Eine kleinere Armee von Räubern griff Jusam und seine Gruppe an, so dass sie noch nicht angekommen sind. Hertuk und Talibehius sind bereits abgereist, um ihnen zu helfen, ich reise auch innerhalb von Minuten ab. ~
+@471 = ~Ich schaffte es, den Gasthof zu betreten und die Anführer der eingedrungenen Truppe zu töten. ~
+@472 = ~Die Anführer der Räuber sind tot, und ich habe diese Schriftrolle in den Klamotten eines Führers gefunden. Könntet Ihr sie ansehen, bevor Ihr abreist? ~
+@473 = ~Lasst mich sehen... Ein Vers... genau genommen eine verschlüsselte Nachricht....... Ja! Überprüft den ersten Buchstaben jedes Hauptsatzes! Ich bin sicher, dass Ihr im Stande sein werden, ihn zu deuten. Wenn Ihr magische Ausrüstung braucht, bevor Ihr fortgeht, sprecht mit Jeremias. Viel Glück, Kind. Ich fühle, dass wir uns bald wieder treffen werden. Sehr bald. ~
+@474 = ~Ihr Habt gute Arbeit geleistet, sie ist jedoch noch nicht beendet. Ich fühle die Anwesenheit eines höheren Führers des Clans, er könnte in Beregost oder irgendwo in seiner Umgebung sein. Es tut mir Leid Kind, wir können nicht länger sprechen, weil ich befürchte, dass, wenn ich nicht sofort gehe, um Jusam zu helfen, es zu spät sein wird und sie fallen werden. Wenn Ihr magische Ausrüstung braucht, bevor Ihr fortgeht, sprecht mit Jeremias. Viel Glück, Kind. Ich fühle, dass wir uns bald wieder treffen werden. Sehr bald. ~
+@475 = ~Seid gegrüßt, mein Kind! Ich bin Tergius, Freund und Berater von Jusam. Wir sind froh zu sehen, dass Ihr zurückgekehrt seid. Wir waren besorgt, weil einer unserer Spione berichtete, dass Ihr im Teleporterfeld von Dervanto, einem tückischen Magier des Grauen Clans, verschwunden seid. Wohin seid Ihr gegangen? Was ist geschehen, Kind? ~
+@476 = ~Ihr seid zurückgekehrt! Seid gegrüßt, Kind! Wir waren besorgt, weil einer unserer Spione berichtete, dass Ihr im Teleporterfeld von Dervanto, einem tückischen Magier des Grauen Clans, verschwunden seid. Erzählt mir, was geschah, mein Kind. ~
+@477 = ~Das ist genau, wovor ich Angst hatte. Wir irrten uns, als wir annahmen, dass der Clan aus dem restlichen Teil von Tazoks Räubern und der Schwarzen Kralle gebildet wurde. Wir irrten uns auch bezüglich ihrer möglichen Verbindung zum Zhentarim: es scheint überhaupt keine zu geben. Die Wurzeln des Clans sind weit weg von hier zu finden. Und sie sind viel stärker, als wir uns jemals vorgestellt haben. Hmm, Legencase... Legencase... Das klingt nicht vertraut! Ich werde versuchen, ihn auf irgendeine Weise ausfindig zu machen, aber leider war meine Fähigkeit zur Weissagung in letzter Zeit kein Gegenstück zu ihrem magischen Schutz. Das ist kein Wunder, wenn es wirklich eine ganze Zauberakademie an diesem Ort gibt... ~
+@478 = ~Wir dachten, dass wir am Tageslicht waren, und die SONNE scheinen würde. Wir begriffen nicht, dass wir tatsächlich im schwachen Kerzenlicht waren, umgeben von Finsternis. Von Finsternis, die uns immer noch blind macht, und noch versucht, uns zu verzehren. ~
+@479 = ~Erkundet die Truppen des Grauen Clans
+
+Aufgrund der großen Verluste und des Schlags, den ich ihrer Führung versetzt habe, bricht die hiesige Organisation des Grauen Clans bald zusammen. Jedoch ist der Clan viel größer, als ich jemals gedacht habe. Er wird beherrscht aus einem Legencase genannten Ort. Sogar Tergius hatte keine Ahnung davon, wo Legencase sein könnte. Wir sind voller Fragen ohne Antworten, und ich habe das Gefühl, dass meine Rolle in der Geschichte über den Clan noch nicht zu Ende ist. Aber es ist sicher, dass eine Episode heute endete. ~
+@480 = ~Hallo Freund. Mögt Ihr Bier? Ich liebe Bier. ~ ~Hallo Freundin. Mögt Ihr Bier? Ich liebe Bier. ~
+@481 = ~Ja, ich mag Bier. ~
+@482 = ~Ich hasse Bier. ~
+@483 = ~Ich dachte, Ihr wäret Talibehius, aber es scheint, dass ich mich getäuscht habe. ~
+@484 = ~Ich bin sehr glücklich, das zu hören, mein Freund! Wir werden einmal ein großes Wetttrinken machen! Hehehe ... ~ ~Ich bin sehr glücklich, das zu hören, meine Freundin! Wir werden einmal ein großes Wetttrinken machen! Hehehe ... ~
+@485 = ~Ihr seid ein seltsamer Kerl. Ich dachte, dass sich die Krieger der Flammenden Faust wie Paladine benehmen und die Anstandsregeln mindestens in den Grundzügen kennen. Und Ihr habt Euch noch nicht zu erkennen gegeben, was ernste Schwierigkeiten verursachen kann. ~
+@486 = ~Oh! Es ist Mitleid. Aber es macht nichts, wir werden dann etwas anderes trinken. ~
+@487 = ~Ich bin wirklich Talibehius, ein großer und berühmter Krieger der großen und berühmten Flammenden Faust, blablabla.... Entspannt Euch, mein Freund, kein Grund, besorgt zu sein. Genießt Euren Aufenthalt! ~ ~Ich bin wirklich Talibehius, ein großer und berühmter Krieger der großen und berühmten Flammenden Faust, blablabla.... Entspannt Euch, meine Freundin, kein Grund, besorgt zu sein. Genießt Euren Aufenthalt! ~
+@488 = ~Hehe, offiziell bin ich ein Mitglied der Flammenden Faust, hehe, aber ich folge meinen eigenen Regeln. Sie brauchen mich, weil sie Mangel an solchen starken und, äh... rauen Kerlen wie mir haben. "Sturm zieht auf, doch ein Licht wird erscheinen". ~
+@489 = ~Ich denke, dass Ihr ein Betrüger seid. ~
+@490 = ~Ich habe unseren Plausch genossen. Bis bald!, Talibehius. ~
+@491 = ~*Rülps.* ~
+@492 = ~Später, Freund. ~ ~Später, Freundin. ~
+@493 = ~Ich würde Euch normalerweise für das, was Ihr gesagt habt, töten, aber ich mache heute eine Ausnahme. ~
+@494 = ~Was? ~
+@495 = ~*Hust* Sie ... *hust* Sie sind im Haus! *hust* *hust * ~
+@496 = ~Lasst mich allein! Ich prüfe, wie meine gegenwärtige Form körperlichem Schaden widersteht. ~
+@497 = ~Hmm, es sieht so aus, als hätten wir ein paar Besucher. He da, wisst Ihr eigentlich, wie unhöflich es ist, in das Haus eines ehrbaren Bürgers einzubrechen? Gartuffe! Lasst uns diese Idioten umbringen!! ~
+@498 = ~Helft mir... Es schmerzt ... ~
+@499 = ~Hier, nehmt diesen Heiltrank. ~
+@500 = ~Wartet, ich werde einen Heiltrank für Euch finden. ~
+@501 = ~Aaah... ~
+@502 = ~Aaaah... Ich fühle mich jetzt viel besser. Seid gesegnet, Abenteurer! ~ ~Aaaah... Ich fühle mich jetzt viel besser. Seid gesegnet, Abenteurerin! ~
+@503 = ~Habt Ihr irgendwelche wichtigen Informationen über den Clan? ~
+@504 = ~Ich brauche keinen Segen... Was habt Ihr aus ihren Gesprächen erfahren? ~
+@505 = ~S-sie sprachen über das Eindringen in einen Gasthof. *Hust* Der schwarzhäutige Halboger erwähnte auch, dass er lebende Zwerge für das Mittagessen mag... *pfui* Darauf beruhend, was ich belauscht habe, ist es sehr wahrscheinlich, dass sie nicht für den Eisenthron arbeiten. Ich kann mich nicht entsinnen, dass irgend etwas anderes dort für Euch wichtig sein könnte. ~
+@506 = ~Danke für Eure Hilfe, ich bin sicher, dass es uns helfen wird, ihre Organisation zu finden und zu zerstören. ~
+@507 = ~Nutzlose Information! Haben sie keine Namen oder Orte erwähnt? Versucht, Euer kleines Gehirn zu zwingen, sich zu erinnern! ~
+@508 = ~Es tut mir Leid, dass ich Euch nicht mehr helfen kann. ~
+@509 = ~Bitte... ~
+@510 = ~Seid gesegnet, Abenteurer! ~ ~Seid gesegnet, Abenteurerin! ~
+@511 = ~Sturm zieht auf, doch ein Licht wird erscheinen. ~
+@512 = ~Eine Nachricht von Talibehius: der Clan hat eine unserer Spioninnen festgenommen. Wir müssen sie schnell befreien, Helm weiß, was sie ihr sonst antun werden. Gemäß unseren Spionen brachen die Räuber in ein Haus im Nordwestlichen Bezirk ein, in dem das Anwesen von Silberschild liegt. ~
+@513 = ~Viel Glück, Lord Jusam! ~
+@514 = ~Tut mir Leid, mein Freund, ich habe keine Zeit zu plaudern. ~ ~Tut mir Leid, meine Freundin, ich habe keine Zeit zu plaudern. ~
+@515 = ~Ich sprach mit dem General Jedyan, und... ~
+@516 = ~Tut mir Leid, Euch zu stören. ~
+@517 = ~Kein Problem. ~
+@518 = ~Der Himmel ist heute Nacht klar, oder was denkt Ihr? ~
+@519 = ~Der Himmel ist blau. Das Wetter ändert sich schnell. ~
+@520 = ~Ein Licht erscheint, aber Sturm wird kommen ~
+@521 = ~Die Sonne scheint. ~
+@522 = ~Sturm zieht auf, doch ein Licht wird erscheinen. ~
+@523 = ~Ich weiß nicht, wovon Ihr redet. ~
+@524 = ~Ein neuer Rekrut! Willkommen in unserer verschwiegenen Gemeinschaft! Jedyan ist unser Anführer und Herzog Eltans treuester Soldat. Die Zeit ist von äußerster Wichtigkeit, also lasst mich Euch nur eine kurze Einweisung geben. ~
+@525 = ~Ich freue mich, mich Euch anzuschließen. ~
+@526 = ~Entschuldigt, aber ich bin nicht daran interessiert. ~
+@527 = ~Da Ihr bereits zu viel über unsere Gemeinschaft wisst, fürchte ich, dass wir Euch töten müssen, wenn Ihr irgendwelche Informationen über unsere Organisation irgendjemandem verratet. Ich werde Euch jetzt erlauben zu gehen, aber denkt daran, den Mund über unsere Organisation zu halten. ~
+@528 = ~Ich habe meine Meinung geändert, ich würde mich freuen, Eurer Gruppe beizutreten. Bitte fahrt mit der Einweisung fort. ~
+@530 = ~Ihr wollt kämpfen?! Ihr wollt kämpfen, ja?! ~
+@531 = ~Ich werde nichts verraten. Auf Wiedersehen. ~
+@532 = ~Es scheint, dass das Problem viel komplizierter ist, als wir zuerst dachten. Nachdem die Flammende Faust die letzten Stützpunkte der Räuber zerstört hat, dachten wir alle, dass die Bedrohung vorüber sei. Unglücklicherweise ist eine Gruppe von Räubern entkommen und hat einen Clan geformt. Sie nennen sich "Der Graue Clan". Sie sind gefährlich und ihnen stehen viele Hilfsquellen zur Verfügung, und wir wissen nicht, wer sie mit hochwertigen Waffen, Gold und Nachschub unterstützt. Wir wissen auch nicht, ob es irgendeine Verbindung zwischen dem Clan und der Gruppe gibt, die hinter den Machenschaften des Eisenthrons steht und sie wahrscheinlich anführt. ~
+@533 = ~Ich bin zu allem bereit - was ist zu tun? ~
+@534 = ~Obwohl Ihr Eure Fähigkeiten bereits gegen die Räuber bewiesen habt, würde ich...... ~
+@535 = ~Was zum... Zu den Waffen!!~
+@536 = ~Sie sind bereits überall! Ich muss mich in Verbindung setzen mit... ~
+@537 = ~Halt! Erzählt mir etwas über das Wetter und den Himmel! ~
+@538 = ~Irgendwelche Nachrichten? ~
+@539 = ~Dann müssen wir sofort aufbrechen. Lasst uns getrennt die einzelnen Häuser im Bezirk durchsuchen. Auf diese Weise werden wir sie schneller finden. Los geht's! ~
+@540 = ~Erkundet die Truppen des Grauen Clans
+
+Nachdem wir von einer Gruppe Räuber angegriffen wurden, kam ein Kundschafter der Flammenden Faust und teilte uns mit, dass eine der Spioninnen der Flammenden Faust vom Clan gefangen genommen wurde. Wir müssen unsere Suche in den Häusern des Bezirks beginnen, in dem Entar Silberschild lebt. ~
+@541 = ~Ich sehe, dass Ihr gut gekämpft und unsere Spionin gerettet habt, <CHARNAME>... Es sieht so aus, als ob sie schwer verwundet ist und Eure Hilfe braucht. ~
+@542 = ~Ihr seid gerade rechtzeitig angekommen, Jusam. Ich werde versuchen, ihre Wunden zu heilen, sie scheint tatsächlich ernsthaft verwundet zu sein. ~
+@543 = ~Ihr habt mich beinahe in den sicheren Tod geschickt! So wie diese arme Spionin... Ich werde sehen, ob ich ihre Verletzungen heilen kann. ~
+@544 = ~Habt Ihr etwas Wichtiges erfahren? Wie geht es unserer verletzten Spionin, ist sie in der Lage zu sprechen? ~
+@545 = ~Sie muss sich jetzt ausruhen, aber ich werde Euch erzählen, was ich von ihr gehört habe. Es ist sehr wahrscheinlich, dass der Clan nicht für den Eisenthron arbeitet, sie können sogar Feinde sein. Sie erwähnte auch, dass die Räuber planten, in einen... einen Gasthof einzufallen! Ich habe keine Ahnung, warum ein Gasthof eine Armee braucht, um angegriffen zu werden. Gemäß den Räubern wird der Platz von Zwergen geführt. ~
+@546 = ~Sie muss sich jetzt ausruhen, aber ich werde Euch erzählen, was ich von ihr gehört habe. Es ist sehr wahrscheinlich, dass der Clan nicht für den Eisenthron arbeitet, sie können sogar Feinde sein. Sie erwähnte auch, dass die Räuber planten, in einen Gasthof einzufallen, der von Zwergen geführt wird... Ich vermute, dass sie sich auf den Gasthof Zum Freundlichen Arm bezogen haben! ~
+@547 = ~Es tut mir sehr Leid. ~
+@548 = ~Erkundet die Truppen des Grauen Clans
+
+Ich griff eines der Mitglieder von Jedyans geheimer Einheit der Flammenden Faust an. Die Aufgabe, den Grauen Clan zu erkunden, misslang. ~
+@549 = ~Bereitet Euch vor zu sterben, Rohling! ~
+@550 = ~Lebt wohl. ~
+@551 = ~Erkundet die Truppen des Grauen Clans
+
+Ich war nicht daran interessiert, der geheimen Einheit der Flammenden Faust beizutreten und lehnte ihr Angebot ab. Jetzt gibt es keine Möglichkeit, sich mit ihnen in Verbindung zu setzen. ~
+@552 = ~Ein Heiltrank oder Heilzauber eines Priesters würde am ehesten helfen. ~
+@553 = ~Unsere Spionin war noch am Leben, als wir ankamen, aber sie wurde während des Kampfs getötet. Wir haben versagt. Lebt wohl! ~
+@554 = ~Erkundet die Truppen des Grauen Clans
+
+Leider ist die einzige Person, die uns über den Clan etwas hätte erzählen können, gestorben. Die Aufgabe, den Grauen Clan zu erkunden, misslang. ~
+@555 = ~Zu den Waffen! ~
+@556 = ~Es muss der Gasthof Zum Freundlichen Arm sein! Obwohl es, eine bedeutende Festung zu sein scheint, haben sie nur wenige Wachen, und nichts, um sie gegen einen großen Angriff zu verteidigen. Die Wächter sind so schlecht ausgebildet, dass sie wahrscheinlich beim Anblick eines zahnlosen Gibberlings davonlaufen würden. Ich kann mir das Gemetzel gar nicht vorstellen, das die Räuber dort verursachen können. Nicht einmal Bentley und Gellana werden im Stande sein, sich so vielen Räuber zu widersetzen. Ihr müsst sofort dorthin gehen! Ich werde Tergius und Hertuk informieren, und einen Angriff der Flammenden Faust vorbereiten. ~
+@557 = ~Erkundet die Truppen des Grauen Clans
+
+Die Organisation dieser "grauen" Räuber höchstwahrscheinlich nicht an den Eisenthron angegliedert. Sie dringen in diesem Moment wahrscheinlich in den Gasthof Zum Freundlichen Arm ein, so dass die Bürgerlichen dort in großer Gefahr sind. ~
+@558 = ~Ich hoffe, dass die Räuber viel Gold haben... sonst wäre ich nicht glücklich, mein Leben zu riskieren, um einige schwachköpfige Zwerge zu retten! ~
+@559 = ~Ich werde dorthin reisen, sobald ich kann, und werde mein Bestes tun, die Unschuldigen zu retten. ~
+@560 = ~Geht! ~
+@561 = ~Ihr habt Euch der Elitegruppe der Flammenden Faust entgegengestellt und gefährdet den Erfolg unseres Auftrags. Ich bedauere, dass unsere Zusammenarbeit auf solch eine schmerzhafte Weise enden muss. ~
+@562 = ~Einige der Räuber, die angegriffen haben, sind ernsthaft verwundet, und könnten sich irgendwo in diesem Gebiet verbergen. Findet und tötet sie. ~
+@563 = ~Gott sei Dank seid Ihr am Leben, <CHARNAME>! Wo seid Ihr gewesen? Was ist geschehen? ~
+@564 = ~Es scheint, dass der Graue Clan von einem Ort namens Legencase kontrolliert wird. Der Führer der Truppen des Clans in unserem Gebiet war Teven, ein früherer Räuber der Schwarzen Kralle. Ich habe ihn sowie zwei Zauberinnen getötet, die anscheinend von der Akademie in Legencase kamen. Da ihre Führer tot sind und die meisten Räuber vernichtet oder von der Flammenden Faust im Gasthof Zum Freundlichen Arm festgenommen wurden, bin ich sicher, dass ihre hiesige Organisation bald zusammenbrechen wird. ~
+@565 = ~Es scheint, dass der Graue Clan von einem Ort namens Legencase kontrolliert wird. Der Führer der Truppen des Clans in unserem Gebiet war Teven, ein früherer Räuber der Schwarzen Kralle. Ich hatte keine Gelegenheit, ihn zu töten, denn nachdem ich die zwei Zauberinnen der Akademie von Legencase getötet habe, floh ich aus dem Gebiet, indem ich den Schlüsselstein verwendete, den ich fand. Obwohl Teven noch lebt, sind die anderen Führer der hiesigen Organisation des Clans tot, und seitdem die meisten Räuber vernichtet oder von der Flammenden Faust im Gasthof Zum Freundlichen Arm festgenommen wurden, bin ich sicher, dass ihre örtliche Organisation bald zusammenbrechen wird... ~
+@566 = ~Wenn die hiesigen Kräfte des Clans von einem so weit entfernten Ort kontrolliert wurden, muss der Graue Clan, viel größer sein, als wir angenommen haben. Wir sind in großer Gefahr. Der gute alter Jedyan würde wahrscheinlich wissen, was jetzt zu tun ist. Die heimtückischen Kräfte des Bösen konnten sein Leben nehmen, aber sein edler Geist wird uns für immer führen! ~
+@567 = ~Was geschah mit dem General? ~
+@568 = ~Ich traf ihn. Aber es war nicht der General, nur sein bewegter Körper. Die schreckliche Schöpfung von Grachus. ~
+@569 = ~Einige angeheuerte Schläger des Clan brachen nachts in sein Haus ein. Wenn man bedenkt, was für ein mächtiger Soldat unser General war, waren die Mörder keine Grünschnabel. Und sie griffen nachts verstohlen an! Kein Soldat könnte sich unter solchen Umständen verteidigen. Aber wir werden seine Pläne beenden! Leider kann Herzog Eltan unsere geheime Organisation nicht mehr verschleiern, deshalb habe ich mich mit seinen Wissen und seiner Billigung dafür entschieden, mich von der Flammenden Faust zu lösen. Wir können keine weitere Hilfe von den regulären Truppen erwarten, aber mit der selbstlosen Hilfe dieser Freiwilligen und Veteran, werden wir unsere Tätigkeit fortsetzen, die Unschuldigen zu verteidigen und unser Haus zu schützen. ~
+@570 = ~Egal, wie stark der Graue Clan ist, wird es Zeit brauchen, seine Truppen nach diesen großen Verlusten neu zu ordnen. Ihr könnt eine kurze Atempause machen, und könnt Ihre Kräfte stärken. ~
+@571 = ~Sein Körper mag entweiht sein, aber keine Macht kann seine edle Seele berühren... Eines Tages wird sich sein Traum vom Frieden erfüllen. Weil wir seine Pläne beenden werden... Leider kann Herzog Eltan unsere geheime Organisation nicht mehr verschleiern, deshalb habe ich mich mit seinen Wissen und seiner Billigung dafür entschieden, mich von der Flammenden Faust zu lösen. Wir können keine weitere Hilfe von den regulären Truppen erwarten, aber mit der selbstlosen Hilfe dieser Freiwilligen und Veteran, werden wir unsere Tätigkeit fortsetzen, die Unschuldigen zu verteidigen und unser Haus zu schützen. ~
+@572 = ~Ihr seid genauso böse wie der Graue Clan. Ihr habt die Elitegruppe der Flammenden Faust angegriffen und den Erfolg unserer Mission gefährdetet. Es tut mir leid, dass unsere Zusammenarbeit auf solch eine schmerzhafte Weise enden muss. ~
+@573 = ~Erkundet die Truppen des Grauen Clans
+
+Aufgrund meiner Bemühungen wird die örtliche Organisation des Grauen Clans bald zusammenbrechen. Ich griff die Mitglieder der geheimen Einheit der Flammenden Faust ebenfalls an. ~
+@574 = ~Ich befürchte, dass wir zu wenig Zeit haben. Wir haben die Wahrheit zu spät erkannt. ~
+@575 = ~Ich bin im Dienst, Bürger. ~
+@576 = ~Bitte lasst mich allein, Fremder. ~ ~Bitte lasst mich allein, Fremdee. ~
+@590 = ~Wartet, ich erkenne Euch! Ihr seid diejenigen, die sich mit der Bedrohung durch die Räuber befasst haben. Wenn auch Eure Taten unschätzbar waren, war der Frieden nur flüchtig. Eine andere Bedrohung ist angewachsen, und wenn nichts dagegen getan wird, färben sich die Straßen rot vom Blut der Unschuldigen. ~
+@591 = ~Ich habe dafür leider keine Zeit. ~
+@592 = ~Hört genau zu! Eine neue Bedrohung zieht auf, es ist der Graue Clan. Gemäß den letzten Berichten unserer Spione sind sie viel gefährlicher, als wir jemals dachten. ~
+@593 = ~Wer seid Ihr? Warum sollte ich Euch trauen? ~
+@594 = ~Bevor wir mehr über sie reden, sagt mir bitte, wer Ihr seid. ~
+@595 = ~Ich bin Jedyan, ein Mann, der das Böse auf Schritt und Tritt bekämpft, und die Unschuldigen verteidigt, wenn ich kann. Offiziell bin ich ein General der Flammenden Faust, und meine allgemeine Aufgabe ist die Spionageabwehr gegen die Nation von Amn. Obwohl ich nur für eine Person arbeite, und das ist Herzog Eltan. Ihr könnt Euch auf ihn völlig verlassen. ~
+@596 = ~Die neue Bedrohung, der Graue Clan, gefährdet das ganze Gebiet von Baldurs Tor. Sie haben bessere Ausrüstung, als die Elite der Schwarzen Krallen jemals hatte, und ihre Zauberer scheinen starke Magie zu verwenden. ~
+@597 = ~Woher kommen sie? Woher bekommen sie ihren Nachschub? ~
+@598 = ~Leider muss ich sofort abreisen, aber beachtet, dass ich über ausgezeichnete Krieger verfüge und Ihr Euch auf sie verlassen könnt. Wenn Ihr Jusam, Hertuk oder Talibehius trefft, so könnt Ihr Euch ganz leicht zu erkennen geben, damit sie wissen, dass Ihr auf unserer Seite steht. Ihr werdet über den Himmel und das Wetter befragt werden, Eure Antwort muss lauten "Sturm zieht auf, doch ein Licht wird erscheinen". Jusam könnte irgendwo im Saal der Wunder sein... Ich wünsche Euch viel Glück, meine Freunde, Ihr werdet es brauchen. ~
+@599 = ~Erkundet die Truppen des Grauen Clans
+
+Jedyan, ein General der Flammenden Faust, hat gesagt, dass eine neue Bedrohung aufzieht, der Graue Clan. Sie sind gut bewaffnet, und ihre Magier verwenden Furcht erregende Magie. Leider musste der General sofort abreisen, daher konnten wir unser Gespräch nicht fortsetzen. Jedoch sagte er, dass er mehrere zuverlässige Männer in Baldurs Tor hätte. Jusam, einer seiner Soldaten, könnte sich im Saal der Wunder befinden. Jedyan fügte auch hinzu, dass der Satz "Sturm zieht auf, doch ein Licht wird erscheinen" zur Erkennung unter seinen Kriegern verwendet wird. ~

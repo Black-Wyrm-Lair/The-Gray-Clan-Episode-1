@@ -1,0 +1,14 @@
+BEGIN ~BW05BA06~
+
+IF ~~ THEN BEGIN 0
+  SAY @387
+  IF ~~ THEN DO ~ClearAllActions()
+StartCutSceneMode()
+StartCutScene("BW05XCSM")
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @388
+  IF ~~ THEN EXTERN ~BW05BA05~ 1
+END

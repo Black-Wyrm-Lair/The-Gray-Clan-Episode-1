@@ -1,0 +1,18 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05SERT")
+  		SetGlobal("BW05_TGC1","GLOBAL",11)
+            MoveViewPoint([1583.2757],INSTANT)
+            Wait(4)
+            ForceSpell(Myself,WIZARD_DIMENSION_DOOR)
+            Wait(3)
+            ActionOverride(Player1,LeaveAreaLUA("BW0506","",[788.653],12))
+            ActionOverride(Player2,LeaveAreaLUA("BW0506","",[833.631],12))
+            ActionOverride(Player3,LeaveAreaLUA("BW0506","",[792.596],12))
+            ActionOverride(Player4,LeaveAreaLUA("BW0506","",[748.629],12))
+            ActionOverride(Player5,LeaveAreaLUA("BW0506","",[750.571],12))
+            ActionOverride(Player6,LeaveAreaLUA("BW0506","",[717.597],12))
+            EndCutSceneMode()   
+END

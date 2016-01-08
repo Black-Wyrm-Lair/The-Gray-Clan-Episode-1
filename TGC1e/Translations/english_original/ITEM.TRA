@@ -1,0 +1,216 @@
+@30003 = ~Dwarven Battle Axe +2~ 
+@30004 = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes.
+This weapon was created by a dwarven smith, and thus it is very high quality.
+
+STATISTICS:
+THAC0:  +2 bonus
+Damage:  1D8 + 2
+Damage type:  slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@30007 = ~Club of the Archdruid +2~
+@30008 = ~This magically enchanted club was possessed by a high-ranking druid. On a successful hit, any creature not immune to this kind of magic must make a saving throw vs. spell or gets entangled for one turn.
+
+STATISTICS:
+THAC0:  +2 bonus
+Damage:  1D6 + 2
+Damage type:  crushing
+Special: Entangle on target unless it makes a successful saving throw vs. spell
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength
+Usable By:
+ Druid
+ Ranger~ 
+@30009 = ~Oak Club +1~
+@30010 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end.  This simple weapon has been used since mankind first began using tools.  
+You feel this club is heavy, but when you strike with it, it is accurate and light as a feather.
+
+STATISTICS:
+THAC0: +1
+Damage:  1D6 + 1
+Damage type:  crushing
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Club
+Type:  1-handed
+Not Usable By:
+Mage~ 
+@30013 = ~Chainmail +2~ 
+@30014 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+This armor is high quality, and it is magically enchanted as well.
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 10
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
+@30015 = ~Red Crystal~ 
+@30016 = ~This crystal is enchanted by powerful magic. It was used to summon a Crystal Servant. As long as you possess the crystal, the creature will follow your orders.~
+@30017 = ~Dwarven Helm~
+@30018 = ~This is a heavy helmet made of iron and gold. It belongs to the Balorslayer family, and is protected by some powerful magic that prevents others from wearing it. However, it could probably be sold for a very nice price because of its appearance and the amount of gold it contains.
+
+STATISTICS:
+
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
+Weight: 8
+Usable By:
+Balorslayer Dwarves~
+@30023 = ~Inquisitor's Halberd~ 
+@30024 = ~Like others of its type, this halberd consists of a cleaver-like axe blade mounted on a staff approximately six feet in length. It has an enchanted blade, which makes it more effective in combat, and dispels any magical protections on its target.  As long as the weapon is equipped, its user also becomes immune to charm. These properties have made this halberd a favoured weapon of Inquisitors.
+
+STATISTICS:
+THAC0:  +1 bonus
+Damage:  1D10 + 1
+Special:
+     Immunity to charm
+     Dispel magic on target at each successful hit
+Damage type:  piercing
+Weight: 14
+Speed Factor: 8
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~ 
+@30025 = ~BW05_SPEC_ITM~
+@30026 = ~Jusam's Armor~ 
+@30027 = ~Jusam's Chainmail +4
+
+This is a powerful armor, but you are unable to wear it. As soon as you try to put it on, it gets extremely hot, and starts to shock you with electricity as well. 
+
+STATISTICS:
+
+Armor Class: 1
+Weight: 5
+Usable By:
+Lord Jusam~
+@30030 = ~Jusam's Warhammer +3~
+@30031 = ~Jusam's Warhammer +3
+
+This hammer is so heavy that you are unable to use it. It is very difficult to carry it at all.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1D6 + 3
+Damage type: crushing
+Special: Gives +6 to Strength
+Weight: 4
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: 1-handed
+Requires: 8 Strength
+Usable By:
+Lord Jusam~
+@30032 = ~This is a magical, yet a relatively heavy key.~
+@30033 = ~Brass Key~
+@30034 = ~Gold Key~
+@30035 = ~Small Iron Key~
+@30036 = ~Small Brass Key~
+@30037 = ~Iron Key~
+@30038 = ~Copper Key~
+@30041 = ~Plate Mail +3, Stormshield~
+@30042 = ~Plate Mail +3, Stormshield
+This armor was forged in the Smithy of Legencase Castle, and was enchanted by a powerful wizard. Beside the text that indiciates the place of its creation, a small M letter is also written on the armor.
+
+STATISTICS:
+Armor Class: 0
+Special: gives +35% electricity resistance
+Weight: 25
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+@30045 = ~Legencase Academy Robe~
+@30046 = ~According to the text sewn into its pockets, this robe  was enchanted in a place called Legencase Academy. You have no idea where that place might be.
+
+STATISTICS:
+
+Saving Throw:  
+   +2 bonus vs. death
+   +2 bonus vs. spells
+Weight:  4
+Only usable by:
+Mage (single, dual, & multi-class)~
+@30047 = ~Mold Golem Scroll~
+@30048 = ~This scroll explains how to make the Mold Golem give you the items he is guarding in its body. The six keys must be inserted in the following order:
+Small Brass Key
+Copper Key
+Brass Key
+Small Iron Key
+Iron Key
+Gold Key~
+@30051 = ~Long Sword +3: Gift of Storm~
+@30052 = ~Long Sword +3: Gift of Storm
+This sword was given to the great warrior Ignatius Chrom, who defended the people of Cormyr for 333 years (he had a long beard when he died). Legends say that when he was 111 years old there was a great storm and Chrom disappeared only to come back wielding this powerful weapon. When Chrom died, the weapon was lost. You have no idea how it could become the possession of Teven.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1D8+3, +1D4 electricity damage
+Damage type: slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 Strength
+Not Usable By:
+Druid
+Cleric
+Mage~
+@30053 = ~Scroll~
+@30054 = ~Verse of the Dark Shadow
+
+
+Be Brave! Fear not death,
+ lest
+Endless pain be your punishment.
+Regain your life you cannot,
+ only 
+Eternal banishment.
+Godlike powers, in your slayer hands,
+Ought to have them fear thee througout the land.
+Supreme and mighty, 
+ no more, no less
+Tutor, the glorious,
+ will bring the death.
+
+Invulnerable slayerlord of the world,
+No death shall touch you, do you only follow the words of our mentors.
+Never betray the dark shadow!~
+@30057 = ~Thundercharm +1~
+@30058 = ~War Hammer +1: 'Thundercharm'
+This warhammer was forged by a dwarven smith, and thus it is very high quality. When it was finished, there was a big storm. Its creator went to the top of the mountain, and waited until lightning struck. He died, but instead of melting, the hammer gained magical properties.
+
+STATISTICS:
+THAC0:  +1 bonus
+Damage:  1D4 + 2, +1D2 electrical
+Damage type:  crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief~

@@ -1,0 +1,12 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05MONI")
+            SetGlobal("BW05_TGC1","GLOBAL",15)
+            Wait(3)
+            CreateCreature("BW05PETR",[976.744],7)
+            CreateCreature("BW05OCTA",[1097.648],6)
+            Wait(4)
+            StartDialogueNoSet(Protagonist)
+END

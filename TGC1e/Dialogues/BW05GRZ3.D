@@ -1,0 +1,7 @@
+BEGIN ~BW05GRZ3~
+
+IF ~~ THEN BEGIN 0
+  SAY @145
+  IF ~~ THEN DO ~ActionOverride("BW05GRAC",Enemy())
+~ EXIT
+END

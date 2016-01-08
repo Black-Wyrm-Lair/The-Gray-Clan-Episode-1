@@ -1,0 +1,9 @@
+IF
+     GlobalGT("BW05_TGC1","GLOBAL",7)
+     Global("BW05_HertukOutside","GLOBAL",2)
+
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_HertukOutside","GLOBAL",3)
+	      MoveToPointNoInterrupt([4452.3444])
+END

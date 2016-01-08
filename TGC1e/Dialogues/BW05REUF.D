@@ -1,0 +1,7 @@
+BEGIN ~BW05REUF~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @342
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END

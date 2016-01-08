@@ -1,0 +1,35 @@
+IF
+	Global("BW05_TGC1","GLOBAL",7)
+	Global("BW05_SummonedinMagicTrap","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SummonedinMagicTrap","GLOBAL",1)
+		CreateCreature("BW05MOLD",[510.349],0)
+		CreateCreature("BW05HERT",[412.456],3)
+END
+
+IF
+	GlobalGT("BW05_TGC1","GLOBAL",7)
+	Global("BW05_HertukinMagicTrap","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_HertukinMagicTrap","GLOBAL",1)
+		ActionOverride("BW05HERT",DestroySelf())
+            ActionOverride("BW05TERG",DestroySelf())
+END
+
+IF
+	Dead("BW05MOLD")
+	Global("BW05_MagicTrapDeath","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_MagicTrapDeath","GLOBAL",1)
+		Kill("BW05HERT")
+		Kill(Player1)
+		Kill(Player2)
+		Kill(Player3)
+		Kill(Player4)
+		Kill(Player5)
+		Kill(Player6)
+END
+

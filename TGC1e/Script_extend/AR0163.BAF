@@ -1,0 +1,26 @@
+IF
+	Global("BW05_TGC1","GLOBAL",3)
+	Global("BW05_GreyBanditGroundFloor","GLOBAL",0)
+THEN
+	RESPONSE #100
+           	SetGlobal("BW05_GreyBanditGroundFloor","GLOBAL",1)
+            CreateCreature("BW05BA01",[376.151],0)
+		CreateCreature("BW05BA07",[331.166],0)
+		CreateCreature("BW05BA02",[385.260],0)
+		CreateCreature("BW05BA02",[326.301],0)
+		CreateCreature("BW05BA02",[537.237],0)
+END
+
+IF
+	Global("BW05_GreyBanditGroundFloor","GLOBAL",1)
+      Global("BW05_TGC1","GLOBAL",7)
+THEN
+	RESPONSE #100
+     		SetGlobal("BW05_GreyBanditGroundFloor","GLOBAL",2)
+		CreateCreature("BW05FFWR",[376.181],5)
+		CreateCreature("BW05FFWR",[301.156],11)
+		CreateCreature("BW05FFWR",[355.240],0)
+		CreateCreature("BW05FFWR",[366.301],0)
+		CreateCreature("BW05FFWR",[507.267],0)
+END
+

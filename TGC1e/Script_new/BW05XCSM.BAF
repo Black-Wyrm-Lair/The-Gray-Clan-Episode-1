@@ -1,0 +1,15 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+            CutSceneID("BW05BA05")
+            MoveToPoint([2674.3287])
+            ActionOverride("BW05BA06",MoveToPoint([2724.3324]))
+            ActionOverride("BW05ORH1",MoveToPoint([2772.3264]))
+            ActionOverride("BW05ORH2",MoveToPoint([2862.3359]))
+            ActionOverride("BW05ORH3",MoveToPoint([2804.3316]))
+            Wait(3)
+            CreateCreature("BW05XEPH",[2787.3422],9)
+            SetGlobal("BW05_Bandit2SeePC","GLOBAL",3)
+            ActionOverride("BW05XEPH",StartDialogueNoSet([PC]))
+END

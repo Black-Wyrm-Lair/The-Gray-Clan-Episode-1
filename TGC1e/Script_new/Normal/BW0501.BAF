@@ -1,0 +1,333 @@
+IF
+	Global("BW05_MoldGolemO","GLOBAL",0)
+      PartyHasItem("BW05K1")
+      PartyHasItem("BW05K2")
+      PartyHasItem("BW05K3")
+      PartyHasItem("BW05K4")
+      PartyHasItem("BW05K5")
+      PartyHasItem("BW05K6")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_MoldGolemO","GLOBAL",1)
+            AddJournalEntry(@20002, QUEST)
+END
+
+IF
+	Global("BW05_TalkedToTergius","GLOBAL",1)
+      Global("BW05_TGC1","GLOBAL",9)
+      Dead("BW05BL02")
+      Dead("BW05LIND")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_TGC1","GLOBAL",10)
+            AddJournalEntry(@20016, QUEST)
+            ActionOverride("BW05TALI",DestroySelf())
+            ActionOverride("BW05HERT",DestroySelf())
+            CreateCreature("BW05JERE",[424.2843],2)
+END
+
+IF
+	Global("BW05_TalkedToTergius","GLOBAL",0)
+      Global("BW05_TGC1","GLOBAL",9)
+      Dead("BW05BL02")
+      Dead("BW05LIND")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_TGC1","GLOBAL",10)
+            ActionOverride("BW05TERG",DestroySelf())
+            ActionOverride("BW05TALI",DestroySelf())
+            ActionOverride("BW05HERT",DestroySelf())
+            CreateCreature("BW05JERE",[424.2843],2)
+END
+
+IF
+	GlobalGT("BW05_TGC1","GLOBAL",7)
+	Global("BW05_SaveMary","GLOBAL",2)
+      !Dead("BW05MARY")
+      !Dead("BW05DAMI")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SaveMary","GLOBAL",4)
+            CreateCreature("BW05MAR2",[5084.359],2)
+END
+
+IF
+	GlobalGT("BW05_TGC1","GLOBAL",7)
+	Global("BW05_SaveMary","GLOBAL",3)
+      !Dead("BW05MARY")
+      !Dead("BW05DAMI")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SaveMary","GLOBAL",5)
+            CreateCreature("BW05MAR2",[5084.359],2)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",8)
+	Global("BW05_HertukOutside","GLOBAL",3)
+      Dead("BW05OGMA")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_HertukOutside","GLOBAL",4)
+            CreateCreature("BW05GRAC",[3395.2161],0)
+            CreateCreature("BW05GRZ0",[3308.2248],0)
+            CreateCreature("BW05GRZ0",[3344.2278],0)
+            CreateCreature("BW05GRZ0",[3389.2251],0)
+            CreateCreature("BW05GRZ0",[3410.2286],0)
+END
+
+IF
+      GlobalGT("BW05_TGC1","GLOBAL",6)
+      Global("BW05_SeenXeph","GLOBAL",1)
+      Global("BW05_TalkedToTergius","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_SeenXeph","GLOBAL",2)
+            AddJournalEntry(@20003, QUEST)
+END
+
+IF
+      GlobalGT("BW05_TGC1","GLOBAL",6)
+      Global("BW05_SeenXeph","GLOBAL",1)
+      Global("BW05_TalkedToTergius","GLOBAL",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_SeenXeph","GLOBAL",2)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",8)
+	Global("BW05_HertukOutside","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_HertukOutside","GLOBAL",1)
+            CreateCreature("BW05HERT",[1284.3579],4)
+            ActionOverride("BW05HERT",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",10)
+	Global("BW05_FFSummonedinFAI","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FFSummonedinFAI","GLOBAL",1)
+            CreateCreature("BW05FFWR",[4614.3125],6)
+	      CreateCreature("BW05FFWR",[4614.3161],7)
+            CreateCreature("BW05FFWR",[4586.3201],7)
+            CreateCreature("BW05FFA2",[4508.3293],4)
+	      CreateCreature("BW05FFA1",[4746.3155],3)
+            CreateCreature("BW05FFWR",[4099.465],0)
+            CreateCreature("BW05FFA4",[4143.514],0)
+            CreateCreature("BW05FFWR",[4138.571],0)            
+            CreateCreature("BW05FFWR",[1905.558],11)
+	      CreateCreature("BW05FFWR",[1898.579],11)
+            CreateCreature("BW05FFWR",[1908.617],7)
+            CreateCreature("BW05FFA2",[2108.613],11)
+            CreateCreature("BW05FFA4",[2064.547],7)
+            CreateCreature("BW05FFWR",[383.684],7)
+            CreateCreature("BW05FFWR",[457.684],7)
+            CreateCreature("BW05FFA2",[528.656],3)
+            CreateCreature("BW05FFA4",[528.726],3)
+            CreateCreature("BW05FFA2",[4205.2970],3)
+            CreateCreature("BW05FFA2",[4367.2005],3)
+            CreateCreature("BW05FFA2",[4525.2149],3)
+END
+
+
+IF
+	Global("BW05_TGC1_FAIInvaded","GLOBAL",1)
+      Global("BW05_TGC1","GLOBAL",-2)
+	Global("BW05_CreaturesSummonedinFAI","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_CreaturesSummonedinFAI","GLOBAL",1)
+            SetMasterArea("BW0501")
+            CreateCreature("BW05TERG",[1013.3511],0)
+	      CreateCreature("BW05JUSM",[1201.3530],0)
+            CreateCreature("BW05GKGO",[1467.3091],0)
+		CreateCreature("BW05GKGO",[1554.3110],0)
+		CreateCreature("BW05BA03",[365.2842],4)
+		CreateCreature("BW05BA04",[382.2969],5)
+            CreateCreature("BW05BA01",[425.589],0)
+		CreateCreature("BW05BA01",[354.605],0)
+		CreateCreature("BW05BA01",[304.604],0)
+		CreateCreature("BW05GRWO",[364.632],0)
+		CreateCreature("BW05GRWO",[419.634],0)
+            CreateCreature("BW05GRWO",[481.633],0)
+            CreateCreature("BW05BA01",[1964.557],0)
+		CreateCreature("BW05BA01",[2025.564],0)
+		CreateCreature("BW05BA01",[2116.573],0)
+		CreateCreature("BW05GRWO",[1964.591],0)
+		CreateCreature("BW05GRWO",[2013.593],0)
+            CreateCreature("BW05GRWO",[2062.595],0)
+            CreateCreature("BW05BA01",[4458.3137],0)
+		CreateCreature("BW05BA01",[4494.3145],0)
+		CreateCreature("BW05BA01",[4547.3156],0)
+		CreateCreature("BW05GRWO",[4441.3172],0)
+		CreateCreature("BW05GRWO",[4478.3176],0)
+            CreateCreature("BW05GRWO",[4525.3183],0)
+		CreateCreature("BW05BA02",[3913.563],0)
+		CreateCreature("BW05BA02",[4065.566],0)
+	      CreateCreature("BW05BA01",[1899.3153],0)
+		CreateCreature("BW05BA01",[2029.3201],0)
+            CreateCreature("BW05DW01",[1012.1260],3)
+		CreateCreature("BW05DW02",[1069.1273],1)
+            CreateCreature("BW05DW05",[977.1182],0)
+	      CreateCreature("BW05DW04",[940.1346],0)
+		CreateCreature("BW05DW03",[1121.1311],12)           
+            CreateCreature("BW05TOBO",[865.1203],11)
+            CreateCreature("BW05BA03",[832.1093],12)
+		CreateCreature("BW05BA04",[989.1361],0)
+            CreateCreature("BW05BA05",[2753.3207],10)
+	      CreateCreature("BW05BA06",[2765.3264],10)
+		CreateCreature("BW05ORH1",[2932.3137],3)           
+            CreateCreature("BW05ORH2",[3003.3220],3)
+		CreateCreature("BW05ORH3",[2942.3177],4)
+          	CreateCreature("BW05GRWO",[2027.1746],0)
+		CreateCreature("BW05GRWO",[2070.1746],0)
+            CreateCreature("BW05GRWO",[2115.1747],0)
+		CreateCreature("BW05GRWO",[2173.1754],0)
+            CreateCreature("BW05TAME",[2097.1664],0)
+            CreateCreature("BW05BA02",[1458.2262],13)
+            CreateCreature("BW05BA01",[2531.2504],7)
+            CreateCreature("BW05BA01",[2381.2581],8)
+            CreateCreature("BW05OGRE",[3331.2362],0)
+            CreateCreature("BW05OGRE",[3389.2363],0)
+            CreateCreature("BW05OGRE",[3658.2448],12)
+            CreateCreature("BW05OGMA",[3925.2518],4)
+            CreateCreature("BW05BA01",[3700.2524],8)
+            CreateCreature("BW05BA01",[3816.2612],7)
+            CreateCreature("BW05BA01",[3949.2625],7)
+            CreateCreature("BW05BA01",[3693.2624],7)
+            CreateCreature("BW05BA01",[3870.2648],6)
+            CreateCreature("BW05FIGU",[3797.2473],0)
+            CreateCreature("BW05FIGU",[3858.2514],0)
+            CreateCreature("BW05FIGU",[3937.2509],0)
+            CreateCreature("BW05FFDE",[4601.2441],5)
+            CreateCreature("BW05FFDE",[4574.2475],6)
+            CreateCreature("BW05FFDE",[4552.2512],7)
+            CreateCreature("BW05FFDE",[4518.2542],7)
+            CreateCreature("BW05FIGU",[4421.2413],13)
+            CreateCreature("BW05FIGU",[4470.2400],12)
+            CreateCreature("BW05FIGU",[4541.2375],13)
+            CreateCreature("BW05FFDE",[4246.2103],10)
+            CreateCreature("BW05FFDE",[4296.2063],0)
+            CreateCreature("BW05FFDE",[4354.2076],3)
+            CreateCreature("BW05FFDE",[4280.2142],7)
+            CreateCreature("BW05FFDE",[4334.2145],8)
+            CreateCreature("BW05FFDE",[4375.2119],4)
+            CreateCreature("BW05FFDE",[4123.2047],0)
+            CreateCreature("BW05FFDE",[4161.2017],0)
+            CreateCreature("BW05DAMI",[5062.405],2)
+            CreateCreature("BW05JOHN",[4882.385],0)
+            CreateCreature("BW05ERNE",[4950.277],1) 
+            CreateCreature("BW05BA03",[1550.3386],1)
+            CreateCreature("BW05BA03",[1603.4455],5)
+            CreateCreature("BW05BA03",[1569.3519],7)
+            CreateCreature("BW05BA04",[1462.3383],0)
+END	
+
+IF
+	Global("BW05_TGC1","GLOBAL",7)
+	Global("BW05_CreaturesSummonedinFAI","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_CreaturesSummonedinFAI","GLOBAL",1)
+           	SetGlobal("BW05_KeysCS","GLOBAL",1)
+            CreateCreature("BW05GKGO",[1467.3091],0)
+		CreateCreature("BW05GKGO",[1554.3110],0)
+		CreateCreature("BW05TALI",[743.3659],0)
+		CreateCreature("BW05BA03",[365.2842],4)
+		CreateCreature("BW05BA04",[382.2969],5)
+            CreateCreature("BW05BA01",[425.589],0)
+		CreateCreature("BW05BA01",[354.605],0)
+		CreateCreature("BW05BA01",[304.604],0)
+		CreateCreature("BW05GRWO",[364.632],0)
+		CreateCreature("BW05GRWO",[419.634],0)
+            CreateCreature("BW05GRWO",[481.633],0)
+            CreateCreature("BW05BA01",[1964.557],0)
+		CreateCreature("BW05BA01",[2025.564],0)
+		CreateCreature("BW05BA01",[2116.573],0)
+		CreateCreature("BW05GRWO",[1964.591],0)
+		CreateCreature("BW05GRWO",[2013.593],0)
+            CreateCreature("BW05GRWO",[2062.595],0)
+            CreateCreature("BW05BA01",[4458.3137],0)
+		CreateCreature("BW05BA01",[4494.3145],0)
+		CreateCreature("BW05BA01",[4547.3156],0)
+		CreateCreature("BW05GRWO",[4441.3172],0)
+		CreateCreature("BW05GRWO",[4478.3176],0)
+            CreateCreature("BW05GRWO",[4525.3183],0)
+		CreateCreature("BW05BA02",[3913.563],0)
+		CreateCreature("BW05BA02",[4065.566],0)
+            CreateCreature("BW05TERG",[252.2426],0)
+	      CreateCreature("BW05BA01",[1899.3153],0)
+		CreateCreature("BW05BA01",[2029.3201],0)
+            CreateCreature("BW05DW01",[1012.1260],3)
+		CreateCreature("BW05DW02",[1069.1273],1)
+            CreateCreature("BW05DW05",[977.1182],0)
+	      CreateCreature("BW05DW04",[940.1346],0)
+		CreateCreature("BW05DW03",[1121.1311],12)           
+            CreateCreature("BW05TOBO",[865.1203],11)
+            CreateCreature("BW05BA03",[832.1093],12)
+		CreateCreature("BW05BA04",[989.1361],0)
+            CreateCreature("BW05BA05",[2753.3207],10)
+	      CreateCreature("BW05BA06",[2765.3264],10)
+		CreateCreature("BW05ORH1",[2932.3137],3)           
+            CreateCreature("BW05ORH2",[3003.3220],3)
+		CreateCreature("BW05ORH3",[2942.3177],4)
+          	CreateCreature("BW05GRWO",[2027.1746],0)
+		CreateCreature("BW05GRWO",[2070.1746],0)
+            CreateCreature("BW05GRWO",[2115.1747],0)
+		CreateCreature("BW05GRWO",[2173.1754],0)
+            CreateCreature("BW05TAME",[2097.1664],0)
+            CreateCreature("BW05BA02",[1458.2262],13)
+            CreateCreature("BW05BA01",[2531.2504],7)
+            CreateCreature("BW05BA01",[2381.2581],8)
+            CreateCreature("BW05OGRE",[3331.2362],0)
+            CreateCreature("BW05OGRE",[3389.2363],0)
+            CreateCreature("BW05OGRE",[3658.2448],12)
+            CreateCreature("BW05OGMA",[3925.2518],4)
+            CreateCreature("BW05BA01",[3700.2524],8)
+            CreateCreature("BW05BA01",[3816.2612],7)
+            CreateCreature("BW05BA01",[3949.2625],7)
+            CreateCreature("BW05BA01",[3693.2624],7)
+            CreateCreature("BW05BA01",[3870.2648],6)
+            CreateCreature("BW05FIGU",[3797.2473],0)
+            CreateCreature("BW05FIGU",[3858.2514],0)
+            CreateCreature("BW05FIGU",[3937.2509],0)
+            CreateCreature("BW05FFDE",[4601.2441],5)
+            CreateCreature("BW05FFDE",[4574.2475],6)
+            CreateCreature("BW05FFDE",[4552.2512],7)
+            CreateCreature("BW05FFDE",[4518.2542],7)
+            CreateCreature("BW05FIGU",[4421.2413],13)
+            CreateCreature("BW05FIGU",[4470.2400],12)
+            CreateCreature("BW05FIGU",[4541.2375],13)
+            CreateCreature("BW05FFDE",[4246.2103],10)
+            CreateCreature("BW05FFDE",[4296.2063],0)
+            CreateCreature("BW05FFDE",[4354.2076],3)
+            CreateCreature("BW05FFDE",[4280.2142],7)
+            CreateCreature("BW05FFDE",[4334.2145],8)
+            CreateCreature("BW05FFDE",[4375.2119],4)
+            CreateCreature("BW05FFDE",[4123.2047],0)
+            CreateCreature("BW05FFDE",[4161.2017],0)
+            CreateCreature("BW05DAMI",[5062.405],2)
+            CreateCreature("BW05JOHN",[4882.385],0)
+            CreateCreature("BW05ERNE",[4950.277],1) 
+            CreateCreature("BW05BA03",[1550.3386],1)
+            CreateCreature("BW05BA03",[1603.4455],5)
+            CreateCreature("BW05BA03",[1569.3519],7)
+            CreateCreature("BW05BA04",[1462.3383],0)
+            CreateCreature("BW05MGOL",[1521.3459],3)
+            CreateCreature("BW05VLAI",[1472.3506],10)
+            CreateCreature("BW05LIND",[1074.3379],0) 
+            ClearAllActions()
+            StartCutSceneMode()
+            StartCutScene("BW05MGO1")
+END
+
+
+
+
+
+
+

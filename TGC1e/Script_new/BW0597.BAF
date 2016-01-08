@@ -1,0 +1,26 @@
+IF
+	GlobalGT("BW05_TGC1","GLOBAL",6)
+	Global("BW05_SummonedCreatures","BW0597",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SummonedCreatures","BW0597",1)
+		CreateCreature("BW05FGCA",[415.309],0)
+		CreateCreature("BW05FELI",[328.284],0)
+           	CreateCreature("BW05ROBE",[291.299],0)
+            CreateCreature("BW05FIGU",[502.374],1)
+            CreateCreature("BW05FIGU",[545.381],2)
+            CreateCreature("BW05FIGU",[207.232],11)
+            CreateCreature("BW05FIGU",[174.282],12)
+END
+
+IF
+	GlobalGT("BW05_TGC1","GLOBAL",6)
+	Global("BW05_SummonedCharles","BW0597",0)
+      GlobalGT("BW05_SaveCharles","GLOBAL",2)
+      GlobalLT("BW05_SaveCharles","GLOBAL",5)
+      !Dead("BW05FELI")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SummonedCharles","BW0597",1)
+		CreateCreature("BW05CHAR",[354.280],0)
+END

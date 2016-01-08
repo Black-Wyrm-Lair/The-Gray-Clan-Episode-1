@@ -1,0 +1,20 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+		CutSceneID(Player1)
+            Wait(4)
+            ActionOverride("BW05SSER",ForceSpell(Myself, WIZARD_DIMENSION_DOOR))  
+		Wait(4)
+            FadeToColor([20.0],0)
+            Wait(5)
+            LeaveAreaLUA("%Beregost%","",[296.957],0)
+		ActionOverride(Player2,LeaveAreaLUA("%Beregost%","",[351.936],0))
+		ActionOverride(Player3,LeaveAreaLUA("%Beregost%","",[399.917],0))
+		ActionOverride(Player4,LeaveAreaLUA("%Beregost%","",[447.926],0))
+		ActionOverride(Player5,LeaveAreaLUA("%Beregost%","",[490.940],0))
+		ActionOverride(Player6,LeaveAreaLUA("%Beregost%","",[540.968],0))
+            CreateCreature("BW05JUSM",[442.1027],7)
+            CreateCreature("BW05TERG",[366.1040],7)
+            StartCutScene("BW05FIN7")
+END

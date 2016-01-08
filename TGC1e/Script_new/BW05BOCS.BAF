@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05PUMP")
+            Wait(1)
+            ActionOverride("BW05BORI",MoveToPoint([387.286]))
+            ActionOverride("BW05BORI",Face(2))
+            ActionOverride("BW05THIE",AttackReEvaluate("BW05BORI",30))
+            AttackReEvaluate("BW05THIE",30)
+            Wait(2)
+            ActionOverride("BW05BORI",StartDialogueNoSet(Player1))
+            EndCutSceneMode()
+END

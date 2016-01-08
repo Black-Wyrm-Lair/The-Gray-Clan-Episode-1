@@ -1,0 +1,21 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05LIND")
+            MoveViewPoint([1066.3409], INSTANT)
+            Wait(3)
+            MoveToPoint([1400.3446])
+            Face(11)
+            Wait(6)
+            StartDialogueNoSet(Protagonist)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneID(Protagonist)
+            Wait(4)
+            MoveViewPoint([1455.3467], VERY_FAST)
+END

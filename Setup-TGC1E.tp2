@@ -1,0 +1,971 @@
+BACKUP ~TGC1E/Backup~
+AUTHOR ~Baronius, blackwyrmlair.net~
+VERSION ~v1.9~
+README ~TGC1E/Readme/readme-%LANGUAGE%.html~ ~TGC1E/Readme/readme.html~
+
+DEFINE_ACTION_MACRO ~TGC1E_INIT~ BEGIN
+ ACTION_IF GAME_IS ~bgt~ BEGIN
+   OUTER_SPRINT platform ~bgt~
+   OUTER_SPRINT engine ~vanilla~
+   INCLUDE ~TGC1E/lib/g3_bgt_cpmvars.tpa~
+ END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+   OUTER_SPRINT platform ~eet~
+   OUTER_SPRINT engine ~ee~
+   INCLUDE ~TGC1E/lib/eet_cpmvars.tpa~
+ END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN
+   OUTER_SPRINT platform ~bgee~
+   OUTER_SPRINT engine ~ee~
+   INCLUDE ~TGC1E/lib/liam_bgee_vars.tpa~
+ END
+ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+     "deutsch" => "CP1252"
+     "english_revision" => "CP1252"
+	 "english_original" => "CP1252"
+     "french" => "CP1252"
+     "italian" => "CP1252"
+     "polish" => "CP1250"
+     "russian" => "CP1251"
+     "espanol" => "CP1252"
+   END
+   ACTION_DEFINE_ARRAY charsetsConvertArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
+   ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
+   LAF ~HANDLE_CHARSETS~
+     INT_VAR
+     infer_charsets = 0
+     STR_VAR
+     tra_path = "TGC1E/Translations"
+     iconv_path = "TGC1E/Translations/iconv" //available as part of the base system on OS X and GNU/Linux
+     charset_table = charsetsTable
+     convert_array = charsetsConvertArray
+     reload_array = charsetsReloadArray
+   END
+   LOAD_TRA ~TGC1E/Translations/%LANGUAGE%/ITEM-ee.tra~
+   ADD_JOURNAL @77 @83 @110 @112 @114 @116 @124 @133 @137 @206 @208 @248 @272 @308 @313 @315 @414 @417 @419 @422 @424 @426 @428 @452 @468 @479 @540 @548 @551 @554 @557 @573 @599 @20001 @20002 @20003 @20004 @20016 USING ~TGC1E/Translations/%LANGUAGE%/dialogue.tra~ ~TGC1E/Translations/%LANGUAGE%/scriptstr.tra~
+ END
+ PRINT @90003
+ APPEND ~action.ids~ ~113 ForceSpellRES(S:ResRef*,O:Target)~
+ UNLESS ~ForceSpellRES~
+ APPEND ~action.ids~ ~160 ApplySpellRES(S:ResRef*,O:Target)~
+ UNLESS ~ApplySpellRES~
+ APPEND ~action.ids~ ~181 ReallyForceSpellRES(S:ResRef*,O:Target)~
+ UNLESS ~ReallyForceSpellRES~
+ APPEND ~action.ids~ ~207 MoveToPointNoInterrupt(P:Point*)~
+ UNLESS ~MoveToPointNoInterrupt~
+ PRINT @90004
+ APPEND ~mastarea.2da~ ~BW0501 value~
+ APPEND ~mastarea.2da~ ~BW0597 value~
+ APPEND ~mastarea.2da~ ~BW0503 value~
+ APPEND ~mastarea.2da~ ~BW0502 value~
+ APPEND ~itemexcl.2da~ ~BW05PL1 1~
+ APPEND ~itemexcl.2da~ ~BW05CM1 1~
+ PRINT @90008
+ COPY ~TGC1E/Areas/%platform%/bw0501.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0502.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0503.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0504.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0505.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0506.are~ ~Override~
+   SAY 0x180 @60001
+   SAY 0x244 @60001
+ COPY ~TGC1E/Areas/%platform%/bw0599.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0598.are~ ~Override~
+ COPY ~TGC1E/Areas/%platform%/bw0597.are~ ~Override~
+ PRINT @90010
+ COPY_EXISTING ~%NWBaldursGate_House2_L1%.are~ ~Override~ 
+   WRITE_ASCIIE 0x94 ~%NWBaldursGate_House2_L1_BCS%~ #8
+ COPY_EXISTING ~%NWBaldursGate_House2_L2%.are~ ~Override~ 
+   WRITE_ASCIIE 0x94 ~%NWBaldursGate_House2_L2_BCS%~ #8
+END
+
+DEFINE_ACTION_MACRO ~TGC1E_BODY~ BEGIN
+COMPILE EVALUATE_BUFFER ~TGC1E/Script_new~
+PRINT @90006
+EXTEND_BOTTOM ~%NWBaldursGate_BCS%.bcs~ ~TGC1E/Script_extend/ar0100.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NWBaldursGate_House2_L1_BCS%.bcs~ ~TGC1E/Script_extend/ar0163.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NWBaldursGate_House2_L2_BCS%.bcs~ ~TGC1E/Script_extend/ar0164.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NBaldursGate_BCS%.bcs~ ~TGC1E/Script_extend/ar0200.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%WBaldursGate_BCS%.bcs~ ~TGC1E/Script_extend/ar0600.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%FriendlyArmInn_BCS%.bcs~ ~TGC1E/Script_extend/ar2300.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~TGC1E/Script_extend/ar3300.baf~ EVALUATE_BUFFER
+PRINT @90007
+COMPILE EVALUATE_BUFFER ~TGC1E/Dialogues~
+PRINT @90011
+COPY ~TGC1E/Actors/bw05ba01.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05ba02.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+COPY ~TGC1E/Actors/bw05ba03.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05ba04.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+COPY ~TGC1E/Actors/bw05ba05.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05ba06.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05ba07.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05baat.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05bach.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05barp.cre~ ~Override~
+  SAY NAME1 @10001
+  SAY NAME2 @10001
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05bbgd.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05bl01.cre~ ~Override~
+  SAY NAME1 @10002
+  SAY NAME2 @10002
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05bl02.cre~ ~Override~
+  SAY NAME1 @10002
+  SAY NAME2 @10002
+  SAY 0xa4 @70016
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70016
+COPY ~TGC1E/Actors/bw05bl03.cre~ ~Override~
+  SAY NAME1 @10002
+  SAY NAME2 @10002
+COPY ~%tgc1eactors%/bw05bloj.cre~ ~Override~
+  SAY NAME1 @10003
+  SAY NAME2 @10003
+  SAY 0xa4 @70016
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05bori.cre~ ~Override~
+  SAY NAME1 @10004
+  SAY NAME2 @10004
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05brma.cre~ ~Override~
+  SAY NAME1 @10005
+  SAY NAME2 @10005
+COPY ~TGC1E/Actors/bw05cou1.cre~ ~Override~
+  SAY NAME1 @10006
+  SAY NAME2 @10006
+COPY ~TGC1E/Actors/bw05cou2.cre~ ~Override~
+  SAY NAME1 @10006
+  SAY NAME2 @10006
+COPY ~TGC1E/Actors/bw05cou3.cre~ ~Override~
+  SAY NAME1 @10006
+  SAY NAME2 @10006
+COPY ~TGC1E/Actors/bw05dami.cre~ ~Override~
+  SAY NAME1 @10007
+  SAY NAME2 @10007
+COPY ~TGC1E/Actors/bw05dw01.cre~ ~Override~
+  SAY NAME1 @10008
+  SAY NAME2 @10008
+COPY ~TGC1E/Actors/bw05dw02.cre~ ~Override~
+  SAY NAME1 @10009
+  SAY NAME2 @10009
+COPY ~TGC1E/Actors/bw05dw03.cre~ ~Override~
+  SAY NAME1 @10010
+  SAY NAME2 @10010
+COPY ~TGC1E/Actors/bw05dw04.cre~ ~Override~
+  SAY NAME1 @10010
+  SAY NAME2 @10010
+COPY ~TGC1E/Actors/bw05dw05.cre~ ~Override~
+  SAY NAME1 @10010
+  SAY NAME2 @10010
+COPY ~TGC1E/Actors/bw05erne.cre~ ~Override~
+  SAY NAME1 @10011
+  SAY NAME2 @10011
+COPY ~TGC1E/Actors/bw05eros.cre~ ~Override~
+  SAY NAME1 @10012
+  SAY NAME2 @10012
+COPY ~TGC1E/Actors/bw05fd01.cre~ ~Override~
+  SAY NAME1 @10013
+  SAY NAME2 @10013
+COPY ~TGC1E/Actors/bw05feli.cre~ ~Override~
+  SAY NAME1 @10014
+  SAY NAME2 @10014
+COPY ~TGC1E/Actors/bw05ffa1.cre~ ~Override~
+  SAY NAME1 @10015
+  SAY NAME2 @10015
+COPY ~TGC1E/Actors/bw05ffa2.cre~ ~Override~
+  SAY NAME1 @10015
+  SAY NAME2 @10015
+COPY ~TGC1E/Actors/bw05ffa3.cre~ ~Override~
+  SAY NAME1 @10015
+  SAY NAME2 @10015
+COPY ~TGC1E/Actors/bw05ffa4.cre~ ~Override~
+  SAY NAME1 @10015
+  SAY NAME2 @10015
+COPY ~TGC1E/Actors/bw05ffan.cre~ ~Override~
+  SAY NAME1 @10015
+  SAY NAME2 @10015
+COPY ~TGC1E/Actors/bw05ffap.cre~ ~Override~
+  SAY NAME1 @10016
+  SAY NAME2 @10016
+COPY ~TGC1E/Actors/bw05ffde.cre~ ~Override~
+  SAY NAME1 @10017
+  SAY NAME2 @10017
+  SAY 0xec @70022
+  SAY 0xf0 @70023
+COPY ~TGC1E/Actors/bw05ffge.cre~ ~Override~
+  SAY NAME1 @10018
+  SAY NAME2 @10018
+  SAY 0xa4 @70021
+  SAY 0xc8 @70020
+  SAY 0xec @70022
+  SAY 0xf0 @70023
+  SAY 0x10c @70021
+COPY ~TGC1E/Actors/bw05ffwr.cre~ ~Override~
+  SAY NAME1 @10019
+  SAY NAME2 @10019
+  SAY 0xa4 @70019
+  SAY 0xc8 @70020
+  SAY 0xec @70022
+  SAY 0xf0 @70023
+  SAY 0x10c @70019
+  SAY 0x110 @70021
+COPY ~TGC1E/Actors/bw05fgca.cre~ ~Override~
+  SAY NAME1 @10020
+  SAY NAME2 @10020
+  SAY 0x10c @70024
+COPY ~TGC1E/Actors/bw05figu.cre~ ~Override~
+  SAY NAME1 @10021
+  SAY NAME2 @10021
+COPY ~%tgc1eactors%/bw05fist.cre~ ~Override~
+  SAY NAME1 @10022
+  SAY NAME2 @10022
+  SAY 0xec @70022
+  SAY 0xf0 @70023
+COPY ~%tgc1eactors%/bw05gart.cre~ ~Override~
+  SAY NAME1 @10072
+  SAY NAME2 @10072
+COPY ~TGC1E/Actors/bw05gkgo.cre~ ~Override~
+  SAY NAME1 @10023
+  SAY NAME2 @10023
+COPY ~TGC1E/Actors/bw05gra0.cre~ ~Override~
+  SAY NAME1 @10073
+  SAY NAME2 @10073
+  SAY 0xc8 @70004
+  SAY 0xcc @70005
+  SAY 0xec @70006
+  SAY 0xf0 @70007
+COPY ~%tgc1eactors%/bw05grac.cre~ ~Override~
+  SAY NAME1 @10024
+  SAY NAME2 @10024
+  SAY 0xc8 @70004
+  SAY 0xcc @70005
+  SAY 0xec @70006
+  SAY 0xf0 @70007
+  SAY 0x10c @70008
+  SAY 0x110 @70009
+  SAY 0x114 @70010
+  SAY 0x118 @70011
+COPY ~TGC1E/Actors/bw05grs1.cre~ ~Override~
+  SAY NAME1 @10025
+  SAY NAME2 @10025
+COPY ~TGC1E/Actors/bw05grs2.cre~ ~Override~
+  SAY NAME1 @10025
+  SAY NAME2 @10025
+COPY ~TGC1E/Actors/bw05grwo.cre~ ~Override~
+  SAY NAME1 @10026
+  SAY NAME2 @10026
+COPY ~%tgc1eactors%/bw05grz0.cre~ ~Override~
+  SAY NAME1 @10027
+  SAY NAME2 @10027
+COPY ~%tgc1eactors%/bw05grz1.cre~ ~Override~
+  SAY NAME1 @10028
+  SAY NAME2 @10028
+  SAY 0xa4 @70001
+  SAY 0xc8 @70001
+  SAY 0xf0 @70001
+  SAY 0x10c @70001
+COPY ~%tgc1eactors%/bw05grz2.cre~ ~Override~
+  SAY NAME1 @10029
+  SAY NAME2 @10029
+  SAY 0xa4 @70002
+  SAY 0xc8 @70002
+  SAY 0xf0 @70002
+  SAY 0x10c @70002
+COPY ~%tgc1eactors%/bw05grz3.cre~ ~Override~
+  SAY NAME1 @10030
+  SAY NAME2 @10030
+  SAY 0xa4 @70003
+  SAY 0xc8 @70003
+  SAY 0xf0 @70003
+  SAY 0x10c @70003
+COPY ~TGC1E/Actors/bw05char.cre~ ~Override~
+  SAY NAME1 @10031
+  SAY NAME2 @10031
+COPY ~TGC1E/Actors/bw05hert.cre~ ~Override~
+  SAY NAME1 @10032
+  SAY NAME2 @10032
+COPY ~TGC1E/Actors/bw05injm.cre~ ~Override~
+  SAY NAME1 @10033
+  SAY NAME2 @10033
+COPY ~TGC1E/Actors/bw05jer2.cre~ ~Override~
+  SAY NAME1 @10034
+  SAY NAME2 @10034
+COPY ~TGC1E/Actors/bw05jere.cre~ ~Override~
+  SAY NAME1 @10034
+  SAY NAME2 @10034
+COPY ~TGC1E/Actors/bw05john.cre~ ~Override~
+  SAY NAME1 @10035
+  SAY NAME2 @10035
+COPY ~TGC1E/Actors/bw05jusm.cre~ ~Override~
+  SAY NAME1 @10036
+  SAY NAME2 @10036
+  SAY 0xa4 @70021
+  SAY 0xec @70022
+  SAY 0xf0 @70023
+  SAY 0x10c @70021
+COPY ~%tgc1eactors%/bw05lind.cre~ ~Override~
+  SAY NAME1 @10037
+  SAY NAME2 @10037
+COPY ~TGC1E/Actors/bw05lucy.cre~ ~Override~
+  SAY NAME1 @10038
+  SAY NAME2 @10038
+COPY ~TGC1E/Actors/bw05mar2.cre~ ~Override~
+  SAY NAME1 @10039
+  SAY NAME2 @10039
+COPY ~TGC1E/Actors/bw05mary.cre~ ~Override~
+  SAY NAME1 @10039
+  SAY NAME2 @10039
+COPY ~TGC1E/Actors/bw05mgol.cre~ ~Override~
+  SAY NAME1 @10040
+  SAY NAME2 @10040
+COPY ~TGC1E/Actors/bw05mike.cre~ ~Override~
+  SAY NAME1 @10041
+  SAY NAME2 @10041
+COPY ~TGC1E/Actors/bw05mold.cre~ ~Override~
+  SAY NAME1 @10042
+  SAY NAME2 @10042
+COPY ~TGC1E/Actors/bw05moni.cre~ ~Override~
+  SAY NAME1 @10043
+  SAY NAME2 @10043
+  SAY 0x10c @70025
+COPY ~TGC1E/Actors/bw05msv1.cre~ ~Override~
+  SAY NAME1 @10044
+  SAY NAME2 @10044
+COPY ~TGC1E/Actors/bw05msv2.cre~ ~Override~
+  SAY NAME1 @10045
+  SAY NAME2 @10045
+COPY ~TGC1E/Actors/bw05msv3.cre~ ~Override~
+  SAY NAME1 @10046
+  SAY NAME2 @10046
+COPY ~TGC1E/Actors/bw05octa.cre~ ~Override~
+  SAY NAME1 @10047
+  SAY NAME2 @10047
+  SAY 0x10c @70026
+COPY ~%tgc1eactors%/bw05ogma.cre~ ~Override~
+  SAY NAME1 @10048
+  SAY NAME2 @10048
+COPY ~TGC1E/Actors/bw05ogre.cre~ ~Override~
+  SAY NAME1 @10049
+  SAY NAME2 @10049
+COPY ~TGC1E/Actors/bw05orh1.cre~ ~Override~
+  SAY NAME1 @10050
+  SAY NAME2 @10050
+COPY ~TGC1E/Actors/bw05orh2.cre~ ~Override~
+  SAY NAME1 @10050
+  SAY NAME2 @10050
+COPY ~TGC1E/Actors/bw05orh3.cre~ ~Override~
+  SAY NAME1 @10051
+  SAY NAME2 @10051
+COPY ~TGC1E/Actors/bw05pet1.cre~ ~Override~
+  SAY NAME1 @10021
+  SAY NAME2 @10021
+COPY ~TGC1E/Actors/bw05pet2.cre~ ~Override~
+  SAY NAME1 @10052
+  SAY NAME2 @10052
+COPY ~TGC1E/Actors/bw05petr.cre~ ~Override~
+  SAY NAME1 @10053
+  SAY NAME2 @10053
+  SAY 0x10c @70041
+COPY ~TGC1E/Actors/bw05pump.cre~ ~Override~
+  SAY NAME1 @10054
+  SAY NAME2 @10054
+  SAY 0xa4 @70013
+  SAY 0xc8 @70013
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70013
+  SAY 0x110 @70014
+COPY ~TGC1E/Actors/bw05reuf.cre~ ~Override~
+  SAY NAME1 @10055
+  SAY NAME2 @10055
+COPY ~TGC1E/Actors/bw05robe.cre~ ~Override~
+  SAY NAME1 @10056
+  SAY NAME2 @10056
+COPY ~TGC1E/Actors/bw05rud2.cre~ ~Override~
+  SAY NAME1 @10057
+  SAY NAME2 @10057
+  SAY 0x10c @70027
+COPY ~TGC1E/Actors/bw05rudi.cre~ ~Override~
+  SAY NAME1 @10057
+  SAY NAME2 @10057
+  SAY 0x10c @70027
+COPY ~TGC1E/Actors/bw05sert.cre~ ~Override~
+  SAY NAME1 @10058
+  SAY NAME2 @10058
+COPY ~%tgc1eactors%/bw05skw1.cre~ ~Override~
+  SAY NAME1 @10059
+  SAY NAME2 @10059
+COPY ~%tgc1eactors%/bw05skw2.cre~ ~Override~
+  SAY NAME1 @10051
+  SAY NAME2 @10051
+COPY ~TGC1E/Actors/bw05sse2.cre~ ~Override~
+  SAY NAME1 @10060
+  SAY NAME2 @10060
+COPY ~TGC1E/Actors/bw05sser.cre~ ~Override~
+  SAY NAME1 @10060
+  SAY NAME2 @10060
+COPY ~TGC1E/Actors/bw05tali.cre~ ~Override~
+  SAY NAME1 @10061
+  SAY NAME2 @10061
+  SAY 0xec @70029
+  SAY 0xf0 @70030
+  SAY 0x10c @70028
+COPY ~TGC1E/Actors/bw05tame.cre~ ~Override~
+  SAY NAME1 @10062
+  SAY NAME2 @10062
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+COPY ~TGC1E/Actors/bw05tbg1.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05tbg2.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05tbg3.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05tbg4.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05tbg5.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05tbg6.cre~ ~Override~
+  SAY NAME1 @10071
+  SAY NAME2 @10071
+COPY ~TGC1E/Actors/bw05terg.cre~ ~Override~
+  SAY NAME1 @10063
+  SAY NAME2 @10063
+  SAY 0xec @70031
+  SAY 0xf0 @70032
+COPY ~%tgc1eactors%/bw05teve.cre~ ~Override~
+  SAY NAME1 @10064
+  SAY NAME2 @10064
+  SAY 0xec @70035
+  SAY 0xf0 @70036
+  SAY 0x10c @70033
+  SAY 0x110 @70034
+COPY ~TGC1E/Actors/bw05thie.cre~ ~Override~
+  SAY NAME1 @10066
+  SAY NAME2 @10066
+COPY ~TGC1E/Actors/bw05tobo.cre~ ~Override~
+  SAY NAME1 @10074
+  SAY NAME2 @10074
+COPY ~%tgc1eactors%/bw05vlai.cre~ ~Override~
+  SAY NAME1 @10068
+  SAY NAME2 @10068
+  SAY 0xc8 @70038
+  SAY 0xec @70039
+  SAY 0xf0 @70040
+  SAY 0x10c @70037
+COPY ~TGC1E/Actors/bw05will.cre~ ~Override~
+  SAY NAME1 @10069
+  SAY NAME2 @10069
+  SAY 0xa4 @70015
+  SAY 0xec @70017
+  SAY 0xf0 @70018
+  SAY 0x10c @70015
+COPY ~TGC1E/Actors/bw05xeph.cre~ ~Override~
+  SAY NAME1 @10070
+  SAY NAME2 @10070
+PRINT @90012  
+COPY ~TGC1E/Items/bw05ax1.itm~ ~Override~
+  WRITE_LONG NAME1 6654
+  SAY NAME2 @30003
+  WRITE_LONG UNIDENTIFIED_DESC 6656
+  SAY IDENTIFIED_DESC @30004
+COPY ~TGC1E/Items/bw05clad.itm~ ~Override~
+  WRITE_LONG NAME1 6701
+  SAY NAME2 @30007
+  WRITE_LONG UNIDENTIFIED_DESC 6703
+  SAY IDENTIFIED_DESC @30008
+COPY ~TGC1E/Items/bw05clpo.itm~ ~Override~
+  WRITE_LONG NAME1 6701
+  SAY NAME2 @30009
+  WRITE_LONG UNIDENTIFIED_DESC 6703
+  SAY IDENTIFIED_DESC @30010
+COPY ~TGC1E/Items/bw05cm1.itm~ ~Override~
+  WRITE_LONG NAME1 214
+  SAY NAME2 @30013
+  WRITE_LONG UNIDENTIFIED_DESC 6673
+  SAY IDENTIFIED_DESC @30014
+COPY ~TGC1E/Items/bw05crys.itm~ ~Override~
+  SAY NAME1 @30015
+  SAY NAME2 @30015
+  SAY UNIDENTIFIED_DESC @30016
+  SAY IDENTIFIED_DESC @30016
+COPY ~TGC1E/Items/bw05dwhe.itm~ ~Override~
+  SAY NAME1 @30017
+  SAY NAME2 @30017
+  SAY UNIDENTIFIED_DESC @30018
+  SAY IDENTIFIED_DESC @30018
+COPY ~TGC1E/Items/bw05grbl.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05grch.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05hl1.itm~ ~Override~
+  WRITE_LONG NAME1 6344
+  SAY NAME2 @30023
+  WRITE_LONG UNIDENTIFIED_DESC 6712
+  SAY IDENTIFIED_DESC @30024
+COPY ~TGC1E/Items/bw05ia01.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ibos.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05icm1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ifp1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ihe1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ihe2.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ihe3.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ihe4.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ihl1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ilb1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ils1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ipm1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05iqs1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ish1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05isp1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05juar.itm~ ~Override~
+  WRITE_LONG NAME1 214
+  SAY NAME2 @30026
+  WRITE_LONG UNIDENTIFIED_DESC 6673
+  SAY IDENTIFIED_DESC @30027
+COPY ~TGC1E/Items/bw05juha.itm~ ~Override~
+  WRITE_LONG NAME1 6345
+  SAY NAME2 @30030
+  WRITE_LONG UNIDENTIFIED_DESC 6716
+  SAY IDENTIFIED_DESC @30031
+COPY ~TGC1E/Items/bw05k1.itm~ ~Override~
+  SAY NAME1 @30033
+  SAY NAME2 @30033
+  SAY UNIDENTIFIED_DESC @30032
+  SAY IDENTIFIED_DESC @30032
+COPY ~TGC1E/Items/bw05k2.itm~ ~Override~
+  SAY NAME1 @30034
+  SAY NAME2 @30034
+  SAY UNIDENTIFIED_DESC @30032
+  SAY IDENTIFIED_DESC @30032
+COPY ~TGC1E/Items/bw05k3.itm~ ~Override~
+  SAY NAME1 @30035
+  SAY NAME2 @30035
+  SAY UNIDENTIFIED_DESC @30032
+  SAY IDENTIFIED_DESC @30032
+COPY ~TGC1E/Items/bw05k4.itm~ ~Override~
+  SAY NAME1 @30036
+  SAY NAME2 @30036
+  SAY UNIDENTIFIED_DESC @30032
+  SAY IDENTIFIED_DESC @30032
+COPY ~TGC1E/Items/bw05k5.itm~ ~Override~
+  SAY NAME1 @30037
+  SAY NAME2 @30037
+  SAY UNIDENTIFIED_DESC @30032
+  SAY IDENTIFIED_DESC @30032
+COPY ~TGC1E/Items/bw05k6.itm~ ~Override~
+  SAY NAME1 @30038
+  SAY NAME2 @30038
+  SAY UNIDENTIFIED_DESC @30032
+  SAY IDENTIFIED_DESC @30032
+COPY ~TGC1E/Items/bw05mgsh.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05ogma.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05pl1.itm~ ~Override~
+  WRITE_LONG NAME1 267
+  SAY NAME2 @30041
+  WRITE_LONG UNIDENTIFIED_DESC 6681
+  SAY IDENTIFIED_DESC @30042
+COPY ~TGC1E/Items/bw05rob1.itm~ ~Override~
+  WRITE_LONG NAME1 9642
+  SAY NAME2 @30045
+  WRITE_LONG UNIDENTIFIED_DESC 10046
+  SAY IDENTIFIED_DESC @30046
+COPY ~TGC1E/Items/bw05rob2.itm~ ~Override~
+  WRITE_LONG NAME1 9642
+  SAY NAME2 @30045
+  WRITE_LONG UNIDENTIFIED_DESC 10046
+  SAY IDENTIFIED_DESC @30046
+COPY ~TGC1E/Items/bw05sc1.itm~ ~Override~
+  SAY NAME1 @30047
+  SAY NAME2 @30047
+  SAY UNIDENTIFIED_DESC @30048
+  SAY IDENTIFIED_DESC @30048
+COPY ~TGC1E/Items/bw05skfb.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05sum1.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05sum2.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05sw1.itm~ ~Override~
+  WRITE_LONG NAME1 2893
+  SAY NAME2 @30051
+  WRITE_LONG UNIDENTIFIED_DESC 6742
+  SAY IDENTIFIED_DESC @30052
+COPY ~TGC1E/Items/bw05swr2.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05swri.itm~ ~Override~
+  SAY NAME1 @30025
+  SAY NAME2 @30025
+  SAY UNIDENTIFIED_DESC @30025
+  SAY IDENTIFIED_DESC @30025
+COPY ~TGC1E/Items/bw05vers.itm~ ~Override~
+  SAY NAME1 @30053
+  SAY NAME2 @30053
+  SAY UNIDENTIFIED_DESC @30054
+  SAY IDENTIFIED_DESC @30054
+COPY ~TGC1E/Items/bw05war2.itm~ ~Override~
+  WRITE_LONG NAME1 22094
+  WRITE_LONG NAME2 22094
+  WRITE_LONG UNIDENTIFIED_DESC 22096
+  WRITE_LONG IDENTIFIED_DESC 22096
+COPY ~TGC1E/Items/bw05ward.itm~ ~Override~
+  WRITE_LONG NAME1 22094
+  WRITE_LONG NAME2 22094
+  WRITE_LONG UNIDENTIFIED_DESC 22096
+  WRITE_LONG IDENTIFIED_DESC 22096
+COPY ~TGC1E/Items/bw05wh1.itm~ ~Override~
+  WRITE_LONG NAME1 6345
+  SAY NAME2 @30057
+  WRITE_LONG UNIDENTIFIED_DESC 6716
+  SAY IDENTIFIED_DESC @30058
+PRINT @90013
+COPY ~TGC1E/Stores/bw05jere.sto~ ~Override~
+  SAY STORE_NAME @40001
+PRINT @90014
+COPY ~TGC1E/Spells/bw05sp00.spl~ ~Override~
+  SAY 0x08 @50002
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp01.spl~ ~Override~
+  SAY 0x08 @50003
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp02.spl~ ~Override~
+  SAY 0x08 @50004
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp03.spl~ ~Override~
+  SAY 0x08 @50005
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp04.spl~ ~Override~
+  SAY 0x08 @50006
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp05.spl~ ~Override~
+  SAY 0x08 @50007
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp06.spl~ ~Override~
+  SAY 0x08 @50008
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp07.spl~ ~Override~
+  SAY 0x08 @50008
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp08.spl~ ~Override~
+  SAY 0x08 @50008
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp09.spl~ ~Override~
+  SAY 0x08 @50011
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp10.spl~ ~Override~
+  SAY 0x08 @50012
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp11.spl~ ~Override~
+  SAY 0x08 @50013
+  SAY 0x50 @50001
+COPY ~TGC1E/Spells/bw05sp12.spl~ ~Override~
+  SAY 0x08 @50013
+  SAY 0x50 @50001
+PRINT @90009
+PRINT @90015
+COPY ~TGC1E/Sounds~ ~Override~
+PRINT @90016
+COPY ~TGC1E/Animations~ ~Override~
+PRINT @90017
+COPY ~TGC1E/Portraits/%engine%~ ~Override~
+ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY table_item_use BEGIN
+     ~bw05dwhe~ => ~BW05DW01~
+     ~bw05dwhe~ => ~BW05JUSM~
+     ~bw05dwhe~ => ~BW05JUSM~
+   END
+   ACTION_PHP_EACH table_item_use AS item => cre BEGIN
+     COPY_EXISTING - ~%cre%.cre~ ~override~
+       READ_LONG NAME1 name
+       READ_ASCII DEATHVAR dv
+     COPY_EXISTING ~%item%.itm~ ~override~
+       WRITE_LONG 0x1e 0
+       WRITE_BYTE 0x29 0
+       WRITE_BYTE 0x2b 0
+       WRITE_BYTE 0x2d 0
+       WRITE_BYTE 0x2f 0
+       LPF ADD_ITEM_EQEFFECT
+         INT_VAR
+         opcode = 319 //Item Usability
+         target = 1
+         timing = 2
+         parameter2 = 11
+         power = 1 //Usable by
+         probability1 = 100
+         special = name
+         STR_VAR
+         resource = EVAL "%dv%"
+       END
+   END
+ END
+END
+
+LANGUAGE ~English (olimikrig's revision)~
+         ~English_revision~
+         ~TGC1E/Translations/English_revision/actor.tra~
+         ~TGC1E/Translations/English_revision/dialogue.tra~
+         ~TGC1E/Translations/English_revision/info.tra~
+         ~TGC1E/Translations/English_revision/item.tra~
+         ~TGC1E/Translations/English_revision/npcsound.tra~
+         ~TGC1E/Translations/English_revision/scriptstr.tra~
+         ~TGC1E/Translations/English_revision/setup.tra~
+         ~TGC1E/Translations/English_revision/spell.tra~
+         ~TGC1E/Translations/English_revision/store.tra~
+LANGUAGE ~English (original text)~
+         ~English_original~
+         ~TGC1E/Translations/English_original/actor.tra~
+         ~TGC1E/Translations/English_original/dialogue.tra~
+         ~TGC1E/Translations/English_original/info.tra~
+         ~TGC1E/Translations/English_original/item.tra~
+         ~TGC1E/Translations/English_original/npcsound.tra~
+         ~TGC1E/Translations/English_original/scriptstr.tra~
+         ~TGC1E/Translations/English_original/setup.tra~
+         ~TGC1E/Translations/English_original/spell.tra~
+         ~TGC1E/Translations/English_original/store.tra~
+LANGUAGE ~Deutsch~
+         ~Deutsch~
+         ~TGC1E/Translations/Deutsch/actor.tra~
+         ~TGC1E/Translations/Deutsch/dialogue.tra~
+         ~TGC1E/Translations/Deutsch/info.tra~
+         ~TGC1E/Translations/Deutsch/item.tra~
+         ~TGC1E/Translations/Deutsch/npcsound.tra~
+         ~TGC1E/Translations/Deutsch/scriptstr.tra~
+         ~TGC1E/Translations/Deutsch/setup.tra~
+         ~TGC1E/Translations/Deutsch/spell.tra~
+         ~TGC1E/Translations/Deutsch/store.tra~
+LANGUAGE ~Español (Traducido por Excalibur)~
+         ~Espanol~
+         ~TGC1E/Translations/Espanol/actor.tra~
+         ~TGC1E/Translations/Espanol/dialogue.tra~
+         ~TGC1E/Translations/Espanol/info.tra~
+         ~TGC1E/Translations/Espanol/item.tra~
+         ~TGC1E/Translations/Espanol/npcsound.tra~
+         ~TGC1E/Translations/Espanol/scriptstr.tra~
+         ~TGC1E/Translations/Espanol/setup.tra~
+         ~TGC1E/Translations/Espanol/spell.tra~
+         ~TGC1E/Translations/Espanol/store.tra~
+LANGUAGE ~Italiano (Ilot & Hedgehog81)~
+         ~Italian~
+         ~TGC1E/Translations/Italian/actor.tra~
+         ~TGC1E/Translations/Italian/dialogue.tra~
+         ~TGC1E/Translations/Italian/info.tra~
+         ~TGC1E/Translations/Italian/item.tra~
+         ~TGC1E/Translations/Italian/npcsound.tra~
+         ~TGC1E/Translations/Italian/scriptstr.tra~
+         ~TGC1E/Translations/Italian/setup.tra~
+         ~TGC1E/Translations/Italian/spell.tra~
+         ~TGC1E/Translations/Italian/store.tra~
+LANGUAGE ~Polski (Folmi & Team of Ramazith's Tower)~
+         ~Polish~
+         ~TGC1E/Translations/Polish/prompts.tra~
+         ~TGC1E/Translations/Polish/actor.tra~
+         ~TGC1E/Translations/Polish/dialogue.tra~
+         ~TGC1E/Translations/Polish/info.tra~
+         ~TGC1E/Translations/Polish/item.tra~
+         ~TGC1E/Translations/Polish/npcsound.tra~
+         ~TGC1E/Translations/Polish/scriptstr.tra~
+         ~TGC1E/Translations/Polish/setup.tra~
+         ~TGC1E/Translations/Polish/spell.tra~
+         ~TGC1E/Translations/Polish/store.tra~
+LANGUAGE ~Francais (JaNcEn47 et Galathee des d'Oghmatiques)~
+         ~French~
+         ~TGC1E/Translations/French/actor.tra~
+         ~TGC1E/Translations/French/dialogue.tra~
+         ~TGC1E/Translations/French/info.tra~
+         ~TGC1E/Translations/French/item.tra~
+         ~TGC1E/Translations/French/npcsound.tra~
+         ~TGC1E/Translations/French/scriptstr.tra~
+         ~TGC1E/Translations/French/setup.tra~
+         ~TGC1E/Translations/French/spell.tra~
+         ~TGC1E/Translations/French/store.tra~ 
+
+BEGIN @90018
+SUBCOMPONENT @90001
+REQUIRE_PREDICATE GAME_IS ~bgt eet bgee~ ~This is not a valid BGT-WeiDU/EET/BG:EE installation!~
+OUTER_SPRINT "tgc1eactors" ~TGC1E/Actors~
+LAUNCH_ACTION_MACRO ~TGC1E_INIT~
+PRINT @90005
+COMPILE EVALUATE_BUFFER ~TGC1E/Script_new/Normal~
+LAUNCH_ACTION_MACRO ~TGC1E_BODY~
+
+BEGIN @90019
+SUBCOMPONENT @90001
+REQUIRE_PREDICATE GAME_IS ~bgt eet bgee~ ~This is not a valid BGT-WeiDU/EET/BG:EE installation!~
+OUTER_SPRINT "tgc1eactors" ~TGC1E/Actors/Lite~
+LAUNCH_ACTION_MACRO ~TGC1E_INIT~
+PRINT @90005
+COMPILE EVALUATE_BUFFER ~TGC1E/Script_new/Lite~
+LAUNCH_ACTION_MACRO ~TGC1E_BODY~

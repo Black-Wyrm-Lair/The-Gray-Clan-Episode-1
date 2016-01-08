@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("BW05JERE")
+		SetGlobal("BW05_JeremiasTalk","GLOBAL",3)
+		Wait(5)
+		ForceSpell(Myself,WIZARD_POLYMORPH_SELF)
+		Wait(1)
+		Polymorph(MAGE_MALE_HUMAN)
+		Wait(4)
+		StartDialogueNoSet([PC])
+END
+

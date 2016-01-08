@@ -1,0 +1,11 @@
+IF
+	Allegiance(Myself, NEUTRAL)
+      Global("BW05_NasrodinEnemy","GLOBAL",0)
+      Global("BW05_NasrodinCP","LOCALS",1)
+      !See([ENEMY.0.0])
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_NasrodinCP","LOCALS",0)
+            MoveToPointNoInterrupt([1012.1260])	
+            Face(2)
+END

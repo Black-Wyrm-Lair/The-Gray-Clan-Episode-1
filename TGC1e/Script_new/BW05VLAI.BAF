@@ -1,0 +1,8 @@
+IF
+	See([PC.0.0])
+      Global("BW05_KeysCS","GLOBAL",3)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_KeysCS","GLOBAL",4)
+            StartDialogueNoSet([PC.0.0])
+END

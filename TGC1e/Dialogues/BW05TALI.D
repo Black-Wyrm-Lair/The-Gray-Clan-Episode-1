@@ -1,0 +1,69 @@
+BEGIN ~BW05TALI~
+
+IF ~!Global("BW05_TGC1","Global",-2)
+!See([ENEMY.0.0])
+Global("BW05_TalkedToTalibehius","GLOBAL",0)~ THEN BEGIN 0
+  SAY @480
+  IF ~~ THEN REPLY @481 DO ~SetGlobal("BW05_TalkedToTalibehius","GLOBAL",1)
+~ GOTO 1
+  IF ~~ THEN REPLY @482 DO ~SetGlobal("BW05_TalkedToTalibehius","GLOBAL",1)
+~ GOTO 2
+  IF ~~ THEN REPLY @483 DO ~SetGlobal("BW05_TalkedToTalibehius","GLOBAL",1)
+~ GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @484
+  IF ~~ THEN REPLY @485 GOTO 4
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @486
+  IF ~~ THEN REPLY @485 GOTO 4
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @487
+  IF ~~ THEN REPLY @485 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @488
+  IF ~~ THEN REPLY @240 GOTO 5
+  IF ~~ THEN REPLY @489 GOTO 7
+  IF ~~ THEN REPLY @490 GOTO 6
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @491
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @492
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @493
+  IF ~~ THEN EXIT
+END
+
+IF ~!Global("BW05_TGC1","Global",-2)
+!See([ENEMY.0.0])
+Global("BW05_TalkedToTalibehius","GLOBAL",1)~ THEN BEGIN 8
+  SAY @494
+  IF ~~ THEN EXIT
+END
+
+IF ~!Global("BW05_TGC1","Global",-2)
+See([ENEMY.0.0])~ THEN BEGIN 9
+  SAY @370
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("BW05_TGC1","Global",-2)~ THEN BEGIN 10
+  SAY @363
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END

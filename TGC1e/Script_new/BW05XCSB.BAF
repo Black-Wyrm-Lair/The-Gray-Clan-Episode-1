@@ -1,0 +1,22 @@
+IF
+	AttackedBy([ANYONE],Default)
+      GlobalLT("BW05_Bandit2SeePC","GLOBAL",2)
+      Global("BW05_NoCutScene_KillKnights","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_NoCutScene_KillKnights","GLOBAL",1)
+            ActionOverride("BW05BA05",Enemy())
+            ActionOverride("BW05BA06",Enemy())
+            DisplayString(Myself, @20013)
+            Polymorph(SKELETON)
+            ActionOverride("BW05ORH2",DisplayString(Myself, @20013))
+            ActionOverride("BW05ORH2",Polymorph(SKELETON))
+		ActionOverride("BW05ORH3",DisplayString(Myself, @20013))
+            ActionOverride("BW05ORH3",Polymorph(SKELETON))
+            Wait(1)
+		Kill("BW05ORH2")
+            Kill("BW05ORH3")
+          	Kill("BW05ORH1")
+END
+
+

@@ -1,0 +1,157 @@
+IF
+  OR(6) 
+   Range(Player1,80)
+   Range(Player2,80)
+   Range(Player3,80)
+   Range(Player4,80)
+   Range(Player5,80)
+   Range(Player6,80)
+  See([NEUTRAL.0.0]) 
+  Global("BW05_SeePC","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_SeePC","LOCALS",1)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT) 
+  Global("BW05_SeePC","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_SeePC","LOCALS",1)
+END
+
+IF
+	AttackedBy([GOODCUTOFF.0.0],DEFAULT)
+	!See(LastAttackerOf(Myself))
+	Global("BW05_NotInSight","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_NotInSight","LOCALS",1)
+		Enemy()
+END
+
+IF
+	See(LastAttackerOf(Myself))
+	Global("BW05_NotInSight","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_NotInSight","LOCALS",0)
+END
+
+IF
+	!See(LastAttackerOf(Myself))
+	Global("BW05_NotInSight","LOCALS",1)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastAttackerOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Global("BW05_SeePC","LOCALS",1)
+      Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Global("BW05_SeePC","LOCALS",1)
+      Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+      Global("BW05_SeePC","LOCALS",1)
+ 	Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Global("BW05_SeePC","LOCALS",1)
+      Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+      Global("BW05_SeePC","LOCALS",1)
+	Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+      Global("BW05_SeePC","LOCALS",1)
+	Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	AttackedBy([GOODCUTOFF.0.0],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+

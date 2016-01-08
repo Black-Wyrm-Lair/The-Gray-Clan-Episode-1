@@ -1,0 +1,8 @@
+BEGIN ~BW05WILL~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @185
+  IF ~~ THEN DO ~DropItem("CHAN04",[0.0])
+Enemy()
+~ EXIT
+END

@@ -1,0 +1,13 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05TEVE")
+            Wait(2)
+            ActionOverride("BW05SERT",ForceSpell(Myself, WIZARD_DIMENSION_DOOR))
+            Wait(2)
+            ActionOverride("BW05SERT",DestroySelf())
+            Wait(3)
+            SetGlobal("BW05_TGC1","GLOBAL",12) 
+            StartDialogueNoSet(Protagonist)
+END

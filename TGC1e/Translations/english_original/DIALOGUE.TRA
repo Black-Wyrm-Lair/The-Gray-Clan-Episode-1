@@ -1,0 +1,651 @@
+@1   = ~No one is talking of the invasion any more, and life has returned to the Friendly Arm Inn. I heard that actually not the Flaming Fists, but someone called <CHARNAME> drove out the invaders!~
+@2   = ~Greetings! I'm Jeremias, a merchant. I support General Jedyan's organization with magical items and weapons.~
+@3   = ~Sorry for saying, but you look like a demon... really...~
+@4   = ~Prepare to die, DEMON!~
+@5   = ~I'll return later...I think that will be the best...~
+@6   = ~Demon?! Demon? Ah, of course! Sorry, I totally forgot about it. I'm the elder brother of Rudi, also known as "The Metaphysician". He is a great scientist, and taught me how I can use polymorph magic. I enjoy it a lot. But you have come here to buy items, so let me shapeshift back to my human form, it will take just a few seconds...~
+@7   = ~Why are you staring at me in this way? Do I look so horrible? I may be old, but I'm not so ugly!~
+@8   = ~How can I help you? Do you wish to see the magical items?~
+@9   = ~Done!..... Whoops, not yet. Just a second, and everything will be fine...~
+@10  = ~Almost, almost.~
+@11  = ~At last! Sorry for the inconvenience. So do you wish to take a look at the collection of my magical items?~
+@12  = ~Let me see your items.~
+@13  = ~No thanks.~
+@14  = ~If you need anything, you can find me here. I'll stay here for a while.~
+@15  = ~What can I do for you?~
+@16  = ~I'll return later.~
+@17  = ~You were a very good teacher, m'lady. We won't disappoint you.~
+@18  = ~I'll do my best, m'lady.~
+@19  = ~The golem says: 'I am out of order.'~
+@20  = ~Grachus is dead?! Hahahaha! It would have been a pleasure to see Xephistagoras's face when he learned that his beloved disciple exists no more! I also wonder what he will say to Lord Desider tomorrow, when the achievements of the Grey Clan will be discussed in the Legencase Castle... ~
+@21  = ~Where is Legencase? Who is Lord Desider? Speak!~
+@22  = ~Prepare to die!~
+@23  = ~As you can see, m'lady, Teven isn't capable of performing his task any longer. New leaders are needed.~
+@24  = ~You may be right, adventurer. And you also look powerful and experienced...~
+@25  = ~It would be an honour to fill Teven's position, m'lady.~
+@26  = ~I am the best choice. No doubt.~
+@27  = ~I don't care of Xephistagoras! Don't mention his name any more! But alright. You get a chance, Teven...~
+@28  = ~This battle shouldn't be a challenge for you, Octavia. You should fear neither, Petrarca. You will probably learn something new, and if anything is wrong, Octavia will surely help you. You are far from Legencase, but don't forget what the Academy taught you: your power is in your veins.~
+@29  = ~Fool.~
+@30  = ~I have to go. Good luck, girls!~
+@31  = ~Oh my goodness!!! Dervanto!!! You are the greatest of... the greatest of...~
+@32  = ~MORONS!~
+@33  = ~These aren't the people we were waiting for, idiot! This is <CHARNAME>!!! And I have only six bodyguards and a moron wizard in here!~
+@34  = ~Wait, Dervanto! Don't leave me here! Dervanto! Where is my wardstone? Dervanto! DERVANTO!~
+@35  = ~Elite Guard! To Arms!~
+@36  = ~Where are you going to?! I command you to come back immediately! Those stairs are just a magical illusion, cowardly idiots! You are going to certain death!!!~
+@37  = ~It is a surprise that you are here, Teven, because I killed you in Larswood.. But slaying you wasn't a challenge, and I'm sure that you are still no match for my skills, bandit.~
+@38  = ~How funny. We're probably in one of the most secured luxury apartments of the Grey Clan's elite, and you are alone, without bodyguards. Without *anyone* who could save you.~
+@39  = ~Teven? I can't believe my eyes! It's nice to meet you again!~
+@40  = ~Gartuffe is dead. Grachus is dead. Reufasio bit the dust as well. And Linda the Sorceress will also welcome you, when you arrive. Because *you* are the next.~
+@41  = ~Lady Adalbert! Thank god you are here, m'lady. Grachus is dead, and thanks to that idiot Dervanto, <CHARNAME> managed to get in here!~
+@42  = ~Wait a minute, m'lady. You can't relieve me of my position, Lady Monica Adalbert! I was inaugurated in Legencase, and enjoy the support of Lord Falcondrake. And don't forget about Xephistagoras either.~
+@43  = ~I'm... I'm not the person you seek, <CHARNAME>! I am just a... just a...~
+@44  = ~You have no chance against me, <CHARNAME>!~
+@45  = ~The golem says: 'Insert the wardstone.'~
+@46  = ~Leave the creature alone.~
+@47  = ~Insert wardstone~
+@48  = ~You insert the wardstone, but it is rejected. The Sorceresses probably created a secondary shield around the area. Only they are capable of dispelling it, and it's no doubt that they won't do it of their own will. You will have to slay both of them.~
+@49  = ~You insert the wardstone.~
+@50  = ~Greetings! I hope you had a pleasant journey. My Lord is already waiting for you. I can assure you that there will be no problems during the meeting, because it's an entirely secure area, protected by a magical shield made by myself. No unauthorized person can get in. Let's go!~
+@51  = ~Wait...~
+@52  = ~But I...~
+@53  = ~I'm eager to meet your Lord.~
+@54  = ~I'm just his butler. You can discuss everything with the Lord.~
+@55  = ~Really? I thought that my master had met you during the previous meeting. But I'm probably wrong, I'm just his butler after all.~
+@56  = ~Abjurers? Wizards?~
+@57  = ~I know we arrived later than you expected, my Lord. But it wasn't my mistake, I was waiting at the entrance of the Inn the whole day...~
+@58  = ~You're right, I'm not needed here. Good luck, m'lord.~
+@59  = ~The golem stares vacantly. You have no idea if its whole body is made of it, but it's certain that the golem is fully covered by green mold. The bandits apparently tried to destroy it, but the thick mold is growing so quickly, that it cures any physical damage within seconds. After further examination, you notice six key holes in the golem's breast. ~
+@60  = ~Insert Gold Key~
+@61  = ~Insert Copper Key~
+@62  = ~Insert Iron Key~
+@63  = ~Insert Small Iron Key~
+@64  = ~Insert Brass Key~
+@65  = ~Insert Small Brass Key~
+@66  = ~Examine the keyholes.~
+@67  = ~Leave the golem alone.~
+@68  = ~Wrong key order. You are not Master. You are dead.~
+@69  = ~You insert the selected key.~
+@70  = ~All of the keyholes are different sizes. Based on what the bandits were doing when you arrived, it seems that you need to have all six keys to make the golem identify you as its master.~
+@71  = ~The golem says nothing. The key disappears in the keyhole, and you hear the sound of cogwheels.~
+@72  = ~Wait for the golem's reaction.~
+@73  = ~The keys drop out from the keyholes. Then the golem says: "Wrong key order. You are not Master. You are dead."~
+@74  = ~Insert Gold Key.~
+@75  = ~You insert the last key.~
+@76  = ~After a few seconds, the golems says: 'You didn't insert the diamond key into the secret keyhole on my head. You commanded me that I must dissolve if this happens.'~
+@77  = ~Activating the Mold Golem
+
+I inserted the keys to the Mold Golem in correct order. However, it mentioned a Diamond Key as well, and since it wasn't inserted into a secret keyhole on its head, the Mold Golem dissolved. Fortunately the items it was guarding in its body weren't destroyed. I didn't know that a Diamond Key existed as well, and didn't notice the secret keyhole either. The bandits probably also hadn't been aware of this protection. It is very likely that the golem's real master made this protection, to prevent the golem from getting controlled even if the unauthorized user possesses all of the six metal keys.~
+@78  = ~You have... you have key? No key? Vladimir kills you... to see if key... you key... if you have... have any key...~
+@79  = ~Vladimir inserted keys... all six keys... ~
+@80  = ~Vladimir is sorry... Vladimir wanted insert no keys.. keys wrong order...~
+@81  = ~Yes... yes mistress...~
+@82  = ~Vladimir keys... will find keys... ~
+@83  = ~Activating the Mold Golem
+
+When I arrived to the Friendly Arm Inn, the bandits, led by a Sorceress, were trying to do something with a Mold Golem. This creature has six keyholes on its breast. The Clan's men had possessed all of the keys, but a stupid bandit used them without the permission of the Sorceress, and since they were inserted in the wrong order, the Golem released a Fireball. The explosion dispersed all of the six keys over the whole area. The Sorceress ordered the bandits to immediately start a search for the lost keys. If I managed to get all of the keys, I could figure out the golem's secret. They are many bandits in this area, so it is most likely that the keys were already found, and are possessed by people rather than lying on the ground.~
+@84  = ~I was hiding in shadows, so I wasn't noticed by anyone. I saw the death of Mary. It was horrible.~
+@85  = ~I am Lord Damien Jesacco. Are you friend, or foe?~
+@86  = ~I am here to investigate and destroy the Grey Clan.~
+@87  = ~Foe. Prepare to die!~
+@88  = ~I am a member of the Grey Clan!~
+@89  = ~For the Glory of Amn!~
+@90  = ~I trust you. They are my friends, John and Ernest. We've come from Amn. A group of Grey Bandits kidnapped my beautiful wife, Mary.~
+@91  = ~Do you think she is still alive? I'm sorry to say that, but if they haven't demanded any ransom, your wife is probably already dead.~
+@92  = ~Why do you think that they have taken your wife there?~
+@93  = ~I'm not interested in your problem. Farewell.~
+@94  = ~I have come for my wife, ruffian. You will get steel instead of the ransom. To arms, my fellows! For the Glory of Amn!~
+@95  = ~I was wrong when I thought you were a real adventurer, who helps when a woman is in peril. Come, my fellows, we will find Mary without the help of this thug!~
+@96  = ~They kidnapped Mary a week ago, and then demanded a ransom for her. They promised to give her back if I paid ten thousand gold and revealed the route of the next Amnish military caravan that transports weapons. But you can't trust criminals! The exchange should happen tonight in a small Amnish village, but I asked someone else to go instead of me, because a wizard friend of mine, master in divination magic, told me that my wife had been taken to the Friendly Arm Inn, a fortress near the city of Baldur's Gate. So the fools don't know that I'm here!~
+@97  = ~Do you want to attack a fortress with two people?~
+@98  = ~ How do you want to go in? You aren't thieves who could go in stealthily. I also don't suppose you plan to attack them directly...~
+@99  = ~If you pay me 10000 gold, I'll save your wife.~
+@100 = ~I know how to go in. How much gold is your wife worth for you?~
+@101 = ~How dare you...! Okay adventurer, I am willing to pay 2000 gold if you return with her.~
+@102 = ~I will save your wife.~
+@103 = ~I won't take a step without half of the sum in my bag.~
+@104 = ~Insolent pig. I don't need your help.~
+@105 = ~I have changed my mind. I'll go and find your wife, but when it's done, I'll demand my 2000 gp.~
+@106 = ~Goodbye.~
+@107 = ~Unfortunately their numbers are too many. And ogres are massive enemies. You seem to be familiar with this area, that's why I am asking for your help, adventurer.~
+@108 = ~I'm familiar with this area. I will save your wife if I can.~
+@109 = ~Here you are, you insolent pig. Just save Mary. We'll stay here, so we can assist you, if you are forced to retreat in a battle. Also, not too long ago, this key simply fell from the sky.  I have no idea how or what caused this to happen. Perhaps it unlocks a door inside the Inn... Here you are. Now go! Save my wife. Please.~
+@110 = ~Save Damien's Wife
+
+I've met Damien, a wealthy merchant from Amn. The Grey Clan kidnapped his wife, Mary. Damien is a warrior as well, but he doesn't know this area well enough, so I promised to save his wife for the proper price. We agreed on 2000 gp. He paid the half of the sum in advance.~
+@111 = ~Here is 300 gp. Also, not too long ago, this key simply fell from the sky.  I have no idea how or what caused this to happen. Perhaps it unlocks a door inside the Inn... Now go! Save my wife. Please.~
+@112 = ~Save Damien's Wife
+
+I've met Damien, a wealthy merchant from Amn. The Grey Clan kidnapped his wife, Mary. Damien is a warrior as well, but he doesn't know this area well enough, so I promised to save his wife for the proper price. We agreed on 2000 gp. He already paid 300 gp of the whole sum.~
+@113 = ~Not too long ago, this key simply fell from the sky.  I have no idea how or what caused this to happen. Perhaps it unlocks a door inside the Inn... Now go! And don't fail. Please. ~
+@114 = ~Save Damien's Wife
+
+I've met Damien, a wealthy merchant from Amn. The Grey Clan kidnapped his wife, Mary. Damien is a warrior as well, but he doesn't know this area well enough, so I promised to save his wife for the proper price. He will pay 2000 gold.~
+@115 = ~Please do so. We'll stay here, so we can assist you, if you are forced to retreat in a battle. Also, not too long ago, this key simply fell from the sky.  I have no idea how or what caused this to happen. Perhaps it unlocks a door inside the Inn... Here you are. Now go! Save my wife. Please.~
+@116 = ~Save Damien's Wife
+
+I've met Damien, a wealthy merchant from Amn. The Grey Clan kidnapped his wife, Mary. Damien is a warrior as well, but he doesn't know this area well enough, so I promised to save his wife.~
+@117 = ~Enemy nearby! Defend yourself!~
+@118 = ~I thank you for what you've done, adventurer.  I'm Lord Damien Jesacco, an Amnish merchant, and you saved my wife.~
+@119 = ~Now that we are here together, it's time for some fun. You have valuable weapons, and your wife has really nice jewellery...~
+@120 = ~M'lady! I told you it was dangerous outside. But I'm happy that you've successfully escaped. How did you pass the magical shield that surrounds the building of the Inn?~
+@121 = ~So you are nobles. Get out of my sight.~
+@122 = ~Scoundrels! Run, Mary! Come, my fellows, for the Glory of Amn!~
+@123 = ~No John, we won't kill anyone. Mary is unhurt, we're going home.~
+@124 = ~Save Damien's Wife
+
+Mary, the wife of the merchant Damien, was successfully saved. I wouldn't have saved the woman if I had known they were nobles. Irritating folk.~
+@125 = ~I'm sorry, but we can't talk any longer. We're in a hurry, I must get back to a merchant conference in Athkatla...~
+@126 = ~All the best, m'lady. Good luck, Lord Jesacco.~
+@127 = ~I think you forgot about my reward...~
+@128 = ~You won't go anywhere until I get my reward. We agreed.~
+@129 = ~If you want to provoke a fight, you are doing it with the wrong person. Farewell.~
+@130 = ~You killed my wife, adventurer! To arms, my fellows, let's avenge my beloved Mary!~
+@131 = ~I am most grateful for saving my beloved wife, adventurer.~
+@132 = ~Before I go, I would like to express my gratitude with this small sum, please accept it. Good luck, adventurer!~
+@133 = ~Save Damien's Wife
+
+Mary, the wife of the Amnish merchant Damien, was saved. He gave me a nice amount of gold for my noble deed.~
+@134 = ~Your reward, of course! Here you are. Farewell.~
+@135 = ~Please find my wife, adventurer.~
+@136 = ~Before I go, I would like to express my gratitude with this small sum, please accept it. Ah, I've found a key as well. I don't think I can make any use of it, perhaps you can. Good luck!~
+@137 = ~Save Damien's Wife
+
+Mary, the wife of the Amnish merchant Damien, was saved. In addition to a nice amount of gold, the noble also gave me a magical key.~
+@138 = ~I am one of the best archers in all of Amn. Although without Damien's help, I would still be a street thug. He is a real friend.~
+@139 = ~Damien is a very influential man. And a good friend.~
+@140 = ~Damien has friends among the Cowled Wizards as well!~
+@141 = ~Damien isn't just a wealthy merchant. He is very influential in the Amnish military as well.~
+@142 = ~I hope that Damien will find his wife. Alive.~
+@143 = ~Amn is the paradise of merchants.~
+@144 = ~You dare to talk with Lord Jesacco in that way?! Insolent scoundrel, prepare to die!~
+@145 = ~The giants are too close to the gate, Captain! We have to prevent them from going in. To Arms, my fellows! For the King of Tethyr!!!~
+@146 = ~Run Bentley, run! I will stop them!~
+@147 = ~You dare to break into my home, tattooed ruffian?! I serve the the *Flaming Fist*, so drop your weapon before I slay you, thug!~
+@148 = ~Probably my former superiors have sent them. Miserable attempt, no doubt.~
+@149 = ~I spit on Sarevok and on his offer! Now get lost, you moron. Next time the ogres will eat you.~
+@150 = ~Intruders on *this* floor?! What the hell is going on, Linda! I told you that no one may disturb us! And where is that scoundrel Reufasio?!~
+@151 = ~Let's teach them a lesson.~
+@152 = ~I've no idea how they came in. I am really sorry, my Lord... ~
+@153 = ~I found the scroll at last! It describes the order that the keys must be inserted into this green machinery.~
+@154 = ~You inserted the keys when I wasn't here?! Idiot! Complete idiot! They must be inserted in the correct order, you nitwit! You oaf!~
+@155 = ~*sigh* Let's make an attempt with your order then. I am sure it's wrong, but at least it will drop the keys, and we can insert them again in the order written in my scroll.~
+@156 = ~Golem, I am your master. Give me the items you are guarding.~
+@157 = ~Dammit! The damned fireball dispersed the keys into six different directions! Tell your men to search the whole area for them! Idiots!~
+@158 = ~Prepare to die, Raufezzo!~
+@159 = ~Die!~
+@160 = ~Calm down, I'm not Reufasio. You were petrified, but I've dispelled it.~
+@161 = ~For Beregost!~
+@162 = ~Eh? Ah, sorry. Oh you aren't that damned wizard! Where is he?!~
+@163 = ~Are you crazy? A paralysed gibberling would kill you now, and you want to face Reufasio himself!?~
+@164 = ~Calm down, calm down! You don't want to get killed by that mage, do you?~
+@165 = ~Are you crazy? A paralysed gibberling would kill you now, and you want to fight?! Reufasio is dead, by the way, so you don't have to worry about him anymore.~
+@166 = ~I have slain Reufasio. You can't fight in this condition anyway, man.~
+@167 = ~You are right. I'll stay on this floor. Hopefully I still have enough stamina to slay some dirty bandits.~
+@168 = ~I feel better. I'll secure this floor.~
+@169 = ~Who are you?~
+@170 = ~Quickly, hide somewhere, kid! It's dangerous to go anywhere.~
+@171 = ~Silence, kid! Get out of my sight!~
+@172 = ~Okay, okay, I'll hide!~
+@173 = ~Rude scum!~
+@174 = ~What happened? My head hurts so much.~
+@175 = ~You were turned to stone. Damien is waiting for you outside, but it would be unsafe to go there for the time being. Hide somewhere here, the bandits will be driven out soon.~
+@176 = ~Nice jewellery! Sorry, but I must kill you.~
+@177 = ~You were turned to stone, but I've saved you. Unfortunately you can't leave the Inn yet. Go hide somewhere until the bandits are driven out.~
+@178 = ~Noooo!~
+@179 = ~He is here?! Thank god! Okay, okay, I'll hide under a bed, hopefully these villains won't find me there!~
+@180 = ~That will be the best, I agree. Thank you for freeing me, adventurer. If I ever get home, I will tell my husband, Damien, to repay your help.~
+@181 = ~Adventurer! Good to see you again!~
+@182 = ~I've found a potion. It had a pleasant smell, and I was thirsty anyway. When I drank it, I became invisible! I was very surprised at first, but then I got used to it, and started to explore the building. I noticed that a young woman, presumably a wizard, was preparing to teleport a group of bandits to outside. I carefully joined them, and then found myself at the entrance of the fortress...~
+@183 = ~You were risking your life. You are a very brave woman, m'lady.~
+@184 = ~Drinking unknown potions, even if they have a good odour, is risky. You might also consume a bottle of poison in this way, m'lady.~
+@185 = ~I've just taken off my armor! Dammit!~
+@186 = ~Please don't hurt me!~
+@187 = ~You killed William!~
+@188 = ~Aaargh!~
+@189 = ~William was a good boy.~
+@190 = ~William!~
+@191 = ~Please don't hurt me! I didn't kill anyone! I just want to go home!~
+@192 = ~Your sister Felicia has sent us. She says that Ignas, a soldier from Amn, can escort you two to Athkatla. You can start a new life there.~
+@193 = ~Prepare to die, criminal.~
+@194 = ~I am Charles. I didn't commit any crime, I swear! I have a sister, Felicia. She is very kind.~
+@195 = ~I know, because she has sent us to find you. She says that Ignas, a soldier from Amn, can escort you two to Athkatla. You can start a new life there.~
+@196 = ~She *was* nice. Unfortunately I had to kill her, because she was a witness, when I slaughtered some guards.~
+@197 = ~Too bad that her brother is a murderer. Now I will arrest you, take you out of the Inn and wait until the Flaming Fist arrives.~
+@198 = ~*sigh* You are free to go. Get out.~
+@199 = ~Felicia! I knew she was here! I saw her in the distance, but I thought I was dreaming! Going to Amn? Wonderful! Where is she now?~
+@200 = ~She is in the temple. Before you go, tell me everything you know about the Clan.~
+@201 = ~Under the protection of Captain Ignas, in the temple. I am here to investigate the Grey Clan. What do you know about them?~
+@202 = ~I will tell you everything in the temple! See you there later, and good luck for your mission!~
+@203 = ~Sorry Felicia, I have no choice! *draws a dagger and stabs himself*~
+@204 = ~Thanks! I won't reveal anything about your organization, I promise!~
+@205 = ~Hello again, adventurers! She is my sister, Felicia.~
+@206 = ~Find Charles, the brother of Felicia
+
+Charles, the bandit who I allowed to leave, was the brother of Felicia, one of the survivors in the temple. He has quit the Clan. Captain Ignas will take them with him to Amn, if they survive the bandit invasion.~
+@207 = ~Hello again, adventurers! Thank you for passing the message of my sister! We wouldn't be here now without your help! I have...~
+@208 = ~Find Charles, the brother of Felicia
+
+Charles managed to return to his sister, Felicia. Captain Ignas will take them with him to Amn, if they survive the bandit invasion.~
+@209 = ~...I must admit that I am a criminal after all.~
+@210 = ~No, I didn't kill anyone, Felicia. I've said that already! But... well... once, in a tavern in the city of Baldur's Gate, a fat noblewoman left her handbag on the table. She left it there, I swear! No one was around, so I examined it. I found some jewels in it. *This* one is yours, adventurer. Here you are. Sell it, wear it, do whatever you want with it.~
+@211 = ~Thank you, Charles. You also promised me to tell about the Grey Clan...~
+@212 = ~A Pearl Necklace? It doesn't really compensate me for my efforts that I made to save you. Nevermind. However, you have to tell me everything you know about the Grey Clan.~
+@213 = ~I was a very low-ranking member. They never said anything important in my presence. I overheard one conversation though, it was basically about battle tactics, about how to organize half-ogre and human forces. At the end, however, they mentioned that the Zhentarim refused their offer to cooperate... this is all I know... if I remember anything else, I'll let you know...~
+@214 = ~Better than nothing. I'll return later.~
+@215 = ~Idiot! You are useless. ~
+@216 = ~Sorry, I don't remember anything useful...~
+@217 = ~No sir, I didn't lie. I didn't kill anyone, ever. I swear.~
+@218 = ~So your sword wasn't used too many times. But hopefully your ears were! What have you heard about the Clan? They probably talked a lot!~
+@219 = ~Listen kid, I need more information on the Clan. What have you heard while you were a member?~
+@220 = ~Hello, adventurer. You saved our lives by killing that crazy Ogre. Our tactic was to concentrate all attacks on him, but he was simply invulnerable!~
+@221 = ~We are in great peril, adventurer. I am afraid we won't be able to hold on any longer, and the attackers will take the temple as well. They won't spare even these civilians. There are too many of them, but the Ogres are even worse. Especially the wizard! Our tactic was to concentrate all attacks on him, but he is simply invulnerable!~
+@222 = ~Not now, Felicia. Please.~
+@223 = ~Good idea, Felicia. Adventurer, do you have any news? Can we expect any help from the Flaming Fist?~
+@224 = ~Members of their secret unit... errrrr *security* unit are already here, but unfortunately there are lots of bandits, and getting inside the Inn is very difficult. Hopefully, their regular units will arrive soon.~
+@225 = ~I don't know. But we don't need them, because together, we will be strong enough to drive out the bandits.~
+@226 = ~The Flaming Fist?! They are a bunch of idiots. Fortunately I'm powerful enough to kill all enemies.~
+@227 = ~I hope so. If you need more information on the attack, I may be useful to you. Since I was here when the siege started, I can tell you what I know, just ask.~
+@228 = ~Thanks, but I think I can get all information on my own.~
+@229 = ~I'd be grateful for that.~
+@230 = ~What information could I get from you? You have no role in great events, so just keep silent.~
+@231 = ~As you wish. I'll be here, if you change your mind.~
+@232 = ~If there wasn't a bandit invasion, I would fight a duel with you now. However, keep in mind that I'm the captain of the guards here, and thus I am responsible for all civilians and soldiers here. Do not try to hinder my work.~
+@233 = ~Do you have any questions, adventurer?~
+@234 = ~Where are the people... did they manage to escape? Where is Bentley and Gellana Mirrorshade?~
+@235 = ~I can easily slay the untrained bandits, they aren't stronger than street thugs. However, their leaders and wizards are much tougher enemies. What do you know about them?~
+@236 = ~Unlike the guards I remember from my previous visit in the Friendly Arm Inn, who wore ragged leather armours and looked untrained, your men are well-equipped and fearless in battle. Did you train those guards so well, in such a short time?~
+@237 = ~I have no more questions for the time being.~
+@238 = ~Hello again, adventurer.~
+@239 = ~I am wondering about several things...~
+@240 = ~Good day.~
+@241 = ~A severely wounded ranger had brought the news about the bandit attack. He died in my hands. I managed to evacuate most of the commoners, including Bentley and Gellana. Bentley wanted to stay, but I didn't want to risk his life. The bandits arrived earlier than we expected, so we had to protect the escaping people. I sent my best soldiers to escort Bentley. Neither of them returned, but Felicia is sure that Bentley managed to escape.~
+@242 = ~I hope it isn't our last.~
+@243 = ~We can't see too much from the temple, but I'm sure that their leaders are inside the Inn, probably on the top floor. Beside the Ogre Mage, my men reported two other spellcasters. One of them is known as Reufazzo or Reufazeo. According to rumours, he is capable of turning people to stone.~
+@244 = ~Hehe, yeah, indeed, I found some chests. But we would already be dead if the *original* guards of the Friendly Arm Inn were our defenders. They were so cowardly that they fled the area as soon as they heard the news of the dying ranger. Neither I, nor my men are local people. I'm the stepbrother of Lieutenant Aegisfield from Athkatla. My current soldiers were a group of fighters from various parts of the Sword Coast, originally heading for Baldur's Gate, but having a break in Friendly Arm Inn. They were going to Baldur's Gate to Entar Silvershield's estate, because some crazy diviner had told the duke that he would die by the hands of assassins. Silvershield then decided to organize an elite group of bodyguards, selected from the best fighters of the Sword Coast.~
+@245 = ~Sorry Felicia, but the adventurer is fighting the Clan, and thus our ally. I can't keep an eye on your brother's fate.~
+@246 = ~I will, I will. But if I ever learn that you lied after all, I will throw you into the Athkatla sewers, kid!~
+@247 = ~Wait, Felicia! You can't go outside! It's extremely dangerous!~
+@248 = ~Find Charles, the brother of Felicia
+
+Charles, the brother of Felicia, is dead. When the girl learned this, she ran out of the temple. Captain Ignas followed her, to save her from the bandits arrows'. Considering how dangerous the area is, I don't think they will return.~
+@249 = ~Ignas has found a few old chests in the cellars. There were many chainmails, swords and daggers in them.~
+@250 = ~Adventurers! It's so good that you are here! My brother...~
+@251 = ~Ha! You did let Robert speak, didn't you?! Because he is wealthy and influential! Okay, okay, I'll shut up.~
+@252 = ~I couldn't run fast enough, and lagged behind the group that was escorted by the guards. Lots of bandits arrived, and I was very frightened. Thank god, I was able to hide among the trees. I could see the valley from the place I was hiding, and saw Bentley and a group of commoners to disappear in the woods on the other end of the valley. Then the scouts of Ignas found me, and there was one road which wasn't controlled by the bandits yet, so we came back here.~
+@253 = ~My brother Charles joined the bandits. But he is not such a nasty boy actually, and wants to quit the Clan. I would like to ask a favour from you.~
+@254 = ~What would you like me to do?~
+@255 = ~If your brother is a criminal, and you want me to protect him against the law, you can forget it.~
+@256 = ~Shut up, wench.~
+@257 = ~He is dead. I am sorry.~
+@258 = ~Favour to bury him? He has bitten the dust! Eventually he got exactly what he deserved.~
+@259 = ~Charles? I remember the fool. I attacked him, but he escaped. I will find and kill him.~
+@260 = ~Your heart is made of stone.~
+@261 = ~Charles left our family after the death of our father. He became a member of the Clan, but when I met him last time, he said he had never killed anyone, and that he would quit as soon as possible. Captain Ignas promised me, that if we survive this invasion, and my brother really isn't a murderer, he would take him along to Amn. Ignas invited me as well, but I won't go without my brother.~
+@262 = ~If he isn't a murderer, he should clear himself before the court first.~
+@263 = ~So how can I help?~
+@264 = ~Forget it. I don't aid criminals. It would be against the law.~
+@265 = ~The Flaming Fist usually executes bandits immediately after they are arrested. Even if they allowed him to be summoned before the court, they would most likely sentence him to death for conspiracy and particpation in criminal acts. Charles has no future here, that's why he has to go to Amn.~
+@266 = ~I see. What can I do for you brother, then?~
+@267 = ~Charles will get what he deserves. Stop bothering me with this.~
+@268 = ~He is here in the Friendly Arm Inn. I know, because I saw him. He was far away, but I know it was him. If you meet him, tell him that now he can quit the Clan, and shouldn't fear the Flaming Fist, because Captain Ignas will take us along to Athkatla.~
+@269 = ~I will do what I can. He might also reveal some useful information about the Clan.~
+@270 = ~Forget it!~
+@271 = ~Thank you! You will see that he is actually a nice guy, I promise!~
+@272 = ~Find Charles, the brother of Felicia
+
+Felicia, a young woman in the Friendly Arm Inn, asked me to find her brother. Charles is a member of the Grey Clan, but he wants to quit the organization.~
+@273 = ~Please let me finish the story of my brother...~
+@274 = ~Wasn't it clear enough?! I won't help you. Your brother is a criminal, and he will get what he deserves.~
+@275 = ~I have changed my mind. Tell me again about your brother.~
+@276 = ~You have no heart.~
+@277 = ~Did you meet Charles? Do you have any news?~
+@278 = ~No, I haven't found him yet. I will continue the search.~
+@279 = ~No, but I am tired of this already. I don't think I will spend any more time searching for your brother.~
+@280 = ~He has bitten the dust. Eventually he got exactly what he deserved.~
+@281 = ~I attacked the fool, but he escaped. I will find and kill him.~
+@282 = ~You have promised! Please don't be so cruel!~
+@283 = ~Poor Charles! I hope this will soon end!~
+@284 = ~Nooooo! Charles! You can't do that with me!~
+@285 = ~Ignas, Ignas, the adventurer is evil!~
+@286 = ~Damn you! Damn you all!~
+@287 = ~Have you changed your mind? If you meet Charles, you will see that he is not a criminal!~
+@288 = ~Thank you! We will always be grateful for what you've done for my brother!~
+@289 = ~Charles! You said that...~
+@290 = ~Good luck!~
+@291 = ~Please forgive Charles for not telling any valuable information. He had limited possibilities while he was a member of the Clan.~
+@292 = ~...and he is my brother Charles! Captain Ignas will take us with him to Amn, if we ever get out of here...~
+@293 = ~Captain Ignas will take Charles and I with him, to Amn. Only if we ever get out of here, of course...~
+@294 = ~You lied to me! Ignas, Ignas, the adventurer is evil!~
+@295 = ~I hope Charles is alright, and will quit the Clan as soon as he can.~
+@296 = ~Adventurer! I see you are coming from outside! Did you see my niece...~
+@297 = ~Shut up, old moron. Do you want me to slit your throat?~
+@298 = ~How does she look like?~
+@299 = ~I don't have time for this, sorry.~
+@300 = ~Lucy is a beautiful young girl. She has long blonde hair, and is wearing a green dress...~
+@301 = ~Unfortunately I haven't seen anyone who looks like that. However, I am going to check out all houses as well as the building of the Inn, and I will find your niece if I can.~
+@302 = ~Lucy has a gold necklace, right? A bandit was trying to rape her, but I interfered. I didn't kill the bandit yet.~
+@303 = ~Lucy has a gold necklace, right? She is alright, she is in the house near to the Inn's gate. I told her to hide there, you can visit her if the bandit threat is over.~
+@304 = ~She has a gold necklace, right? A bandit has tried to rape her, but I've killed him. Lucy is alright, she is in the house near to the Inn's gate.~
+@305 = ~The girl is dead. She was an annoying little wench.~
+@306 = ~I told her to shut up, and she suddently ran out of the house... what a silly little wench.~
+@307 = ~Please find Lucy, adventurer! I will give you a nice sum as a reward, just find her!~
+@308 = ~Find Lucy, the niece of Robert
+
+Robert, a merchant has asked me to find his niece, Lucy. The girl is wearing a green dress, and has long blonde hair.~
+@309 = ~You have left her with that ruffian! What kind of adventurer are you?! You must go there immediately!~
+@310 = ~Thank god she is alright! Thank you! May your name be blessed!~
+@311 = ~Lucy, the niece of Robert, was saved. The merchant was very grateful to us, and also gave 200 gold as a reward.~
+@312 = ~That's impossible! I don't believe you! Lucy! Lucy, where are you?!~
+@313 = ~Find Lucy, the niece of Robert
+
+Lucy, the niece of the merchant Robert, is dead. Robert didn't believe it, and left the temple. The bandits have probably killed him already.~
+@314 = ~You are a complete idiot! I must find Lucy before another evil ruffian captures her!~
+@315 = ~Find Lucy, the niece of Robert
+
+I told Robert's niece that she was a silly wench, and that I would give her to another bandit if she doesn't shut up. The girl ran out of the house. Robert is searching for her, but I am sure that neither of them will return alive due to the cruel bandits.~
+@316 = ~What did you say?! WHAT did you say?! I may be old, but know how to deal with the likes of you!~
+@317 = ~Please... I beg of you...~
+@318 = ~May your name be blessed!~
+@319 = ~Please find Lucy!~
+@320 = ~Where is Lucy? Did you find her?~
+@321 = ~I haven't found her yet.~
+@322 = ~Please keep searching! She is a clever girl, she has probably managed to hide somewhere!~
+@323 = ~Valuable stuff, I must say. Here you are. A club, a staff, a dagger and this nice armor. And four potions. I also found this key on the ground before I entered this house. Now give me my reward. Five thousand gold, as we agreed yesterday.~
+@324 = ~How did it go? Are the druids cursing us now?~
+@325 = ~The reward, of course! I almost forgot about it, sorry. Pumpkin, give him what he deserves.~
+@326 = ~Hey Pumpkin, it seems that we have some unexpected visitors...~
+@327 = ~Please don't hurt me! Help, stranger, help!~
+@328 = ~He is going to hurt me! Help!~
+@329 = ~Thank you for saving me! Blessings upon you! Did you meet my uncle Robert by any chance? I hope he is alright!~
+@330 = ~Shut up! Your uncle is probably dead, and I *didn't* save you. I would've killed that bandit anyway, and if you don't remain silent, I will throw you to another bandit, wench.~
+@331 = ~I haven't met him, but with a little luck he managed to escape or hide somewhere. Stay here and hide somewhere, it's dangerous outside. Hopefully the Flaming Fist units will arrive soon, and the bandits will be driven out.~
+@332 = ~Robert is in the temple, the guards are protecting him. They were attacked by a group of bandits, who tried to get inside the temple, but I've slain the attackers. It's dangerous outside, so stay here. I will tell Robert that you are here, and he will find you once the Inn is freed.~
+@333 = ~I have killed your uncle, wench. His presence was so... annoying. He had a nice silver ring though.~
+@334 = ~Blessings upon you!~
+@335 = ~Okay, I will stay here. If you meet Robert, please tell him that I'm here.~
+@336 = ~So he is alright, thank god. I will wait here. Good luck, and take care!~
+@337 = ~I was wrong! You are worse than those bandits!~
+@338 = ~Noooo! He was my only living relative! You are worse than those bandits! Aaargh!~
+@339 = ~Come closer, my honey! You'll enjoy it!~
+@340 = ~You there! What the hell are you doing here right NOW?~
+@341 = ~*Buuurp* This chicken was great. I hate to fight when I've eaten my fill, damn you!~
+@342 = ~How the hell could you bypass the shield?!~
+@343 = ~Hi adventurer. Welcome to my comfortable lair!~
+@344 = ~You must be Hertuk. Jedyan has mentioned you, as a member of his unit. I doubt this place would be your lair, by the way.~
+@345 = ~What the hell... I thought I entered the Friendly Arm Inn!~
+@346 = ~How did you get here? And what is this place?~
+@347 = ~I was kidding when I said it was comfortable. You've been taken here the same way I was: we have tried to enter the first floor of the Friendly Arm Inn. It must be warded by some powerful magic, because any creature trying to enter the Inn is teleported to this cursed cave. Don't look at *that* door, it's just an illusion. I have tried it, and it leads to nowhere.~
+@348 = ~How the hell can I get out, then? And what is that red creature *there*?~
+@349 = ~Too bad. Who is that woman in red at the wall?~
+@350 = ~A Crystal Servant. Some magically summoned creature, Tergius told me about these long ago. I don't remember much, but it is certain that they consider any creature as their master, but only if the creature has a certain crystal. But I don't have any crystal... Unfortunately, while it might be tempting, it would be fatal for us to kill her: these creatures are surrounded by powerful energies, and the lack of her presence would cause the magical balance of the area we're in to cease. The magical trap would collapse, and the released wild magics would instantly destroy us.~
+@351 = ~This is just great. So we will be rotting here forever.~
+@352 = ~Are you sure there is no way out?~
+@353 = ~Tergius!~
+@354 = ~I think I know where the crystal is! Did you hear there is an Ogre Mage at the temple?~
+@355 = ~It's very likely that he has the crystal that we need. I will destroy the Ogre.~
+@356 = ~I will slay the mage. He probably has much gold and valuable items as well.~
+@357 = ~I've already killed the Ogre Mage, and I found no crystal.~
+@358 = ~You are a nitwit. I have *slain* the mage, and he didn't have any crystal among his items.~
+@359 = ~I will look around outside the walls, in the southeastern part of the area. Good luck!~
+@360 = ~Try searching again inside the walls. I will look around outside, in the southeastern part of the area. Good luck!~
+@361 = ~You have the crystal! Now you can go inside the Inn! I must stay here: bandit reinforcements can arrive at any time, and they might come from this direction. Good luck!~
+@362 = ~Sorry, I can't help you to find the crystal. The Clan's reinforcements might arrive at any moment, and someone will have to inform Tergius if they come from this direction.~
+@363 = ~You are an enemy of Jedyan's unit. Prepare to die!~
+@364 = ~What do you wish?~
+@365 = ~Shut up.~
+@366 = ~I want to leave this place. Teleport me to the entrance of the Inn.~
+@367 = ~I want to get into the Inn. Teleport me to the first floor.~
+@368 = ~As you wish.~
+@369 = ~You are not my master. You don't have the Crystal.~
+@370 = ~Defend yourself!~
+@371 = ~No time to chit-chat, my friend.~
+@372 = ~Welcome, peasant.~ [BW05GR00]
+@373 = ~You were the tattooed guy in the bandit attack at the Hall of Wonders!~
+@374 = ~Everyone who called me a peasant so far is dead. Prepare to join them.~
+@375 = ~Hello, my old friend.~ [BW05GR12]
+@376 = ~Miserable peasants.~ [BW05GR13]
+@377 = ~Kill them all.~ [BW05GR10]
+@378 = ~*sigh* I have better things to do than playing with a bunch of idiots.~ [BW05GR11]
+@379 = ~The sweet adventurers. We've already met before, haven't we?~ [BW05GR14]
+@380 = ~This will be our last meeting, nitwit.~
+@381 = ~So you would be the leader of the Grey Clan...~
+@382 = ~Wait! I would like to introduce my children first.~ [BW05GR15]
+@383 = ~Let the fun begin!~ [BW05GR16]
+@384 = ~In the name of the Order of the Most Radiant Heart, I sentence you to death for dark necromancy and murder. The execution takes place here and now.~
+@385 = ~Greetings.~
+@386 = ~Silence, men. Your bodies aren't needed right now. You can watch how the darkness consumes the flesh and soul of these knights.~
+@387 = ~(These are knights, you moron. We have no chance against them. Let's lure them to the gate.)~
+@388 = ~Greatest of Dreadlords, please spare me! I beg of you! I won't fail again!~
+@389 = ~What nice armour... let the fun begin, brother!~
+@390 = ~I can slay these knights! They will suffer horribly before their death, I promise! Give me a chance, my Lord!~
+@391 = ~Your chattering irritates me.~
+@392 = ~Fundor Balorslayer and his son Frar are our leaders. If you have anything to say, discuss it with them.~
+@393 = ~What are you staring at?~
+@394 = ~Talk to my father, Fundor.~
+@395 = ~Are you interested in some gold, adventurer?~
+@396 = ~No, I'm not.~
+@397 = ~How much gold are you speaking of?~
+@398 = ~What do you want me to do? And who are you?~
+@399 = ~Come Frar, come my dwarven fellows! We will find the helmet on our own. ~
+@400 = ~I offer 800 gp for the Golden Helm, our family relic that these damned bandits stole from us. 800 gold pieces, no more and no less.~
+@401 = ~How about 1000 gp?~
+@402 = ~I accept your offer. I will be back with your relic.~
+@403 = ~For that much gold, I wouldn't even kill a stupid dwarf such as yourself.~
+@404 = ~Look at this item. Is it familiar? You will get it if you pay me five thousand gold. No more, and no less. Hahaha! No more and no less!~
+@405 = ~I've already found the helm that you seek. Here you are.~
+@406 = ~I've already found the relic of your family. I ask 1000 gold for it.~
+@407 = ~I'm Fundor Balorslayer. He is my son, Frar. These damned bandits stole a relic of our family, a Golden Helm. We're here to take it back. However, we're not familiar with this region of the Sword Coast, this is why we want to hire you to retrieve our relic.~
+@408 = ~I will help you for 9000 gp.~
+@409 = ~How much gold can you offer?~
+@410 = ~I don't care about your relic. However, I do care about your shiny armor and weapons. It will be a pleasure to kill you anyway.~
+@411 = ~To arms, my fellows! Let's show them how a Balorslayer fights in battle!~
+@412 = ~Let me think about it...~
+@413 = ~Hmm. You will get 1000 gp and no more, if you retrieve the Golden Helm. Now go! Find the helm before they take it somewhere else!~
+@414 = ~Find the helm of Fundor Balorslayer
+ 
+I met Fundor Balorslayer and his son, who came to the Friendly Arm Inn to take back a relic of their family which was stolen by the bandits. He offered me a nice sum if I retrieve the relic, a golden helmet.~
+@415 = ~Very well. We will wait here. ~
+@416 = ~It's our Helm indeed! But I offered only 800 gp, and you dare to increase the price?! Nevertheless it would be blasphemy to stain our relic with your blood. One thousand gold, here you are.~
+@417 = ~Find the helm of Fundor Balorslayer
+ 
+I met Fundor Balorslayer and his son, who came to the Friendly Arm Inn to take back a relic of their family which was stolen by the bandits. I found the relic, a golden helm, and gave it to the dwarf for 1000 gp.~
+@418 = ~Our relic! Without damages! I'm grateful to you, adventurer. Eight hundred gold, here you are. Take this hammer as well. Come, dwarven fellows, we're going home.~
+@419 = ~Find the helm of Fundor Balorslayer
+ 
+I met Fundor Balorslayer and his son, who came to the Friendly Arm Inn to take back a relic of their family which was stolen by the bandits. I found the relic, a golden helm, and gave it to the dwarf. He was very grateful, and rewarded me with 800 gp and with a magical war hammer.~
+@420 = ~You don't have the helmet! Return if you have got it!~
+@421 = ~You have our relic! And it is in excellent condition!  I would've taught a lesson to those bandits if it were damaged, I swear. Adventurer, here is your gold. Eight hundred gp, as we agreed. Take this hammer as well. Come, dwarven fellows, we're going home.~
+@422 = ~Find the helm of Fundor Balorslayer
+ 
+The relic of the Balorslayer family was given back to its original owner. Fundor kept his word, and paid me 800 gp. He also gave me a magical war hammer.~
+@423 = ~You have our relic! And it is in excellent condition!  I would've taught a lesson to those bandits if it were damaged, I swear. Adventurer, here is your gold. One thousand gp, as we agreed. Come, dwarven fellows, we're going home.~
+@424 = ~Find the helm of Fundor Balorslayer
+ 
+The relic of the Balorslayer family was given back to its original owner. Fundor kept his word, and paid me one thousand gold for retrieving his golden helmet.~
+@425 = ~Our relic! Without damages! I'm grateful to you, adventurer. Eight hundred gold, here you are. Come, dwarven fellows, we're going home.~
+@426 = ~Find the helm of Fundor Balorslayer
+ 
+I met Fundor Balorslayer and his son, who came to the Friendly Arm Inn to take back a relic of their family which was stolen by the bandits. I found the relic, a golden helm, and gave it to the dwarf. He was very grateful, and rewarded me with 800 gp. He was a fool, because he didn't notice that I also stole a war hammer from his bag.~
+@427 = ~You have our relic! And it is in excellent condition!  I would've taught a lesson to those bandits if it were damaged, I swear. Adventurer, here is your gold. Eight hundred gold, as we agreed. Come, dwarven fellows, we're going home.~
+@428 = ~Find the helm of Fundor Balorslayer
+ 
+The relic of the Balorslayer family was given back to its original owner. Fundor kept his word, and rewarded me with 800 gp. The dwarf was a fool, because he didn't notice that I also stole a war hammer from his bag.~
+@429 = ~Greetings, my child. So you have arrived. Jusam told me that you had been sent here. I hope you had a pleasant journey.~
+@430 = ~I don't trust you, old man. Speak.~
+@431 = ~I am Tergius, sage and scientist. I guide Lord Jusam on the paths of wisdom.~
+@432 = ~Why should I trust you? I have found you alone in an area which is full of bandits, and you are totally calm and delighted, like if you were here to smell the fresh air. I have a serious reason to think that you are a jester or even a conspirator of the Clan.~
+@433 = ~I still don't trust you. Prepare to die.~
+@434 = ~You should reconsider this, child. Unwise decisions might bring danger and even death to you.~
+@435 = ~Stop calling me a child, old man! Do you have anything that might prove your identity? I think... Wait! Tell me about the weather and the sky! Tell me!~
+@436 = ~Okay, I won't kill you for the time being. But you have to identify yourself in some way.~
+@437 = ~I am happy to see that you 'have' wisdom, however,  you still have much to learn... Storm approaches but light will come.~
+@438 = ~I see that you know the password. I hope you are really the person you say you are. So why have you come here? How could you get here so fast?~
+@439 = ~You know the password. I am still a bit distrustful of you, but hopefully that will change soon. Tell me how you have come here.~
+@440 = ~As you know, Lord Jusam had to leave immediately when he learned that the Friendly Arm Inn had been beset by the bandits. I have come here to help you. My journey was short indeed, because I used my magic to come here; though I cannot teleport armies, I was able to bring Talibehius and Hertuk with me. If you have any questions about the Clan, just ask me. However, it is your decision whether you trust me or not.~
+@441 = ~Tell me about the Grey Clan.~
+@442 = ~Do you think there is a connection between the people who control the Iron Throne and the bandits of the Clan?~
+@443 = ~Where do the bandits get their supplies and weapons from?~
+@444 = ~Who is the leader of the Clan?~
+@445 = ~Who was this Gartuffe?~
+@446 = ~Who is the 'Greatest of Dreadlords'?~
+@447 = ~Any questions?~
+@448 = ~I am wounded. Could you heal me?~
+@449 = ~According to the current theory, when the Bandit Camp was destroyed and the unorganized bandits were captured or killed by the Flaming Fist, a larger group of them managed to escape and formed a clan. The exact location of their base is still unknown. They have a lot of gold and high-quality items. The woods are a good place for hiding, and they know how to tame wolves and use them as war animals. They are now eveywhere in Baldur's Gate and in other cities as well, endangering the public security, infiltrating the Flaming Fist or bribing them if necessary. They are very serious enemies indeed.~
+@450 = ~I am certain that there is no such connection between those groups. The Clan wants to own everybody and everything, and surely does not intend to work for other associations. In fact, it is very likely that taking over the lead of the Iron Throne is one of the most important plans of the Grey Clan.~
+@451 = ~I assume that they get their weapons and other supplies from the Zhentarim itself. Otherwise the Clan could have not grown to its current size. We have no evidence that would prove this, though.~
+@452 = ~Investigate the forces of the Grey Clan
+
+According to a wizard called Tergius, the Grey Clan bandits get their supplies from the Zhentarim itself.~
+@453 = ~It's a shame, but I can not answer your question, because I do not know the answer. *sigh*~
+@454 = ~Gartuffe, whom you saw dying, was the elder brother of Tazok, the half-ogre chieftain. Gartuffe had chosen other ways than his brother, achieving a high position in the Clan thanks to his cunning, strength and cruelty. I was pleased to hear the news of his death.~
+@455 = ~We can't talk right now, there are hostile creatures nearby.~
+@456 = ~We don't have much time! I can teleport you out of here, but my power is inadequate to penetrate the magical protection, so I can't take you into the Inn. You have to find the Crystal and return to here. The servant will then follow your orders, and you can ask her to teleport you inside the Inn. I won't go with you, I have to return to my original position and destroy any incoming reinforcements of the Clan.~
+@457 = ~You were one of the best, but you weren't satisfied! Prepare to die, traitor!~
+@458 = ~I see that you are protected against magic, and thus my spell might not work. Return once these protections are off.~
+@459 = ~You and Hertuk were lucky. If I hadn't noticed that you were trapped, you might already be dead now.~
+@460 = ~Why are you asking that? Where did you hear that? Speak, child!~
+@461 = ~I have seen three knights of the Order of the Most Radiant Heart. They encountered two bandits, who decided to lure the paladins to the gate. They probably hoped that the Gatekeeper Golems would slay them. But after they had taken a few steps, a black-robed man, apparently a necromancer, appeared from the bushes. The face of the bandits reflected mortal fear, one of them addressed the mage as 'the Greatest of Dreadlords'. The knights looked excited, their leader sentenced the mage to death, and then they attacked him. Something horrible happened: the necromancer turned them to skeletons only by saying three or four single words!~
+@462 = ~I saw some Amnish paladins, who were chasing bandits. Then a black-robed guy appeared, the bandits got frightened horribly, one of them called the mage-looking guy the 'Greatest of Dreadlords'. Finally, the mage made undead from the unlucky knights and disappeared.~
+@463 = ~If this has any relation with the Clan, we're in big trouble. And there are no accidents. The presence of the Knights of the Order indicates that something very evil is afoot... more evil than bandits. The fact of that mage's appearance is even more terrible. I know of only one person, who is able to release such a dark magic with a few words: Xephistagoras.~
+@464 = ~Who is Xephistagoras? What relationship might he have with the Clan?~
+@465 = ~I wonder where he is. Death magic or not, I think I will be able to slay the necromancer. I just need to know more information on his powers and weaknesses. Beyond that, do you have any assumptions about his role in the Clan?~
+@466 = ~If this has any relation with the Clan, we're in big trouble. And there are no accidents. The presence of paladins, presumably the Knights of the Order of the Most Radiant, indicates that something very evil is afoot... more evil than bandits. The fact of that mage's appearance is even more terrible. I know of only one person, who is able to release such a dark magic with a few words: Xephistagoras.~
+@467 = ~I have heard very dark stories about the past of that mage. Long ago, these stories existed in written form, but they were so horrible that the pages of these books couldn't bear the weight of the text, and crumbled to dust. No, it's neither the good time nor the good place for me to tell about the Greatest of Dreadlords, child. I can't answer your second question either. It's a shame that a wizard like myself couldn't detect the real connections of the Clan. I thought I was a good diviner as well, but the power of the evil seems to be bigger than we've ever estimated.~
+@468 = ~Dark stories
+
+Tergius has no idea about the details of the possible relationship between Xephistagoras and the Grey Clan. Except that the necromancer has been very evil, he didn't want to tell anything about the past and nature of Xephistagoras.~
+@469 = ~Assumptions about his role in the Clan? I wish your question would be correct, as it's more likely that we are talking of the *Clan's* role in *his* plans, child. And no, I don't even have assumptions. I have heard very dark stories about the past of that mage. Long ago, these stories existed in written form, but they were so horrible that the pages of these books couldn't bear the weight of the text, and crumbled to dust. No, it's neither the good time nor the good place for me to tell about the Greatest of Dreadlords, child.~
+@470 = ~The bandits will be driven out from the Friendly Arm Inn, because Jedyan's men and the regular Fist units have arrived. However, Jusam and his escort didn't make it here, because they were attacked by a lesser army of bandits! Hertuk and Talibehius have already departed to help them, I am also leaving within a few minutes...~
+@471 = ~I managed to enter the Inn and have slain the leaders of the invading forces.~
+@472 = ~The bandit leaders are dead, and I've found this scroll in a leader's gear. Before you leave, could you take a look at it?~
+@473 = ~Let me see... A verse... actually a coded message....... Yes! Check the the first letter of each major sentence! I'm sure you will be able to interpret it.  If you need magical equipment before you depart, talk to Jeremias. Good luck, child. I feel that we are going to meet soon. Very soon.~
+@474 = ~You did good work, however, it isn't finished yet. I feel the presence of a higher Clan leader, he might be in Beregost or somewhere in its environs. Sorry child, we can't talk any longer, because I am afraid that if I don't go to assist Jusam immediately, it will be too late, and they will fall.  If you need magical equipment, talk to Jeremias... Good luck, my child. I feel that we are going to meet soon. Very soon.~
+@475 = ~Greetings, my child! I am Tergius, friend and mentor of Jusam. We're glad to see that you have returned. We were worried, because one of our spies reported that you had disappeared in the teleport field of Dervanto, a treacherous mage of the Grey Clan. Where did you go? What happened, child?~
+@476 = ~You have returned! Greetings, child! We were worried, because one of our spies reported that you had disappeared in the teleport field of Dervanto, a treacherous mage of the Grey Clan. Tell me what happened, my child.~
+@477 = ~This is exactly what I was afraid of. We were wrong when we assumed that the Clan was formed by the remaining part of Tazok's bandits and the Black Talon. We were also wrong regarding their possible connection to the Zhentarim: there doesn't seem to be any. The Clan's roots can be found far from here. And they're much more powerful than we've ever imagined. Hmm, Legencase... Legencase... It doesn't sound familiar! I will try to locate it in some way, but unfortunately my divination power has been no match for their magical protections lately. This is no wonder if there is really a whole wizard academy in that place...~
+@478 = ~We thought we were in daylight, and the *sun* was shining. We didn't realise that we were actually in faint candlelight, surrounded by darkness. By the darkness that still makes us blind, and still tries to consume us.~
+@479 = ~Investigate the forces of the Grey Clan
+
+Due to the great casualties and the blow I dealt on their leadership, the local organization of the Grey Clan will soon collapse. However, the Clan is much bigger than I've ever thought. It is controlled from a place called Legencase. Even Tergius had no idea where Legencase might be. We are full of questions with no answers, and I have a feeling that my role in the story of the Clan hasn't come to an end yet. But it is certain that an Episode ended today.~
+@480 = ~Heya friend. Do you like beer? I love beer.~
+@481 = ~Yes, I like beer.~
+@482 = ~I hate beer.~
+@483 = ~I thought you were Talibehius, but it seems I was wrong.~
+@484 = ~I am very happy to hear that, my friend! We shall make a great drinking competition sometime! Hehehe...~
+@485 = ~You are a strange guy. I thought that the warriors of the Flaming Fist behave like paladins and know the etiquette at least in basic level. And you have not identified yourself yet, which can cause serious troubles.~
+@486 = ~Oh! It's a pity. But never mind, we shall drink something else then.~
+@487 = ~I am Talibehius indeed, great and famous warrior of the great and famous Flaming Fist, blah-blah-blah.... Relax my friend, no reason to be concerned. Enjoy your stay!~
+@488 = ~Hehe, officially I am a member of the Flamingses, hehe, but I follow my own rules. They need me because they are lack of such strong and, um... rough guys as me. Storm approaches but light will come.~
+@489 = ~I think you are a swindler.~
+@490 = ~I enjoyed our chat. See you later, Talibehius.~
+@491 = ~*Buuurp.*~
+@492 = ~Later, friend.~
+@493 = ~I would normally kill you for saying that, but I'll make an exception today.~
+@494 = ~What's up?~
+@495 = ~*cough* They... *cough* They are in the house! *cough* *cough*~
+@496 = ~Leave me alone! I am testing how my current form resists physical damage.~
+@497 = ~Hmm, it seems we have some visitors. You there, did you know that it is extremely impolite to break into the house of an honest citizen?! Gartuffe! Let's slay these idiots!!~
+@498 = ~Heeelp me... It hurts...~
+@499 = ~Here, take this healing potion.~
+@500 = ~Hold on, I will find a healing potion for you.~
+@501 = ~Aaah...~
+@502 = ~Aaaah... I feel much better now. Blessings upon you, adventurer!~
+@503 = ~Do you have any important information about the Clan?~
+@504 = ~I don't need any blessings... What did you learn from their talks?~
+@505 = ~They were talking about invading some inn. The black-skinned half-ogre also mentioned that he likes live gnomes for dinner... and based on what they have said, it is very likely that they don't work for the Iron Throne. I don't remember anything else that could be important for you...~
+@506 = ~Thank you for your help, I'm sure it will help us to find and destroy their organization.~
+@507 = ~Useless information! Didn't they mention any names or places? Try to force your little brain to remember!~
+@508 = ~I'm sorry that I can't help more.~
+@509 = ~Please...~
+@510 = ~Blessings upon you, adventurer!~
+@511 = ~Storm approaches, but light will come.~
+@512 = ~A message from Talibehius. One of our spies has been captured by the Clan. We must free her quickly otherwise they might torture her to death. According to our spies the bandits broke into a house in the district where Silvershield's Estate is located.~
+@513 = ~Good luck, Lord Jusam!~
+@514 = ~Sorry friend, but I have no time to chat.~
+@515 = ~I talked to General Jedyan, and...~
+@516 = ~Sorry for bothering you.~
+@517 = ~No problem.~
+@518 = ~What is the weather like? Tell me something about the sky.~
+@519 = ~The sky is blue. The weather changes quickly.~
+@520 = ~Light approaches but the storm will come.~
+@521 = ~The sun is shining.~
+@522 = ~Storm approaches but light will come.~
+@523 = ~I do not know what you are talking about.~
+@524 = ~Welcome to our secret community! Jedyan is our leader, and the most faithful soldier of Duke Eltan and our home. We do not have much time, so let me describe our current tasks.~
+@525 = ~I am happy to join you.~
+@526 = ~Sorry, but I am not interested.~
+@527 = ~Since you know too much about our community already, I am afraid we will have to kill you if you reveal any information about our organization to anyone. I'll now allow you to leave, but remember to keep your mouth shut about our organization.~
+@528 = ~I have changed my mind, I would be happy to join your forces.  Please continue the briefing.~
+@530 = ~You wanna fight?! You wanna fight, eh?!~
+@531 = ~I will not reveal anything. Goodbye.~
+@532 = ~It seems that our problem is much more difficult than we thought. After the last positions of the bandits had been destroyed by the Flaming Fist, everybody thought that the threat ended. Unfortunately a group of bandits had escaped and formed a clan. They call themselves "The Grey Clan".  They are dangerous and have a lot of resources, and we do not know who supports them with the high-quality weapons, gold and supplies. We do not know either if there is a connection between the Clan and the group which stands and probably controls the machinations of the Iron Throne.~
+@533 = ~I am ready for anything. What can be done?~
+@534 = ~Though you have proven your skills against the bandits already, I would...~
+@535 = ~What the... To arms!!~
+@536 = ~They are everywhere already! I must contact...~
+@537 = ~Halt! Tell me something about the weather and the sky!~
+@538 = ~Any news?~
+@539 = ~We must go immediately. To quicken the search, we shall separate. Let's go!~
+@540 = ~Investigate the forces of the Grey Clan
+
+After we had been attacked by a group of bandits, a Flaming Fist scout came and told us that one of the Flaming Fist's spies has been captured by the Clan. We must start our search in the houses of the district where Entar Silvershield lives.~
+@541 = ~I see you have fought well and saved our spy as well, <CHARNAME>... I see that our agent is badly wounded due to torture, she needs help.~
+@542 = ~You have arrived just in time, Jusam. I will try to heal her wounds, she seems to be seriously wounded indeed.~
+@543 = ~You almost sent me to sure death! As well as this poor spy... I will see if I can cure her injuries.~
+@544 = ~Have your learnt something important? How is our injured spy, is she able to speak?~
+@545 = ~She must rest now, but I will tell you what I have heard from her. It is very likely that the Clan does not work for the Iron Throne, they may even be enemies. She also mentioned that the bandits were planning to invade some... some inn! I have no idea why an inn needs an army to be invaded. According to the bandits, the place is led by gnomes.~
+@546 = ~She must rest now, but I will tell you what I have heard from her. It is very likely that the Clan does not work for the Iron Throne, they may even be enemies. She also mentioned that the bandits were planning to invade some inn that is led by gnomes... I suspect that they referred to the Friendly Arm Inn itself!~
+@547 = ~I'm sorry about that.~
+@548 = ~Investigate the forces of the Grey Clan
+
+I attacked one of the members of Jedyan's secret Flaming Fist unit. The quest to investigate the Grey Clan failed.~
+@549 = ~Prepare to die, ruffian!~
+@550 = ~Farewell.~
+@551 = ~Investigate the forces of the Grey Clan
+
+I wasn't interested in joining the secret Flaming Fist unit and refused their offer. Now there is no chance to contact them.~
+@552 = ~A healing potion or a priest's cure spells would most likely help.~
+@553 = ~Our spy was still alive when we arrived, but she was killed during the battle. We failed. Farewell.~
+@554 = ~Investigate the forces of the Grey Clan
+
+Unfortunately, the only person who could've told us about the Clan has died. The quest to investigate the Grey Clan failed.~
+@555 = ~To Arms!~
+@556 = ~It must be the Friendly Arm Inn! While it appears to be a significant fortress, they only have a few guards, and nothing to defend them against a large assault.  The guards are so poorly trained that they would probably run away at the sight of a toothless gibberling. I can't even imagine the slaughter the bandits can cause there. Even Bentley and Gellana won't be able to oppose so many bandits.  You must go there immediately! I'll inform Tergius and Hertuk, and prepare a Flaming Fist assault.~
+@557 = ~Investigate the forces of the Grey Clan
+
+The organization of these "grey" bandits is most likely not affiliated with the Iron Throne. They are probably invading the Friendly Arm Inn at this moment, so the commoners there are in great peril.~
+@558 = ~I hope the bandits have much gold... otherwise I won't be happy to risk my life to save some nitwit gnomes!~
+@559 = ~I will travel there as soon as I can, and will do my best to save the innocents.~
+@560 = ~Go!~
+@561 = ~You've opposed the Flaming Fist's elite group, and endanger the success of our mission. I am sorry that our cooperation has to end in such a painful way.~
+@562 = ~Some bandits from those who've attacked are seriously wounded, and might be hiding somewhere in this area, find and kill them.~
+@563 = ~Thank god you are alive, <CHARNAME>! Where have you been? What happened?~
+@564 = ~It seems that the The Grey Clan is controlled from a place called Legencase. The leader of the Clan's forces in our region was Teven, a former bandit of the Black Talon. I have slain him as well as two sorceresses, who apparently arrived from the Academy of Legencase. Since their leaders are dead, and most of the bandits were destroyed or captured by the Flaming Fist in the Friendly Arm Inn, I'm sure that their local organization will soon collapse.~
+@565 = ~It seems that the The Grey Clan is controlled from a place called Legencase. The leader of the Clan's forces in our region was Teven, a former bandit of the Black Talon. I didn't have a chance to kill him, because after slaying the two sorceresses of the Legencase Academy, I fled the area by using the wardstone I found. Although Teven still lives, the other leaders of the local organization of the Clan are dead, and since most of the bandits were destroyed or captured by the Flaming Fist in the Friendly Arm Inn, I'm sure that their local organization will soon collapse...~
+@566 = ~If the local forces of the Clan have been controlled from such a distant place, the Grey Clan must be much bigger than we estimated. We're in a great peril. Good old Jedyan, he would probably know what to do now. The treacherous forces of evil could take his life, but his noble spirit will guide us forever!~
+@567 = ~What happened to the general?~
+@568 = ~I met him. But it wasn't the general, only his animated body. The horrible creation of Grachus.~
+@569 = ~Some hired ruffians of the Clan broke into his house at night. Considering how powerful a soldier our general was, the murderers weren't greenhorns. And they attacked at night, stealthily! No soldier could defend himself under such circumstances.  But we will finish his plans! Unfortunately Duke Eltan can't disguise our secret organization any more, so with his knowledge and approval, I've decided to part from the Flaming Fist.  We can't expect any more help from the regular forces, but with the selfless aid of these volunteers and veterans, we'll continue our activity to defend the innocent and will protect our home.~
+@570 = ~No matter how powerful the Grey Clan is, it will need time to re-organize its forces after these great casualties. You can take a short breath, and can strengthen your forces.~
+@571 = ~His body may be desecrated, but no power can touch his noble soul... Some day, his dream about the peace will come true. Because we will finish his plans... Unfortunately Duke Eltan can't disguise our secret organization any more, so with his knowledge and approval, I've decided to separate our organization from the Flaming Fist.  We can't expect any more help from the regular forces, but with the selfless aid of these volunteers and veterans, we'll continue our activity to defend the innocent and will protect our home.~
+@572 = ~You are as evil as the Grey Clan. You attacked the Flaming Fist's elite group, and endangered the success of our mission. I am sorry that our cooperation has to end in such a painful way.~
+@573 = ~Investigate the forces of the Grey Clan
+
+Due to my efforts, the local organization of the Grey Clan will soon collapse. I attacked the members of the secret Flaming Fist unit as well.~
+@574 = ~I am afraid that we have too little time. We realised the truth too late.~
+@575 = ~I am on duty, citizen.~
+@576 = ~Please leave me alone, stranger.~
+@590 = ~Greetings! I recognize you, you who stopped the bandit threat. Though your deeds were invaluable, the peace is only temporary, and will end soon if nothing is done.~
+@591 = ~I have no time time for this, sorry.~
+@592 = ~Listen carefully! A new threat is afoot, they are the Grey Clan. According to the latest reports of our spies, they are much more dangerous than we ever thought.~
+@593 = ~Who are you? Why should I trust you?~
+@594 = ~Before we would talk more about them, please tell me who you are.~
+@595 = ~I am Jedyan, a man who fights against the evil forces and defends the innocent. My mission also includes counter-intelligence against Amn. Officially I am a general of the Flaming Fist, soldier of the army. Though you must know that I only work for one person: Duke Eltan. You can completely rely on him.~
+@596 = ~The new threat, the Grey Clan, endangers the whole region of Baldur's Gate. They have better equipment than the Black Talon Elite ever had, and their wizards seem to use powerful magic.~
+@597 = ~Where do they come from? Where do they get their supplies from?~
+@598 = ~Unfortunately I must leave at once, but I have other excellent warriors who you can rely on. If you meet Jusam, Hertuk or Talibehius, you should identify yourself so they will know that you are on our side. You will be asked about the sky and weather, and your answer must be "Storm approaches but light will come". Jusam might be somewhere around the Hall of Wonders... I wish you luck my friend, you will need a lot of it.~
+@599 = ~Investigate the forces of the Grey Clan
+
+Jedyan, a general of the Flaming Fist has said that a new threat is afoot, the Grey Clan. They are well-armed and their spellcasters use formidable magic. Unfortunately the general had to leave immediately, so we couldn't continue our conversation. However, he said that he had several reliable men in Baldur's Gate. Jusam, one of his soldiers, might be located around the Hall of Wonders. Jedyan also added that the sentence "Storm approaches but light will come" is used for identification among his warriors.~

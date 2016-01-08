@@ -1,0 +1,75 @@
+BEGIN ~BW05HERT~
+
+IF ~!Global("BW05_TGC1","Global",-2)
+Global("BW05_HertukOutside","GLOBAL",0)~ THEN BEGIN 0
+  SAY @343
+  IF ~~ THEN REPLY @344 GOTO 1
+  IF ~~ THEN REPLY @345 GOTO 1
+  IF ~~ THEN REPLY @346 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @347
+  IF ~~ THEN REPLY @348 GOTO 2
+  IF ~~ THEN REPLY @349 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @350
+  IF ~~ THEN REPLY @351 DO ~CreateCreature("BW05TERG",[-1.-1],1)
+~ GOTO 3
+  IF ~~ THEN REPLY @352 DO ~CreateCreature("BW05TERG",[-1.-1],1)
+~ GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @353
+  IF ~~ THEN EXTERN ~BW05TERG~ 12
+END
+
+IF ~!Global("BW05_TGC1","Global",-2)
+Global("BW05_HertukOutside","GLOBAL",1)~ THEN BEGIN 4
+  SAY @354
+  IF ~!Dead("BW05OGMA")~ THEN REPLY @355 GOTO 5
+  IF ~!Dead("BW05OGMA")~ THEN REPLY @356 GOTO 5
+  IF ~Dead("BW05OGMA")~ THEN REPLY @357 GOTO 6
+  IF ~Dead("BW05OGMA")~ THEN REPLY @358 GOTO 7
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @359
+  IF ~~ THEN DO ~SetGlobal("BW05_HertukOutside","GLOBAL",2)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @360
+  IF ~~ THEN DO ~SetGlobal("BW05_HertukOutside","GLOBAL",2)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @360
+  IF ~~ THEN DO ~SetGlobal("BW05_HertukOutside","GLOBAL",2)
+~ EXIT
+END
+
+IF ~!Global("BW05_TGC1","Global",-2)
+GlobalGT("BW05_HertukOutside","GLOBAL",1)
+PartyHasItem("BW05CRYS")~ THEN BEGIN 8
+  SAY @361
+  IF ~~ THEN EXIT
+END
+
+IF ~!Global("BW05_TGC1","Global",-2)
+GlobalGT("BW05_HertukOutside","GLOBAL",1)
+!PartyHasItem("BW05CRYS")~ THEN BEGIN 9
+  SAY @362
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("BW05_TGC1","Global",-2)~ THEN BEGIN 10
+  SAY @363
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END

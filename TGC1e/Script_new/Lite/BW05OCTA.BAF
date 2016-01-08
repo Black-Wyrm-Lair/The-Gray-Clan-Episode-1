@@ -1,0 +1,525 @@
+IF
+	See(NearestEnemyOf(Myself))
+      Global("BW05_FinalBattle","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FinalBattle","GLOBAL",1)
+END
+
+IF
+	AttackedBy([ANYONE],Default)
+      Global("BW05_FinalBattle","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FinalBattle","GLOBAL",1)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player1, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player1)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player2, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player2)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player3, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player3)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player4, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player4)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player5, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player5)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player6, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player6)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("BW05_OctaviaBeh","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+            DisplayString(Myself, @20011)
+            DisplayString(Myself, @20010)
+            SetGlobal("BW05_OctaviaBeh","GLOBAL",1)
+            ApplySpell(Myself, WIZARD_SHIELD)
+            ApplySpell(Myself, WIZARD_BLUR)
+            ApplySpell(Myself, WIZARD_PROTECTION_FROM_EVIL)
+            ApplySpell(Myself, WIZARD_MIRROR_IMAGE)
+            ApplySpell(Myself, WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+            ForceSpell(Myself, WIZARD_GLOBE_OF_INVULNERABILITY)
+          	SetInterrupt(TRUE)
+END
+
+IF
+  Global("BW05_OctaviaBehP","GLOBAL",0)
+  Allegiance(Myself,ENEMY)
+  !StateCheck(Protagonist, STATE_INVISIBLE)
+  See(Protagonist)
+  HPLT(Protagonist,60)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBehP","GLOBAL",1)
+    ForceSpellRES("BW05SP03",Protagonist)
+END
+
+
+IF 
+  See([GOODCUTOFF.0.0.1]) 
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.1])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.3])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.3])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.5])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.5])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.7])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.7])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.8])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.8])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.10])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.10])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.11])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.11])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.13])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.13])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.14])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.14])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.15])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.15])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.16])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.16])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.17])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.17])
+END
+
+IF 
+  See([GOODCUTOFF.0.0.18])
+  Global("BW05_OctaviaBehPWS","GLOBAL",0) 
+  Allegiance(Myself,ENEMY)
+THEN 
+  RESPONSE #100 
+        SetGlobal("BW05_OctaviaBehPWS","GLOBAL",1)
+        ForceSpellRES("BW05SP09",[GOODCUTOFF.0.0.18])
+END
+IF
+  Global("BW05_OctaviaBehPL2","GLOBAL",0)
+  See([ALLY])
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBehPL2","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[ALLY])
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_MAGIC_MISSILE)
+    Continue()
+END
+
+IF
+  Global("BW05_OctaviaBehP2","GLOBAL",0)
+  See(Protagonist)
+  HPLT(Protagonist,90)
+  !StateCheck(Protagonist, STATE_INVISIBLE)
+  !StateCheck(Protagonist, STATE_STUNNED)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBehP2","GLOBAL",1)
+    ForceSpellRES("BW05SP02",Protagonist)
+END
+
+IF
+  Global("BW05_OctaviaBeh2","GLOBAL",0)
+  See([PC])
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh2","GLOBAL",1)
+    ForceSpellRES("BW05SP04",[PC])
+END
+
+IF
+  Global("BW05_OctaviaBeh2","GLOBAL",0)
+  !See([PC])
+  See([ALLY])
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh2","GLOBAL",1)
+    ForceSpellRES("BW05SP04",[ALLY])
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_MAGIC_MISSILE)
+    Continue()
+END
+
+IF
+  Global("BW05_OctaviaBeh4","GLOBAL",0)
+  See([PC])
+  HPLT([PC],90)
+  !StateCheck([PC], STATE_STUNNED)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh4","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[PC])
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_FLAME_ARROW)
+    Continue()
+END
+
+IF
+  Global("BW05_OctaviaBeh4","GLOBAL",0)
+  See([ALLY])
+  HPLT([ALLY],90)
+  !StateCheck([ALLY], STATE_STUNNED)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh4","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[ALLY])
+END
+
+IF
+   Global("BW05_OctaviaBeh5","GLOBAL",0)
+   See([PC])
+   Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh5","GLOBAL",1)
+    ForceSpellRES("BW05SP01",[PC])
+END
+
+IF
+   Global("BW05_OctaviaBeh6","GLOBAL",0)
+   See([PC])
+   HPLT([PC],90)
+   !StateCheck([PC], STATE_STUNNED)
+   Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh6","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[PC])
+END
+
+IF
+   Global("BW05_OctaviaBeh6","GLOBAL",0)
+   !See([PC])
+   See([ALLY])
+   HPLT([ALLY],90)
+   !StateCheck(LastSeenBy(Myself), STATE_STUNNED)
+   Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh6","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[ALLY])
+END
+
+
+IF
+  Global("BW05_OctaviaBeh7","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #34
+    SetGlobal("BW05_OctaviaBeh7","GLOBAL",1)
+    ForceSpellRES("BW05SP06",NearestEnemyOf(Myself))
+  RESPONSE #33
+    SetGlobal("BW05_OctaviaBeh7","GLOBAL",1)
+    ForceSpellRES("BW05SP07",NearestEnemyOf(Myself))
+  RESPONSE #33
+    SetGlobal("BW05_OctaviaBeh7","GLOBAL",1)
+    ForceSpellRES("BW05SP08",NearestEnemyOf(Myself))
+END
+
+IF
+   Global("BW05_OctaviaBeh8","GLOBAL",0)
+   See([PC])
+   HPLT([PC],90)
+   !StateCheck([PC], STATE_STUNNED)
+   Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh8","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[PC])
+END
+
+IF
+   Global("BW05_OctaviaBeh8","GLOBAL",0)
+   !See([PC])
+   See([ALLY])
+   HPLT([ALLY],90)
+   !StateCheck([ALLY], STATE_STUNNED)
+   Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("BW05_OctaviaBeh8","GLOBAL",1)
+    ForceSpellRES("BW05SP02",[ALLY])
+END
+
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_INVISIBLE_STALKER)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_INVISIBLE_STALKER)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_FLAME_ARROW)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MONSTER_SUMMONING_3)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_MONSTER_SUMMONING_3)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself), WIZARD_AGANNAZAR_SCORCHER)
+    Continue()
+END
+
+IF
+      !HaveSpell(WIZARD_MONSTER_SUMMONING_3)   
+      !HaveSpell(WIZARD_FLAME_ARROW)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+      !See(Protagonist)
+      Global("BW05_OctaviaBeh2","GLOBAL",1)
+      Global("BW05_OctaviaBeh4","GLOBAL",1)
+      Global("BW05_OctaviaBeh5","GLOBAL",1)
+      Global("BW05_OctaviaBeh6","GLOBAL",1)
+      Global("BW05_OctaviaBeh7","GLOBAL",1)
+      Global("BW05_OctaviaBeh8","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReEvaluate(NearestEnemyOf(Myself),30)
+END
+
+
+IF
+      !HaveSpell(WIZARD_MONSTER_SUMMONING_3)   
+      !HaveSpell(WIZARD_FLAME_ARROW)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(WIZARD_AGANNAZAR_SCORCHER)      
+      Global("BW05_OctaviaBehP2","GLOBAL",0)     
+      See(Protagonist)
+      HPGT(Protagonist,89)
+      Global("BW05_OctaviaBeh2","GLOBAL",1)
+      Global("BW05_OctaviaBeh4","GLOBAL",1)
+      Global("BW05_OctaviaBeh5","GLOBAL",1)
+      Global("BW05_OctaviaBeh6","GLOBAL",1)
+      Global("BW05_OctaviaBeh7","GLOBAL",1)
+      Global("BW05_OctaviaBeh8","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReEvaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+      !HaveSpell(WIZARD_MONSTER_SUMMONING_3)   
+      !HaveSpell(WIZARD_FLAME_ARROW)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+      Global("BW05_OctaviaBehP","GLOBAL",0)     
+      See(Protagonist)
+      HPGT(Protagonist,59)
+      Global("BW05_OctaviaBeh2","GLOBAL",1)
+      Global("BW05_OctaviaBeh4","GLOBAL",1)
+      Global("BW05_OctaviaBeh5","GLOBAL",1)
+      Global("BW05_OctaviaBeh6","GLOBAL",1)
+      Global("BW05_OctaviaBeh7","GLOBAL",1)
+      Global("BW05_OctaviaBeh8","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReEvaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+      !HaveSpell(WIZARD_MONSTER_SUMMONING_3)   
+      !HaveSpell(WIZARD_FLAME_ARROW)
+      !HaveSpell(WIZARD_MAGIC_MISSILE)
+      !HaveSpell(WIZARD_INVISIBLE_STALKER)
+      !HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+      Global("BW05_OctaviaBehP","GLOBAL",1)
+      Global("BW05_OctaviaBehP2","GLOBAL",1)     
+      Global("BW05_OctaviaBeh2","GLOBAL",1)
+      Global("BW05_OctaviaBeh4","GLOBAL",1)
+      Global("BW05_OctaviaBeh5","GLOBAL",1)
+      Global("BW05_OctaviaBeh6","GLOBAL",1)
+      Global("BW05_OctaviaBeh7","GLOBAL",1)
+      Global("BW05_OctaviaBeh8","GLOBAL",1)
+      See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReEvaluate(NearestEnemyOf(Myself),30)
+END

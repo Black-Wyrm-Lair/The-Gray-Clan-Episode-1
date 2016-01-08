@@ -1,0 +1,100 @@
+IF
+	Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_FC1","GLOBAL",0)
+      Global("BW05_FFEnemy","Global",1)
+      Dead("BW05OCTA")
+      Dead("BW05PETR")
+      !Dead("BW05TERG")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FC1","GLOBAL",1)
+            CreateCreature("BW05TERG",[366.1040],7)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_FC2","GLOBAL",0)
+      Dead("BW05OCTA")
+      Dead("BW05PETR")
+      !Dead("BW05RUDI")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FC2","GLOBAL",1)
+            CreateCreature("BW05RUD2",[248.1119],9)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_FC3","GLOBAL",0)
+      Dead("BW05OCTA")
+      Dead("BW05PETR")
+      !Dead("BW05TALI")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FC3","GLOBAL",1)
+            CreateCreature("BW05TALI",[443.1084],7)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_FC4","GLOBAL",0)
+      Dead("BW05OCTA")
+      Dead("BW05PETR")
+      !Dead("BW05HERT")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FC4","GLOBAL",1)
+            CreateCreature("BW05HERT",[363.1093],7)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_FC5","GLOBAL",0)
+      Dead("BW05OCTA")
+      Dead("BW05PETR")
+      !Dead("BW05JERE")
+THEN
+	RESPONSE #100
+	     SetGlobal("BW05_FC5","GLOBAL",1)
+           CreateCreature("BW05JER2",[283.1165],9)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_FCM","GLOBAL",0)
+      Dead("BW05OCTA")
+      Dead("BW05PETR")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FCM","GLOBAL",1)
+            ActionOverride("BW05SERT",DestroySelf()) 
+            CreateCreature("BW05FFA1",[112.1215],9)
+            CreateCreature("BW05FFA3",[79.1146],11)
+            CreateCreature("BW05FFA2",[76.1063],12)
+            CreateCreature("BW05FFA3",[118.995],12)
+            CreateCreature("BW05FFA2",[640.994],4)
+            CreateCreature("BW05FFA3",[623.1053],0)
+            CreateCreature("BW05FFA1",[639.1167],1)
+            CreateCreature("BW05FFA4",[741.1038],0)
+            CreateCreature("BW05FFA1",[736.1142],1)
+END
+            
+IF
+	Global("BW05_TGC1","GLOBAL",10)
+      Global("BW05_DervantoSummoned","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_DervantoSummoned","GLOBAL",1)
+            CreateCreature("BW05SERT",[1589.2731],0)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",10)
+      Global("BW05_DervantoSummoned","GLOBAL",1)
+      Dead("BW05SERT")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_DervantoSummoned","GLOBAL",2)
+            AddJournalEntry(@20001, QUEST_DONE)
+END
+

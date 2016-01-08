@@ -1,0 +1,7 @@
+IF
+	!See([PC.0.0])
+      !Dead("BW05LUCY")
+THEN
+	RESPONSE #100
+	      Attack("BW05LUCY")
+END

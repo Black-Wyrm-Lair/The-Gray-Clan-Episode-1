@@ -1,0 +1,34 @@
+IF
+	Dead("BW05BLOJ")
+      Dead("BW05GART")
+      Global("BW05_TGC1","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_TGC1","GLOBAL",5)
+END
+
+IF
+      Global("BW05_TGC1","GLOBAL",3)
+	Global("BW05_GreyBanditUpstairs","GLOBAL",0)
+THEN
+	RESPONSE #100
+     		SetGlobal("BW05_GreyBanditUpstairs","GLOBAL",1)
+		CreateCreature("BW05FFAP",[569.219],0)
+		CreateCreature("BW05GART",[406.276],13)
+		CreateCreature("BW05BLOJ",[311.293],8)
+		CreateCreature("BW05BA01",[563.207],0)
+		CreateCreature("BW05BA07",[396.112],0)
+		CreateCreature("BW05BA02",[307.155],0)
+		CreateCreature("BW05BA02",[212.215],0)
+		CreateCreature("BW05BA02",[273.284],0)
+END
+
+IF
+	Global("BW05_TGC1","GLOBAL",7)
+      Global("BW05_GreyBanditUpstairs","GLOBAL",1)
+THEN
+	RESPONSE #100
+    		SetGlobal("BW05_GreyBanditUpstairs","GLOBAL",2)
+		ActionOverride("BW05FFAP",DestroySelf())
+		CreateCreature("BW05FFWR",[458.267],5)
+END

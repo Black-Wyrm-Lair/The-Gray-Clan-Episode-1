@@ -1,0 +1,7 @@
+BEGIN ~BW05INJM~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @495
+  IF ~~ THEN DO ~Kill(Myself)
+~ EXIT
+END

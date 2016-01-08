@@ -1,0 +1,17 @@
+IF
+	Global("BW05_TGC1","GLOBAL",8)
+	Global("BW05_SummonedCreatures","BW0504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SummonedCreatures","BW0504",1)
+		CreateCreature("BW05COU1",[627.358],0)
+		CreateCreature("BW05COU2",[642.387],0)
+            CreateCreature("BW05COU3",[744.385],2)
+            CreateCreature("BW05WILL",[685.412],13)
+            CreateCreature("BW05BA01",[633.647],2)
+            CreateCreature("BW05BA01",[714.641],1)
+            CreateCreature("BW05BA01",[784.637],3) 
+            CreateCreature("BW05PET1",[1339.592],1)
+            CreateCreature("BW05MARY",[1362.633],1)
+            CreateCreature("BW05PET2",[1396.669],1)           
+END

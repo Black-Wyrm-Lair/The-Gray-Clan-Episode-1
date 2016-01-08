@@ -1,0 +1,16 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05TEVE")
+            SetGlobal("BW05_TGC1","GLOBAL",13) 
+            Wait(2)
+            ActionOverride("BW05TBG1",EscapeArea())
+            ActionOverride("BW05TBG2",EscapeArea())
+            ActionOverride("BW05TBG3",EscapeArea())
+            ActionOverride("BW05TBG4",EscapeArea())
+            ActionOverride("BW05TBG5",EscapeArea())
+            ActionOverride("BW05TBG6",EscapeArea())
+            Wait(10)
+            StartDialogueNoSet(Protagonist)
+END

@@ -1,0 +1,16 @@
+FOR TRANSLATORS
+
+I am more than happy to see when my mods are translated to other languages.
+Grey Clan: In Candlelight has three editions: one for original Baldur's Gate, one for BG1Tutu and another for BGT-WeiDU. If you would like to translate this mod, I would like to ask you to do so with all of its editions.
+Their TRA files contain the same text with the following exceptions:
+- The journal entries in dialogue.tra of the BG edition have no heading line, because the original Baldur's Gate doesn't use such.
+- In npcsound.tra of the BG edition, there is an additional line as well (@70012), for the SELECT_RARE soundslot.
+So if you have translated any of the editions, it will not be too complicated to make the TRA files for the other editions as well. The BGT-WeiDU and BG1Tutu TRA files should be the same, but please compare the TRA files of different editions while making the changes.
+
+If you have translated Grey Clan Episode One: In Candlelight, you can send the necessary files attached to an email to baronius@blackwyrmlair.net. Certainly I accept URLs as well, if you prefer uploading & linking instead.
+
+In order to make the translation easier, I've written some tips. They are as follows:
+- All item names and descriptions are in items.tra. For compatiblity reasons, The Grey Clan Episode One does not use original game StrRefs  for standard unidentified descriptions (such as Long Sword, Battle Axe, Plate Mail). These descriptions in items.tra were copied from my Baldur's Gate: Tales of the Sword Coast, so when translating them, you just have to find them and copy them from your own game (provided you have the game in the same language you are translating this mod to).
+The same applies to many lines of npcsound.tra.
+- All spell names and descriptions are in spells.tra. Many spell names in the stock BG edition of this mod begin with "Casts...". I used this for technical reasons (external spells are cast via ForceSpell, but I wanted them to look 'real'), so this is not a mistake in the spell names.
+- When the translation is finished, you can send the TRA files and the TP2 file. (As far as I've experienced so far, translators send whole TP2s.) However, I will not use the TP2 file you send; I will only copy its LANGUAGE block. So if it's easier for you, simply specify the LANGUAGE block in your email, no need to send a whole TP2.

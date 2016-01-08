@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneID("BW05LIND")
+            ActionOverride("BW05VLAI",MoveToPointNoInterrupt([1368.3546]))
+            ActionOverride("BW05VLAI",Face(3))
+            ApplySpell(Myself, WIZARD_DISPEL_MAGIC)
+            Wait(1)
+            ForceSpell(Myself, WIZARD_DIMENSION_DOOR)
+            Wait(2)
+            DestroySelf()
+            EndCutSceneMode()
+END

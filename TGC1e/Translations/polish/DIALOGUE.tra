@@ -1,0 +1,692 @@
+@1   = ~¯ycie powróci³o do „Pomocnej D³oni”, i ucich³y ju¿ wszelkie rozmowy o inwazji. Jednak od czasu do czasu dalej kr¹¿¹ plotki, i¿ to nie P³on¹ca Piêœæ, lecz bohater zwany <CHARNAME> pokona³ najeŸdŸców!~
+@2   = ~Witam! Jestem Jeremiasz, skromny kupiec... Wspieram organizacjê Genera³a Jedyana magiczn¹ broni¹ i przedmiotami.~
+@3   = ~Wybacz, jednak ty... tyy... ty wygl¹dasz jak demon... naprawdê...~
+@4   = ~Szykuj siê na œmieræ, parszywa bestio!~
+@5   = ~Wrócê póŸniej... S¹dzê, ¿e tak bêdzie najlepiej...~
+@6   = ~Hê?! Demon? Ach, tak! Wybacz, zapomnia³em o tym... gapa ze mnie. Jestem starszym bratem Rudiego, znanego te¿ pod mianem „Metafizyk”. Jest genialnym naukowcem, nauczy³ mnie sekretów metamorfoz – jak zmieniaæ sw¹ formê lub polimorfowaæ siê z pomoc¹ magii. Bardzo mi siê to podoba, i czêsto siê zmieniam. Jednak jesteœ tu dla interesów, wiêc wypada³oby powróciæ do ludzkiej postaci – to potrwa sekundkê...~
+@7   = ~Czemu tak mnie nazywasz? Wygl¹dam a¿ tak okropnie? Mo¿e jestem stary, jednak nie a¿ taki paskudny!~
+@8   = ~Jak mogê ci pomóc? Chcia³byœ zobaczyæ mój asortyment magicznych przedmiotów?~ ~Jak mogê ci pomóc? Chcia³abyœ zobaczyæ mój asortyment magicznych przedmiotów?~
+@9   = ~Zrobione! Hmm... no jeszcze nie. Sekunda i wszystko bêdzie dobrze...~
+@10  = ~Prawie, prawie...~
+@11  = ~W koñcu! Wybacz, ¿e musia³eœ czekaæ. Wiêc chcia³byœ zobaczyæ mój asortyment magicznych przedmiotów?~ ~W koñcu! Wybacz, ¿e musia³aœ czekaæ. Wiêc chcia³abyœ zobaczyæ mój asortyment magicznych przedmiotów?~
+@12  = ~Chêtnie.~
+@13  = ~Nie, dziêki.~
+@14  = ~Jeœli bêdziesz czegoœ potrzebowa³, bêdziesz móg³ mnie tu znaleŸæ. Zostanê jeszcze trochê w tych okolicach.~ ~Jeœli bêdziesz czegoœ potrzebowa³a, bêdziesz mog³a mnie tu znaleŸæ. Zostanê jeszcze trochê w tych okolicach.~
+@15  = ~Co mogê dla ciebie zrobiæ?~
+@16  = ~Wrócê póŸniej.~
+@17  = ~By³aœ dobr¹ nauczycielk¹, moja pani. Nie zawiedziemy ciê.~
+@18  = ~Postaram siê, moja pani.~
+@19  = ~Golem mówi: „Jestem niesprawny.”~
+@20  = ~Grachus jest martwy?! Hahahaha! Przyjemnoœci¹ by³oby ujrzenie twarzy Xephistagorasa, który w³aœnie dowiedzia³ siê o œmierci swojego ucznia! Zastanawiam siê te¿ co powie jutro lordowi Desiderowi, podczas rozmowy o dokonaniach Szarego Klanu w zamku Legencase...~
+@21  = ~Gdzie jest Legencase? Kim jest lord Desider? Mów!~
+@22  = ~Przygotuj siê na œmieræ!~
+@23  = ~Jak widzisz, moja pani, Teven nie jest w stanie ukoñczyæ zadania. Przyda³by siê nowy przywódca.~
+@24  = ~Mo¿e i masz racjê, poszukiwaczu przygód. Wydajesz siê byæ wystarczaj¹co silny i doœwiadczony...~ ~Mo¿e i masz racjê, poszukiwaczu przygód. Wydajesz siê byæ wystarczaj¹co silna i doœwiadczona...~
+@25  = ~Zaszczytem bêdzie zaj¹æ miejsce Tevena, moja pani.~
+@26  = ~Jestem najlepszym wyborem. Bez w¹tpienia.~
+@27  = ~Nie obchodzi mnie Xephistagoras! Nie mów mi o nim! Niemniej jednak, Tevenie, dam ci ostatni¹ szansê... nie zawiedŸ mnie tym razem!~
+@28  = ~Ta walka nie powinna byæ dla ciebie trudna, Octavio. Ty tak¿e niczego siê nie obawiaj, Petrarco. Istotnie, bêdzie to dla ciebie okazja do nauczenia siê czegoœ nowego! Jeœli coœ pójdzie nie tak, jestem pewna, ¿e Octavia ci pomo¿e. Dziewczyny, pomimo ¿e Legencase jest mile st¹d, nigdy nie zapominajcie co wam powiedziano w Akademii: „potêga p³ynie w waszych ¿y³ach”.~
+@29  = ~G³upiec.~
+@30  = ~Muszê iœæ. Powodzenia, dziewczyny!~
+@31  = ~Na bogów! Dervanto! Jesteœ najwiêkszym z... najwiêkszym z...~
+@32  = ~KRETYNÓW!~
+@33  = ~To nie s¹ ludzie których oczekiwaliœmy, idioto! To jest <CHARNAME>!!! A ja mam tutaj tylko szeœciu ochroniarzy i czarodzieja ba³wana!~
+@34  = ~Zaczekaj, Dervanto! Nie zostawiaj mnie samego! Dervanto! Gdzie jest mój kamieñ stra¿niczy? Dervanto! DERVANTO!~
+@35  = ~Stra¿! Do broni!~
+@36  = ~A wy dok¹d?! Rozkazujê wam – wracaæ natychmiast! Te schody s¹ tylko magiczn¹ iluzj¹, tchórzliwi idioci! Zmierzacie ku pewnej œmierci!!!~
+@37  = ~To niespodzianka, ujrzeæ ciê tutaj, Tevenie, poniewa¿ ju¿ raz zabi³em ciê w Kniei Larsa... Jednak pokonanie ciebie nie sprawi³o mi trudnoœci i pewien jestem, ¿e nadal nie dorównasz mym umiejêtnoœciom, bandyto.~ ~To niespodzianka, ujrzeæ ciê tutaj, Tevenie, poniewa¿ ju¿ raz zabi³am ciê w Kniei Larsa... Jednak pokonanie ciebie nie sprawi³o mi trudnoœci i jestem pewna, ¿e nadal nie dorównasz mym umiejêtnoœciom, bandyto.~
+@38  = ~Jakie zabawne. Jesteœmy prawdopodobnie w jednym z najbardziej ekskluzywnych apartamentów elity Szarego Klanu, a ty jesteœ tu sam, bez ochroniarzy. Bez *kogokolwiek* kto móg³by ciê teraz obroniæ.~
+@39  = ~Teven? Nie wierzê w³asnym oczom! Mi³o ciê znowu widzieæ!~
+@40  = ~Gartuffe i Grachus gryz¹ piach. Reufasio tak samo. Linda sma¿y siê ju¿ w piekle i przywita ciê tam, kiedy do nich do³¹czysz. Nadesz³a teraz kolej na *ciebie*.~
+@41  = ~Panno Adalbert! Dziêki Beshabo, nareszcie jesteœ, moja pani. Grachus nie ¿yje, i dziêki temu idiocie Dervantowi, <CHARNAME> zdo³a³ siê tu dostaæ!~ ~Panno Adalbert! Dziêki Beshabo, nareszcie jesteœ, moja pani. Grachus nie ¿yje, i dziêki temu idiocie Dervantowi, <CHARNAME> zdo³a³a siê tu dostaæ!~
+@42  = ~Zaczekaj, moja pani. Nie mo¿esz mnie zwolniæ z mego stanowiska, lady Moniko Adalbert! Zosta³em mianowany na nie w Legencase i cieszê siê poparciem lorda Falcondrake’a. Nie zapominaj tak¿e o Xephistagorasie.~
+@43  = ~Ja... Ja nie jestem osob¹, której szukasz, <CHARNAME>! Jestem tylko... tylko...~
+@44  = ~Nie masz ze mn¹ szans, <CHARNAME>!~
+@45  = ~Golem mówi: „W³ó¿ kamieñ stra¿niczy.”~
+@46  = ~Zostaw istotê w spokoju.~
+@47  = ~W³ó¿ kamieñ stra¿niczy.~
+@48  = ~Wk³adasz kamieñ stra¿niczy, ale zostaje on odrzucony. Prawdopodobnie czarodziejki stworzy³y drugorzêdn¹ tarczê wokó³ powierzchni. Tylko one mog¹ j¹ zdj¹æ, ale na pewno nie zrobi¹ tego z w³asnej woli. Musisz zg³adziæ je obie.~
+@49  = ~Wk³adasz kamieñ stra¿niczy.~
+@50  = ~Witam! Mam nadziejê, ¿e droga nie by³a dla ciebie trudna. Mój lord ju¿ czeka w œrodku. Nie masz siê czego obawiaæ, ¿adna nieupowa¿niona osoba nie bêdzie przeszkadzaæ w waszym spotkaniu. Os³oni³em pomieszczenie magiczn¹ tarcz¹. Ruszamy?~
+@51  = ~Zaczekaj...~
+@52  = ~Ale ja...~
+@53  = ~Mi³o mi bêdzie go poznaæ.~
+@54  = ~Jestem tylko jego kamerdynerem. O wszystkim mo¿esz porozmawiaæ z lordem.~
+@55  = ~Doprawdy? Myœla³em, ¿e mój mistrz ju¿ widzia³ siê z tob¹ na poprzednim spotkaniu. Jak widaæ, chyba jestem w b³êdzie – có¿, jestem w koñcu tylko kamerdynerem.~
+@56  = ~Magów? Czarodziejów?~
+@57  = ~Wiem, ¿e przybyliœmy póŸniej ni¿ oczekiwa³eœ, mój lordzie. Jednak nie by³a to moja wina, czeka³em przed gospod¹ ca³y dzieñ...~
+@58  = ~Masz racjê, nie jestem tu potrzebny. Powodzenia, mój lordzie.~
+@59  = ~Golem gapi siê przed siebie bezmyœlnie. Nie masz pojêcia z czego zrobione jest jego cia³o, ale oczywistym jest, ¿e golem ca³y otoczony jest zielon¹ form¹. Najwidoczniej bandyci próbowali go zniszczyæ, ale gruba masa tak szybko uros³a, ¿e w ci¹gu kilku sekund zasklepi³a wszelkie rany. Po chwili obserwacji, dostrzegasz szeœæ dziur na klucze w piersi golema.~
+@60  = ~W³ó¿ z³oty klucz.~
+@61  = ~W³ó¿ miedziany klucz.~
+@62  = ~W³ó¿ ¿elazny klucz.~
+@63  = ~W³ó¿ ma³y ¿elazny klucz.~
+@64  = ~W³ó¿ mosiê¿ny klucz.~
+@65  = ~W³ó¿ ma³y mosiê¿ny klucz.~
+@66  = ~Zbadaj dziurki od kluczy.~
+@67  = ~Zostaw golema w spokoju.~
+@68  = ~Z³a kolejnoœæ kluczy. Ty nie jesteœ Mistrzem. Zginiesz.~
+@69  = ~Wk³adasz wybrany klucz.~
+@70  = ~Wszystkie dziury ró¿ni¹ siê rozmiarami. Na podstawie tego, co robili bandyci w momencie twojego przybycia, wygl¹da na to, ¿e musisz mieæ wszystkie szeœæ kluczy, aby golem rozpozna³ ciê jako swego mistrza.~
+@71  = ~Golem milczy. Klucz znika w dziurze i s³yszysz odg³os zêbatych kó³.~
+@72  = ~Poczekaj na reakcjê golema.~
+@73  = ~Klucze wyskakuj¹ z dziur. Golem mówi: „Z³a kolejnoœæ. Ty nie jesteœ Mistrzem. Zginiesz.”~
+@74  = ~W³ó¿ z³oty klucz.~
+@75  = ~Wk³adasz ostatni klucz.~
+@76  = ~Po kilku sekundach, golem mówi: „Nie w³o¿y³eœ diamentowego klucza w tajn¹ dziurê w mojej g³owie. Rozkaza³eœ mi, ¿e mam siê rozp³yn¹æ jeœli tego nie zrobisz.”~
+@77  = ~Aktywacja b³otnego golema
+
+Wsadzi³em klucze w b³otnego golema w odpowiedniej kolejnoœci. Jednak¿e, wspomnia³ on coœ o diamentowym kluczu, który powinien byæ w³o¿ony w tajn¹ dziurê w jego g³owie. Golem rozp³yn¹³ siê, ale na szczêœcie nic siê nie sta³o przedmiotom, które by³y w œrodku. Nie mia³em pojêcia o istnieniu jakiegoœ diamentowego klucza, ani te¿ nie zauwa¿y³em jakiejkolwiek dziury w jego g³owie. Prawdopodobnie bandyci tak¿e nie zdawali sobie sprawy z tego zabezpieczenia. Wygl¹da na to, ¿e zosta³o to zaprojektowane przez prawdziwego mistrza i mia³o to uchroniæ golema przed nieupowa¿nionymi osobami, które w jakiœ sposób znalaz³y siê w posiadaniu wszystkich szeœciu metalowych kluczy.~ ~Aktywacja b³otnego golema
+
+Wsadzi³am klucze w b³otnego golema w odpowiedniej kolejnoœci. Jednak¿e, wspomnia³ on coœ o diamentowym kluczu, który powinien byæ w³o¿ony w tajn¹ dziurê w jego g³owie. Golem rozp³yn¹³ siê, ale na szczêœcie nic siê nie sta³o przedmiotom, które by³y w œrodku. Nie mia³am pojêcia o istnieniu jakiegoœ diamentowego klucza, ani te¿ nie zauwa¿y³am jakiejkolwiek dziury w jego g³owie. Prawdopodobnie bandyci tak¿e nie zdawali sobie sprawy z tego zabezpieczenia. Wygl¹da na to, ¿e zosta³o to zaprojektowane przez prawdziwego mistrza i mia³o to uchroniæ golema przed nieupowa¿nionymi osobami, które w jakiœ sposób znalaz³y siê w posiadaniu wszystkich szeœciu metalowych kluczy.~
+@78  = ~Ty masz... masz klucz? Nie masz klucza? Vladimir zabije ciê... aby ujrzeæ klucz... ty klucz... czy ty masz... masz jakiœ klucz...~
+@79  = ~Vladimir w³o¿y³ klucze... wszystkie szeœæ kluczy...~
+@80  = ~Vladimir przeprasza... Vladimir nie chcia³ w³o¿yæ kluczy... klucze z³a kolejnoœæ...~
+@81  = ~Tak... tak pani...~
+@82  = ~Vladimir klucze... znajdzie klucze...~
+@83  = ~Aktywacja b³otnego golema
+
+Kiedy dotarliœmy do gospody „Pod Pomocn¹ D³oni¹”, bandyci, dowodzeni przez czarodziejkê, dobierali siê w³aœnie do b³otnego golema. Monstrum mia³o szeœæ dziur w klatce piersiowej. Mê¿czyŸni z Klanu byli w posiadaniu wszystkich kluczy, ale znalaz³ siê wœród nich pewien g³upiec, który wsadzi³ klucze bez zgody czarodziejki. Oczywiœcie zrobi³ to w z³ej kolejnoœci, a golem w odpowiedzi wypuœci³ ognist¹ kulê. Eksplozja porozrzuca³a klucze po ca³ym terenie. Rozgniewana nie na ¿arty czarodziejka, rozkaza³a natychmiast odszukaæ zagubione klucze. Jeœli zdo³am znaleŸæ wszystkie klucze przed nimi, mo¿e bêdê móg³ dojœæ do tego jaka jest prawid³owa kolejnoœæ i wykorzystam golema do w³asnych celów. Krêci siê tam pe³no tych bandziorów, wiêc prawdopodobnie czeœæ kluczy zosta³a ju¿ odnaleziona. Có¿... zatem bêdê musia³ odebraæ je z ich zimnych, martwych r¹k.~ ~Aktywacja b³otnego golema
+
+Kiedy dotarliœmy do gospody „Pod Pomocn¹ D³oni¹”, bandyci, dowodzeni przez czarodziejkê, dobierali siê w³aœnie do b³otnego golema. Monstrum mia³o szeœæ dziur w klatce piersiowej. Mê¿czyŸni z Klanu byli w posiadaniu wszystkich kluczy, ale znalaz³ siê wœród nich pewien g³upiec, który wsadzi³ klucze bez zgody czarodziejki. Oczywiœcie zrobi³ to w z³ej kolejnoœci, a golem w odpowiedzi wypuœci³ ognist¹ kulê. Eksplozja porozrzuca³a klucze po ca³ym terenie. Rozgniewana nie na ¿arty czarodziejka, rozkaza³a natychmiast odszukaæ zagubione klucze. Jeœli zdo³am znaleŸæ wszystkie klucze przed nimi, mo¿e bêdê mog³a dojœæ do tego jaka jest prawid³owa kolejnoœæ i wykorzystam golema do w³asnych celów. Krêci siê tam pe³no tych bandziorów, wiêc prawdopodobnie czeœæ kluczy zosta³a ju¿ odnaleziona. Có¿... zatem bêdê musia³a odebraæ je z ich zimnych, martwych r¹k.~
+@84  = ~Kry³em siê w cieniu, wiêc nikt mnie nie zobaczy³. Widzia³em œmieræ Mary. To by³o potworne.~
+@85  = ~Nazywam siê lord Damien Jesacco. Jesteœ wrogiem, czy przyjacielem?~
+@86  = ~Jestem tu, aby zbadaæ i zniszczyæ Szary Klan.~
+@87  = ~Jestem wrogiem. Przygotuj siê na œmieræ!~
+@88  = ~Jestem cz³onkiem Szarego Klanu!~
+@89  = ~Ku chwale Amn!~
+@90  = ~Zaufam tobie. To s¹ moi przyjaciele, John i Ernest, którzy podró¿owali ze mn¹ od Amn w poszukiwaniu mojej piêknej ¿ony, Mary, która zosta³a uprowadzona przez Szary Klan.~
+@91  = ~Myœlisz, ¿e ona wci¹¿ ¿yje? Przykro mi, ale skoro nie za¿¹dali oni ¿adnego okupu, to twoja ¿ona jest prawdopodobnie martwa.~
+@92  = ~Dlaczego myœlisz, ¿e zabrali oni twoj¹ ¿onê w³aœnie tam?~
+@93  = ~Nie obchodz¹ mnie twoje problemy. ¯egnaj.~
+@94  = ~Przyszed³em po moj¹ ¿onê, zbóju! Zamiast okupu lepiej dam ci poznaæ smak stali! Do broni, towarzysze! Ku chwale Amn!~
+@95  = ~Myli³em siê bior¹c ciê za prawdziwego poszukiwacza przygód, który bez wahania ruszy³by na ratunek kobiecie w opa³ach. ChodŸmy zatem, moi przyjaciele, odnajdziemy Mary bez pomocy tych zbójów!~ ~Myli³em siê bior¹c ciê za prawdziw¹ poszukiwaczkê przygód, która bez wahania ruszy³aby na ratunek kobiecie w opa³ach. ChodŸmy zatem, moi przyjaciele, odnajdziemy Mary bez pomocy tych zbójów!~
+@96  = ~Mary zosta³a uprowadzona tydzieñ temu. Chwilê póŸniej nadesz³a informacja z ¿¹daniem okupu: dziesiêæ tysiêcy sztuk z³ota, jednak co najwa¿niejsze, odkry³em szlak nastêpnej wojskowej karawany Amn, która bêdzie transportowaæ broñ. Jeœli nie zap³acê okupu, moja ¿ona zostanie zamordowana. Nigdy nie ufaj przestêpcom! Wymiana mia³a siê odbyæ tej nocy, w ma³ej amnijskiej wiosce, ale na szczêœcie mój przyjaciel, mistrz magii Poznania, odkry³, ¿e Mary znajduje siê w gospodzie „Pod Pomocn¹ D³oni¹” – mile od miejsca, w którym mia³em spotkaæ siê z bandziorami. Wiêc oto jestem, ale ci g³upcy *jeszcze* tego nie wiedz¹.~
+@97  = ~Wiêc zamierzasz zaatakowaæ twierdzê razem z tylko dwoma towarzyszami?~
+@98  = ~Jak wyobra¿asz sobie dostanie siê do gospody? Ciê¿ko bêdzie siê wam przekraœæ w tych ciê¿kich zbrojach. Sugerujê tak¿e, ¿ebyœ zrezygnowa³ z frontalnego ataku...~
+@99  = ~Jeœli zap³acisz mi 10000 sztuk z³ota, uratujê twoj¹ ¿onê.~
+@100 = ~Wiem jak dostaæ siê do œrodka. Ile z³ota jest warte ¿ycie twojej ¿ony?~
+@101 = ~Jak œmiesz...! *Hrmf!* No dobra, jestem w stanie zap³aciæ tobie 2000 sztuk z³ota, jeœli z ni¹ tu wrócisz.~
+@102 = ~Nie obawiaj siê, uratujê twoj¹ ¿onê.~
+@103 = ~Nie kiwnê nawet palcem, jeœli nie zap³acisz chocia¿ po³owy tej sumy z góry.~
+@104 = ~Bezczelna œwinia. Nie potrzebujê twojej pomocy.~
+@105 = ~Zmieni³em zdanie. Pójdê poszukaæ twojej ¿ony, ale jeœli z ni¹ wrócê, chcê zobaczyæ 2000 sztuk z³ota.~ ~Zmieni³am zdanie. Pójdê poszukaæ twojej ¿ony, ale jeœli z ni¹ wrócê, chcê zobaczyæ 2000 sztuk z³ota.~
+@106 = ~¯egnaj.~
+@107 = ~Niestety jest ich dla nas zbyt wielu. Ponadto maj¹ w swoich szeregach ogry, które wydaj¹ siê byæ doœæ niebezpiecznymi przeciwnikami. Widzê, ¿e znasz tê okolicê... pomóg³byœ zatem staremu Amnijczykowi odzyskaæ ¿onê?~ ~Niestety jest ich dla nas zbyt wielu. Ponadto maj¹ w swoich szeregach ogry, które wydaj¹ siê byæ doœæ niebezpiecznymi przeciwnikami. Widzê, ¿e znasz tê okolicê... pomog³abyœ zatem staremu Amnijczykowi odzyskaæ ¿onê?~
+@108 = ~Dobrze znam tê okolicê. Uratujê twoj¹ ¿onê, jeœli zdo³am.~
+@109 = ~Wiêc ruszaj, ty bezczelna œwinio! Zabierz pieni¹dze. My zostaniemy tutaj. Zwab do nas wrogów jeœli bêdziesz mieæ z nimi jakieœ problemy... Jeszcze jedno, nie wiem z czym ma to zwi¹zek, ale ostatnio dzieje siê du¿o dziwnych rzeczy. Kilka minut przed twoim przybyciem spad³ z nieba ten oto klucz. Nie wiem *co* by³o tego przyczyn¹, ale jestem jeszcze wystarczaj¹co zdrowy na umyœle, aby wiedzieæ, ¿e klucze tak po prostu same z siebie nie spadaj¹ z nieba. Wygl¹da na to, ¿e coœ albo ktoœ musia³o to tu dorzuciæ, nie wiem. Mo¿e otwiera drzwi do gospody? Niemniej jednak, mo¿esz go zatrzymaæ. Teraz idŸ! Proszê, uratuj moj¹ ¿onê...~
+@110 = ~Ratunek ¿ony Damiena
+
+Pozna³em Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³em, ¿e uratujê jego ¿onê, za odpowiedni¹ zap³at¹ oczywiœcie. Przystaliœmy na cenê 2000 sztuk z³ota. Otrzymaliœmy ju¿ po³owê tej sumy jako zaliczkê.~ ~Ratunek ¿ony Damiena
+
+Pozna³am Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³am, ¿e uratujê jego ¿onê, za odpowiedni¹ zap³at¹ oczywiœcie. Przystaliœmy na cenê 2000 sztuk z³ota. Otrzymaliœmy ju¿ po³owê tej sumy jako zaliczkê.~
+@111 = ~Oto 300 sztuk z³ota. Jeszcze jedno, nie wiem z czym ma to zwi¹zek, ale ostatnio dzieje siê du¿o dziwnych rzeczy. Kilka minut przed twoim przybyciem spad³ z nieba ten oto klucz. Nie wiem *co* by³o tego przyczyn¹, ale jestem jeszcze wystarczaj¹co zdrowy na umyœlê, aby wiedzieæ, ¿e klucze tak po prostu same z siebie nie spadaj¹ z nieba. Wygl¹da na to, ¿e coœ albo ktoœ musia³o to tu dorzuciæ, nie wiem. Mo¿e otwiera drzwi do gospody? Niemniej jednak, mo¿esz go zatrzymaæ. Teraz idŸ! Proszê, uratuj moj¹ ¿onê...~
+@112 = ~Ratunek ¿ony Damiena
+
+Pozna³em Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³em, ¿e uratujê jego ¿onê, za odpowiedni¹ zap³at¹ oczywiœcie. Przystaliœmy na cenê 2000 sztuk z³ota. Otrzymaliœmy ju¿ 300 sztuk z³ota jako zaliczkê.~ ~Ratunek ¿ony Damiena
+
+Pozna³am Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³am, ¿e uratujê jego ¿onê, za odpowiedni¹ zap³at¹ oczywiœcie. Przystaliœmy na cenê 2000 sztuk z³ota. Otrzymaliœmy ju¿ 300 sztuk z³ota jako zaliczkê.~
+@113 = ~Kilka minut przed twoim przybyciem spad³ z nieba ten oto klucz. Nie wiem *co* by³o tego przyczyn¹. Mo¿e otwiera drzwi do gospody... Teraz idŸ! I nie zawiedŸ mnie.~
+@114 = ~Ratunek ¿ony Damiena
+
+Pozna³em Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³em, ¿e uratujê jego ¿onê, za odpowiedni¹ zap³at¹ oczywiœcie. Mówi³, ¿e zap³aci 2000 sztuk z³ota.~ ~Ratunek ¿ony Damiena
+
+Pozna³am Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³am, ¿e uratujê jego ¿onê, za odpowiedni¹ zap³at¹ oczywiœcie. Mówi³, ¿e zap³aci 2000 sztuk z³ota.~
+@115 = ~Proszê, postaraj siê. My zostaniemy tutaj. Zwab do nas wrogów jeœli bêdziesz mieæ z nimi jakieœ problemy... Jeszcze jedno, nie wiem z czym ma to zwi¹zek, ale ostatnio dzieje siê du¿o dziwnych rzeczy. Kilka minut przed twoim przybyciem spad³ z nieba ten oto klucz. Nie wiem *co* by³o tego przyczyn¹, ale jestem jeszcze wystarczaj¹co zdrowy na umyœlê, aby wiedzieæ, ¿e klucze tak po prostu same z siebie nie spadaj¹ z nieba. Wygl¹da na to, ¿e coœ albo ktoœ musia³o to tu dorzuciæ, nie wiem. Mo¿e otwiera drzwi do gospody? Niemniej jednak, mo¿esz go zatrzymaæ. Teraz idŸ! Proszê, uratuj moj¹ ¿onê.~
+@116 = ~Ratunek ¿ony Damiena
+
+Pozna³em Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³em, ¿e uratujê jego ¿onê.~ ~Ratunek ¿ony Damiena
+
+Pozna³am Damiena, bogatego kupca z Amn. Szary Klan porwa³ jego ¿onê, Mary. Damien jest te¿ wojownikiem, ale nie zna dobrze tego terenu, wiêc obieca³am, ¿e uratujê jego ¿onê.~
+@117 = ~Wróg w pobli¿u! Broñ siê!~
+@118 = ~Dziêkujê za uratowanie mojej ¿ony, poszukiwaczu przygód. Jestem lord Damien Jesacco, amnijski kupiec.~
+@119 = ~Teraz kiedy wszyscy jesteœmy tu razem, œwiêtuj¹c odnalezienie twojej ukochanej ¿ony i tak dalej, myœlê ¿e czas na odrobinê zabawy. Zatem by³bym wdziêczny, aby ka¿dy kto posiada jakieœ wartoœciowe rzeczy w³o¿y³ je do mojego plecaka. Twoja broñ wygl¹da wymyœlnie, panie, a pani ¿ona ma niez³¹ bi¿uteriê...~ ~Teraz kiedy wszyscy jesteœmy tu razem, œwiêtuj¹c odnalezienie twojej ukochanej ¿ony i tak dalej, myœlê ¿e czas na odrobinê zabawy. Zatem by³abym wdziêczna, aby ka¿dy kto posiada jakieœ wartoœciowe rzeczy w³o¿y³ je do mojego plecaka. Twoja broñ wygl¹da wymyœlnie, panie, a pani ¿ona ma niez³¹ bi¿uteriê...~
+@120 = ~Moja pani! Mówi³em, ¿e na zewn¹trz by³o zbyt niebezpiecznie. Jednak¿e, jestem bardziej ni¿ szczêœliwy widz¹c, ¿e nic siê pani nie sta³o. Natomiast jedna rzecz wci¹¿ mnie zastanawia; jak uda³o siê pani prze³amaæ magiczn¹ tarczê, która otacza³a gospodê?~ ~Moja pani! Mówi³am, ¿e na zewn¹trz by³o zbyt niebezpiecznie. Jednak¿e, jestem bardziej ni¿ szczêœliwa widz¹c, ¿e nic siê pani nie sta³o. Natomiast jedna rzecz wci¹¿ mnie zastanawia; jak uda³o siê pani prze³amaæ magiczn¹ tarczê, która otacza³a gospodê?~
+@121 = ~Wiêc jesteœcie szlachcicami. ZejdŸcie mi z oczu.~
+@122 = ~£ajdacy! Uciekaj, Mary! ChodŸcie, moi przyjaciele, ku chwale Amn!~
+@123 = ~Nie John, nie zabijemy nikogo. Mary jest ca³a i zdrowa, idziemy do domu.~
+@124 = ~Ratunek ¿ony Damiena
+
+Uda³o mi siê uratowaæ Mary, ¿onê kupca Damiena. Gdybym wiedzia³, ¿e s¹ szlachcicami, nigdy bym tego nie zrobi³. Nie potrafiê znieœæ tego szlacheckiego zadzierania nosa i spojrzenia „jesteœmy-lepsi-ni¿-ty”.~ ~Ratunek ¿ony Damiena
+
+Uda³o mi siê uratowaæ Mary, ¿onê kupca Damiena. Gdybym wiedzia³a, ¿e s¹ szlachcicami, nigdy bym tego nie zrobi³a. Nie potrafiê znieœæ tego szlacheckiego zadzierania nosa i spojrzenia „jesteœmy-lepsi-ni¿-ty”.~
+@125 = ~Przykro mi, ale nie mogê ju¿ d³u¿ej rozmawiaæ. Œpieszymy siê, muszê wróciæ na kupieck¹ konferencjê do Athkatli.~
+@126 = ~Wszystkiego najlepszego, moja pani. Powodzenia, lordzie Jesacco.~
+@127 = ~Myœlê, ¿e zapomnia³eœ o mojej nagrodzie...~
+@128 = ~Nigdzie nie pójdê dopóki nie dostanê nagrody, na któr¹ siê umawialiœmy.~
+@129 = ~Jeœli chcesz mnie sprowokowaæ do walki, znalaz³eœ z³¹ osobê. ¯egnaj.~ ~Jeœli chcesz mnie sprowokowaæ do walki, znalaz³aœ z³¹ osobê. ¯egnaj.~
+@130 = ~*Odsuwasz siê odrobinê, widz¹c Damiena trzês¹cego siê ze z³oœci i rozpaczy z powodu utraty swej ukochanej. Nagle odwraca wzrok na ciebie, wzrok, który a¿ p³onie dzik¹ furi¹. S³yszysz wypowiadane przez niego bezg³oœnie s³owa i nie jesteœ w stanie zrozumieæ co oznaczaj¹. Momentalnie szept przeradza siê w krzyk *Ty... ty... zabi³eœ moj¹ ¿onê! Morderczy psi syn! Wyrwê ci serce z twego plugawego cia³a, psubracie! GIÑ!~ ~*Odsuwasz siê odrobinê, widz¹c Damiena trzês¹cego siê ze z³oœci i rozpaczy z powodu utraty swej ukochanej. Nagle odwraca wzrok na ciebie, wzrok, który a¿ p³onie dzik¹ furi¹. S³yszysz wypowiadane przez niego bezg³oœnie s³owa i nie jesteœ w stanie zrozumieæ co oznaczaj¹. Momentalnie szept przeradza siê w krzyk *Ty... ty... zabi³aœ moj¹ ¿onê! Mordercza suka! Wyrwê ci serce z twego plugawego cia³a, psubracie! GIÑ!~
+@131 = ~Jestem ci wdziêczny za pomoc, do koñca ¿ycia pozostanê twoim d³u¿nikiem. Uratowa³eœ moj¹ ¿onê, tego czynu nigdy ci nie zapomnê.~ ~Jestem ci wdziêczny za pomoc, do koñca ¿ycia pozostanê twoim d³u¿nikiem. Uratowa³aœ moj¹ ¿onê, tego czynu nigdy ci nie zapomnê.~
+@132 = ~Zanim pójdê, pragn¹³bym wyraziæ moj¹ wdziêcznoœæ poprzez tê niewielk¹ sumê – proszê, przyjmij. Powodzenia, poszukiwacze przygód!~
+@133 = ~Ratunek ¿ony Damiena
+
+Mary, ¿ona amnijskiego kupca Damiena, zosta³a uratowana. W podziêce za mój szlachetny uczynek otrzyma³em niez³¹ sumê.~ ~Ratunek ¿ony Damiena
+
+Mary, ¿ona amnijskiego kupca Damiena, zosta³a uratowana. W podziêce za mój szlachetny uczynek otrzyma³am niez³¹ sumê.~
+@134 = ~Twoja nagroda, oczywiœcie! Proszê. ¯egnaj.~
+@135 = ~B³agam, znajdŸ moj¹ ¿onê.~
+@136 = ~Zanim pójdê, pragn¹³bym wyraziæ moj¹ wdziêcznoœæ poprzez tê niewielk¹ sumê – proszê, przyjmij. Ach, znalaz³em te¿ ten klucz. Nie jest mi do niczego potrzebny, ale myœlê, ¿e tobie mo¿e siê przydaæ. Powodzenia!~
+@137 = ~Ratunek ¿ony Damiena
+
+Mary, ¿ona amnijskiego kupca Damiena, zosta³a uratowana. Oprócz niez³ej sumy z³ota, szlachcic da³ mi te¿ jakiœ magiczny klucz.~
+@138 = ~Jestem jednym z najlepszych ³uczników Amn. Choæ bez pomocy Damiena, do dzisiaj by³bym ulicznym zbójem. To prawdziwy przyjaciel.~
+@139 = ~Damien to bardzo wp³ywowa osoba. I dobry przyjaciel.~
+@140 = ~Damien ma równie¿ znajomoœci wœród Zakapturzonych Czarodziejów!~
+@141 = ~Damien nie jest zwyk³ym, bogatym kupcem. Jest te¿ wp³ywow¹ person¹ w amnijskiej armii.~
+@142 = ~Mam nadziejê, ¿e Damien odnajdzie swoj¹ ¿onê. ¯yw¹.~
+@143 = ~Amn jest rajem dla kupców.~
+@144 = ~Oœmielacie siê zwracaæ do lorda tym tonem?! Bezczelne ³ajdaki, gotujcie siê na œmieræ!~
+@145 = ~Olbrzymy s¹ zbyt blisko bramy, kapitanie! Musimy powstrzymaæ ich przed wtargniêciem. Do broni, towarzysze! Za króla Tethyru!~
+@146 = ~Uciekaj Bentley, uciekaj! Ja ich powstrzymam!~
+@147 = ~Masz czelnoœæ w³amywaæ siê do mojego domu wytatuowany zbóju?! S³u¿ê *P³omiennej Piêœci*, wiêc rzuæ broñ zanim ciê zabijê, zbirze!~
+@148 = ~Najprawdopodobniej przys³ali ich moi zwierzchnicy, lecz ich wysi³ki s¹ daremne.~
+@149 = ~Plujê na Sarevoka i jego ofertê! Spadaj ba³wanie. Jeœli ciê tu znowu zobaczê, nakarmiê twoimi koœæmi ogry.~
+@150 = ~Intruzi? TUTAJ?! Co siê do cholery dzieje, Lindo?! Mówi³em, ¿eby nikt nam przeszkadza³! I gdzie ten ³achudra Reufasio?!~
+@151 = ~Dajmy im popaliæ!~
+@152 = ~Nie mam zielonego pojêcia, jakim cudem oni tu weszli. Jest mi naprawdê przykro, mój lordzie...~
+@153 = ~Nareszcie znalaz³am zwój! Opisuje on kolejnoœæ kluczy, jakie trzeba w³o¿yæ do tej zielonej maszynerii.~
+@154 = ~W³o¿y³eœ klucze pod moj¹ nieobecnoœæ?! Idioto! Kretynie! One musz¹ byæ w³o¿one w odpowiedniej kolejnoœci, przyg³upie! Ty cielaku!~
+@155 = ~*wzdycha* Wypróbujmy teraz twoj¹ kolejnoœæ. Jestem pewna, ¿e nie jest prawid³owa, ale przynajmniej sprawi, ¿e klucze zostan¹ wypchniête i bêdzie mo¿na je w³o¿yæ ponownie, wed³ug kolejnoœci opisanej na moim zwoju.~
+@156 = ~Golemie, jestem twoim mistrzem. Daj mi przedmioty, których pilnujesz!~
+@157 = ~Niech to szlag! Przeklêta ognista kula rozdmuchnê³a klucze na wszystkie strony! Rozka¿ swoim ludziom przeszukaæ ca³y ten cholerny teren! Idioci!~
+@158 = ~Przygotuj siê na œmieræ, Raufezzo!~
+@159 = ~Giñ!~
+@160 = ~Uspokój siê. Nie jestem Reufasio. By³eœ spetryfikowany, ale ju¿ ciê odczarowa³em.~ ~Uspokój siê. Nie jestem Reufasio. By³eœ spetryfikowany, ale ju¿ ciê odczarowa³am.~
+@161 = ~Za Beregost!~
+@162 = ~Hê? Och, przepraszam. Ty nie jesteœ tym przeklêtym czarodziejem! Gdzie on jest?!~
+@163 = ~Oszala³eœ!?! W takim stanie mo¿e ciê zabiæ nawet œlepy gibberling, a ty wci¹¿ chcesz walczyæ z Reufasio?!~
+@164 = ~Spokojnie, spokojnie! Chyba nie chcesz zgin¹æ z rêki tego maga, czy¿ nie?~
+@165 = ~Oszala³eœ? W takim stanie mo¿e ciê zabiæ nawet œlepy gibberling, a ty chcesz walczyæ?! Reufasio nie ¿yje, wiêc nie musisz ju¿ siê nim przejmowaæ.~
+@166 = ~Zg³adzi³em Reufasio. Poza tym, w tym stanie nie mo¿esz walczyæ.~ ~Zg³adzi³am Reufasio. Poza tym, w tym stanie nie mo¿esz walczyæ.~
+@167 = ~Masz racjê. Pozostanê tutaj. Mam nadziejê, ¿e pozosta³a mi choæ odrobina wytrzyma³oœci, aby pos³aæ do piachu kilku brudnych bandziorów.~
+@168 = ~Czujê siê lepiej. Bêdê pilnowa³ tego piêtra.~
+@169 = ~Kim jesteœ?~
+@170 = ~Prêdko, schowaj siê, dzieciaku! Jest zbyt niebezpiecznie, abyœ siê st¹d rusza³.~
+@171 = ~Stul pysk, m³okosie! ZejdŸ mi z oczu!~
+@172 = ~Dobrze, ukryjê siê!~
+@173 = ~G³upi dureñ!~
+@174 = ~Co siê sta³o? Strasznie mnie boli g³owa.~
+@175 = ~By³aœ zamieniona w kamieñ. Damien czeka na ciebie na zewn¹trz, ale nie by³oby dobrym pomys³em iœæ tam w tej chwili. Ukryj siê gdzieœ tutaj, nied³ugo zjawi¹ siê bandyci.~
+@176 = ~Widzê, ¿e masz niez³¹ bi¿uteriê! Lepiej bêdzie, jeœli oddasz j¹ po dobroci. To nic osobistego, ale bêdê musia³ ciê zabiæ jeœli tego nie zrobisz.~ ~Widzê, ¿e masz niez³¹ bi¿uteriê! Lepiej bêdzie, jeœli oddasz j¹ po dobroci. To nic osobistego, ale bêdê musia³a ciê zabiæ jeœli tego nie zrobisz.~
+@177 = ~By³aœ zamieniona w kamieñ, ale ciê uratowaliœmy. Niestety nie mo¿esz w tej chwili opuœciæ gospody. IdŸ siê gdzieœ ukryæ do czasu, kiedy pozbêdziemy siê tych bandytów.~
+@178 = ~Nieeee!~
+@179 = ~On jest tutaj?! Dziêki bogu! W porz¹dku, ukryjê siê pod ³ó¿kiem, mam nadziejê, ¿e ci nikczemnicy mnie tu nie znajd¹.~
+@180 = ~Tak uczyniê. Dziêkujê za ratunek. Damien dowie siê o tym, co dla mnie uczyniliœcie. Jestem pewna, ¿e odpowiednio was za to wynagrodzi.~
+@181 = ~Dobrze ciê znowu widzieæ!~
+@182 = ~Znalaz³am miksturê. Mia³a przyjemny zapach, a poza tym by³am spragniona. Kiedy j¹ wypi³am, sta³am siê niewidzialna! Zdziwi³am siê z pocz¹tku, ale kiedy siê przyzwyczai³am, postanowi³am zwiedziæ ten budynek. Znalaz³am tê m³od¹ kobietê, przypuszczam, ¿e by³a czarodziejk¹. Przygotowywa³a czar, dziêki któremu bandyci znaleŸli by siê na zewn¹trz. Ostro¿nie siê do nich zbli¿y³am i wtedy znalaz³am siê naprzeciw wejœcia do twierdzy...~
+@183 = ~Ryzykowa³aœ w³asnym ¿yciem. Jesteœ bardzo odwa¿n¹ kobiet¹, moja pani.~
+@184 = ~Picie nieznanych mikstur, nawet jeœli wydaj¹ siê byæ one smaczne, jest ryzykowne. Równie dobrze mog³aœ siê otruæ, moja pani.~
+@185 = ~W³aœnie zdj¹³em moj¹ zbrojê! Cholera!~
+@186 = ~Proszê nie krzywdŸ mnie!~
+@187 = ~Zabiliœcie Williama!~
+@188 = ~Aaaaa!~
+@189 = ~William by³ dobrym ch³opcem.~
+@190 = ~William!~
+@191 = ~Proszê nie krzywdŸ mnie! Nikogo nie zabi³em! Ja chcê tylko wróciæ do domu!~
+@192 = ~Felicja mówi³a nam o tobie. Mówi, ¿e Ignas, ¿o³nierz z Amn, mo¿e dwóch z was eskortowaæ do Athkatli. Mo¿ecie tam rozpocz¹æ nowe ¿ycie.~
+@193 = ~Przygotuj siê na œmieræ, z³oczyñco.~
+@194 = ~Jestem Charles. Nie pope³ni³em ¿adnej zbrodni, przysiêgam! Mam siostrê, Felicjê. Jest bardzo uprzejma.~
+@195 = ~Wiem, to ona wys³a³a nas, aby ciê odnaleŸæ. Mówi³a, ¿e Ignas, ¿o³nierz z Amn, mo¿e eskortowaæ was do Athkatli. Mo¿ecie tam zacz¹æ nowe ¿ycie.~
+@196 = ~Ona BY£A uprzejma. Niestety musia³a zgin¹æ z mej rêki, poniewa¿ widzia³a œmieræ stra¿ników.~
+@197 = ~Niedobrze, ¿e jej brat jest morderc¹. Teraz ciê aresztujê, zabiorê z gospody i zaczekam na P³omienn¹ Piêœæ.~
+@198 = ~*westchnienie* Jesteœ wolny. OdejdŸ.~
+@199 = ~Felicja! Widzia³em, ¿e tu by³a! Widzia³em j¹ w oddali, ale myœla³em, ¿e to sen! Zmierza do Amn? Cudownie! Gdzie ona teraz jest?~
+@200 = ~Jest w œwi¹tyni. Czekaj! Zanim pójdziesz powiedz mi wszystko co wiesz o Klanie.~
+@201 = ~Pod opiek¹ kapitana Ignasa, w œwi¹tyni. Jestem tu, aby dowiedzieæ siê czegoœ o Szarym Klanie. Co o nich wiesz?~
+@202 = ~Powiem ci wszystko dopiero w œwi¹tyni! Do zobaczenia póŸniej, ¿yczê ci powodzenia w twojej misji!~
+@203 = ~Wybacz Felicjo, nie mam innego wyjœcia! *wyci¹ga sztylet i w akcie desperacji pope³nia samobójstwo*~
+@204 = ~Dziêki! Nie wyjawiê nic o waszej organizacji, obiecujê!~
+@205 = ~Witajcie ponownie! To jest moja siostra, Felicja.~
+@206 = ~Poszukiwania Charlesa, brata Felicji
+
+Charles, bandyta którego postanowi³em puœciæ wolno, by³ bratem Felicji, jednej z ocala³ych. Opuœci³ Klan. Kapitan Ignas odeskortuje go do Amn, jeœli prze¿yj¹ napad bandytów, ma siê rozumieæ.~ ~Poszukiwania Charlesa, brata Felicji
+
+Charles, bandyta którego postanowi³am puœciæ wolno, by³ bratem Felicji, jednej z ocala³ych. Opuœci³ Klan. Kapitan Ignas odeskortuje go do Amn, jeœli prze¿yj¹ napad bandytów, ma siê rozumieæ.~
+@207 = ~Witajcie ponownie! Dziêkujê za przekazanie wiadomoœci od mojej siostry! Nie by³oby nas tutaj, gdyby nie twoja pomoc! Ja...~
+@208 = ~Poszukiwania Charlesa, brata Felicji
+
+Charles zdo³a³ wróciæ do swojej siostry, Felicji. Kapitan Ignas odeskortuje go do Amn, jeœli prze¿yj¹ napad bandytów, ma siê rozumieæ.~
+@209 = ~...muszê siê przyznaæ, ¿e mimo wszystko jestem przestêpc¹.~
+@210 = ~Nie, nie zabi³em nikogo, Felicjo. Ju¿ to mówi³em! Ale... có¿, pewnego razu w tawernie Wrót Baldura, gruba szlachcianka zostawi³a swoj¹ torebkê na stole. Zostawi³a j¹ tam, przysiêgam! Nikogo nie by³o w pobli¿u, wiêc otworzy³em j¹. W œrodku znalaz³em kilka klejnotów. *To* jest twoje, ³owco przygód. Trzymaj. Sprzedaj to, noœ, mo¿esz zrobiæ z tym co tylko zechcesz.~
+@211 = ~Dziêkujê, Charles. Obieca³eœ tak¿e opowiedzieæ mi nieco o Szarym Klanie...~
+@212 = ~Per³owy Naszyjnik? Niewielka to zap³ata za to wszystko, co dla ciebie uczyniliœmy. Niewa¿ne, powiedz mi tylko co wiesz na temat Szarego Klanu.~
+@213 = ~By³em nisko postawionym cz³onkiem. Nie mówili o niczym wa¿nym w mojej obecnoœci. Pods³ucha³em jednak pewn¹ rozmowê... Na pocz¹tku mówili coœ o taktyce, o tym co nale¿y zmieniæ w szykach pó³ogrów i ludzi. Jednak¿e na koñcu, wspomnieli coœ o Zhentarimach, którzy odmówili wspó³pracy... To wszystko co wiem... Jeœli coœ sobie przypomnê, dam ci znaæ...~
+@214 = ~Lepsze to ni¿ nic. Wrócê póŸniej.~
+@215 = ~Idioto! Jesteœ bezu¿yteczny.~
+@216 = ~Przepraszam. Nie przypominam sobie nic wa¿niejszego...~
+@217 = ~Nie panie, nie k³amiê. Nigdy nikogo nie zabi³em. Przysiêgam!~
+@218 = ~Wiêc twój miecz nie by³ zbyt czêsto u¿ywany. Mo¿e przynajmniej nadstawia³eœ ucha? Co ci wiadomo na temat Klanu? Z pewnoœci¹ cz³onkowie byli gadatliwi, kiedy zbyt g³êboko zajrzeli do kufelka.~
+@219 = ~S³uchaj, dzieciaku, potrzebujê wiêcej informacji o Klanie. Co s³ysza³eœ bêd¹c jego cz³onkiem?~
+@220 = ~Witaj. Uratowaliœcie nam ¿ycie zabijaj¹c tego szalonego ogra. Próbowaliœmy siê rzuciæ na niego kup¹, ale wydawa³ siê byæ odporny na nasze ciosy!~
+@221 = ~Jesteœmy w wielkim niebezpieczeñstwie, ³owco przygód. Obawiam siê, ¿e nie wytrzymamy ju¿ d³ugo i napastnicy wkrótce zdobêd¹ twierdzê. Nie oszczêdz¹ nawet tych cywilów. Jest ich zbyt wielu, a ogry s¹ najgorsze. Szczególnie mag! Planowaliœmy rzuciæ siê wszyscy na niego, ale nie byliœmy w stanie zadaæ mu jakichkolwiek ran!~
+@222 = ~Nie teraz, Felicjo. Proszê.~
+@223 = ~Dobry pomys³, Felicjo. Jakieœ wieœci, ³owco przygód? Czy mo¿emy siê spodziewaæ jakiejœ pomocy od P³omiennej Piêœci?~
+@224 = ~Cz³onkowie ich tajnych oddzia³ów... eee s³u¿by *bezpieczeñstwa* ju¿ prawie dotar³y na miejsce, niestety jest tam pe³no bandytów, wiêc dostêp do gospody jest utrudniony. Mam nadziejê, ¿e ich regularne jednostki nied³ugo przybêd¹.~
+@225 = ~Nie wiem, ale... nie potrzebujemy ich! Sami poradzimy sobie z tymi bandytami.~
+@226 = ~P³omienna Piêœæ?! To banda idiotów. Do niczego nie s¹ nam potrzebni.~
+@227 = ~Mam nadziejê. Jeœli bêdziecie potrzebowaæ informacji na temat ataku, mogê s³u¿yæ pomoc¹. By³em tutaj, kiedy oblê¿enie siê rozpoczê³o, wiêc mogê zdradziæ co wiem na ten temat.~
+@228 = ~Dziêki, ale myœlê, ¿e sami zdobêdziemy informacje.~
+@229 = ~Bêdê wdziêczny.~ ~Bêdê wdziêczna.~
+@230 = ~Czego mogê siê od ciebie dowiedzieæ? Nie odegra³eœ w tym wszystkim jakiejœ szczególnie wa¿nej roli, wiêc lepiej siedŸ cicho.~
+@231 = ~Jak chcesz. Bêdê tutaj, jeœli zmienisz zdanie.~
+@232 = ~Gdyby nie ta sytuacja, wyzwa³bym ciê na pojedynek. Wiedz, ¿e jestem kapitanem stra¿y. To ja odpowiadam za wszystkich tutejszych obywateli i ¿o³nierzy. Nie próbuj utrudniaæ mi pracy!~
+@233 = ~Masz jakieœ pytania, ³owco przygód?~
+@234 = ~Gdzie s¹ ci ludzie, którym uda³o siê uciec? Gdzie znajduj¹ siê Bentley i Gellana Lustrzany Cieñ?~
+@235 = ~Z ³atwoœci¹ mogê pokonaæ tych niedoœwiadczonych bandytów, oni s¹ niewiele silniejsi od zwyk³ych ulicznych zbirów. Jednak¿e, ich przywódcy i magowie wydaj¹ siê byæ doœæ potê¿ni. Co o nich wiesz?~
+@236 = ~Z ostatniej wizyty w gospodzie pamiêtam, ¿e tutejsi stra¿nicy nosili skórzane zbroje i nie wygl¹dali na dobrze wyszkolonych. Twoi ludzie wydaj¹ siê byæ raczej doœwiadczonymi wojownikami. Wytrenowa³eœ ich wszystkich tak dobrze, w tak krótkim czasie?~
+@237 = ~W tej chwili nie mam ¿adnych pytañ.~
+@238 = ~Witaj ponownie, poszukiwaczu przygód.~
+@239 = ~Zastanawia mnie kilka rzeczy...~
+@240 = ~Dobrego dnia.~
+@241 = ~Pewien ledwo ¿ywy ³owca przyby³ z wieœci¹ o ataku bandytów. Umar³ w moich ramionach. Zdo³a³em ewakuowaæ wiêkszoœæ mieszkañców, wliczaj¹c w to Bentleya i Gellanê. Bentley pragn¹³ zostaæ, jednak nie pozwoli³em mu na to – nie chcia³em ryzykowaæ jego ¿ycia. Bandyci zjawili siê szybciej ni¿ siê tego po nich spodziewaliœmy, wiêc musieliœmy zapewniæ ochronê uciekinierom. Wys³a³em swoich najlepszych ¿o³nierzy do odeskortowania Bentleya. ¯aden z nich nie wróci³ do tej pory, ale Felicja jest pewna, ¿e Bentleyowi uda³o siê uciec.~
+@242 = ~Mam nadziejê, ¿e to nie bêdzie nasz ostatni.~
+@243 = ~Nie jesteœmy w stanie dojrzeæ czegokolwiek pozostaj¹c w murach œwi¹tyni, ale jestem pewien, ¿e przywódcy s¹ w œrodku gospody, prawdopodobnie na ostatnim piêtrze. Oprócz ogra maga, moi zwiadowcy wykryli dwóch kolejnych czarodziejów. Jeden z nich to niejaki Reufazzo, lub Reufazeo, jak powiadaj¹. Wed³ug plotek, jest on zdolny do zamieniania ludzi w kamieñ.~
+@244 = ~He, he, jasne, rzeczywiœcie, znalaz³em jakieœ skrzynie. Ale bylibyœmy pewnie martwi gdyby ci „prawdziwi” stra¿nicy „Pomocnej D³oni” byli naszymi obroñcami. Ci tchórze uciekli kiedy tylko dowiedzieli siê o œmierci ³owcy. Ani ja, ani moi ludzie nie jesteœmy st¹d. Jestem przyrodnim bratem porucznika Aegsfilda z Athkatli, zaœ moi ludzie pochodz¹ z ca³ego Wybrze¿a Mieczy. Ich pocz¹tkowym zamiarem by³o udaæ siê do Wrót Baldura, lecz po drodze postanowili zatrzymaæ siê na odpoczynek w gospodzie „Pod Pomocn¹ D³oni¹”. Kierowali siê do posiad³oœci Entara Srebrej Tarczy z powodu zagro¿enia zwi¹zanego ze skrytobójcami, których podobno wykryto w pa³acu ksiêcia.~
+@245 = ~Przepraszam Felicjo, ale ten podró¿nik walczy z Klanem, przez co jest naszym sojusznikiem. Nie mogê ci¹gle pilnowaæ losu twojego brata.~
+@246 = ~Zabiorê, zabiorê. Ale jeœli odkryjê, ¿e ³ga³eœ, wrzucê ciê do kana³ów, dzieciaku!~
+@247 = ~Stój, Felicjo! Nie wolno ci iœæ na górê! Jest tam niebezpiecznie!~
+@248 = ~Poszukiwania Charlesa, brata Felicji
+
+Charles, brat Felicji, jest martwy. Kiedy dziewczyna siê o tym dowiedzia³a, natychmiast wybieg³a ze œwi¹tyni. Kapitan Ignas poszed³ za ni¹, aby uchroniæ j¹ przed strza³ami bandytów. Bior¹c pod uwagê, to jak groŸne s¹ te tereny, nie jestem pewien czy jeszcze wróci.~ ~Poszukiwania Charlesa, brata Felicji
+
+Charles, brat Felicji, jest martwy. Kiedy dziewczyna siê o tym dowiedzia³a, natychmiast wybieg³a ze œwi¹tyni. Kapitan Ignas poszed³ za ni¹, aby uchroniæ j¹ przed strza³ami bandytów. Bior¹c pod uwagê, to jak groŸne s¹ te tereny, nie jestem pewna czy jeszcze wróci.~
+@249 = ~Ignas znalaz³ kilka starych skrzyñ w piwnicy. W œrodku znajdowa³o siê pe³no kolczug, mieczy i sztyletów.~
+@250 = ~£owcy przygód! Jak dobrze, ¿e jesteœcie! Mój brat...~
+@251 = ~Ha! A Robertowi pozwoli³eœ mówiæ, czy¿ nie?! Poniewa¿ jest bogaty i wp³ywowy! Dobra, dobra, bêdê cicho.~
+@252 = ~Nie mog³am biec wystarczaj¹co szybko i nie nad¹¿a³am za eskortowan¹ grup¹. Nagle znik¹d wyskoczyli bandyci, zmaterializowali siê przed nami niczym cienie. Trzês³am siê ze strachu. *dr¿y* Dziêki Helmowi, ¿e znalaz³am siê wœród drzew, inaczej skoñczy³abym martwa, jak reszta. Mog³am widzieæ wszystko z miejsca, w którym siê kry³am. Spostrzeg³am Bentleya wraz z grup¹ innych ludzi, którzy zniknêli w³aœnie wœród ciemnych drzew. Wtedy znalaz³ mnie Ignas, który przeszukiwa³ ca³y ten teren. Jedna z dróg nie by³a kontrolowana przez bandytów, wiêc szybko tu dotarliœmy.~
+@253 = ~Mój brat Charles do³¹czy³ do bandytów. W³aœciwie to on nie jest z³y i chce opuœciæ Klan. Chcia³abym ciê o coœ prosiæ.~
+@254 = ~Mo¿emy jakoœ pomóc?~
+@255 = ~Twój brat jest przestêpc¹, a ty chcesz abym chroni³ go przed prawem. Zapomnij.~ ~Twój brat jest przestêpc¹, a ty chcesz abym chroni³a go przed prawem. Zapomnij.~
+@256 = ~Cicho, jêdzo.~
+@257 = ~Nie ¿yje. Przykro mi.~
+@258 = ~Pochowaæ go? On umar³! W koñcu ma to, na co zas³u¿y³!~
+@259 = ~Charles? Pamiêtam g³upca. Zaatakowa³em go, ale mi uciek³. Znajdê go i zabijê.~
+@260 = ~Masz serce z kamienia.~
+@261 = ~Charles opuœci³ nasz¹ rodzinê zaraz po tym jak zmar³ nam ojciec. Do³¹czy³ do Klanu, ale kiedy ostatni raz siê z nim widzia³am, mówi³, ¿e nie zabi³ nikogo i opuœci Klan, kiedy tylko nadarzy siê ku temu okazja. Kapitan Ignas obieca³, ¿e jeœli prze¿yjemy inwazjê i jeœli mój brat nie jest morderc¹, zabierze nas do Amn. Nie chcê iœæ sama, dlatego czekam na Charlesa.~
+@262 = ~Jeœli nie jest morderc¹, powinien najpierw oczyœciæ siê z zarzutów przed s¹dem.~
+@263 = ~Wiêc jak mogê pomóc?~
+@264 = ~Zapomnij. Nie pomagam przestêpcom. To by³oby niezgodne z prawem.~
+@265 = ~Zazwyczaj P³omienna Piêœæ zabija ka¿dego bandytê, tu¿ po pochwyceniu. Nawet jeœli pozwol¹ mu stan¹æ przed s¹dem, najprawdopodobniej ska¿¹ go na œmieræ pod zarzutem brania udzia³u w konspiracjach i innych przestêpstwach. Charles nie ma tutaj przysz³oœci, dlatego chcemy ruszyæ do Amn.~
+@266 = ~Rozumiem. Co w takim razie mogê zrobiæ dla twojego brata?~
+@267 = ~Charles dostanie to, na co zas³u¿y³. Przestañ zawracaæ mi tym g³owê.~
+@268 = ~Obecnie przebywa w gospodzie „Pod Pomocn¹ D³oni¹”. Widzia³am go tam z daleka, ale jestem pewna, ¿e to by³ on. Jeœli go spotkasz, przeka¿ mu, ¿e mo¿e opuœciæ Klan i nie powinien obawiaæ siê P³omiennej Piêœci. Kapitan Ignas zabierze nas do Athkatli.~
+@269 = ~Zrobiê co mogê. Przypuszczam, ¿e mo¿e mieæ jakieœ wartoœciowe informacje na temat Klanu.~
+@270 = ~Zapomnij!~
+@271 = ~Dziêkujê! Zobaczysz, ¿e Charles jest w porz¹dku, obiecujê!~
+@272 = ~Poszukiwania Charlesa, brata Felicji
+
+Felicja poprosi³a mnie o znalezienie jej brata. Charles jest cz³onkiem Szarego Klanu, ale pragnie go opuœciæ.~
+@273 = ~Proszê, daj mi dokoñczyæ opowieœæ o moim bracie...~
+@274 = ~Nie pomogê ci, jasne?! Twój brat to przestêpca i dostanie to, na co zas³u¿y³.~
+@275 = ~Zmieni³em zdanie. Opowiedz mi jeszcze raz o swoim bracie.~ ~Zmieni³am zdanie. Opowiedz mi jeszcze raz o swoim bracie.~
+@276 = ~Nie masz serca.~
+@277 = ~Spotka³eœ Charlesa? Masz jakieœ wieœci?~ ~Spotka³aœ Charlesa? Masz jakieœ wieœci?~
+@278 = ~Nie, jeszcze go nie spotka³em. Postaram siê go znaleŸæ.~ ~Nie, jeszcze go nie spotka³am. Postaram siê go znaleŸæ.~
+@279 = ~Nie, ale ju¿ mnie to mêczy. Myœlê, ¿e nie bêdê wiêcej traciæ czasu na szukanie twojego brata.~
+@280 = ~Charles gryzie piach. W koñcu ma to, na co zas³u¿y³.~
+@281 = ~Zaatakowa³em g³upca, ale mi uciek³. Znajdê go i zabijê.~
+@282 = ~Ale obieca³eœ! Proszê, nie b¹dŸ taki okrutny!~ ~Ale obieca³aœ! Proszê, nie b¹dŸ taka okrutna!~
+@283 = ~Biedny Charles! Mam nadziejê, ¿e to siê w koñcu skoñczy!~
+@284 = ~Nieeee! Charles! Nie rób mi tego!~
+@285 = ~Ignasie, Ignasie, ³owca przygód jest z³y!~
+@286 = ~Niech ciê szlag! Niech was wszystkich szlag!~
+@287 = ~Zmieni³eœ zdanie? Jeœli spotkasz Charlesa, wiedz, ¿e nie jest ¿adnym przestêpc¹!~ ~Zmieni³aœ zdanie? Jeœli spotkasz Charlesa, wiedz, ¿e nie jest ¿adnym przestêpc¹!~
+@288 = ~Dziêkujê! Zawsze bêdziemy wdziêczni za to, co zrobi³eœ dla mojego brata!~ ~Dziêkujê! Zawsze bêdziemy wdziêczni za to, co zrobi³aœ dla mojego brata!~
+@289 = ~Charles! Mówi³eœ, ¿e...~
+@290 = ~Powodzenia!~
+@291 = ~Przebacz proszê Charlesowi za to, ¿e nie mia³ dla ciebie ¿adnych wa¿nych informacji. Mia³ ograniczon¹ rolê jako cz³onek Klanu...~
+@292 = ~...i to jest mój brat Charles! Kapitan Ignas zabierze nas do Amn, jeœli uda siê nam st¹d wydostaæ...~
+@293 = ~Kapitan Ignas zabierze nas do Amn, jeœli uda siê nam st¹d wydostaæ...~
+@294 = ~Ok³ama³eœ mnie! Ignasie, Ignasie, ³owca przygód jest z³y!~ ~Ok³ama³aœ mnie! Ignasie, Ignasie, ³owca przygód jest z³y!~
+@295 = ~Mam nadziejê, ¿e z Charlesem wszystko w porz¹dku i ¿e opuœci Klan, kiedy tylko bêdzie móg³.~
+@296 = ~Poszukiwacze przygód! Widzia³em jak nadchodzicie! Czy spotkaliœcie moj¹ siostrzenicê...~
+@297 = ~Zamknij siê, stary ba³wanie. Chcesz, ¿ebym poder¿n¹³ ci gard³o?~ ~Zamknij siê, stary ba³wanie. Chcesz, ¿ebym poder¿nê³a ci gard³o?~
+@298 = ~Jak wygl¹da?~
+@299 = ~Wybacz, nie mam na to czasu.~
+@300 = ~Lucja jest piêkn¹, m³od¹ dziewczyn¹. Ma d³ugie jasne w³osy i nosi zielon¹ sukienkê...~
+@301 = ~Niestety nie spotka³em nikogo, kto by tak wygl¹da³. Jednak¿e zamierzam sprawdziæ wszystkie domy i budynki w okolicy. Postaram siê znaleŸæ twoj¹ siostrzenicê, jeœli zdo³am.~ ~Niestety nie spotka³am nikogo, kto by tak wygl¹da³. Jednak¿e zamierzam sprawdziæ wszystkie domy i budynki w okolicy. Postaram siê znaleŸæ twoj¹ siostrzenicê, jeœli zdo³am.~
+@302 = ~Lucja nosi³a z³oty naszyjnik, tak? Jakiœ bandyta próbowa³ j¹ zgwa³ciæ, ale mu przeszkodzi³em. Jednak nie zabi³em go jeszcze.~ ~Lucja nosi³a z³oty naszyjnik, tak? Jakiœ bandyta próbowa³ j¹ zgwa³ciæ, ale mu przeszkodzi³am. Jednak nie zabi³am go jeszcze.~
+@303 = ~Lucja nosi³a z³oty naszyjnik, tak? Jest ca³a i zdrowa, kaza³em jej ukryæ siê w jednym z domów gospody. Bêdziesz móg³ j¹ odwiedziæ, kiedy tylko przegonimy tych bandziorów.~ ~Lucja nosi³a z³oty naszyjnik, tak? Jest ca³a i zdrowa, kaza³am jej ukryæ siê w jednym z domów gospody. Bêdziesz móg³ j¹ odwiedziæ, kiedy tylko przegonimy tych bandziorów.~
+@304 = ~Lucja nosi³a z³oty naszyjnik, tak? Jakiœ bandyta próbowa³ j¹ zgwa³ciæ, ale go zabi³em. Z Lucj¹ wszystko w porz¹dku, znajduje siê teraz w domu nieopodal bramy gospody.~ ~Lucja nosi³a z³oty naszyjnik, tak? Jakiœ bandyta próbowa³ j¹ zgwa³ciæ, ale go zabi³am. Z Lucj¹ wszystko w porz¹dku, znajduje siê teraz w domu nieopodal bramy gospody.~
+@305 = ~Dziewczyna nie ¿yje. By³a ma³¹, irytuj¹c¹ smarkul¹.~
+@306 = ~Powiedzia³em jej, ¿eby siê zamknê³a, a ona nagle wybieg³a z domu... co za g³upia, ma³a smarkula.~ ~Powiedzia³am jej, ¿eby siê zamknê³a, a ona nagle wybieg³a z domu... co za g³upia, ma³a smarkula.~
+@307 = ~OdnajdŸ Lucjê, b³agam! Zap³acê sowicie, tylko znajdŸ j¹!~
+@308 = ~Poszukiwania Lucji, siostrzenicy Roberta
+
+Kupiec o imieniu Robert poprosi³ mnie o znalezienie jego siostrzenicy, Lucji. Nosi ona zielon¹ sukienkê i ma d³ugie jasne w³osy.~
+@309 = ~Zostawi³eœ j¹ tam razem z tym zbójem! Co z ciebie za poszukiwacz przygód?! Musisz natychmiast tam wróciæ!~ ~Zostawi³aœ j¹ tam razem z tym zbójem! Co z ciebie za poszukiwacz przygód?! Musisz natychmiast tam wróciæ!~
+@310 = ~Dziêki bogu wszystko z ni¹ w porz¹dku! Dziêkujê! Niech twe imiê bêdzie b³ogos³awione!~
+@311 = ~Lucja, siostrzenica Roberta, zosta³a uratowana. Kupiec by³ bardzo wdziêczny za pomoc i da³ mi tak¿e 200 sztuk z³ota jako nagrodê.~
+@312 = ~To niemo¿liwe! Nie wierzê w ¿adne twoje s³owo! Lucjo! Lucjo, gdzie jesteœ?!~
+@313 = ~Poszukiwania Lucji, siostrzenicy Roberta
+
+Lucja, siostrzenica kupca Roberta, nie ¿yje. Robert nie chcia³ mi wierzyæ i opuœci³ œwi¹tyniê. Prawdopodobnie zosta³ ju¿ zabity przez bandytów.~
+@314 = ~Jesteœ kompletnym idiot¹! Muszê znaleŸæ Lucjê zanim jakiœ kolejny zbój j¹ uprowadzi!~
+@315 = ~Poszukiwania Lucji, siostrzenicy Roberta
+
+Powiedzia³em siostrzenicy Roberta, ¿e jest ma³¹, g³upi¹ smarkul¹ i oddam j¹ kolejnemu bandycie, jeœli siê nie zamknie. Dziewczyna wybieg³a z domu. Robert j¹ szuka, ale jestem pewien, ¿e z powodu okrutnych bandytów nikt z nich ju¿ nie powróci.~ ~Poszukiwania Lucji, siostrzenicy Roberta
+
+Powiedzia³am siostrzenicy Roberta, ¿e jest ma³¹, g³upi¹ smarkul¹ i oddam j¹ kolejnemu bandycie, jeœli siê nie zamknie. Dziewczyna wybieg³a z domu. Robert j¹ szuka, ale jestem pewna, ¿e z powodu okrutnych bandytów nikt z nich ju¿ nie powróci.~
+@316 = ~Co powiedzia³eœ?! CO powiedzia³eœ?! Mo¿e jestem stary, ale znam sposoby na takich jak ty!~ ~Co powiedzia³aœ?! CO powiedzia³aœ?! Mo¿e jestem stary, ale znam sposoby na takich jak ty!~
+@317 = ~Proszê... B³agam...~
+@318 = ~Niech twe imiê bêdzie b³ogos³awione!~
+@319 = ~Proszê, odnajdŸ Lucjê!~
+@320 = ~Gdzie jest Lucja? Czy znalaz³eœ j¹?~ ~Gdzie jest Lucja? Czy znalaz³aœ j¹?~
+@321 = ~Jeszcze nie.~
+@322 = ~Proszê, nie rezygnuj z poszukiwañ! Jest sprytn¹ dziewczynk¹, jestem pewien, ¿e uda³o jej siê gdzieœ schowaæ!~
+@323 = ~Wartoœciowe rzeczy, muszê przyznaæ. Proszê bardzo. Maczuga, kij, sztylet i ta niez³a zbroja. I cztery mikstury. Przed wejœciem do domu le¿a³ te¿ ten klucz. Teraz daj mi moj¹ zap³atê. Piêæ tysiêcy sztuk z³ota, tak jak siê wczoraj umawialiœmy.~
+@324 = ~Jak posz³o? Czy druidzi przeklinaj¹ nas teraz?~
+@325 = ~Zap³ata, oczywiœcie! Prawie o niej zapomnia³em, wybacz Kluseczko, daj im to, na co zas³u¿yli.~
+@326 = ~Hej Kluseczko, wygl¹da na to, ¿e mamy niespodziewanych goœci...~
+@327 = ~Proszê, nie rób mi krzywdy! Pomocy, obcy, pomocy!~
+@328 = ~On chce mnie uderzyæ! Pomocy!~
+@329 = ~Dziêkujê za ratunek! B¹dŸ b³ogos³awiony! Czy nie spotka³eœ czasem mojego wujka Roberta? Mam nadziejê, ¿e wszystko z nim w porz¹dku!~ ~Dziêkujê za ratunek! B¹dŸ b³ogos³awiona! Czy nie spotka³aœ czasem mojego wujka Roberta? Mam nadziejê, ¿e wszystko z nim w porz¹dku!~
+@330 = ~Stul pysk! Twój wujaszek jest prawdopodobnie martwy, a ja *wcale* ciê nie uratowa³em. Tak czy siak zabi³bym tego bandytê, a ciebie oddam kolejnemu, jeœli w tej chwili siê nie zamkniesz, smarkulo.~ ~Stul pysk! Twój wujaszek jest prawdopodobnie martwy, a ja *wcale* ciê nie uratowa³am. Tak czy siak zabi³abym tego bandytê, a ciebie oddam kolejnemu, jeœli w tej chwili siê nie zamkniesz, smarkulo.~
+@331 = ~Nie spotka³em go jeszcze, ale jestem pewien, ¿e przy odrobinie szczêœcia uda³o mu siê uciec, albo gdzieœ schowaæ. Zaczekaj tutaj, na zewn¹trz jest zbyt niebezpiecznie. Oby wkrótce nadesz³a P³omienna Piêœæ i przegoni³a tych bandytów.~ ~Nie spotka³am go jeszcze, ale jestem pewna, ¿e przy odrobinie szczêœcia uda³o mu siê uciec, albo gdzieœ schowaæ. Zaczekaj tutaj, na zewn¹trz jest zbyt niebezpiecznie. Oby wkrótce nadesz³a P³omienna Piêœæ i przegoni³a tych bandytów.~
+@332 = ~Robert jest w œwi¹tyni, pod opiek¹ stra¿ników. Zostali zaatakowani przez bandytów, próbuj¹cych dostaæ siê do œrodka, ale wszystkich ich zg³adzi³em. Na zewn¹trz jest niebezpiecznie, wiêc zostañ tutaj. Powiem Robertowi o tym, ¿e tu jesteœ i przyjdzie po ciebie, kiedy tylko pozbêdziemy siê tych bandytów.~ ~Robert jest w œwi¹tyni, pod opiek¹ stra¿ników. Zostali zaatakowani przez bandytów, próbuj¹cych dostaæ siê do œrodka, ale wszystkich ich zg³adzi³am. Na zewn¹trz jest niebezpiecznie, wiêc zostañ tutaj. Powiem Robertowi o tym, ¿e tu jesteœ i przyjdzie po ciebie, kiedy tylko pozbêdziemy siê tych bandytów.~
+@333 = ~Zabi³em twojego wujaszka, smarkulo. Jego zachowanie by³o takie... irytuj¹ce. Przynajmniej mia³ ten niez³y, srebrny pierœcieñ.~ ~Zabi³am twojego wujaszka, smarkulo. Jego zachowanie by³o takie... irytuj¹ce. Przynajmniej mia³ ten niez³y, srebrny pierœcieñ.~
+@334 = ~B¹dŸ b³ogos³awiony!~
+@335 = ~Dobrze, zostanê tutaj. Jeœli spotkasz Roberta, powiedz mu, ¿e tu jestem.~
+@336 = ~Wiêc nic mu nie jest, dziêki bogu. Zaczekam tutaj. Powodzenia, i uwa¿aj na siebie!~
+@337 = ~Myli³am siê! Jesteœ gorszy ni¿ ci bandyci!~
+@338 = ~Nieeee! On by³ moim ostatnim krewnym! Jesteœ gorszy ni¿ ci bandyci! *ucieka zalana ³zami*~
+@339 = ~PodejdŸ bli¿ej, s³onko! Spodoba ci siê!~
+@340 = ~Ty tam! Do cholery, co ty *TU* robisz?~
+@341 = ~*beka* Ten kurczak by³ œwietny. Niech ciê szlag, nie cierpiê walczyæ z pe³nym ¿o³¹dkiem!~
+@342 = ~Do czorta, jakim cudem omin¹³eœ ochronn¹ tarczê?!~ ~Do czorta, jakim cudem ominê³aœ ochronn¹ tarczê?!~
+@343 = ~Witaj w mojej przytulnej kryjówce, poszukiwaczu przygód!~
+@344 = ~Ty musisz byæ Hertuk. Jedyan wspomina³, ¿e nale¿ysz do jego oddzia³u. Tak przy okazji, nigdy by mi nie przysz³o do g³owy, ¿e to miejsce mog³o by byæ twoj¹ kryjówk¹.~
+@345 = ~Co do... myœla³em, ¿e wchodzê do gospody „Pod Pomocn¹ D³oni¹”!~ ~Co do... myœla³am, ¿e wchodzê do gospody „Pod Pomocn¹ D³oni¹”!~
+@346 = ~Jak siê tu znalaz³eœ? I co to za miejsce?~
+@347 = ~¯artowa³em, kiedy mówi³em o tym, ¿e jest przytulna. Znalaz³eœ siê tutaj tak samo jak ja: próbowaliœmy wejœæ na pierwsze piêtro gospody „Pod Pomocn¹ D³oni¹”. Musi byæ zabezpieczona potê¿n¹ magi¹, poniewa¿ ka¿da osoba próbuj¹ca wejœæ do gospody zostaje teleportowana do tej przeklêtej jaskini. Nie patrz na *tamte* drzwi, to tylko iluzja. Próbowa³em ich, ale donik¹d nie prowadz¹.~ ~¯artowa³em, kiedy mówi³em o tym, ¿e jest przytulna. Znalaz³aœ siê tutaj tak samo jak ja: próbowaliœmy wejœæ na pierwsze piêtro gospody „Pod Pomocn¹ D³oni¹”. Musi byæ zabezpieczona potê¿n¹ magi¹, poniewa¿ ka¿da osoba próbuj¹ca wejœæ do gospody zostaje teleportowana do tej przeklêtej jaskini. Nie patrz na *tamte* drzwi, to tylko iluzja. Próbowa³em ich, ale donik¹d nie prowadz¹.~
+@348 = ~W takim razie, jak mogê siê st¹d wydostaæ? I co to za czerwona istota, o *tam*?~
+@349 = ~Niedobrze. Kim jest ta kobieta w czerwieni przy œcianie?~
+@350 = ~Kryszta³owy s³uga. Jakaœ magicznie przyzwana istota. Tergius opowiada³ mi o tym dawno temu. Nie pamiêtam zbyt wiele, ale oczywistym jest, ¿e s³uchaj¹ tylko tych, którzy s¹ w posiadaniu kryszta³u... Niestety, gdybyœmy próbowali j¹ zabiæ, mog³oby to siê okazaæ fatalne w skutkach: te istoty s¹ otoczone potê¿n¹ magiczn¹ energi¹, i znikniêcie jej, mog³oby spowodowaæ nag³e zachwianie miejsca, w którym jesteœmy. Zosta³aby uaktywniona magiczna pu³apka, która niechybnie by nas zabi³a.~
+@351 = ~Po prostu œwietnie. Zatem bêdziemy gniæ tu na zawsze.~
+@352 = ~Jesteœ pewien, ¿e nie ma st¹d wyjœcia?~
+@353 = ~Tergius!~
+@354 = ~Chyba wiem gdzie jest kryszta³! S³ysza³eœ o ogrzym magu przebywaj¹cym w œwi¹tyni?~ ~Chyba wiem gdzie jest kryszta³! S³ysza³aœ o ogrzym magu przebywaj¹cym w œwi¹tyni?~
+@355 = ~Mo¿liwe, ¿e to on ma kryszta³. Zniszczê ogra.~
+@356 = ~Zg³adzê maga. Pewnie bêdzie mia³ te¿ przy sobie du¿o z³ota i sporo wartoœciowych przedmiotów.~
+@357 = ~Ju¿ zabi³em ogrzego maga, ale nie mia³ przy sobie ¿adnego kryszta³u.~ ~Ju¿ zabi³am ogrzego maga, ale nie mia³ przy sobie ¿adnego kryszta³u.~
+@358 = ~Jesteœ przyg³upem. *Zg³adzi³em* maga, ale nie mia³ przy sobie ¿adnego kryszta³u.~ ~Jesteœ przyg³upem. *Zg³adzi³am* maga, ale nie mia³ przy sobie ¿adnego kryszta³u.~
+@359 = ~Rozejrzê siê na zewn¹trz, w po³udniowo-wschodniej czêœci lokacji. Powodzenia!~
+@360 = ~Spróbuj poszukaæ wewn¹trz murów. Ja rozejrzê siê na zewn¹trz, w po³udniowo-wschodniej czêœci lokacji. Powodzenia!~
+@361 = ~Masz kryszta³! Teraz mo¿esz wejœæ do œrodka gospody! Ja muszê zostaæ tutaj: posi³ki bandytów mog¹ nadejœæ st¹d w ka¿dej chwili. Powodzenia!~
+@362 = ~Wybacz, nie mogê pomóc w poszukiwaniu kryszta³u. Posi³ki Klanu mog¹ nadejœæ st¹d w ka¿dej chwili i ktoœ musi o tym powiadomiæ Tergiusa.~
+@363 = ~Jesteœ wrogiem jednostki Jedyana. Przygotuj siê na œmieræ!~
+@364 = ~Czego sobie ¿yczysz?~
+@365 = ~Zamknij siê.~
+@366 = ~Pragnê opuœciæ to miejsce. Przenieœ mnie do bram gospody.~
+@367 = ~Pragnê dostaæ siê do gospody. Przenieœ mnie na pierwsze piêtro.~
+@368 = ~Jak sobie ¿yczysz.~
+@369 = ~Nie jesteœ moim mistrzem. Nie masz kryszta³u.~
+@370 = ~Broñ siê!~
+@371 = ~To nie czas na pogaduszki, przyjacielu.~
+@372 = ~Witaj, wieœniaku.~// [BW05GR00]
+@373 = ~To ty by³eœ tym wytatuowanym goœciem, który wraz z bandytami zaatakowa³ œwi¹tyniê!~
+@374 = ~Ka¿dy kto nazwa³ mnie wieœniakiem jest martwy. Przygotuj siê na do³¹czenie do nich.~
+@375 = ~Witaj, stary przyjacielu.~// [BW05GR12]
+@376 = ~¯a³oœni wieœniacy.~// [BW05GR13]
+@377 = ~Zabijcie ich wszystkich.~// [BW05GR10]
+@378 = ~*wzdycha* Mam wa¿niejsze rzeczy do roboty ni¿ u¿eranie siê z grup¹ idiotów.~// [BW05GR11]
+@379 = ~S³odcy poszukiwacze przygód. Ju¿ raz siê spotkaliœmy, czy¿ nie?~// [BW05GR14]
+@380 = ~To bêdzie nasze ostatnie spotkanie, durniu.~
+@381 = ~Wiêc by³eœ przywódc¹ Szarego Klanu...~
+@382 = ~Zaczekaj! Chcia³bym najpierw przedstawiæ tobie moje dzieci.~// [BW05GR15]
+@383 = ~Niech zabawa siê rozpocznie!~// [BW05GR16]
+@384 = ~W imiê Zakonu Promiennego Serca i z woli Helma, skazujê ciê na œmieræ. Nigdy wiêcej nie zbezczeœcisz tego œwiata swoj¹ plugaw¹ nekromancj¹ i swoimi morderczymi dzia³aniami. Egzekucja nast¹pi teraz!~
+@385 = ~Witam.~
+@386 = ~Zamilczcie, mê¿czyŸni. Wasze cia³a nie s¹ w tej chwili potrzebne. Dajê wam zaszczyt ogl¹daæ, jak mrok poch³ania cia³a i dusze tych rycerzy.~
+@387 = ~(To s¹ paladyni, kretynie. Nie mamy z nimi ¿adnych szans. Zwabmy ich lepiej do bramy.)~
+@388 = ~O, najwiêkszy z Panów Œmierci, proszê – oszczêdŸ mnie! B³agam! Tym razem nie zawiodê!~
+@389 = ~Jaka niez³a zbroja... niech zabawa siê rozpocznie, bracie!~
+@390 = ~Mogê zg³adziæ tych rycerzy! Bêd¹ cierpieæ zanim umr¹, obiecujê! Daj mi szansê, mój lordzie!~
+@391 = ~Twoje skomlenie jest irytuj¹ce.~
+@392 = ~Fundor Pogromca Balorów i jego syn Frar s¹ naszymi przywódcami. Jeœli masz coœ do powiedzenia, zg³oœ siê do nich.~
+@393 = ~Na co siê tak gapisz?~
+@394 = ~Pogadaj z moim ojcem, Fundorem.~
+@395 = ~Jesteœ zainteresowany ma³ym zarobkiem, poszukiwaczu przygód?~ ~Jesteœ zainteresowana ma³ym zarobkiem, poszukiwaczu przygód?~
+@396 = ~Nie, nie jestem.~
+@397 = ~O jakim zarobku mówisz?~
+@398 = ~Czego ode mnie chcesz? I kim jesteœ?~
+@399 = ~ChodŸ Frar, chodŸcie moi krasnoludzcy przyjaciele! Sami znajdziemy ten he³m.~
+@400 = ~Oferujê 800 sztuk z³ota za znalezienie z³otego he³mu, naszego rodzinnego reliktu, który zosta³ skradziony przez tych pieprzonych bandytów. 800 sztuk z³ota, ni mniej, ni wiêcej.~
+@401 = ~A co powiesz na 1000 sztuk z³ota?~
+@402 = ~Przyjmujê twoj¹ ofertê. Wrócê z twoim skarbem.~
+@403 = ~Za tyle z³ota, nie zabi³bym nawet takiego g³upiego kurdupla jak ty.~ ~Za tyle z³ota, nie zabi³abym nawet takiego g³upiego kurdupla jak ty.~
+@404 = ~Spójrz na ten przedmiot. Wygl¹da znajomo? Dostaniesz go, jeœli zap³acisz mi piêæ tysiêcy sztuk z³ota. Ni mniej, ni wiêcej. Hahaha! Ni mniej, ni wiêcej!~
+@405 = ~Znalaz³em ju¿ he³m, który szukacie. Proszê.~ ~Znalaz³am ju¿ he³m, który szukacie. Proszê.~
+@406 = ~Znalaz³em ju¿ he³m, który szukacie. Teraz daj mi za niego 1000 sztuk z³ota.~ ~Znalaz³am ju¿ he³m, który szukacie. Teraz daj mi za niego 1000 sztuk z³ota.~
+@407 = ~Nazywam siê Fundor Pogromca Balorów. Ci cholerni bandyci ukradli nam nasz rodzinny relikt, z³oty he³m. Przybyliœmy tutaj, aby go odzyskaæ. Jednak¿e, nie jesteœmy obeznani w tym terenie Wybrze¿a Mieczy, dlatego te¿ pragniemy wynaj¹æ was, abyœcie odzyskali nasz relikt.~
+@408 = ~Pomogê ci za 9000 sztuk z³ota.~
+@409 = ~Jak du¿o z³ota jesteœ w stanie zaoferowaæ?~
+@410 = ~Nie obchodzi mnie wasz skarb. Jednak¿e, obchodzi mnie twoja b³yszcz¹ca zbroja i broñ. Z przyjemnoœci¹ siê nimi zaopiekujê, gdy ju¿ wyzioniesz ducha.~
+@411 = ~Do broni bracia! Poka¿my tym m³okosom jak wojuj¹ Pogromcy Balorów!~
+@412 = ~Daj mi pomyœleæ...~
+@413 = ~Hmm. Dostaniesz 1000 sztuk z³ota i ani monety wiêcej, jeœli zwrócisz nam z³oty he³m. Teraz idŸ! ZnajdŸ he³m zanim oni gdzieœ go zabior¹!~
+@414 = ~He³m Fundora Pogromcy Balorów
+
+Spotka³em Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹”, aby odzyskaæ ich rodzinny relikt, skradziony przez tutejszych bandytów. Zaoferowa³ mi niez³¹ sumkê, jeœli odzyskam ten ich skarb, z³oty he³m.~ ~He³m Fundora Pogromcy Balorów
+
+Spotka³am Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹”, aby odzyskaæ ich rodzinny relikt, skradziony przez tutejszych bandytów. Zaoferowa³ mi niez³¹ sumkê, jeœli odzyskam ten ich skarb, z³oty he³m.~
+@415 = ~Bardzo dobrze. Zaczekamy tutaj.~
+@416 = ~Rzeczywiœcie, to nasz he³m! Ale zaoferowa³em tobie tylko 800 sztuk z³ota, a ty masz czelnoœæ podwy¿szaæ cenê?! Niemniej jednak, bluŸnierstwem by³oby splamiæ twoj¹ krwi¹ nasz relikt. 1000 sztuk z³ota, trzymaj.~
+@417 = ~He³m Fundora Pogromcy Balorów
+
+Spotka³em Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹”, aby odzyskaæ ich rodzinny relikt, skradziony przez tutejszych bandytów. Znalaz³em poszukiwany przez nich artefakt, z³oty he³m, i odda³em go krasnoludowi w zamian za 1000 sztuk z³ota.~ ~He³m Fundora Pogromcy Balorów
+
+Spotka³am Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹”, aby odzyskaæ ich rodzinny relikt, skradziony przez tutejszych bandytów. Znalaz³am poszukiwany przez nich artefakt, z³oty he³m, i odda³em go krasnoludowi w zamian za 1000 sztuk z³ota.~
+@418 = ~Nasz relikt! Bez szkód! Jestem ci wdziêczny, ³owco przygód. 800 sztuk z³ota, proszê. Przyjmij tak¿e ten m³ot. ChodŸcie, krasnoludzcy bracia, wracamy do domu.~
+@419 = ~He³m Fundora Pogromcy Balorów
+
+Spotka³em Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹”, aby odzyskaæ ich rodzinny relikt, skradziony przez tutejszych bandytów. Znalaz³em poszukiwany przez nich artefakt, z³oty he³m, i odda³em go krasnoludowi. By³ on bardzo wdziêczny i w nagrodê wrêczy³ mi 800 sztuk z³ota i magiczny m³ot bojowy.~ ~He³m Fundora Pogromcy Balorów
+
+Spotka³am Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹”, aby odzyskaæ ich rodzinny relikt, skradziony przez tutejszych bandytów. Znalaz³am poszukiwany przez nich artefakt, z³oty he³m, i odda³am go krasnoludowi. By³ on bardzo wdziêczny i w nagrodê wrêczy³ mi 800 sztuk z³ota i magiczny m³ot bojowy.~
+@420 = ~Nie masz naszego he³mu! Wróæ kiedy go odnajdziesz!~
+@421 = ~Masz nasz relikt! W doskona³ym stanie! Przysiêgam – da³bym nauczkê tym bandytom, jeœli uszkodzili by nasz he³m. Poszukiwaczu przygód, oto twoje z³oto. 800 sztuk, tak jak siê umawialiœmy. Przyjmij tak¿e ten m³ot. ChodŸcie, krasnoludzcy bracia, wracamy do domu.~
+@422 = ~He³m Fundora Pogromcy Balorów
+
+Relikt rodziny Pogromców Balorów zosta³ zwrócony swoim prawowitym w³aœcicielom. Fundor dotrzyma³ s³owa i zap³aci³ mi 800 sztuk z³ota. Wrêczy³ mi tak¿e magiczny m³ot bojowy.~
+@423 = ~Masz nasz relikt! W doskona³ym stanie! Przysiêgam – da³bym nauczkê tym bandytom, jeœli uszkodzili by nasz he³m. Poszukiwaczu przygód, oto twoje z³oto. 1000 sztuk, tak jak siê umawialiœmy. ChodŸcie, krasnoludzcy bracia, wracamy do domu.~
+@424 = ~He³m Fundora Pogromcy Balorów
+
+Relikt rodziny Pogromców Balorów zosta³ zwrócony swoim prawowitym w³aœcicielom. Fundor dotrzyma³ s³owa i zap³aci³ mi 1000 sztuk z³ota.~
+@425 = ~Nasz relikt! Bez szkód! Jestem ci wdziêczny, ³owco przygód. Oto 800 sztuk z³ota, proszê. ChodŸcie, krasnoludzcy bracia, wracamy do domu.~
+@426 = ~He³m Fundora Pogromcy Balorów
+
+Spotka³em Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹” w poszukiwaniu rodzinnego reliktu, który zosta³ ukradziony przez tutejszych bandytów. Znalaz³em relikt, z³oty he³m, i odda³em go krasnoludowi. By³ bardzo wdziêczny i wrêczy³ mi w nagrodê 800 sztuk z³ota. By³ g³upcem, bo nie zauwa¿y³, jak zwin¹³em mu z torby ten magiczny m³ot bojowy.~ ~He³m Fundora Pogromcy Balorów
+
+Spotka³am Fundora Pogromcê Balorów i jego syna, którzy przybyli do gospody „Pod Pomocn¹ D³oni¹” w poszukiwaniu rodzinnego reliktu, który zosta³ ukradziony przez tutejszych bandytów. Znalaz³am relikt, z³oty he³m, i odda³am go krasnoludowi. By³ bardzo wdziêczny i wrêczy³ mi w nagrodê 800 sztuk z³ota. By³ g³upcem, bo nie zauwa¿y³, jak zwinê³am mu z torby ten magiczny m³ot bojowy.~
+@427 = ~Masz nasz relikt! W doskona³ym stanie! Przysiêgam – da³bym nauczkê tym bandytom, jeœli uszkodzili by nasz he³m. Poszukiwaczu przygód, oto twoje z³oto. 800 sztuk, tak jak siê umawialiœmy. ChodŸcie, krasnoludzcy bracia, wracamy do domu.~
+@428 = ~He³m Fundora Pogromcy Balorów
+
+Relikt rodziny Pogromców Balorów zosta³ zwrócony swoim prawowitym w³aœcicielom. Fundor dotrzyma³ s³owa i zap³aci³ mi 800 sztuk z³ota. Krasnal okaza³ siê byæ g³upcem – nie zauwa¿y³, jak zwin¹³em mu z torby ten magiczny m³ot bojowy.~ ~He³m Fundora Pogromcy Balorów
+
+Relikt rodziny Pogromców Balorów zosta³ zwrócony swoim prawowitym w³aœcicielom. Fundor dotrzyma³ s³owa i zap³aci³ mi 800 sztuk z³ota. Krasnal okaza³ siê byæ g³upcem – nie zauwa¿y³, jak zwinê³am mu z torby ten magiczny m³ot bojowy.~
+@429 = ~Witaj, moje dziecko. Zatem przyby³eœ. Jusam mówi³ mi o tym, ¿e zosta³eœ tutaj wys³any. Mam nadziejê, ¿e mia³eœ przyjemn¹ podró¿.~ ~Witaj, moje dziecko. Zatem przyby³aœ. Jusam mówi³ mi o tym, ¿e zosta³aœ tutaj wys³ana. Mam nadziejê, ¿e mia³aœ przyjemn¹ podró¿.~
+@430 = ~Nie ufam tobie, starcze. Kim jesteœ?~
+@431 = ~Jestem Tergius, mêdrzec i naukowiec. Oprowadzam lorda Jusama poprzez œcie¿ki m¹droœci.~
+@432 = ~Dlaczego powinienem ci zaufaæ? Znalaz³em ciê tutaj samego, w miejscu pe³nym bandziorów, a ty jesteœ ca³kowicie spokojny i zachwycony, jakbyœ przyby³ tu pooddychaæ œwie¿ym powietrzem. Mam powa¿ny powód, aby twierdziæ, ¿e jesteœ b³aznem, albo nawet konspiratorem Klanu.~ ~Dlaczego powinnam ci zaufaæ? Znalaz³am ciê tutaj samego, w miejscu pe³nym bandziorów, a ty jesteœ ca³kowicie spokojny i zachwycony, jakbyœ przyby³ tu pooddychaæ œwie¿ym powietrzem. Mam powa¿ny powód, aby twierdziæ, ¿e jesteœ b³aznem, albo nawet konspiratorem Klanu.~
+@433 = ~Wci¹¿ ci nie ufam. Przygotuj siê na œmieræ.~
+@434 = ~Musisz to przemyœleæ. Niem¹dre decyzje mog¹ prowadziæ do niebezpieczeñstwa, a nawet œmierci, dziecko.~
+@435 = ~Przestañ nazywaæ mnie dzieckiem, starcze! Masz coœ, co udowodni twoj¹ to¿samoœæ? Myœlê... Czekaj! Opowiedz mi o pogodzie i o niebie. Opowiedz!~
+@436 = ~W porz¹dku, na razie zrezygnujê z przemocy. Jednak musisz jakoœ udowodniæ to, kim jesteœ.~
+@437 = ~Jestem rad widz¹c, ¿e „masz” m¹droœæ, jednak¿e, wci¹¿ musisz siê wiele nauczyæ. Nadci¹gnê³a burza, lecz wkrótce przyjdzie œwiat³o.~
+@438 = ~Prawid³owe has³o. Wygl¹da na to, ¿e w istocie jesteœ osob¹, za któr¹ siê podajesz. Wiêc co robisz w tym miejscu? Jak znalaz³eœ siê tutaj tak szybko?~
+@439 = ~Znasz has³o. Jednak wci¹¿ nie do koñca ci ufam. Mam nadziejê, ¿e wkrótce siê to zmieni. Opowiedz mi jak siê tu znalaz³eœ.~
+@440 = ~Jak wiesz, lord Jusam musia³ natychmiast wyruszyæ, kiedy siê dowiedzia³, ¿e gospoda jest nêkana przez bandytów. Przyszed³em tutaj, aby ciê wesprzeæ. Istotnie, moja podró¿ by³a krótka, poniewa¿ u¿y³em magii, aby siê tutaj dostaæ. Choæ nie jestem w stanie przenosiæ armii, uda³o mi siê zabraæ ze sob¹ Talibehiusa i Hertuka. Jeœli masz jakieœ pytania na temat Klanu, po prostu mnie zapytaj. Jednak¿e, to od ciebie zale¿y czy mi zaufasz czy nie.~
+@441 = ~Opowiedz mi o Szarym Klanie.~
+@442 = ~Myœlisz, ¿e ludzie, którzy kontroluj¹ ¯elazny Tron maj¹ jakiœ zwi¹zek z bandytami Klanu?~
+@443 = ~Sk¹d bandyci bior¹ zapasy i broñ?~
+@444 = ~Kto jest przywódc¹ Szarego Klanu?~
+@445 = ~Kim by³ ten Gartuffe?~
+@446 = ~Kto jest „Najwiêkszym z W³adców Mroku”?~
+@447 = ~Jakieœ pytania?~
+@448 = ~Jestem ranny. Czy móg³byœ mnie uleczyæ?~ ~Jestem ranna. Czy móg³byœ mnie uleczyæ?~
+@449 = ~Zgodnie z aktualn¹ teori¹, kiedy obóz bandytów zosta³ zniszczony i niezorganizowani zbóje zostali pojmani, b¹dŸ zabici przez P³omienn¹ Piêœæ, spora czêœæ z nich zdo³a³a uciec i zorganizowaæ siê na nowo. Prawdziwe po³o¿enie ich bazy pozostaje wci¹¿ nieznane. Posiadaj¹ oni mnóstwo z³ota i wysokiej jakoœci przedmiotów. Wszelkiej maœci lasy i knieje s¹ dobrym miejscem do ukrycia. Wiedz¹ jak oswoiæ wilki, aby potem wykorzystaæ je jako bojowe zwierzêta. Rozprzestrzenili siê teraz po ca³ych Wrotach Baldura i innych miastach, niczym szarañcza, zagra¿aj¹c bezpieczeñstwu mieszkañców, szpieguj¹c P³omienn¹ Piêœæ, albo przekupuj¹c j¹, w razie potrzeby. W istocie, stali siê bardzo powa¿nymi wrogami.~
+@450 = ~Jestem pewien, ¿e obie te grupy nie maj¹ ze sob¹ nic wspólnego. Klan d¹¿y do podbicia wszystkich i wszystkiego, wiêc raczej nie ma zamiaru z kimkolwiek wspó³pracowaæ. W³aœciwie, przejêcie ¯elaznego Tronu mo¿e byæ jednym z najwa¿niejszych planów Szarego Klanu.~
+@451 = ~Przypuszczam, i¿ otrzymuj¹ oni broñ i zapasy od Zhentarimów. Œmiem twierdziæ, ¿e gdyby nie oni, Klan nie rozrós³by siê do takich rozmiarów. Jednak nie mamy ¿adnych dowodów na potwierdzenie tego...~
+@452 = ~Badanie si³ Szarego Klanu
+
+Wed³ug maga Tergiusa, Szary Klan otrzymuje wszelk¹ broñ i zapasy od Zhentarimów.~
+@453 = ~To wstyd, ale nie znam odpowiedzi na twoje pytanie. *wzdycha*~
+@454 = ~Gartuffe, który ciê zaatakowa³, to starszy brat Tazoka, pó³ogrzego wodza. Gartuffe obra³ inn¹ drogê ni¿ Tazok do osi¹gniêcia swych celów. Wysok¹ pozycjê wœród Klanu zdoby³ dziêki chytroœci, sile i okrucieñstwie. Cieszê siê z nowiny o jego œmierci.~
+@455 = ~Nie mo¿emy w tej chwili rozmawiaæ, w pobli¿u s¹ wrogowie.~
+@456 = ~Nie mamy zbyt wiele czasu! Mogê ciê st¹d przenieœæ, jednak moja moc nie jest wystarczaj¹ca, aby z³amaæ magiczn¹ os³onê, wiêc nie mogê przeteleportowaæ ciê do gospody. Musisz znaleŸæ Kryszta³ i wróciæ tutaj. Kiedy ju¿ go zdobêdziesz, kryszta³owy s³uga zacznie s³uchaæ twoich rozkazów i bêdziesz móg³ za¿¹daæ, aby przeniós³ ciê do œrodka gospody. Nie pójdê z tob¹, muszê wróciæ do mojej pierwotnej pozycji i zniszczyæ wszystkie nadchodz¹ce posi³ki Klanu.~
+@457 = ~By³eœ jednym z najlepszych, ale tobie wci¹¿ by³o ma³o! Przygotuj siê na œmieræ, zdrajco!~
+@458 = ~Widzê, ¿e jesteœ chroniony przed magi¹, tote¿ moje zaklêcia na ciebie nie dzia³aj¹. Wróæ, kiedy te ochrony przestan¹ dzia³aæ.~
+@459 = ~Ty i Hertuk mieliœcie szczêœcie. Jeœli nie zauwa¿y³bym tego, ¿e jesteœcie w pu³apce, moglibyœcie ju¿ nie ¿yæ.~
+@460 = ~Czemu o to pytasz? Gdzie to s³ysza³eœ? Mów, dziecko!~ ~Czemu o to pytasz? Gdzie to s³ysza³aœ? Mów, dziecko!~
+@461 = ~Widzia³em trzech rycerzy z Zakonu P³omiennego Serca. Napotkali oni dwóch bandytów, którzy postanowili zwabiæ ich do bramy. Prawdopodobnie mieli nadziejê, ¿e golem klucznik pokona paladynów za nich. Jednak, kiedy postawili kilka kroków, pojawi³a siê ubrana na czarno postaæ, z wygl¹du przypominaj¹ca nekromantê. Twarz bandziorów zdradza³a paniczny strach, jeden z nich zwróci³ siê do maga per „Najwiêkszy z W³adców Mroku”. Rycerze wydawali siê byæ zdumieni, a ich przywódca wyg³osi³ wyrok œmierci zaadresowany do maga, po czym wszyscy na niego natarli. Wtem zdarzy³a siê straszna rzecz: nekromanta zamieni³ ich w szkielety, za pomoc¹ tylko trzech albo czterech s³ów!~ ~Widzia³am trzech rycerzy z Zakonu P³omiennego Serca. Napotkali oni dwóch bandytów, którzy postanowili zwabiæ ich do bramy. Prawdopodobnie mieli nadziejê, ¿e golem klucznik pokona paladynów za nich. Jednak, kiedy postawili kilka kroków, pojawi³a siê ubrana na czarno postaæ, z wygl¹du przypominaj¹ca nekromantê. Twarz bandziorów zdradza³a paniczny strach, jeden z nich zwróci³ siê do maga per „Najwiêkszy z W³adców Mroku”. Rycerze wydawali siê byæ zdumieni, a ich przywódca wyg³osi³ wyrok œmierci zaadresowany do maga, po czym wszyscy na niego natarli. Wtem zdarzy³a siê straszna rzecz: nekromanta zamieni³ ich w szkielety, za pomoc¹ tylko trzech albo czterech s³ów!~
+@462 = ~Widzia³em kilku amnijskich paladynów, œcigaj¹cych bandytów. Wtedy pojawi³a siê jakaœ mroczna postaæ, ubrana w ciemne szaty. Bandyci strasznie siê jej przestraszyli, a jeden z nich nazwa³ j¹ „Najwiêkszym z W³adców Mroku”. Ostatecznie, mag przemieni³ nieszczêsnych rycerzy w nieumar³ych, po czym znikn¹³ bez œladu.~ ~Widzia³am kilku amnijskich paladynów, œcigaj¹cych bandytów. Wtedy pojawi³a siê jakaœ mroczna postaæ, ubrana w ciemne szaty. Bandyci strasznie siê jej przestraszyli, a jeden z nich nazwa³ j¹ „Najwiêkszym z W³adców Mroku”. Ostatecznie, mag przemieni³ nieszczêsnych rycerzy w nieumar³ych, po czym znikn¹³ bez œladu.~
+@463 = ~Jeœli ma to jakiœ zwi¹zek z Klanem, jesteœmy w wielkim niebezpieczeñstwie. Nie ma ¿artów. Obecnoœæ rycerzy z Zakonu Promiennego Serca wskazuje na to, ¿e coœ bardzo z³ego czai siê w pobli¿u... coœ wiêcej ni¿ nikczemni bandyci. Samo istnienie tego maga jest jeszcze bardziej okropne. Znam tylko jedn¹ osobê, która jest w stanie uwolniæ mroczn¹ magiê przy u¿yciu tylko kilku s³ów: Xephistagoras.~
+@464 = ~Kim jest Xephistagoras? Jakie mo¿e on mieæ stosunki z Klanem?~
+@465 = ~Zastanawiam siê gdzie on jest. Magia œmierci czy nie, myœlê, ¿e istnieje jakiœ sposób na zg³adzenie tego nekromanty. Muszê tylko wiedzieæ wiêcej o jego mocy i s³abych punktach. Poza tym, masz jakieœ przypuszczenia, co do jego roli, jak¹ mo¿e odgrywaæ w Klanie?~
+@466 = ~Jeœli ma to jakiœ zwi¹zek z Klanem, jesteœmy w wielkim niebezpieczeñstwie. Nie ma ¿artów. Obecnoœæ rycerzy z Zakonu Promiennego Serca wskazuje na to, ¿e coœ bardzo z³ego czai siê w pobli¿u... coœ wiêcej ni¿ nikczemni bandyci. Samo istnienie tego maga jest jeszcze bardziej okropne. Znam tylko jedn¹ osobê, która jest w stanie uwolniæ mroczn¹ magiê przy u¿yciu tylko kilku s³ów: Xephistagoras.~
+@467 = ~S³ysza³em bardzo mroczne opowieœci na temat przesz³oœci tego maga. Dawno temu, te historie zosta³y spisane, ale by³y tak okropne, ¿e kartki ksi¹¿ki nie znios³y ciê¿aru tekstu i rozpad³y siê w py³. Nie, to nie jest ani dobry czas, ani dobre miejsce na to, aby rozmawiaæ o Najwiêkszym z W³adców Mroku, dziecko. Nie mogê tak¿e odpowiedzieæ na twoje drugie pytanie. To wstyd, ¿e czarodziej taki jak ja nie mo¿e wykryæ prawdziwych zwi¹zków z Klanem. Myœla³em te¿, ¿e jestem doœæ dobry w dziedzinie magii Poznania, ale potêga z³a wydaje siê byæ wiêksza ni¿ kiedykolwiek œmia³em przypuszczaæ.~
+@468 = ~Mroczne opowieœci
+
+Tergius nie zna szczegó³ów na temat mo¿liwych zwi¹zków pomiêdzy Xephistagorasem, a Szarym Klanem. Poza tym, ¿e nekromanta jest bardzo z³y, nie chcia³ powiedzieæ nic o przesz³oœci, b¹dŸ naturze Xephistagorasa.~
+@469 = ~Przypuszczenia na temat jego roli w Klanie? W³aœciwie to powinieneœ raczej zapytaæ jak¹ rolê odgrywa *Klan* w *jego* planach, dziecko. Nie, nie mam nawet ¿adnych przypuszczeñ. Dawno temu, te historie zosta³y spisane, ale by³y tak okropne, ¿e kartki ksi¹¿ki nie znios³y ciê¿aru tekstu i rozpad³y siê w py³. Nie, to nie jest ani dobry czas, ani dobre miejsce na to, aby rozmawiaæ o Najwiêkszym z W³adców Mroku, dziecko.~ ~Przypuszczenia na temat jego roli w Klanie? W³aœciwie to powinnaœ raczej zapytaæ jak¹ rolê odgrywa *Klan* w *jego* planach, dziecko. Nie, nie mam nawet ¿adnych przypuszczeñ. Dawno temu, te historie zosta³y spisane, ale by³y tak okropne, ¿e kartki ksi¹¿ki nie znios³y ciê¿aru tekstu i rozpad³y siê w py³. Nie, to nie jest ani dobry czas, ani dobre miejsce na to, aby rozmawiaæ o Najwiêkszym z W³adców Mroku, dziecko.~
+@470 = ~Jedyan i jego ludzie w³aœnie przybyli i bandyci zostan¹ wkrótce wypêdzeni. Jakaœ mniejsza czêœæ armii bandytów zaatakowa³a grupê Jusama, wiêc nie zdo³ali jeszcze tutaj przybyæ. Hertuk i Talibehius odeszli, aby do nich do³¹czyæ. W ci¹gu kilku minut zrobiê to samo.~
+@471 = ~Zdo³a³em wtargn¹æ do gospody i zg³adziæ przywódców nacieraj¹cych si³.~ ~Zdo³a³am wtargn¹æ do gospody i zg³adziæ przywódców nacieraj¹cych si³.~
+@472 = ~Przywódcy bandytów nie ¿yj¹, znalaz³em ten zwój w kieszeni jednego z nich. Zanim odejdziesz, czy móg³byœ na to rzuciæ okiem?~ ~Przywódcy bandytów nie ¿yj¹, znalaz³am ten zwój w kieszeni jednego z nich. Zanim odejdziesz, czy móg³byœ na to rzuciæ okiem?~
+@473 = ~Niech no zobaczê... wiersz... w³aœciwie to zaszyfrowana wiadomoœæ... Tak! SprawdŸ pierwsz¹ literê ka¿dego zdania! Jestem pewien, ¿e teraz sam zdo³asz j¹ zinterpretowaæ. Jeœli bêdziesz potrzebowaæ jakichœ magicznych przedmiotów zanim odejdziesz, porozmawiaj z Jeremiaszem. Powodzenia, dziecko. Coœ czujê, ¿e minie niewiele czasu, zanim znów siê spotkamy. Bardzo niewiele.~
+@474 = ~Dobrze wykonana robota, jednak¿e, to jeszcze nie koniec. Wyczuwam obecnoœæ potê¿nego przywódcy Klanu, prawdopodobnie mo¿e byæ teraz w Beregoœcie, b¹dŸ gdzieœ w jego okolicach. Wybacz dziecko, nie mo¿emy ju¿ d³u¿ej rozmawiaæ. Muszê natychmiast do³¹czyæ do Jusama, nim bêdzie za póŸno. Jeœli bêdziesz potrzebowaæ magicznych przedmiotów, porozmawiaj z Jeremiaszem... Powodzenia, moje dziecko. Coœ czujê, ¿e minie niewiele czasu, zanim znów siê spotkamy. Bardzo niewiele.~
+@475 = ~Witaj, moje dziecko! Jestem Tergius, przyjaciel i nauczyciel Jusama. Jesteœmy zadowoleni widz¹c ciê znowu. Martwiliœmy siê... Jeden z naszych szpiegów doniós³ nam o twoim znikniêciu po wejœciu w pole teleportacyjne Dervanto, zdradliwego maga Szarego Klanu. Gdzie by³eœ? Co siê sta³o, dziecko?~ ~Witaj, moje dziecko! Jestem Tergius, przyjaciel i nauczyciel Jusama. Jesteœmy zadowoleni widz¹c ciê znowu. Martwiliœmy siê, jeden z naszych szpiegów doniós³ nam o twoim znikniêciu po wejœciu w pole teleportacyjne Dervanto, zdradliwego maga Szarego Klanu. Gdzie by³aœ? Co siê sta³o, dziecko?~
+@476 = ~Powróci³eœ! Witaj, dziecko! Martwiliœmy siê, jeden z naszych szpiegów doniós³ nam o twoim znikniêciu po wejœciu w pole teleportacyjne Dervanto, zdradliwego maga Szarego Klanu. Opowiedz, co siê wydarzy³o, moje dziecko.~ ~Powróci³aœ! Witaj, dziecko! Martwiliœmy siê, jeden z naszych szpiegów doniós³ nam o twoim znikniêciu po wejœciu w pole teleportacyjne Dervanto, zdradliwego maga Szarego Klanu. Opowiedz, co siê wydarzy³o, moje dziecko.~
+@477 = ~W³aœnie tego siê obawia³em. Byliœmy w b³êdzie twierdz¹c, i¿ Klan zosta³ utworzony z pozosta³oœci po oddzia³ach bandytów Tazoka i Czarnych Szponów. Myliliœmy siê tak¿e pos¹dzaj¹c ich o jakikolwiek zwi¹zek z Zhentarimami: nie wygl¹da na to, aby takowe istnia³y. Korzenie Klanu siêgaj¹ daleko st¹d i s¹ o wiele potê¿niejsze ni¿ przypuszczaliœmy. Hmm, Legencase... Legencase... to nie brzmi znajomo! Postaram siê w jakiœ sposób zlokalizowaæ to miejsce, ale niestety ostatnio moja moc w dziedzinie magii Poznania os³ab³a, ominiêcie ich magicznych ochron bêdzie du¿ym wyzwaniem. Bez w¹tpienia znajduje siê tam jakaœ wielka akademia czarodziejów...~
+@478 = ~S¹dziliœmy, ¿e znajdujemy siê w blasku s³oñca œwiec¹cego ponad nami. Nie zdawaliœmy sobie sprawy, ¿e tak naprawdê by³o to jeno nik³e œwiate³ko œwiecy, a my otoczeni jesteœmy przez mrok. Mrok, który stale czyni nas œlepymi i próbuje poch³on¹æ.~
+@479 = ~Badanie si³ Szarego Klanu
+
+Z powodu wielkich strat, jakie spowodowa³em zabijaj¹c ich przywódców, miejscowa organizacja Szary Klan wkrótce upadnie. Jednak¿e, Klan jest o wiele wiêkszy ni¿ kiedykolwiek s¹dzi³em. Jest kontrolowany z miejsca zwanego Legencase. Nawet sam Tergius nie mia³ pojêcia, gdzie to miejsce mo¿e byæ. Jesteœmy pe³ni pytañ bez odpowiedzi i mam przeczucie, ¿e moja rola w historii Klanu jeszcze siê nie zakoñczy³a. Jednak pewnym jest, ¿e jakiœ rozdzia³ ju¿ siê dzisiaj zakoñczy³.~ ~Badanie si³ Szarego Klanu
+
+Z powodu wielkich strat, jakie spowodowa³am zabijaj¹c ich przywódców, miejscowa organizacja Szary Klan wkrótce upadnie. Jednak¿e, Klan jest o wiele wiêkszy ni¿ kiedykolwiek s¹dzi³am. Jest kontrolowany z miejsca zwanego Legencase. Nawet sam Tergius nie mia³ pojêcia, gdzie to miejsce mo¿e byæ. Jesteœmy pe³ni pytañ bez odpowiedzi i mam przeczucie, ¿e moja rola w historii Klanu jeszcze siê nie zakoñczy³a. Jednak pewnym jest, ¿e jakiœ rozdzia³ ju¿ siê dzisiaj zakoñczy³.~
+@480 = ~Witaj przyjacielu. Lubisz piwo? Ja kocham piwo.~
+@481 = ~Tak, lubiê piwo.~
+@482 = ~Nie cierpiê piwa.~
+@483 = ~Myœla³em, ¿e jesteœ Talibehiusem, ale wygl¹da na to, ¿e siê myli³em.~ ~Myœla³am, ¿e jesteœ Talibehiusem, ale wygl¹da na to, ¿e siê myli³am.~
+@484 = ~Mi³o mi to s³yszeæ, mój przyjacielu! Powinniœmy kiedyœ zorganizowaæ jakiœ wielki konkurs picia! Hehehe...~
+@485 = ~Dziwny jesteœ. Myœla³em, ¿e wojownicy P³omiennej Piêœci zachowuj¹ siê jak paladyni albo chocia¿ znaj¹ etykietê co najmniej na podstawowym poziomie. I wci¹¿ nie poda³eœ has³a, wiêc prosisz siê o k³opoty.~ ~Dziwny jesteœ. Myœla³am, ¿e wojownicy P³omiennej Piêœci zachowuj¹ siê jak paladyni albo chocia¿ znaj¹ etykietê co najmniej na podstawowym poziomie. I wci¹¿ nie poda³eœ has³a, wiêc prosisz siê o k³opoty.~
+@486 = ~Och! Jaka szkoda. Ale nie wa¿ne, wypijmy w takim razie coœ innego.~
+@487 = ~W istocie, jestem Talibehiusem, œwietnym i s³awnym wojownikiem œwietnej i s³awnej P³omiennej Piêœci, bla bla bla... Wyluzuj przyjacielu, nie ma powodu do obaw. Baw siê dobrze!~
+@488 = ~Hehe, formalnie jestem cz³onkiem P³omiennych, hehe, ale kierujê siê w³asnymi zasadami. Potrzebuj¹ mnie, bo brakuje im takich silnych i, umm... twardych goœci jak ja. Nadci¹gnê³a burza, lecz wkrótce przyjdzie œwiat³o.~
+@489 = ~Myœlê, ¿e jesteœ oszustem.~
+@490 = ~Mi³o siê gada³o. Do zobaczenia póŸniej, Talibehiusie.~
+@491 = ~*donoœne bekniêcie*~
+@492 = ~PóŸniej, przyjacielu.~
+@493 = ~Zazwyczaj nie puszczam takich s³ów p³azem, ale dzisiaj zrobiê wyj¹tek. Lepiej uwa¿aj na to co mówisz, jeœli ci ¿ycie mi³e.~
+@494 = ~Co s³ychaæ?~
+@495 = ~*kaszle* Oni... *kaszle* Oni s¹ w domu! *kaszle* *krztusi siê*~
+@496 = ~Zostaw mnie w spokoju! W³aœnie testujê jak moja aktualna forma chroni przed fizycznymi obra¿eniami.~
+@497 = ~Hmm, wygl¹da na to, ¿e mamy goœci. Wy tam, czy nie wiecie mo¿e, ¿e jest to wyj¹tkowo niegrzeczne w³amywaæ siê do domu uczciwych obywateli?! Gartuffe! Zg³adŸmy tych idiotów!~
+@498 = ~Pooomó¿ mi proszê... To boli...~
+@499 = ~Proszê, przyjmij tê miksturê uzdrawiaj¹c¹.~
+@500 = ~Trzymaj siê, znajdê dla ciebie miksturê leczenia.~
+@501 = ~Aaach...~
+@502 = ~Aaaach... Czuje siê teraz du¿o lepiej. B³ogos³awieñstwo dla ciebie, podró¿niku!~
+@503 = ~Masz jakieœ istotne informacje o Klanie?~
+@504 = ~Nie potrzebujê ¿adnych b³ogos³awieñstw... Czego siê dowiedzia³aœ z ich rozmowy?~
+@505 = ~Ro-rozmawiali o najeŸdzie na jak¹œ gospodê. *kaszle* Czarnoskóry pó³ogr wspomina³ te¿, ¿e lubi po¿eraæ ¿yj¹ce gnomy na obiad... *wzdryga siê* Opieraj¹c siê na tym, co s³ysza³am jest bardzo mo¿liwe, ¿e nie pracuj¹ dla ¯elaznego Tronu. Nie mogê przypomnieæ sobie nic wiêcej, co mog³oby ci siê przydaæ.~
+@506 = ~Dziêkujê za tw¹ pomoc. Jestem pewny, ¿e to pomo¿e nam znaleŸæ i zniszczyæ ich organizacjê.~ ~Dziêkujê za tw¹ pomoc. Jestem pewna, ¿e to pomo¿e nam znaleŸæ i zniszczyæ ich organizacjê.~
+@507 = ~Bezu¿yteczne informacje! Nie wspominali ¿adnych imion lub miejsc? Spróbuj wysiliæ ³epetynê!~
+@508 = ~Przykro mi, ¿e nie by³am bardziej pomocna.~
+@509 = ~Proszê...~
+@510 = ~B³ogos³awieñstwo dla ciebie, podró¿niku!~
+@511 = ~Nadci¹gnê³a burza, lecz wkrótce przyjdzie œwiat³o.~
+@512 = ~Wiadomoœæ od Talibehiusa: „Klan pojma³ jednego z naszych szpiegów. Musimy j¹ szybko uwolniæ, w przeciwnym razie Helm jeden wie, co oni mog¹ jej zrobiæ. Wed³ug naszych szpiegów, bandyci w³amali siê do jednego z domów w pó³nocno-zachodniej dzielnicy. Tej, w której znajduje siê Posiad³oœæ Srebrnej Tarczy.”~
+@513 = ~Powodzenia, lordzie Jusamie!~
+@514 = ~Przepraszam <PRO_LADYLORD>, ale nie mam czasu na pogawêdkê.~
+@515 = ~Rozmawia³em z genera³em Jedyanem i...~ ~Rozmawia³am z genera³em Jedyanem i...~
+@516 = ~Przepraszam za fatygê.~
+@517 = ~Nie ma problemu.~
+@518 = ~Niebo jest czyste tej nocy, jak ci siê wydaje?~
+@519 = ~Niebo jest niebieskie. Pogoda szybko siê zmienia.~
+@520 = ~Œwiat³o siê ukaza³o, jednak burza nadejdzie.~
+@521 = ~S³oñce œwieci.~
+@522 = ~Nadci¹gnê³a burza, lecz wkrótce przyjdzie œwiat³o.~
+@523 = ~Nie mam pojêcia o czym ty mówisz.~
+@524 = ~Nowy rekrut! Witaj w naszej sekretnej wspólnocie. Genera³ Jedyan jest naszym liderem oraz najbardziej oddanym ¿o³nierzem ksiêcia Eltana. Czas jest na wagê z³ota wiêc pozwól, ¿e dam ci ma³¹ odprawê.~
+@525 = ~Jestem szczêœliwy, ¿e do³¹czy³em do was.~ ~Jestem szczêœliwa, ¿e do³¹czy³am do was.~
+@526 = ~Przykro mi, ale nie jestem zainteresowany.~ ~Przykro mi, ale nie jestem zainteresowana.~
+@527 = ~Poniewa¿ wiesz zbyt wiele o naszej sekretnej spo³ecznoœci obawiam siê, ¿e bêdziemy musieli ciê zabiæ, jeœli wyjawisz komuœ jak¹kolwiek informacjê na temat naszej organizacji. Pozwolê ci odejœæ, jednak pamiêtaj by trzymaæ je¿yk za zêbami.~
+@528 = ~Zmieni³em zdanie. Z przyjemnoœci¹ do³¹czê do waszego oddzia³u. Proszê, kontynuuj odprawê.~ ~Zmieni³am zdanie. Z przyjemnoœci¹ do³¹czê do waszego oddzia³u. Proszê, kontynuuj odprawê.~
+@529 = ~Przepraszam panie superagencie, ale nie mam czasu na to paplanie.~
+@530 = ~Chcesz walczyæ?! Chcesz walczyæ, hê?!~
+@531 = ~Nie wyjawiê niczego. Do widzenia.~
+@532 = ~Wszystko przemawia za tym, ¿e problem jest bardziej z³o¿ony ni¿ pocz¹tkowo szacowaliœmy. Po tym, jak P³omienna Piêœæ zniszczy³a ostatnie pozycje bandytów wydawa³o nam siê, ¿e zagro¿enie minê³o. Niestety, czêœæ z nich uciek³a i utworzy³a Klan. Nazywaj¹ siebie „Szarym Klanem”. S¹ niebezpieczni i posiadaj¹ spore zasoby do dyspozycji. Nie wiemy kto ich zaopatruje w wysokiej jakoœci bronie, z³oto i przedmioty. Nie wiemy te¿, czy jest jakieœ powi¹zanie miêdzy Klanem a grup¹, która prawdopodobnie przewodzi machinacjom ¯elaznego Tronu.~
+@533 = ~Jestem gotowy na wszystko. Jak mogê pomóc?~ ~Jestem gotowa na wszystko. Jak mogê pomóc?~
+@534 = ~Udowodniliœcie ju¿ swoje umiejêtnoœci w walce przeciwko bandytom, wiêc...~
+@535 = ~Co do... Do broni!~
+@536 = ~S¹ ju¿ wszêdzie. Muszê skontaktowaæ siê z...~
+@537 = ~Stój! Powiedz mi coœ na temat pogody i nieba!~
+@538 = ~Jakieœ wieœci?~
+@539 = ~Wiêc niezw³ocznie musimy iœæ. Rozdzielmy siê i niech ka¿dy przeszuka inne domy w dzielnicy. W ten sposób szybciej ich zlokalizujemy. Ruszajmy!~
+@540 = ~Badanie si³ Szarego Klanu
+
+Po tym jak zostaliœmy zaatakowani przez grupê bandytów, przyby³ zwiadowca P³omiennej Piêœci i powiedzia³ nam, ¿e jeden z ich szpiegów zosta³ pojmany przez Klan. Musimy zacz¹æ nasze poszukiwania w domach dzielnicy, w której zamieszkuje Entar Srebrna Tarcza.~
+@541 = ~Dzielnie walczyliœcie i uratowaliœcie naszego szpiega... Wygl¹da na to, ¿e zosta³a powa¿nie zraniona i potrzebuje waszej pomocy.~
+@542 = ~Przyby³eœ w odpowiedniej porze, Jusamie. Spróbujê uleczyæ jej rany, wygl¹da w rzeczy samej na powa¿nie rann¹.~
+@543 = ~Niemal wys³a³eœ mnie na pewn¹ œmieræ! Tak samo jak tego biednego szpiega... Zobaczê, czy potrafiê uleczyæ jej obra¿enia.~
+@544 = ~Czy dowiedzia³eœ siê czegoœ wa¿nego? Co z naszym rannym szpiegiem, zdolna jest do tego by mówiæ?~ ~Czy dowiedzia³aœ siê czegoœ wa¿nego? Co z naszym rannym szpiegiem, zdolna jest do tego by mówiæ?~
+@545 = ~Musi odpoczywaæ. Wspomnia³a, ¿e Klan raczej nie pracuje dla ¯elaznego Tronu. Bandyci planowali najechaæ na jak¹œ gospodê, w której przebywaj¹ gnomy.~
+@546 = ~Wyjdzie z tego. Wspomnia³a, ¿e Klan raczej nie pracuje dla ¯elaznego Tronu. Bandyci planowali najechaæ na jak¹œ gospodê, w której przebywaj¹ gnomy. Podejrzewam, ¿e mo¿e im chodziæ o gospodê „Pod Pomocn¹ D³oni¹”!~
+@547 = ~Przykro mi z tego powodu.~
+@548 = ~Badanie si³ Szarego Klanu
+
+Zaatakowa³em jednego z cz³onków tajnej jednostki P³omiennej Piêœci Jedyana. Misja zbadania Szarego Klanu nie powiod³a siê.~ ~Badanie si³ Szarego Klanu
+
+Zaatakowa³am jednego z cz³onków tajnej jednostki P³omiennej Piêœci Jedyana. Misja zbadania Szarego Klanu nie powiod³a siê.~
+@549 = ~Przygotuj siê na œmieræ, wyrzutku!~
+@550 = ~¯egnaj.~
+@551 = ~Badanie si³ Szarego Klanu
+
+Nie by³em zainteresowany przy³¹czeniem siê do tajnej jednostki P³omiennej Piêœci i odrzuci³em ich ofertê. Teraz nie ma ju¿ ¿adnej szansy na skontaktowanie siê z nimi.~ ~Badanie si³ Szarego Klanu
+
+Nie by³am zainteresowana przy³¹czeniem siê do tajnej jednostki P³omiennej Piêœci i odrzuci³am ich ofertê. Teraz nie ma ju¿ ¿adnej szansy na skontaktowanie siê z nimi.~
+@552 = ~Mikstura leczenia lub zaklêcie kap³ana by³yby nieocenione. Jesteœ w stanie pomóc?~
+@553 = ~Nasz szpieg ci¹gle ¿y³ kiedy przybyliœmy, lecz zosta³a zabita podczas bitwy. Zawiedliœmy. ¯egnam.~
+@554 = ~Badanie si³ Szarego Klanu
+
+Niestety, jedyna osoba zdolna powiedzieæ nam coœ na temat Szarego Klanu zmar³a. Zadanie by wyœledziæ Szary Klan nie powiod³o siê.~
+@555 = ~Do broni!~
+@556 = ~To musi byæ gospoda „Pod Pomocn¹ D³oni¹”! Mimo tego, ¿e wygl¹dem przypomina znacz¹cy fort, maj¹ tam zaledwie paru stra¿ników i nic, by obroniæ j¹ przed wiêkszym najazdem. Stra¿nicy s¹ tak s³abo wytrenowani, ¿e prawdopodobnie pouciekaliby widz¹c gromadê gibberlingów. Nie mogê sobie nawet wyobraziæ rzezi, jak¹ mogliby zgotowaæ tam bandyci. Nawet Bentley i Gellana nie byliby w stanie stawiæ oporu tylu zbirom. Musisz natychmiast tam siê udaæ! Poinformujê Teregiusa oraz Hertuka i przygotujê natarcie P³omiennej Piêœci.~
+@557 = ~Badanie si³ Szarego Klanu
+
+Prawie pewne jest, ¿e organizacja tych „szarych” bandytów nie wspó³pracuje z ¯elaznym Tronem. Prawdopodobnie w tej chwili podchodz¹ do gospody „Pod Pomocn¹ D³oni¹”, wiêc ludzie z tamtejszej okolicy s¹ w powa¿nym niebezpieczeñstwie.~
+@558 = ~Mam nadziejê, ¿e bandyci maj¹ du¿o z³ota... inaczej nie bêdê szczêœliwy ryzykuj¹c ¿ycie dla ratowania kilku durnych gnomów!~ ~Mam nadziejê, ¿e bandyci maj¹ du¿o z³ota... inaczej nie bêdê szczêœliwa ryzykuj¹c ¿ycie dla ratowania kilku durnych gnomów!~
+@559 = ~Wyruszê tam tak szybko jak mogê, oraz zrobiê co w mojej mocy, by ocaliæ niewinnych.~
+@560 = ~Naprzód!~
+@561 = ~Sprzeciwiliœcie siê elitarnej grupie P³omiennej Piêœci i nara¿acie powodzenie naszej misji. Przykro mi, ¿e nasza wspó³praca musi zakoñczyæ siê w tak bolesny sposób.~
+@562 = ~Niektórzy bandyci z tych, którzy atakowali s¹ powa¿nie ranni i mog¹ ukrywaæ siê gdzieœ w tej okolicy. ZnajdŸcie i zabijcie ich.~
+@563 = ~Dziêki bogom ¿e ¿yjesz, <CHARNAME>! Gdzieœ ty siê podziewa³? Co siê sta³o?~ ~Dziêki bogom ¿e ¿yjesz, <CHARNAME>! Gdzieœ ty siê podziewa³a? Co siê sta³o?~
+@564 = ~Zdaje siê, ¿e Szary Klan kontrolowany jest z miejsca zwanego Legencase. Liderem si³ Klanu w naszym regionie by³ Teven, zbir z Czarnego Szponu. Zabi³em go, tak jak dwie czarodziejki z Akademii Legencase. Przypuszczam, ¿e ich organizacja wkrótce upadnie, skoro przywódcy nie ¿yj¹, a wiêkszoœæ bandytów zosta³o zabitych lub z³apanych przez P³omienn¹ Piêœæ, w gospodzie „Pod Pomocn¹ D³oni¹”.~ ~Zdaje siê, ¿e Szary Klan kontrolowany jest z miejsca zwanego Legencase. Liderem si³ Klanu w naszym regionie by³ Teven, zbir z Czarnego Szponu. Zabi³am go, tak jak dwie czarodziejki z Akademii Legencase. Przypuszczam, ¿e ich organizacja wkrótce upadnie, skoro przywódcy nie ¿yj¹, a wiêkszoœæ bandytów zosta³o zabitych lub z³apanych przez P³omienn¹ Piêœæ, w gospodzie „Pod Pomocn¹ D³oni¹”.~
+@565 = ~Zdaje siê, ¿e Szary Klan kontrolowany jest z miejsca zwanego Legencase. Liderem si³ Klanu w naszym regionie by³ Teven, zbir z Czarnego Szponu. Nie mia³em szansy by go zabiæ, poniewa¿ po ubiciu dwóch magów z Akademiii Legencase, uciekliœmy korzystaj¹c ze znalezionego kamienia stra¿niczego. Choæ Teven wci¹¿ ¿yje, przypuszczam, ¿e ich organizacja wkrótce upadnie, skoro inni lokalni przywódcy s¹ martwi, a wiêkszoœæ bandytów zosta³o zabitych lub z³apanych przez P³omienn¹ Piêœæ, w gospodzie „Pod Pomocn¹ D³oni¹”.~ ~Zdaje siê, ¿e Szary Klan kontrolowany jest z miejsca zwanego Legencase. Liderem si³ Klanu w naszym regionie by³ Teven, zbir z Czarnego Szponu. Nie mia³am szansy by go zabiæ, poniewa¿ po ubiciu dwóch magów z Akademiii Legencase, uciekliœmy korzystaj¹c ze znalezionego kamienia stra¿niczego. Choæ Teven wci¹¿ ¿yje, przypuszczam, ¿e ich organizacja wkrótce upadnie, skoro inni lokalni przywódcy s¹ martwi, a wiêkszoœæ bandytów zosta³o zabitych lub z³apanych przez P³omienn¹ Piêœæ, w gospodzie „Pod Pomocn¹ D³oni¹”.~
+@566 = ~Jeœli lokalne si³y Klanu kontrolowane by³y z tak odleg³ego miejsca, Szary Klan musi byæ wiêkszy ni¿ ocenialiœmy. Jesteœmy w powa¿nym niebezpieczeñstwie. Stary dobry Jedyan prawdopodobnie wiedzia³by co uczyniæ. Zdradzieckie si³y mog³y odebraæ mu ¿ycie, ale jego szlachetny duch bêdzie prowadziæ nas po wsze czasy!~
+@567 = ~Co siê sta³o z genera³em?~
+@568 = ~Spotka³em go. Ale to nie by³ genera³ tylko jego o¿ywione cia³o. Przera¿aj¹ce stworzenie Grachusa.~ ~Spotka³am go. Ale to nie by³ genera³ tylko jego o¿ywione cia³o. Przera¿aj¹ce stworzenie Grachusa.~
+@569 = ~Jakieœ najête zbiry z Klanu w³ama³y siê noc¹ do jego domu. Jeœli wzi¹æ pod uwagê jak potê¿nym ¿o³nierzem by³ nasz genera³, mordercy nie byli ¿ó³todziobami. Atakowali te¿ w nocy. Podstêpnie! ¯aden ¿o³nierz nie móg³by obroniæ siê w takich okolicznoœciach. Ale dope³nimy jego plany! Niestety ksi¹¿ê Eltan nie mo¿e d³u¿ej utrzymywaæ naszej sekretnej organizacji w tajemnicy, wiêc za jego zgod¹ zdecydowa³em siê odejœæ z P³omiennej Piêœci. Nie mo¿emy wiêcej oczekiwaæ pomocy regularnych si³, ale z bezinteresown¹ pomoc¹ ochotników i weteranów, bêdziemy kontynuowaæ nasz¹ dzia³alnoœæ by broniæ niewinnych oraz chroniæ nasz dom.~
+@570 = ~Bez znaczenia jak silny jest Szary Klan, bêd¹ potrzebowali czasu na reorganizacjê swoich si³ po tak druzgoc¹cej klêsce. Na razie mo¿emy odpocz¹æ od tych bandytów.~
+@571 = ~Jego cia³o mo¿e byæ zbezczeszczone, ale ¿adna si³a nie tknie jego szlachetnej duszy... Pewnego dnia jego marzenia o pokoju spe³ni¹ siê. Poniewa¿ dokoñczymy jego plany... Niestety ksi¹¿ê Eltan nie mo¿e d³u¿ej utrzymywaæ naszej sekretnej organizacji w tajemnicy, wiêc za jego zgod¹ zdecydowa³em siê odejœæ z P³omiennej Piêœci. Nie mo¿emy wiêcej oczekiwaæ pomocy regularnych si³, ale z bezinteresown¹ pomoc¹ ochotników i weteranów, bêdziemy kontynuowaæ nasz¹ dzia³alnoœæ by broniæ niewinnych oraz chroniæ nasz dom.~
+@572 = ~Jesteœ tak samo niegodziwy jak Szary Klan. Zaatakowa³eœ elitarn¹ grupê P³omiennej Piêœci, i narazi³eœ powodzenie naszej misji. Przykro mi, ¿e nasza wspó³praca musi zakoñczyæ siê w tak bolesny sposób.~ ~Jesteœ tak samo niegodziwa jak Szary Klan. Zaatakowa³aœ elitarn¹ grupê P³omiennej Piêœci, i narazi³aœ powodzenie naszej misji. Przykro mi, ¿e nasza wspó³praca musi zakoñczyæ siê w tak bolesny sposób.~
+@573 = ~Badanie si³ Szarego Klanu
+
+Dziêki moim wysi³kom, lokalna siatka organizacji Szarego Klanu wkrótce upadnie. Zaatakowa³em równie¿ sekretn¹ jednostkê P³omiennej Piêœci.~ ~Badanie si³ Szarego Klanu
+
+Dziêki moim wysi³kom, lokalna siatka organizacji Szarego Klanu wkrótce upadnie. Zaatakowa³am równie¿ sekretn¹ jednostkê P³omiennej Piêœci.~
+@574 = ~Obawiam siê, ¿e mamy zbyt ma³o czasu. Odkryliœmy prawdê zbyt póŸno.~
+@575 = ~Jestem na s³u¿bie, obywatelu.~
+@576 = ~Proszê, zostaw mnie w spokoju nieznajomy.~
+@590 = ~Czekajcie, poznajê was! Jesteœcie tymi, którzy rozprawili siê z bandyck¹ groz¹. Lecz jakkolwiek by wasze uczynki by³y nieocenione, pokój by³ jedynie tymczasowy. Powsta³a kolejna groza i jeœli nic nie zostanie poczynione, ulice sp³yn¹ krwi¹ niewinnych ludzi.~
+@591 = ~Nie mam na to czasu, przepraszam.~
+@592 = ~S³uchaj uwa¿nie! Nadchodzi groza, jest ni¹ Szary Klan. Wed³ug najnowszych raportów naszych szpiegów, przedstawiaj¹ sob¹ zagro¿enie o wiele wiêksze ni¿ przypuszczaliœmy.~
+@593 = ~Kim jesteœ? Czemu powinienem ci ufaæ?~ ~Kim jesteœ? Czemu powinnam ci ufaæ?~
+@594 = ~Zanim o nich porozmawiamy, powiedz proszê kim jesteœ?~
+@595 = ~Jestem Jedyan, cz³owiek staj¹cy po stronie dobra, walcz¹cy w obronie niewinnych. Oficjalnie jestem genera³em P³omiennej Piêœci, a zajmujê siê kontrwywiadem przeciwko Amn. Pracujê tylko dla jednej osoby – ksiêcia Eltana, na którym mo¿na ca³kowicie polegaæ.~
+@596 = ~Nowa groza, Szary Klan, zagra¿a ca³emu regionowi Wrót Baldura. Maj¹ dostêp do lepszego wyposa¿enia ni¿ Elita Czarnego Szponu kiedykolwiek posiada³a, a ich czarodzieje zdaj¹ siê w³adaæ potê¿n¹ magi¹.~
+@597 = ~Sk¹d siê oni wziêli? Gdzie zdobyli swoje zaopatrzenie?~
+@598 = ~Niestety nie mogê wam teraz poœwiêciæ wiêcej czasu. Muszê pilnie wyruszyæ w drogê, lecz wiedzcie, ¿e posiadam œwietnych wojowników do swojej dyspozycji, na których mo¿ecie polegaæ. Je¿eli spotkacie Jusama, Hertuka lub Talibehiusa, powinniœcie siê im przedstawiæ, aby wiedzieli ¿e jesteœcie po naszej stronie. Zostaniecie zapytani o niebo oraz pogodê. Odpowiedzcie na to zwrotem: „Nadci¹gnê³a burza, lecz wkrótce przyjdzie œwiat³o”. Mo¿liwe, ¿e Jusam jest gdzieœ w pobli¿u Komnaty Cudów... ¯yczê wam szczêœcia przyjaciele, bêdzie wam potrzebne.~
+@599 = ~Badanie si³ Szarego Klanu
+
+Jedyan, genera³ P³omiennej Piêœci powiedzia³, ¿e nadchodzi nowa groza, Szary Klan. S¹ dobrze uzbrojeni, a ich czarodzieje w³adaj¹ ogromn¹ magi¹. Niestety, genera³ musia³ szybko wyjechaæ, wiêc nie mogliœmy kontynuowaæ naszej rozmowy. Jednak¿e powiedzia³, ¿e posiada kilkoro godnych zaufania osób we Wrotach Baldura. Jusam, jeden z ¿o³nierzy powinien byæ gdzieœ w pobli¿u Komnaty Cudów. Jedyan doda³ tak¿e zdanie: „Nadci¹gnê³a burza, jednak œwiat³o nadejdzie”, którego musimy u¿yæ w celu naszej identyfikacji przed jego wojownikami.~

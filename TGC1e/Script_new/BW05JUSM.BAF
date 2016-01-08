@@ -1,0 +1,51 @@
+IF
+      GlobalLT("BW05_TGC1","GLOBAL",3)
+      !See([ENEMY.0.0])
+      Allegiance(Myself, NEUTRAL)
+      Global("BW05_JusamSeeEnemy","LOCALS",1)
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_JusamSeeEnemy","LOCALS",0) 		
+            MoveToPointNoInterrupt([760.2010])
+END
+
+IF
+      GlobalLT("BW05_TGC1","GLOBAL",3)
+      Global("BW05_JusamSeeEnemy","LOCALS",0) 	
+      See([ENEMY.0.0])
+THEN
+	RESPONSE #100
+            SetGlobal("BW05_JusamSeeEnemy","LOCALS",1) 		
+END
+
+IF
+      Global("BW05_SuddenAttack","GLOBAL",0) 	
+      See("BW05GART")
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_SuddenAttack","GLOBAL",1)
+            StartDialogueNoSet([PC.0.0])
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1) 	
+      See("BW05TERG") 
+      Global("BW05_TGC1","GLOBAL",-2)
+      Global("BW05_JusamLastTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_JusamLastTalk","GLOBAL",1)
+            StartDialogueNoSet([PC.0.0])
+END
+
+IF
+      Global("BW05_TGC1_FAIInvaded","GLOBAL",1) 	
+      See("BW05TERG") 
+      Global("BW05_TGC1","GLOBAL",-2)
+      HasItem("SCRL07",Myself)
+THEN
+	RESPONSE #100
+	      UseItem("SCRL07",Myself)
+END
+
+

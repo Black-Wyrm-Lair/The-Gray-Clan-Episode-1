@@ -1,0 +1,6 @@
+BEGIN ~BW05FFWR~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @575
+  IF ~~ THEN EXIT
+END

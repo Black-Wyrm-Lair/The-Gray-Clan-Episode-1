@@ -1,0 +1,238 @@
+IF
+      Global("BW05_FinalBattle","GLOBAL",1)
+      Global("BW05_TGC1","GLOBAL",16)
+      Global("BW05_TevenLast","GLOBAL",0)
+      HPLT(Myself,150)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_TevenLast","GLOBAL",1)
+            StartDialogueNoSet(Protagonist)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+      Global("BW05_FinalBattle","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FinalBattle","GLOBAL",1)
+END
+
+IF
+	AttackedBy([ANYONE],Default)
+      Global("BW05_FinalBattle","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BW05_FinalBattle","GLOBAL",1)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player1, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player1)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player2, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player2)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player3, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player3)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player4, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player4)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player5, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player5)
+END
+
+IF
+	!See([PC])
+      !See([ALLY])
+      !StateCheck(Player6, STATE_INVISIBLE)
+      Global("BW05_FinalBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+	      MoveToObject(Player6)
+END
+
+IF
+	!See([PC.0.0])
+	See(NearestEnemyOf(Myself))
+      Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+
+IF
+	See([PC.0.0])
+	Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ALLY])
+	Allegiance(Myself,ENEMY)
+	Range([ALLY],5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate([ALLY],30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Allegiance(Myself,ENEMY)
+	Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	!See([PC.0.0])
+	See(NearestEnemyOf(Myself))
+      Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See([PC.0.0])
+	Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),INNOCENT)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([NEUTRAL.0.0])
+	Allegiance(Myself,ENEMY)
+	!Range(LastSeenBy(Myself),5)
+	Class(LastSeenBy(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	AttackedBy([GOODCUTOFF.0.0],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END

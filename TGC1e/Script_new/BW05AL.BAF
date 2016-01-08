@@ -1,0 +1,8 @@
+IF
+	Global("BW05_TGC1","GLOBAL",5)
+	Global("BW05_LeftThisHouse","LOCALS",0)
+THEN
+	RESPONSE #100
+	      SetGlobal("BW05_LeftThisHouse","LOCALS",1)	
+            EscapeArea()
+END

@@ -1,0 +1,222 @@
+@30003 = ~Hache d'armes naine +2~
+@30004 = ~La version la plus répandue de la hache d'armes est constituée d'une grande hampe d'environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. Cette arme a été créée par un forgeron nain et est donc de très bonne qualité.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : 1D8 +2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : hache
+Type : arme à 1 main
+Force nécessaire : 10
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+@30007 = ~Gourdin de l'Archidruide +2~
+@30008 = ~Ce gourdin enchanté était en possession d'un druide de haut rang. Suite à un coup réussi, n'importe quelle créature non-immunisée à cette sorte de magie doit effectuer un jet de sauvegarde contre les sorts ou être enchevêtrée pour un tour.
+
+PARAMETRES :
+
+TACO : +2
+Dégâts : 1D6 + 2
+Type de dégâts : contondant
+Spécial : Lance Enchevêtrement sur la cible à moins que cette dernière ne réussisse un jet de sauvegarde contre les sorts.
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+Utilisable par :
+ Druide
+ Rôdeur~
+@30009 = ~Gourdin de Chêne +1~
+@30010 = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus larges à l'autre. Cette arme simple est utilisée depuis que l'homme a découvert les outils.
+Vous avez l'impression que ce gourdin est très lourd, mais quand vous frappez un ennemi avec lui, il s'avère aussi précis et léger qu'une plume.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D6 +1
+Type de dégâts : contondant
+Poids : 2
+Facteur de vitesse : 2
+Type de compétence : gourdin
+Type : arme à 1 main
+Non utilisable par :
+ Mage~
+@30013 = ~Cotte de mailles +2~
+@30014 = ~La cotte de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. Cette armure est de grande qualité et est également enchantée.
+
+PARAMETRES :
+
+Classe d'Armure : 3
+Poids : 10
+Non utilisable par :
+ Druide 
+ Mage 
+ Voleur~
+@30015 = ~Cristal rouge~
+@30016 = ~Ce cristal est enchanté par une magie puissante. Il a été utilisé pour conjurer une Servante de Cristal. Aussi longtemps que vous possédez ce cristal, la créature obéira à vos ordres.~
+@30017 = ~Casque Nain~
+@30018 = ~Il s'agit d'un casque lourd fait de fer et d'or. Il appartient à la famille Balorslayer et est protégé par une magie puissante qui empêche autrui de le porter. Cependant, il pourrait probablement être vendu pour un bon prix grâce à son apparence et à la quantité d'or qu'il contient.
+
+PARAMETRES :
+
+Bonus de Classe d'Armure : aucun
+Spécial : protège des coups critiques
+Poids : 8
+Utilisable par :
+ Nains Balorslayer~
+@30023 = ~Hallebarde de l'Inquisiteur~
+@30024 = ~Comme de nombreuses autres de son genre, cette hallebarde est constituée d'une lame en forme de hachoir montée sur un manche d'environ 2 m de long. Elle a été également enchantée pour la rendre plus efficace en combat et dissipe les protections magiques de sa cible. Aussi longtemps que l'arme est équipée, son utilisateur est également immunisé aux charmes. Ces propriétés ont fait de cette hallebarde l'arme de choix des inquisiteurs.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D10 +1
+Spécial :
+ Immunité aux charmes
+ Dissipe la magie sur la cible à chaque coup réussi
+Type de dégâts : perforant
+Poids : 14
+Facteur de vitesse : 8
+Type de compétence : hallebarde
+Type : arme à 2 mains
+Force nécessaire : 13
+Non utilisable par : 
+ Druide
+ Clerc
+ Mage
+ Voleur~
+@30025 = ~BW05_SPEC_ITM~
+@30026 = ~Armure de Jusam~
+@30027 = ~Cottes de Mailles de Jusam +4
+
+Il s'agit d'une armure puissante, mais vous êtes incapable de la porter. Dès que vous essayez de la mettre, elle devient extrêmement chaude et commence également à vous donner des décharges électriques.
+
+PARAMETRES :
+
+Classe d'Armure : 1
+Poids : 5
+Utilisable par :
+ Lord Jusam~
+@30030 = ~Marteau de Guerre de Jusam +3~
+@30031 = ~Marteau de Guerre de Jusam +3
+
+Ce marteau est tellement lourd que vous êtes incapable de l'utiliser. Il est même très difficile de le porter.
+
+PARAMETRES :
+
+TAC0 : +3
+Dégâts : 1D6 +3
+Type de dégâts : contondant
+Spécial : bonus de +6 en Force
+Poids : 4
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force nécessaire : 9
+Utilisable par :
+ Lord Jusam~
+@30032 = ~C'est une clé magique, et pourtant relativement lourde.~
+@30033 = ~clé de Laiton~
+@30034 = ~clé d'Or~
+@30035 = ~Petite clé de Fer~
+@30036 = ~Petite clé de Laiton~
+@30037 = ~clé de Fer~
+@30038 = ~clé de Cuivre~
+@30041 = ~Armure de plates +3, Bouclier des Tempêtes~
+@30042 = ~Armure de plates +3, Bouclier des Tempêtes
+Cette armure a été créée dans la Forge du Château Legencase, et a été enchantée par un magicien puissant. Outre le texte qui indique l'endroit de sa création, une petite lettre M est aussi inscrite sur l'armure.
+
+PARAMETRES :
+
+Classe d'Armure : 0
+Spécial : confère +35% de résistance électrique
+Poids : 25
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur.~
+@30045 = ~Robe de l'Académie de Legencase~
+@30046 = ~Selon le texte cousu dans ses poches, cette robe a été enchantée dans un endroit appelé l'Académie de Legencase. Vous n'avez aucune idée d'où peut se trouver celle-ci.
+
+PARAMETRES :
+
+Jets de sauvegarde :
+ bonus de +2 contre la mort
+ bonus de +2 contre les sorts
+Poids : 4
+Utilisable uniquement par :
+ Mage (mono-, bi- ou multi-classé).~
+@30047 = ~Parchemin du Golem de Mousse~
+@30048 = ~Ce parchemin explique comment faire en sorte que le Golem de Mousse vous donne les objets qu'il garde en son sein. Les six clés doivent être insérées dans l'ordre suivant : 
+Petite clé de Laiton
+clé de Cuivre
+clé de Laiton
+Petite clé de Fer
+clé de Fer
+clé d'Or~
+@30051 = ~Epée longue +3 : Don des Tempêtes~
+@30052 = ~Epée longue +3 : Don des Tempêtes
+
+Cette épée fut donnée au grand guerrier Ignatius Chrom, qui défendit le peuple de Cormyr durant 333 ans (il avait une très longue barbe quand il mourut). La légende dit que lorsqu'il avait 111 ans, il y eut une grande tempête, et Chrom disparut pour ne revenir que bien plus tard, cette puissante épée à la main. Quand Chrom mourut, l'arme fut perdue. Vous n'avez aucune idée de la façon dont elle est tombée entre les mains de Teven.
+
+PARAMETRES :
+
+TAC0 : +3
+Dégâts : 1D8 +3, +1D4 points de dégâts d'électricité
+Type de dégâts : tranchant
+Poids : 4
+Facteur de Vitesse : 5
+Compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6
+Inutilisable par :
+ Druide
+ Clerc
+ Mage~
+@30053 = ~Parchemin~
+@30054 = ~Poème de l'Ombre Ténébreuse
+
+Aucun ne pourra te toucher, Seigneur
+Ultime pouvoir en tes mains d'Ecorcheur
+Brise les âmes de ceux qui s'opposent
+Embrasé, ton sang, dans l'obscurité du monde
+Rêve de puissance, écoute tes mentors
+Garde ton bras au service de leur voix
+Et ne trahis jamais l'ombre ténébreuse 
+
+Défie la mort qui jamais ne te brisera
+Existence absolue au delà des lois humaines
+
+Brave tu dois être ! Ne pas craindre la mort,
+Et ne pas craindre d'être puni
+Retrouver la vie, tu ne le peux,
+Eternel pouvoir et main d'assassin,
+Gare, tu seras crains partout dans le pays
+Oh, pur pouvoir, rien de plus, rien de moins,
+Surpuissant, invincible tu seras, ni plus, ni moins,
+Tutor, le Glorieux, t'apportera la délivrance.~
+@30057 = ~Charme du Tonnerre +1~
+@30058 = ~Marteau de Guerre +1 "Charme du Tonnerre"
+Ce marteau de guerre a été créé par un forgeron nain, et est donc de très grande qualité. Lorsqu'il fut terminé, survint une grande tempête. Son créateur se rendit au sommet de la montagne et attendit que frappe la foudre. Il mourut mais à la place de fondre, le marteau y gagna des propriétés magiques.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D4 +2, +1D2 points de dégâts d'électricité
+Type de dégâts : contondant
+Poids : 6
+Facteur de vitesse : 3
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force nécessaire : 9
+Non utilisable par :
+ Druide
+ Mage
+ Voleur~

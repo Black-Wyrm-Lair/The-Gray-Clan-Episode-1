@@ -1,0 +1,213 @@
+@30003 = ~Ascia da battaglia dei Nani +2~ 
+@30004 = ~La versione più comune dell'ascia da battaglia è un grosso bastone lungo circa 1,20 m con una lama affilata da una parte montata su un lato. Le asce da battaglia vengono chiamate anche asce larghe.
+Quest'arma è stata forgiata da un fabbro dei nani, pertanto è di qualità molto alta.
+
+
+STATISTICHE:
+THAC0:  +2 bonus
+Danno:  1D8 + 2
+Tipo di danno:  taglio
+Peso: 4
+Fattore velocità: 4
+Tipo di Competenza: Ascia
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~
+@30007 = ~Clava dell'Arcidruido +2~
+@30008 = ~Questa clava magicamente incantata è appartenuta ad un druido di alto rango. Ogni volta che colpisce, tutte le creature non immuni a questo tipo di magia devono effettuare un tiro-salvezza contro l'incantesimo o venire intralciate per un turno.
+
+
+STATISTICHE:
+THAC0:  +2 bonus
+Danno:  1D6 + 2
+Tipo di danno:  schiacciamento
+Speciale: Intralcia il bersaglio a meno che questi non esegua Salva contro incantesimo
+
+Peso: 3
+Fattore velocità: 4
+Tipo di Competenza: Clava
+Tipo:  ad una mano
+Richiede: 5 alla Forza
+Utilizzabile da:
+ Druido
+ Ranger~ 
+@30009 = ~Clava di Quercia +1~
+@30010 = ~Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini.
+La clava è pesante fra le tue mani, e sembra un'arma rozza, ma quando colpisci, risulta essere precisa e leggera come una piuma.
+
+STATISTICHE:
+THAC0: +1
+Danno:  1D6 + 1
+Tipo di danno:  schiacciamento
+Peso: 2
+Fattore velocità: 2
+Tipo di Competenza: Clava
+Tipo:  ad una mano
+Non utilizzabile da:
+Mago~ 
+@30013 = ~Corazza di Maglia +2~ 
+@30014 = ~La corazza di maglia è fatta di anelli di metallo incastrati tra loro. Viene sempre indossata sopra uno strato imbottito di tessuto o di cuoio morbido per evitare sfregamenti e attutire l'impatto dei colpi.
+Questa corazza è di alta qualità, ed è anche magicamente incantata.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 10
+Non utilizzabile da:
+ Druido 
+ Mago 
+ Ladro~
+@30015 = ~Cristallo Rosso~ 
+@30016 = ~Questo cristallo é incantato da una potente magia. E' stato usato per evocare un Servitore di Cristallo. Finché possiedi il cristallo, la creatura seguirà i tuoi ordini.~
+@30017 = ~Elmo dei Nani~
+@30018 = ~Questo pesante elmo è fatto di ferro e oro. Appartiene alla famiglia Balorslayer, ed è protetto da qualche magia potente che impedisce ad altri di indossarlo. Comunque, probabilmente, può essere venduto ad un prezzo molto vantaggioso data la sua fattura e la quantità di oro che contiene.
+
+STATISTICHE:
+
+Classe Armatura:  Nessuna
+Speciale: Protegge contro i colpi critici 
+Peso: 8
+Utilizzabile da:
+Nani Balorslayer~
+@30023 = ~Alabarda dell'Inquisitore ~ 
+@30024 = ~Come quelle dello stesso tipo, questa alabarda è composta da una lama simile a un macete montata all'estremità di un bastone lungo circa 1,80 m. Possiede una lama incantata, che la rende più efficace in combattimento, e rimuove qualsiasi protezione magica sul bersaglio. Finché si è equipaggiati con l'arma, si è immuni agli incantesimi di charme. Le sue proprietà hanno fatto di questa alabarda l'arma favorita degli Inquisitori.
+
+STATISTICHE:
+THAC0:  +1 bonus
+Danno:  1D10 + 1
+Speciale:
+     Chi la brandisce è immune dallo charme 
+     Dissolvi magie sul bersaglio ad ogni colpo andato a segno 
+Tipo di danno: perforazione
+Peso: 14
+Fattore velocità: 8
+Tipo di Competenza: Lancia
+Tipo: a due mani
+Richiede: 13 alla Forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~ 
+@30025 = ~BW05_SPEC_ITM~
+@30026 = ~Corazza di Jusam~ 
+@30027 = ~Corazza di maglia di Jusam +4
+Questa è una potente corazza, ma non sei in grado di indossarla. Appena cerchi di indossarla, diventa estremamente calda, e inizia a infliggerti perfino scariche di elettricità. 
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 5
+Utilizzabile da:
+Lord Jusam~
+@30030 = ~Martello da guerra di Jusam +3~
+@30031 = ~Martello da guerra di Jusam +3
+
+Questo martello è così pesante che non sei in grado di utilizzarlo. E' molto difficile da trasportare.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: 1D6 + 3
+Tipo di danno: schiacciamento
+Speciale: Dà +6 alla Forza
+Peso: 4
+Fattore velocità: 2
+Tipo di Competenza: Martello da Guerra
+Tipo: ad una mano
+Richiede: 9 alla Forza
+Utilizzabile da:
+Lord Jusam~
+@30032 = ~Questa è una chiave, magica e abbastanza pesante.~
+@30033 = ~Chiave d'ottone~
+@30034 = ~Chiave d'oro~
+@30035 = ~Piccola chiave di ferro~
+@30036 = ~Piccola chiave d'ottone~
+@30037 = ~Chiave di ferro~
+@30038 = ~Chiave di rame~
+@30041 = ~Corazza di piastre +3, Scudo della Tempesta~
+@30042 = ~Corazza di piastre +3, Scudo della Tempesta 
+Questa corazza è stata forgiata nella Fucina del Castello di Legencase, ed è stata incantata da un potente stregone. Sulla corazza, accanto al testo che ne indica la provenienza, vi è incisa anche una piccola M.
+
+STATISTICHE:
+Classe Armatura: 0
+Speciale: Dà +35% alla resistenza elettrica
+Peso: 25
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro~
+@30045 = ~Abito dell'Accademia  di Legencase~
+@30046 = ~ In base al testo scritto nelle sue tasche, questo abito é stato incantato in un posto chiamato Accademia di Legencase. Non hai idea di dove possa essere questo luogo.
+
+STATISTICHE:
+
+Tiro Salvezza:  
+   +2 bonus contro morte
+   +2 bonus contro incantesimi
+Peso:  4
+Utilizzabile solo da:
+Mago (singolo, duale, e multiclasse)~
+@30047 = ~Pergamena del Golem di Muffa~
+@30048 = ~ Questa pergamena spiega come farsi consegnare dal Golem di Muffa gli oggetti che protegge nel proprio corpo. Le sei chiavi vanno inserite nel seguente ordine:
+Piccola chiave d'ottone
+Chiave di rame
+Chiave d'ottone
+Piccola chiave di ferro
+Chiave di ferro
+Chiave d'oro~
+@30051 = ~Spada lunga +3, Dono della Tempesta~
+@30052 = ~Spada lunga +3, Dono della Tempesta 
+Questa spada fu consegnata al grande guerriero Ignatius Chrom, che difese la gente di Cormyr per 333 anni (aveva una barba lunga, quando morì). Le leggende narrano che quando fu centoundicenne si scatenò una grande tempesta e Chrom scomparve, fece poi ritorno brandendo questa potente arma. Quando Chrom morì, l'arma andò perduta. Non hai idea di come Teven ne sia venuto in possesso.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: 1D8+3, +1D4 di danno elettrico
+Tipo di danno: taglio
+Peso: 4
+Fattore velocità: 5
+Tipo di Competenza: Spada Grande
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Non utilizzabile da:
+Druido
+Chierico
+Mago~
+@30053 = ~Pergamena~
+@30054 = ~Poesia dell'Ombra Oscura
+
+Bisogna che tu sia coraggioso! non temere la morte, altrimenti
+Eterno dolore senza fine sarà la tua punizione.
+Riacquistare la tua vita non puoi, solo 
+Esilio Eterno.
+Guidando i tuoi divini poteri, nelle tue mani assassine,
+Otterrai il timore di tutti da un capo all'altro della terra.
+Supremo e possente, niente di più, niente di meno il
+Tutore, il glorioso, porterà la morte.
+
+Invulnerabile signore della morte di tutto il mondo,
+Nessuna morte ti potrà toccare, seguirai solo le parole dei nostri mentori.
+Mai tradire l'ombra oscura!~
+@30057 = ~Attirafulmine +2~
+@30058 = ~Martello da guerra +2, 'Attirafulmine'
+Questo martello da guerra é stato forgiato da un fabbro nano, ed è veramente di alta qualità. Quando questo martello fu terminato, ci fu una grande tempesta. Il suo creatore andò in cima alla montagna, ed attese finché un fulmine non colpisse il martello. Lui morì, ma il martello, invece di fondersi, acquistò delle proprietà magiche.
+
+STATISTICHE:
+THAC0:  +1 bonus
+Danno:  1D4 + 2, +1D2 di danno elettrico
+Tipo di danno:  schiacciamento
+Peso: 6
+Fattore velocità: 3
+Tipo di Competenza: Martello da Guerra
+Tipo:  ad una mano
+Richiede: 9 alla Forza
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro~

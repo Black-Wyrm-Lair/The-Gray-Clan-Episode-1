@@ -1,0 +1,86 @@
+GREY CLAN EPISODE ONE: IN CANDLELIGHT, BGT-WeiDU/EET/BG:EE EDITION
+VERSION (RELEASE) HISTORY
+
+============================================================
+
+VERSION 1.9 (1.01.2016)
+
+- NEW: Added support for BG:EE and EET
+
+============================================================
+
+VERSION 1.8.T1 (8.11.2008)
+
+- NEW: French translation of the mod
+
+============================================================
+
+VERSION 1.8 (4.8.2007)
+
+- NEW: Significantly shorter duration for the spell Mass Domination
+- NEW: Italian translation of the mod
+
+============================================================
+
+VERSION 1.7.T1 (9.7.2007)
+
+- NEW: Polish translation of the mod
+
+============================================================
+
+VERSION 1.7 (5.2.2007)
+
+- FIXED: music of final battle now played correctly
+- FIXED: a script killed Jusam under certain conditions
+- FIXED: a script did not always remove Tergius and Hertuk from an area
+- FIXED: EXTEND_BOTTOM changed to EXTEND_TOP for one area script
+- NEW: change in Readme (installation help added)
+
+============================================================
+
+VERSION 1.6 (21.1.2007)
+
+- NEW: New installation choices (subcomponents): Lite Edition and Normal Edition (Lite Edition has easier battles)
+- NEW: Eomur, Steve and their garlic removed (they were unpopular)
+- NEW: Technical changes in script blocks (EXTEND_TOP replaced with EXTEND_BOTTOM)
+- NEW: Files in Readme folder were reorganized
+
+============================================================
+
+VERSION 1.3 (26.7.2006)
+
+- FIXED: German translation has a new, now correct version of Verse of the Dark Shadow (German translation and revision of the verse by Leonardo Watson)
+- FIXED: small fix in German and Spanish translations
+- FIXED: Minor refinements in TP2 and some files of the documentation
+
+============================================================
+
+VERSION 1.2 (22.2.2006)
+
+- FIXED: Proficiency of Club of the Archdruid and Gift of Storm +3 was not correctly set
+- FIXED: There was a possibility to get two copies of the same Brass Key
+- FIXED: Redundant lines removed from SPELL.TRA
+- NEW: Spanish translation of the mod
+
+============================================================
+
+VERSION 1.1 (22.1.2006)
+
+- FIXED: the thief who shows the stolen items to Boris will not stand idle when Pumpkin attacks him
+- NEW: The commoner in the house taken by the bandits led by Gartuffe will die
+- NEW: German translation of the mod
+- NEW: In the readme, link to the new TGC website
+
+============================================================
+
+VERSION 1.0.1 (24.12.2005)
+
+- FIXED: invalid/old lines in dialogue revision, they caused fatal installation error
+
+============================================================
+
+VERSION 1.0 (23.12.2005)
+
+- FIRST PUBLIC RELEASE
+
+============================================================

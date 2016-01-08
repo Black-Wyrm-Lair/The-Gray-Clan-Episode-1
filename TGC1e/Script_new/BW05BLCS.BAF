@@ -1,0 +1,10 @@
+IF
+      True()
+THEN
+	RESPONSE #100
+            CutSceneID("BW05BL02")
+            ActionOverride("BW05BRMA",EscapeArea())
+            Wait(4)
+            SetGlobal("BW05_TGC1","GLOBAL",9)
+            StartDialogueNoSet([PC])
+END
