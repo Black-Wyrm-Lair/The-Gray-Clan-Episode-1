@@ -1,10 +1,12 @@
 @30003 = ~Hacha de Batalla Enana +2~ 
-@30004 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+@30004 = ~Hacha de Batalla Enana +2
+
+La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
 Este arma ha sido forjada por un herrero enano, y demuestra una manufactura de gran calidad.
 
 ESTADÍSTICAS:
 
-THAC0:  bonificador +2
+TAC0:  bonificador +2
 Daño:  1D8 + 2
 Tipo de daño:  cortante
 Peso: 4
@@ -12,17 +14,20 @@ Factor de velocidad: 4
 Talento marcial: Hacha
 Tipo: a 1 mano
 Requiere: 10 Fuerza
-No lo puede usar:
-El druida
-El clérigo
-El mago
-El ladrón~
+
+No la puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladrón~
 @30007 = ~Clava del Archdruida +2~
-@30008 = ~Esta clava encantada mágicamente era la posesión de un druida de alta categoría. Con cada golpe exitoso, toda criatura no inmune a este tipo de magia debe realizar un tiro de salvación contra conjuros, en caso de fallar se quedará enredada durante un turno.
+@30008 = ~Clava del Archdruida +2
+
+Esta clava encantada mágicamente era la posesión de un druida de alta categoría. Con cada golpe exitoso, toda criatura no inmune a este tipo de magia debe realizar un tiro de salvación contra conjuros, en caso de fallar se quedará enredada durante un turno.
 
 ESTADÍSTICAS:
 
-THAC0:  bonificador +2 
+TAC0:  bonificador +2 
 Daño:  1D6 + 2
 Tipo de Daño:  contundente
 Especial: Enreda al objetivo a menos que haga una tirada de salvación con éxito contra conjuro.
@@ -31,36 +36,43 @@ Factor de velocidad: 4
 Talento marcial: Clava
 Tipo: 1 mano
 Requiere: 5 Fuerza
-Sólo lo puede usar:
+
+Solo lo puede usar:
  El Druida
  El Explorador~ 
 @30009 = ~Clava de Roble +1~
-@30010 = ~La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas.  
+@30010 = ~Clava de Roble +1
+
+La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas.  
 Os parece que la clava es muy pesada, pero cuando golpeáis a un enemigo con ella, se revela tan precisa y ligera como una pluma.
 
 ESTADÍSTICAS:
 
-THAC0: +1
+TAC0: +1
 Daño:  1D6 + 1
 Tipo de daño:  contundente
 peso: 2
 Factor de velocidad: 2
 Talento marcial: Clava
 Tipo: a 1 mano
-No lo puede usar:
-El Mago~ 
+
+No la puede usar:
+ El Mago~ 
 @30013 = ~Cota de malla +2~ 
-@30014 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.
+@30014 = ~Cota de malla +2
+
+La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.
 Esta cota de malla es de gran calidad, y además está encantada con magia.
 
 ESTADÍSTICAS:
 
 Clase de armadura: 3
 Peso: 10
-No lo puede usar:
-El druida
-El mago
-El ladrón~
+
+No la puede usar:
+ El druida
+ El mago
+ El ladrón~
 @30015 = ~Cristal Rojo~ 
 @30016 = ~Este cristal está encantado con poderosa magia. Se usa para invocar a un Sirviente de cristal. Mientras poseáis el cristal, la criatura seguirá vuestras órdenes.~
 @30017 = ~Yelmo Dorado Enano~
@@ -71,14 +83,17 @@ ESTADÍSTICAS:
 Bonificador de clase de armadura: Ninguno
 Especial: Protege contra golpes críticos
 Peso: 8
+
 Sólo lo pueden usar:
-Los enanos de la familia Balorslayer~
+ Los enanos de la familia Balorslayer~
 @30023 = ~Alabarda del Inquisidor~ 
-@30024 = ~Al igual que otras de su tipo, esta alabarda consta de una hoja de hacha parecida a la de un carnicero fijada a un bastón de aproximadamente dos metros de largo. Tiene una hoja encantada,  lo que aumenta su efectividad en el combate, y disipa todas las protecciones mágicas del objetivo.  Mientras el arma esté equipada, su portador se vuelve inmune al encantamiento. Estas propiedades han hecho de esta alabarda el arma favorita de muchos inquisidores.
+@30024 = ~Alabarda del Inquisidor
+
+Al igual que otras de su tipo, esta alabarda consta de una hoja de hacha parecida a la de un carnicero fijada a un bastón de aproximadamente dos metros de largo. Tiene una hoja encantada, lo que aumenta su efectividad en el combate, y disipa todas las protecciones mágicas del objetivo. Mientras el arma esté equipada, su portador se vuelve inmune al encantamiento. Estas propiedades han hecho de esta alabarda el arma favorita de muchos inquisidores.
 
 ESTADÍSTICAS:
 
-THAC0:  bonificador +1
+TAC0:  bonificador +1
 Daño:  1D10 + 1
 Especial:
      Inmunidad al encantamiento
@@ -89,11 +104,12 @@ Factor de velocidad: 8
 Talento marcial: Alabarda
 Tipo: 2 manos
 Requiere: 13 Fuerza
+
 No lo puede usar:
-El druida
-El clérigo
-El mago
-El ladrón~ 
+ El druida
+ El clérigo
+ El mago
+ El ladrón~ 
 @30025 = ~BW05_SPEC_ITM~
 @30026 = ~Armadura de Jusam~ 
 @30027 = ~Cota de malla de Jusam +4
@@ -104,13 +120,13 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 1
 Peso: 5
-La puede usar:
+
+Solo la puede usar:
 Lord Jusam~
 @30030 = ~Martillo de guerra de Jusam +3~
 @30031 = ~Martillo de guerra de Jusam +3
 
 Este martillo pesa tanto que sois incapaz de usarlo. Es muy difícil cargar con él.
-
 
 ESTADÍSTICAS:
 
@@ -122,8 +138,9 @@ Factor de velocidad: 2
 Talento marcial: Martillo de guerra
 Tipo: 1 mano
 Requiere: 9 Fuerza
-Lo puede usar:
-Lord Jusam~
+
+Solo la puede usar:
+ Lord Jusam~
 @30032 = ~Esta es una llave mágica, aunque pesa considerablemente.~
 @30033 = ~Llave de latón~
 @30034 = ~Llave de Oro~
@@ -133,6 +150,7 @@ Lord Jusam~
 @30038 = ~Llave de cobre~
 @30041 = ~Armadura de placas +3, Escudo de la Tormenta~
 @30042 = ~Armadura de placas +3, Escudo de la Tormenta
+
 Esta armadura fue forjada en la herrería del castillo Legencase, y fue encantada por un poderoso mago. Aparte del texto grabado que indica el lugar donde fue fabricada, la armadura también lleva grabada una pequeña letra M.
 
 ESTADÍSTICAS:
@@ -140,37 +158,43 @@ ESTADÍSTICAS:
 Clase de armadura: 0
 Especial: Otorga +35% de resistencia a la electricidad
 Peso: 25
-No lo puede usar:
+
+No la puede usar:
  El bardo 
  El druida
  El mago
  El ladrón~
 @30045 = ~Túnica de la Academia de Legencase~
-@30046 = ~De acuerdo con el texto bordado en los bolsillos, esta túnica fue encantada en un lugar conocido como Academia de Legencase. No tenéis ni idea de dónde puede estar ese lugar.
+@30046 = ~Túnica de la Academia de Legencase
+
+De acuerdo con el texto bordado en los bolsillos, esta túnica fue encantada en un lugar conocido como Academia de Legencase. No tenéis ni idea de dónde puede estar ese lugar.
 
 ESTADÍSTICAS:
 
-Tiros de salvación:  
+Tiradas de salvación:  
    +2 de bonificación contra muerte
    +2 de bonificación contra conjuros
 Peso:  4
-Sólo lo puede usar:
-El Mago (individual, dual y multiclase)~
+
+Sólo la puede usar:
+ El Mago (individual, dual y multiclase)~
 @30047 = ~Pergamino del gólem mohoso~
 @30048 = ~Este pergamino explica cómo conseguir que el gólem mohoso entregue los objetos que guarda en su interior. Las seis llaves deben ser insertadas en el siguiente orden:
-Pequeña llave de latón
-Llave de cobre
-Llave de latón
-Pequeña llave de hierro
-Llave de hierro
-Llave de oro~
+
+ Pequeña llave de latón
+ Llave de cobre
+ Llave de latón
+ Pequeña llave de hierro
+ Llave de hierro
+ Llave de oro~
 @30051 = ~Espada larga +3: Don de la Tormenta~
 @30052 = ~Espada larga +3: Don de la Tormenta
+
 Esta espada fue ofrecida al gran guerrero Ignatius Chrom, quien defendió al pueblo de Cormyr durante 333 años (tenía una barba muy larga cuando murió). La Leyenda cuenta que cuando tenía 111 años, hubo una gran tormenta, y Chrom desapareció. Pero regresó más tarde, blandiendo esta poderosa espada en la mano. Cuando Chrom murió, el arma se perdió. No tenéis ni idea de cómo llegó a manos de Teven.
 
 ESTADÍSTICAS:
 
-THAC0: +3
+TAC0: +3
 Daños: 1D8+3, +4 de daño eléctrico
 Tipo de daño: cortante
 Peso: 4
@@ -178,33 +202,35 @@ Factor de Velocidad: 5
 Talento marcial: Espada larga
 Tipo de arma: 1 mano
 Requiere: 6 Fuerza
-No puede ser usado por:
- Druida
- Clérigo
- Mago~
+
+No puede ser usada por:
+ El Druida
+ El Clérigo
+ El Mago~
 @30053 = ~Pergamino~
 @30054 = ~Verso de la Sombra Oscura
 
 
-Bravo serás y no temerás a la muerte,
-Eterno dolor será tu castigo si no lo haces
-Recobrar la vida no puedes, sólo te queda condenación
-En tus manos de asesino, poderes divinos conseguirás
-Guiándote por este camino, 
-Obtendrás el temor de todos en esta tierra
-Supremo y poderoso, ni más ni menos
-Tutor, el glorioso, portará la muerte.
+Bravo seréis y no temeréis a la muerte,
+eterno dolor será vuestro castigo si no lo hacéis.
+Recobrar la vida no podéis, solo os queda condenación.
+En vuestras manos de asesino, poderes divinos conseguiréis.
+Guiándoos por este camino, 
+obtendréis el temor de todos en esta tierra,
+supremo y poderoso, ni más ni menos,
+tutor, el glorioso, portará la muerte.
 
 Invulnerable señor del asesinato del mundo,
-Ninguna muerte te alcanzará, seguid sólo las palabras de nuestros mentores.
-Nunca traiciones a la sombra oscura.~
-@30057 = ~Encantatrueno +1~
+Ninguna muerte os alcanzará, seguid solo las palabras de nuestros mentores.
+Nunca traicionéis a la sombra oscura.~
+@30057 = ~Martillo de guerra +1: 'Encantatrueno'~
 @30058 = ~Martillo de guerra +1: 'Encantatrueno'
-Este martillo de guerra fue forjado por un herrero enano, y demuestra ser de gran calidad. Cuando fue terminado, hubo una gran tormenta. Su creador se dirigió a la cima de la montaña, y esperó hasta que un rayo le alcanzó por accidente. Èl murió, pero el martillo, en vez de fundirse, adquirió propiedades mágicas.
+
+Este martillo de guerra fue forjado por un herrero enano, y demuestra ser de gran calidad. Cuando fue terminado, hubo una gran tormenta. Su creador se dirigió a la cima de la montaña, y esperó hasta que un rayo le alcanzó por accidente. Él murió, pero el martillo, en vez de fundirse, adquirió propiedades mágicas.
 
 ESTADÍSTICAS:
 
-THAC0:  bonificador +1
+TAC0:  bonificador +1
 Daño:  1D4 + 2, +1D2 eléctrico
 Tipo de daño:  contundente
 Peso: 6
@@ -212,7 +238,8 @@ Factor de velocidad: 3
 Talento marcial: Martillo de guerra
 Tipo: 1 mano
 Requiere: 9 Fuerza
+
 No lo puede usar:
-El druida
-El mago
-El ladrón~
+ El druida
+ El mago
+ El ladrón~

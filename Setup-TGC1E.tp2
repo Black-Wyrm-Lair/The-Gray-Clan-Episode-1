@@ -841,36 +841,48 @@ PRINT @90016
 COPY ~TGC1E/Animations~ ~Override~
 PRINT @90017
 COPY ~TGC1E/Portraits/%engine%~ ~Override~
- ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-   ACTION_DEFINE_ASSOCIATIVE_ARRAY table_item_use BEGIN
-     ~bw05dwhe~ => ~BW05DW01~
-     ~bw05dwhe~ => ~BW05JUSM~
-     ~bw05dwhe~ => ~BW05JUSM~
-   END
-   ACTION_PHP_EACH table_item_use AS item => cre BEGIN
-     COPY_EXISTING - ~%cre%.cre~ ~override~
-       READ_LONG NAME1 name
-       READ_ASCII DEATHVAR dv
-     COPY_EXISTING ~%item%.itm~ ~override~
-       WRITE_LONG 0x1e 0
-       WRITE_BYTE 0x29 0
-       WRITE_BYTE 0x2b 0
-       WRITE_BYTE 0x2d 0
-       WRITE_BYTE 0x2f 0
-       LPF ADD_ITEM_EQEFFECT
-         INT_VAR
-         opcode = 319 //Item Usability
-         target = 1
-         timing = 2
-         parameter2 = 11
-         power = 1 //Usable by
-         probability1 = 100
-         special = name
-         STR_VAR
-         resource = EVAL "%dv%"
-       END
-   END
- END
+ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY table_item_use BEGIN
+    ~bw05dwhe~ => ~BW05DW01~
+    ~bw05dwhe~ => ~BW05JUSM~
+    ~bw05dwhe~ => ~BW05JUSM~
+  END
+  ACTION_PHP_EACH table_item_use AS item => cre BEGIN
+    COPY_EXISTING - ~%cre%.cre~ ~override~
+      READ_LONG NAME1 name
+      READ_ASCII DEATHVAR dv (32) NULL
+    COPY_EXISTING ~%item%.itm~ ~override~
+      WRITE_LONG 0x1e 0
+      WRITE_BYTE 0x29 0
+      WRITE_BYTE 0x2b 0
+      WRITE_BYTE 0x2d 0
+      WRITE_BYTE 0x2f 0
+      PATCH_IF (STRING_LENGTH ~%dv%~ > 8) BEGIN
+        LPF ADD_ITEM_EQEFFECT
+          INT_VAR
+          opcode = 319 //Item Usability
+          target = 1
+          timing = 2
+          parameter1 = name
+          parameter2 = 10
+          power = 1 //Usable by
+          special = name
+        END
+      END ELSE BEGIN
+        LPF ADD_ITEM_EQEFFECT
+          INT_VAR
+          opcode = 319 //Item Usability
+          target = 1
+          timing = 2
+          parameter2 = 11
+          power = 1 //Usable by
+          special = name
+          STR_VAR
+          resource = EVAL "%dv%"
+        END
+	  END
+    BUT_ONLY
+  END
 END
 
 LANGUAGE ~English (olimikrig's revision)~
@@ -906,7 +918,7 @@ LANGUAGE ~Deutsch~
          ~TGC1E/Translations/Deutsch/setup.tra~
          ~TGC1E/Translations/Deutsch/spell.tra~
          ~TGC1E/Translations/Deutsch/store.tra~
-LANGUAGE ~Español (Traducido por Excalibur)~
+LANGUAGE ~Espanol (Traducido por Excalibur y actualizado por Lisandro)~
          ~Espanol~
          ~TGC1E/Translations/Espanol/actor.tra~
          ~TGC1E/Translations/Espanol/dialogue.tra~
