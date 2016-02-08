@@ -884,6 +884,7 @@ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
     BUT_ONLY
   END
 END
+END
 
 LANGUAGE ~English (olimikrig's revision)~
          ~English_revision~

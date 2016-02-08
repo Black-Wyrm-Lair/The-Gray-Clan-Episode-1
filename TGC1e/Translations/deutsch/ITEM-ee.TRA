@@ -1,134 +1,114 @@
-@30003 = ~Zwergenstreitaxt +2 ~ 
+@30003 = ~Zwergenstreitaxt +2~ 
 @30004 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
 Diese Waffe wurde von einem Zwergenschmied geschaffen, und ist daher von sehr hoher Qualität.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-ETW0-Bonus: +2
-Schaden: 1W8 + 2
-Schadensart: mit Klingenwaffe aufschlitzen
-Gewicht: 4
-Geschwindigkeitsfaktor: 4
-Waffenfertigkeit: Axt
-Waffentyp: einhändig
+Schaden: 1W8+2 (Klinge)
+ETW0-Bonus: -2
+Initiativefaktor: 4
 Mindeststärke: 10
+Waffenfertigkeit: Axt
+Typ: 1-händig
 
-Kann nicht verwendet werden von:
- Druiden
- Klerikern
- Magiern
- Dieben ~
-@30007 = ~Keule des Erzdruiden +2 ~
+Gewicht: 4~
+@30007 = ~Keule des Erzdruiden +2~
 @30008 = ~Diese verzauberte magische Keule gehörte einem hochrangigen Druiden. Bei einem erfolgreichen Treffer muss jedes Wesen, das nicht vor dieser Art Magie geschützt ist, einen Rettungswurf gegen Zauber machen oder ist für eine Runde verwirrt.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-ETW0-Bonus: +2
-Schaden: 1W6 + 2
-Schadensart: mit Hiebwaffe zertrümmern
-Besonderheit: Verwirrt das Ziel, es sei denn, es gelingt ein erfolgreicher Rettungswurf gegen Zaubersprüche.
-Gewicht: 3
-Geschwindigkeitsfaktor: 4
-Waffenfertigkeit: Keule
-Waffentyp: einhändig
+Verwirrt das Ziel, es sei denn, es gelingt ein erfolgreicher Rettungswurf gegen Zaubersprüche.
+
+Schaden: 1W6+2 (Wucht)
+ETW0-Bonus: -2
+Initiativefaktor: 4
 Mindeststärke: 5
-
-Kann verwendet werden von:
- Druiden
- Waldläufern ~ 
-@30009 = ~Eichenkeule +1 ~
-@30010 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist im Gebrauch, seit Menschen Werkzeuge benutzen.  
-Ihr fühlt, dass diese Keule schwer ist, aber wenn Ihr damit zuschlagt, ist sie treffsicher und leicht wie eine Feder.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-ETW0: +1
-Schaden: 1W6 + 1
-Schadensart: mit Hiebwaffe zertrümmern
-Gewicht: 2
-Geschwindigkeitsfaktor: 2
 Waffenfertigkeit: Keule
-Waffentyp: einhändig
+Typ: 1-händig
 
-Kann nicht verwendet werden von:
-Magiern ~ 
-@30013 = ~Kettenhemd +2 ~ 
-@30014 = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.  
-Diese Rüstung ist von hoher Qualität, und sie ist auch magisch verzaubert.
+Gewicht: 3~ 
+@30009 = ~Eichenkeule +1~
+@30010 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist im Gebrauch, seit Menschen Werkzeuge benutzen. Ihr fühlt, dass diese Keule schwer ist, aber wenn Ihr damit zuschlagt, ist sie treffsicher und leicht wie eine Feder.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
+
+
+Schaden: 1W6+1 (Wucht)
+
+Initiativefaktor: 2
+Waffenfertigkeit: Keule
+Typ: 1-händig
+
+Gewicht: 2~ 
+@30013 = ~Kettenhemd +2~ 
+@30014 = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. Diese Rüstung ist von hoher Qualität, und sie ist auch magisch verzaubert.
+
+EIGENSCHAFTEN:
 
 Rüstungsklasse: 3
-Gewicht: 10
+RK-Bonus:
+-1 gg. Klingewaffen
+-5 gg. Wuchtwaffen
+Mindeststärke: 5
 
-Kann nicht verwendet werden von:
- Druiden 
- Magiern 
- Dieben ~
-@30015 = ~Roter Kristall ~ 
-@30016 = ~Dieser Kristall ist durch starke Magie verzaubert. Er wurde verwendet, um einen Kristalldiener herbeizurufen. Solange Ihr den Kristall besitzt, wird das Wesen Euren Befehlen folgen. ~
-@30017 = ~Zwergenhelm ~
+Gewicht: 10~
+@30015 = ~Roter Kristall~ 
+@30016 = ~Dieser Kristall ist durch starke Magie verzaubert. Er wurde verwendet, um einen Kristalldiener herbeizurufen. Solange Ihr den Kristall besitzt, wird das Wesen Euren Befehlen folgen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@30017 = ~Zwergenhelm~
 @30018 = ~Dies ist ein schwerer Helm, gefertigt aus Eisen und Gold. Er gehört der Familie Balortöter und ist durch starke Magie geschützt, die andere davon abhält, ihn zu tragen. Jedoch könnte er wahrscheinlich wegen seines Äußeren und der Menge Gold, die er enthält, zu einem sehr schönen Preis verkauft werden.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-Besonderheit: Schützt vor kritischen Treffern
-Gewicht: 8
-Kann verwendet werden von:
-Balortöter-Zwerge ~
-@30023 = ~Hellebarde des Untersuchungsrichters ~ 
+Schützt vor kritischen Treffern
+
+Gewicht: 8~
+@30023 = ~Hellebarde des Untersuchungsrichters~ 
 @30024 = ~Wie andere Hellebarden, so besteht auch diese aus einer axtähnlichen Klinge, die auf einem ca. 1,80 m langen Schaft befestigt ist. Sie hat eine verzauberte Klinge, die sie wirksamer im Kampf macht, und jeden magischen Schutz von seinem Ziel beseitigt. Solange sein Benutzer mit dieser Waffe ausgestattet ist, ist er auch vor Zaubersprüchen geschützt. Diese Eigenschaften haben diese Hellebarde zu einer bevorzugten Waffe von Untersuchungsrichtern gemacht.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-ETW0-Bonus: +1
-Schaden: 1W10 + 1
-Besonderheit:
-   Immunität gegen Bezauberung
-   Beseitigt Magie vom Ziel bei jedem erfolgreichen Treffer
-Schadensart: mit Stichwaffe durchbohren
-Gewicht: 14
-Geschwindigkeitsfaktor: 8
-Waffenfertigkeit: Hellebarde
-Waffentyp: beidhändig
+Immunität gegen Bezauberung
+Beseitigt Magie vom Ziel bei jedem erfolgreichen Treffer
+
+Schaden: 1W10+1 (Stich)
+ETW0-Bonus: -1
+Initiativefaktor: 8
 Mindeststärke: 13
+Waffenfertigkeit: Hellebarde
+Typ: 2-händig
 
-Kann nicht verwendet werden von:
- Druiden
- Klerikern
- Magiern
- Dieben ~ 
+Gewicht: 14~ 
 @30025 = ~BW05_SPEC_ITM ~
-@30026 = ~Jusams Rüstung ~ 
-@30027 = ~Jusams Kettenpanzer +4
+@30026 = ~Jusams Kettenpanzer +4~ 
+@30027 = ~Dies ist eine mächtige Rüstung, aber Ihr seid außer Stande, sie zu tragen. Sobald Ihr versucht, sie anzuziehen, wird sie äußerst heiß und fängt an, Euch mit Stromschlägen durchzurütteln. 
 
-Dies ist eine mächtige Rüstung, aber Ihr seid außer Stande, sie zu tragen. Sobald Ihr versucht, sie anzuziehen, wird sie äußerst heiß und fängt an, Euch mit Stromschlägen durchzurütteln. 
-
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
 Rüstungsklasse: 1
-Gewicht: 5
-Kann verwendet werden von:
-Lord Jusam ~
-@30030 = ~Jusams Kriegshammer +3 ~
-@30031 = ~Jusam Kriegshammer +3
+RK-Bonus:
+-2 gg. Wuchtwaffen
+Mindeststärke: 5
 
-Dieser Hammer ist so schwer, dass Ihr außer Stande seid, ihn zu verwenden. Es ist sehr schwierig, ihn überhaupt zu tragen.
+Gewicht: 5~
+@30030 = ~Jusams Kriegshammer +3~
+@30031 = ~Dieser Hammer ist so schwer, dass Ihr außer Stande seid, ihn zu verwenden. Es ist sehr schwierig, ihn überhaupt zu tragen.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-ETW0: +3
-Schaden: 1W6 + 3
-Schadensart: mit Hiebwaffe zertrümmern
-Besonderheit: Erhöht die Stärke um +6
-Gewicht: 4
-Geschwindigkeitsfaktor: 2
-Waffenfertigkeit: Kriegshammer
-Waffentyp: einhändig
+Erhöht die Stärke um +6
+
+Schaden: 1W6+3 (Wucht)
+ETW0-Bonus: -3
+Initiativefaktor: 2
 Mindeststärke: 9
+Waffenfertigkeit: Kriegshammer
+Typ: 1-händig
 
-Kann verwendet werden von::
-Lord Jusam ~
+Gewicht: 4~
 @30032 = ~Dies ist ein magischer, dennoch ein ziemlich schwerer Schlüssel. ~
 @30033 = ~Messingschlüssel ~
 @30034 = ~Goldschlüssel ~
@@ -136,60 +116,56 @@ Lord Jusam ~
 @30036 = ~Kleiner Messingschlüssel ~
 @30037 = ~Eisenschlüssel ~
 @30038 = ~Kupferschlüssel ~
-@30041 = ~Plattenpanzer +3, Sturmschild ~
-@30042 = ~Plattenpanzer +3, Sturmschild
-Diese Rüstung wurde in der Schmiede des Schlosses Legencase geschmiedet, und wurde von einem starken Zauberer verzaubert. Neben dem Text, der auf den Ort seiner Herstellung hinweist, ist auch ein kleiner Buchstabe M auf die Rüstung geschrieben.
+@30041 = ~Plattenpanzer +3: Sturmschild ~
+@30042 = ~Diese Rüstung wurde in der Schmiede des Schlosses Legencase geschmiedet, und wurde von einem starken Zauberer verzaubert. Neben dem Text, der auf den Ort seiner Herstellung hinweist, ist auch ein kleiner Buchstabe M auf die Rüstung geschrieben.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
+
+Besonderheit: Elektrizitätswiderstand: +35%
 
 Rüstungsklasse: 0
-Besonderheit: Elektrizitätswiderstand: +35 %
-Gewicht: 25
+RK-Bonus:
+-4 gg. Klingewaffen
+-3 gg. Stichwaffen
+-3 gg. Geschosswaffen
+Mindeststärke: 14
 
-Kann nicht verwendet werden von:
- Barden
- Druiden
- Magiern
- Dieben ~
+Gewicht: 25~
 @30045 = ~Robe der Legencase-Akademie~
 @30046 = ~Entsprechend dem in seine Taschen eingenähten Text, wurde diese Robe an einem Akademie von Legencase genannten Platz verzaubert. Ihr habt keine Ahnung, wo dieser Platz sein könnte.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-Rettungswurf:  
-   +2 Bonus gegen Tod
-   +2 Bonus gegen Zauber
-Gewicht: 4
-Kann nur verwendet werden von:
-Magiern (einzel-, doppel-, und mehrklassig) ~
-@30047 = ~Schimmelgolem Schriftrolle ~
++2 Rettungswurf-Bonus gegen Tod
++2 Rettungswurf-Bonus gegen Zauber
+
+Gewicht: 4~
+@30047 = ~Schimmelgolem Schriftrolle~
 @30048 = ~Diese Schriftrolle erklärt, wie man den Schimmelgolem dazu bringt, Euch die Gegenstände zu geben, die er in seinem Körper schützt. Die sechs Schlüssel müssen in der folgenden Reihenfolge einsetzt werden:
 Kleiner Messingschlüssel
 Kupferschlüssel
 Messingschlüssel
 Kleiner Eisenschlüssel
 Eisenschlüssel
-Goldschlüssel ~
-@30051 = ~Langschwert +3: Geschenk des Sturms ~
-@30052 = ~Langschwert +3: Geschenk des Sturms
-Dieses Schwert wurde dem großen Krieger Ignatius Chrom gegeben, der die Leute von Cormyr 333 Jahre lang verteidigte (er hatte einen langen Bart, als er starb). Legenden besagen, dass es, als er 111 Jahre alt war, einen großen Sturm gab und Chrom nur verschwand, um diese starke Waffe schwingend zurückzukommen. Als Chrom starb, ging die Waffe verloren. Ihr habt keine Ahnung, wie sie in den Besitz von Teven gelangen konnte.
+Goldschlüssel
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-ETW0: +3
-Schaden: 1W8+3, +1W4 Elektrizitätsschaden
-Schadensart: mit Klingenwaffe aufschlitzen
-Gewicht: 4
-Geschwindigkeitsfaktor: 5
-Waffenfertigkeit: Langschwert
-Waffentyp: einhändig
+Gewicht: 0~
+@30051 = ~Langschwert +3: Geschenk des Sturms~
+@30052 = ~Dieses Schwert wurde dem großen Krieger Ignatius Chrom gegeben, der die Leute von Cormyr 333 Jahre lang verteidigte (er hatte einen langen Bart, als er starb). Legenden besagen, dass es, als er 111 Jahre alt war, einen großen Sturm gab und Chrom nur verschwand, um diese starke Waffe schwingend zurückzukommen. Als Chrom starb, ging die Waffe verloren. Ihr habt keine Ahnung, wie sie in den Besitz von Teven gelangen konnte.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8+3 (Klinge), +1W4 elektrischer Schaden
+ETW0-Bonus: -3
+Initiativefaktor: 5
 Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig
 
-Kann nicht verwendet werden von:
-Druiden
-Kleriker
-Magiern ~
-@30053 = ~Schriftrolle ~
+Gewicht: 4~
+@30053 = ~Schriftrolle~
 @30054 = ~Verse des Dunklen Schattens
 
 
@@ -209,23 +185,21 @@ Tod wird Euch nie berühren.
 Haltet Euch nur
 An das Wort des Mentors,
 Und Ihr dürft den Dunklen
-Schatten niemals verraten. ~
-@30057 = ~Donnerzauber +1 ~
-@30058 = ~Kriegshammer +1: "Donnerzauber"
-Dieser Kriegshammer wurde von einem Zwergenschmied geschmiedet, und daher ist er von sehr hoher Qualität. Als es fertig gestellt wurde, gab es einen großen Sturm. Sein Schöpfer ging zur Spitze des Bergs und wartete, bis der Blitz einschlug. Er starb, aber anstatt zu schmelzen, gewann der Hammer magische Eigenschaften.
+Schatten niemals verraten.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-ETW0-Bonus: +1
-Schaden: 1W4 + 2, +1W2 elektrisch
-Schadensart: mit Hiebwaffe zertrümmern
-Gewicht: 6
-Geschwindigkeitsfaktor: 3
-Waffenfertigkeit: Kriegshammer
-Waffentyp: einhändig
+Gewicht: 0~
+@30057 = ~Donnerzauber +1: Donnerzauber~
+@30058 = ~Dieser Kriegshammer wurde von einem Zwergenschmied geschmiedet, und daher ist er von sehr hoher Qualität. Als es fertig gestellt wurde, gab es einen großen Sturm. Sein Schöpfer ging zur Spitze des Bergs und wartete, bis der Blitz einschlug. Er starb, aber anstatt zu schmelzen, gewann der Hammer magische Eigenschaften.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4+2 (Wucht), +1W2 elektrischer Schaden
+ETW0-Bonus: -1
+Initiativefaktor: 3
 Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
 
-Kann nicht verwendet werden von:
- Druiden
- Magiern
- Dieben ~
+Gewicht: 6~
