@@ -884,7 +884,6 @@ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
     BUT_ONLY
   END
 END
-END
 
 LANGUAGE ~English (olimikrig's revision)~
          ~English_revision~
@@ -953,7 +952,7 @@ LANGUAGE ~Polski (Folmi & Team of Ramazith's Tower)~
          ~TGC1E/Translations/Polish/setup.tra~
          ~TGC1E/Translations/Polish/spell.tra~
          ~TGC1E/Translations/Polish/store.tra~
-LANGUAGE ~Francais (JaNcEn47 et Galathee des d'Oghmatiques)~
+LANGUAGE ~Francais (Graoumf, JaNcEn47 et Galathee des d'Oghmatiques)~
          ~French~
          ~TGC1E/Translations/French/actor.tra~
          ~TGC1E/Translations/French/dialogue.tra~
