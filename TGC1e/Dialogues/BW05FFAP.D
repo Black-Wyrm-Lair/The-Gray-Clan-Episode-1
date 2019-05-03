@@ -4,7 +4,7 @@ IF ~Global("BW05_TGC1","GLOBAL",5)
 HPLT(Myself,12)~ THEN BEGIN 0
   SAY @498
   IF ~PartyHasItem("POTN08")
-~ THEN REPLY @499 DO ~TakePartyItem("POTN08")
+~ THEN REPLY @499 DO ~TakePartyItemNum("POTN08",1)
 ~ GOTO 7
   IF ~!PartyHasItem("POTN08")
 ~ THEN REPLY @500 GOTO 6
