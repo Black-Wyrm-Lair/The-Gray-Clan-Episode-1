@@ -8,8 +8,9 @@ THEN
 END
 
 IF 
-    NumDead("BW05BAAT",6)
+    NumDeadGT("BW05BAAT",4)
     Global("BW05_TGC1","GLOBAL",1)
+    CombatCounter(0)
 THEN
     RESPONSE #100
           SetGlobal("BW05_TGC1","GLOBAL",2)
