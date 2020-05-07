@@ -962,6 +962,17 @@ LANGUAGE ~Francais (Graoumf, JaNcEn47 et Galathee des d'Oghmatiques)~
          ~TGC1E/Translations/French/setup.tra~
          ~TGC1E/Translations/French/spell.tra~
          ~TGC1E/Translations/French/store.tra~ 
+LANGUAGE ~Russian (Translation by Serdrick)~
+         ~russian~
+         ~TGC1E/Translations/russian/actor.tra~
+         ~TGC1E/Translations/russian/dialogue.tra~
+         ~TGC1E/Translations/russian/info.tra~
+         ~TGC1E/Translations/russian/item.tra~
+         ~TGC1E/Translations/russian/npcsound.tra~
+         ~TGC1E/Translations/russian/scriptstr.tra~
+         ~TGC1E/Translations/russian/setup.tra~
+         ~TGC1E/Translations/russian/spell.tra~
+         ~TGC1E/Translations/russian/store.tra~
 
 BEGIN @90018
 SUBCOMPONENT @90001
