@@ -27,9 +27,10 @@ DEFINE_ACTION_MACRO ~TGC1E_INIT~ BEGIN
       "polish" => "CP1250"
       "russian" => "CP1251"
       "espanol" => "CP1252"
+      "schinese" => "CP936"
     END
-    ACTION_DEFINE_ARRAY charsetsConvertArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
     ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
+	ACTION_DEFINE_ARRAY charsetsNoconvertArray BEGIN setup-osx setup-unix setup-win32 END
     LAF ~HANDLE_CHARSETS~
       INT_VAR
       infer_charsets = 0
@@ -37,8 +38,8 @@ DEFINE_ACTION_MACRO ~TGC1E_INIT~ BEGIN
       tra_path = "TGC1E/Translations"
       iconv_path = "TGC1E/Translations/iconv" //available as part of the base system on OS X and GNU/Linux
       charset_table = charsetsTable
-      convert_array = charsetsConvertArray
       reload_array = charsetsReloadArray
+	  noconvert_array = charsetsNoconvertArray
     END
     LOAD_TRA ~TGC1E/Translations/%LANGUAGE%/ITEM-ee.tra~
     ADD_JOURNAL @77 @83 @110 @112 @114 @116 @124 @133 @137 @206 @208 @248 @272 @308 @313 @315 @414 @417 @419 @422 @424 @426 @428 @452 @468 @479 @540 @548 @551 @554 @557 @573 @599 @20001 @20002 @20003 @20004 @20016 USING ~TGC1E/Translations/%LANGUAGE%/dialogue.tra~ ~TGC1E/Translations/%LANGUAGE%/scriptstr.tra~
@@ -973,6 +974,17 @@ LANGUAGE ~Russian (Translation by Serdrick)~
          ~TGC1E/Translations/russian/setup.tra~
          ~TGC1E/Translations/russian/spell.tra~
          ~TGC1E/Translations/russian/store.tra~
+LANGUAGE ~Simplified Chinese~  //(Translation by tufuq, update by Yoshimo0417)
+         ~schinese~
+         ~TGC1E/Translations/schinese/actor.tra~
+         ~TGC1E/Translations/schinese/dialogue.tra~
+         ~TGC1E/Translations/schinese/info.tra~
+         ~TGC1E/Translations/schinese/item.tra~
+         ~TGC1E/Translations/schinese/npcsound.tra~
+         ~TGC1E/Translations/schinese/scriptstr.tra~
+         ~TGC1E/Translations/schinese/setup-%WEIDU_OS%.tra~
+         ~TGC1E/Translations/schinese/spell.tra~
+         ~TGC1E/Translations/schinese/store.tra~
 
 BEGIN @90018
 SUBCOMPONENT @90001
