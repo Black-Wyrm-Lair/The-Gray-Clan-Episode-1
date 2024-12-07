@@ -30,7 +30,7 @@ DEFINE_ACTION_MACRO ~TGC1E_INIT~ BEGIN
       "schinese" => "CP936"
     END
     ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN ACTOR DIALOGUE INFO ITEM ITEM-ee NPCSOUND SCRIPTSTR SETUP SPELL STORE END
-	ACTION_DEFINE_ARRAY charsetsNoconvertArray BEGIN setup-osx setup-unix setup-win32 END
+	ACTION_DEFINE_ARRAY charsetsNoconvertArray BEGIN INSTALL END
     LAF ~HANDLE_CHARSETS~
       INT_VAR
       infer_charsets = 0
@@ -982,7 +982,7 @@ LANGUAGE ~Simplified Chinese~  //(Translation by tufuq, update by Yoshimo0417)
          ~TGC1E/Translations/schinese/item.tra~
          ~TGC1E/Translations/schinese/npcsound.tra~
          ~TGC1E/Translations/schinese/scriptstr.tra~
-         ~TGC1E/Translations/schinese/setup-%WEIDU_OS%.tra~
+         ~TGC1E/Translations/schinese/INSTALL.tra~
          ~TGC1E/Translations/schinese/spell.tra~
          ~TGC1E/Translations/schinese/store.tra~
 
